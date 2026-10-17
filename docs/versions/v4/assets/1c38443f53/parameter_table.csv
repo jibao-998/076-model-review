@@ -1,0 +1,29 @@
+﻿parameter,value,class,basis
+LENGTH,800,PROJECT,Project constraint
+DECK_WIDTH,155,D_MODEL,Editable concept; not official dimension
+DECK_BOTTOM_Z,76,D_MODEL,Frozen/guarded; requires coordinated redesign
+MATERIAL_THICKNESS,3.0,D_MODEL,Frozen/guarded; requires coordinated redesign
+CUTTING_KERF,0.15,D_MODEL,"Manufacturing metadata, does not thicken skin/reference geometry"
+FIT_CLEARANCE,0.12,D_MODEL,Editable concept; not official dimension
+SLOT_WIDTH,3.12,D_MODEL,"Derived output, not an independent input"
+DECK_BOW_HALF_WIDTH,70,D_MODEL,Editable concept; not official dimension
+DECK_STERN_HALF_WIDTH,72,D_MODEL,Editable concept; not official dimension
+DECK_CORNER_LENGTH,18,D_MODEL,Editable concept; not official dimension
+SKIN_TARGET_THICKNESS,3,D_MODEL,"Manufacturing metadata, does not thicken skin/reference geometry"
+FRAME_STATIONS,"[35, 70, 110, 160, 225, 300, 380, 460, 540, 610, 665, 710, 750, 772]",D_MODEL,Editable concept; not official dimension
+FRAME_INSET,1.25,D_MODEL,Editable concept; not official dimension
+FRAME_RING_WIDTH,5,D_MODEL,Editable concept; not official dimension
+KEEL_TOP_Z,16,D_MODEL,Editable concept; not official dimension
+STRINGER_Y,35,D_MODEL,Editable concept; not official dimension
+STRINGER_Z,"[19, 30]",D_MODEL,Editable concept; not official dimension
+STRINGER_X,"[158, 740]",D_MODEL,Editable concept; not official dimension
+ELEVATORS,"[{""id"": ""STBD"", ""x"": 430, ""y"": 50, ""length"": 52, ""width"": 43}, {""id"": ""PORT_AFT"", ""x"": 680, ""y"": -93, ""length"": 52, ""width"": 43}]",D_MODEL,Editable concept; not official dimension
+ISLANDS,"[{""id"": ""FRONT"", ""x"": 330, ""y"": 45, ""length"": 86, ""width"": 31, ""height"": 28, ""mast"": 26}, {""id"": ""AFT"", ""x"": 500, ""y"": 45, ""length"": 46, ""width"": 31, ""height"": 23, ""mast"": 16}]",C_ESTIMATE_WITH_D_POSITIONS,Editable concept; not official dimension
+REFERENCE_WL_Z,32,D_MODEL,Frozen/guarded; requires coordinated redesign
+NOTES,"""800 project constraint; all other exact dimensions C estimate or D model design; geometry is review concept, not cutting release""",D_MODEL,Editable concept; not official dimension
+RESERVED_VOLUMES,"[{""name"": ""HANGAR"", ""group"": ""hangar"", ""x"": [190, 595], ""y"": [-38, 38], ""z"": [47, 71]}, {""name"": ""WELL"", ""group"": ""well"", ""x"": [610, 775], ""y"": [-22, 22], ""z"": [22, 44]}, {""name"": ""BATTERY"", ""group"": ""electronics"", ""x"": [200, 290], ""y"": [-20, 20], ""z"": [19, 36]}, {""name"": ""ELECTRONICS"", ""group"": ""electronics"", ""x"": [320, 410], ""y"": [-20, 20], ""z"": [19, 36]}, {""name"": ""PROP_PORT"", ""group"": ""propulsion"", ""x"": [620, 655], ""y"": [-43, -25], ""z"": [8, 18]}, {""name"": ""PROP_STBD"", ""group"": ""propulsion"", ""x"": [620, 655], ""y"": [25, 43], ""z"": [8, 18]}, {""name"": ""EMALS"", ""group"": ""mechanism"", ""x"": [100, 326], ""y"": [-43, -35], ""z"": [62, 75]}, {""name"": ""ARRESTING"", ""group"": ""mechanism"", ""x"": [560, 660], ""y"": [-30, 30], ""z"": [66, 75]}, {""name"": ""ELEVATOR_STBD"", ""group"": ""mechanism"", ""x"": [430, 482], ""y"": [50, 63], ""z"": [42, 76]}, {""name"": ""ELEVATOR_PORT_AFT"", ""group"": ""mechanism"", ""x"": [680, 732], ""y"": [-63, -50], ""z"": [42, 76]}]",D_MODEL,Editable concept; not official dimension
+SLOT_WIDTH_FORMULA,"""finished = MATERIAL_THICKNESS + FIT_CLEARANCE; uncompensated laser centerline width = finished - CUTTING_KERF""",D_MODEL,Editable concept; not official dimension
+MANUFACTURING_LIMITS,"[""14 frames are new model design, not original 24 nor real ship structure"", ""FRAME_INSET 1.25 is reference clearance; less than nominal 3mm inward skin. Reconcile physical skin offset before cutting"", ""Skin panels are exact reference surfaces, not developable patterns"", ""No completed insertion path/wood grain/strength/watertightness/hydrostatic validation"", ""Continuous plates replace V2 three small floors; frame side grooves and aft longitudinal bottom rebates are new model design"", ""Insertion path with two rigid plates is not validated by static boolean clearance""]",D_MODEL,"Manufacturing metadata, does not thicken skin/reference geometry"
+CROSSPLATES,"{""lower"": {""x"": [600, 775], ""bottom_z"": 19, ""top_z"": 22}, ""upper"": {""x_start"": 190, ""x_end"": 775, ""bottom_z"": 44, ""top_z"": 47}, ""SIDE_BACK_WALL"": 2.0, ""OUTLINE_STEP"": 5.0, ""UPPER_START_WIDTH_RATIO_REFERENCE"": 0.95, ""AFT_GIRDER_MATE_Z"": 26.0}",D_MODEL,Editable concept; not official dimension
+VERSION,"""V4_HULL_FAIRING_AND_PRIMARY_APPENDAGES""",D_MODEL,Editable concept; not official dimension
+REFINEMENT,"{""UPPER_FLARE_TARGET"": [54, 57, 61, 65, 68, 69, 69, 69, 69, 68.5, 68, 66, 62, 59, 58], ""FLARE_V6_WEIGHT"": 0.55, ""BULB_OVERRIDES"": {""BulbLength"": 115, ""BulbHeight"": 20, ""BulbWidth"": 20, ""BulbMaxWidthPosition"": 45, ""BulbMaxHeightPosition"": 52, ""NoseTipControlX"": 0.9}, ""HAWSE"": {""x"": 52, ""z"": 53, ""half_u"": 0.0045, ""half_v"": 0.018, ""rim_factor"": 2.4, ""tunnel_depth"": 4}, ""BILGE_KEELS"": {""x"": [220, 640], ""v"": 0.34, ""width"": 3.5, ""nominal_thickness"": 0.8}, ""CATWALK"": {""x"": [24, 778], ""outer_y"": 85, ""inner_y"": 77.0, ""floor_z"": [69, 72], ""coaming_height"": 3.5, ""coaming_thickness"": 0.8}, ""PROPULSION_MODEL"": {""count"": 2, ""propeller_x"": 758, ""shaft_y"": 28, ""shaft_z"": 4.5, ""diameter"": 22, ""blades"": 5, ""hub_length"": 7, ""hub_radius"": 2.3, ""shaft_radius"": 0.85, ""tube_radius"": 1.5, ""shaft_start"": [722, 28, 18], ""rudder_x"": [767, 777], ""rudder_z"": [-7, 16], ""rudder_stock_x"": 769, ""rudder_stock_top_z"": 25, ""rudder_stock_radius"": 1.0}, ""APPENDAGE_STATUS"": ""D visual model layout derived from supplied CGI; real Type076 underwater appendages UNKNOWN"", ""AFT_SECTION_LIFT"": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7, 8, 8]}",D_MODEL,Editable concept; not official dimension

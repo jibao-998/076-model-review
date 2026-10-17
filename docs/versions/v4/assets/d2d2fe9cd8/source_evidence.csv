@@ -1,0 +1,8 @@
+﻿id,claim,class,source,limit
+E01,双舰岛、电磁弹射及阻拦技术,A 官方确认,https://military.cctv.com/2025/11/16/ARTIaqPCq21OWdfjsZuVraTW251116.shtml,官方报道只用于外部身份/特征核查，不证明水下结构
+E02,800 mm总长,项目约束,用户要求,不对应已确认的实舰精确总长
+E03,260 m缩尺参考、155甲板宽、86/46/31舰岛、52×43升降机,C 估算工作值,inputs/public_sources_inherited.csv,继承工作值；不同公开尺度冲突不消除；具体位置仍为D
+E04,本轮9张图片（8个唯一内容）,D 模型视觉参考,reference_usage.csv,全部为他人模型/CGI截图；作者水印和原始发布链接未独立核实
+E05,球鼻、舭龙骨、双轴双桨双舵、锚孔和过道尺寸/坐标,D 模型假设,parameters.json / source/primary_appendages.py,依据模型空间约束选取，不是实舰测量结果
+E06,实舰水下型线、轴桨舵数量和精确布置、设计吃水,Unknown,公开实物照片未提供可靠水下证据,本轮没有新增可将这些未知项升级为A/B的证据
+E07,龙骨、14片肋骨、双横板、机库和电控预留,D 模型结构,crossplate_details.json / parameters.json,用户确认的模型拼装设计，非实舰内部复原

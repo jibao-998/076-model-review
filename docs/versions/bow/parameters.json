@@ -1,0 +1,21 @@
+{
+ "UNITS":"mm",
+ "Classification":"D model design; underwater shape of Type076 remains unconfirmed",
+ "MAX_FINISHED_LENGTH":800,
+ "ReferenceWL":32,
+ "DesignWLStatus":"NOT_ESTABLISHED; ReferenceWL is a geometric comparison level",
+ "RebuildEndX":160,
+ "BulbLength":100,
+ "BulbHeight":24,
+ "BulbWidth":24,
+ "BulbCenterBelowWL":18,
+ "BulbMaxWidthPosition":32,
+ "BulbMaxHeightPosition":40,
+ "NoseTipControlX":0.6,
+ "NoseBottomControlX":12,
+ "UpperNeckControlX":18,
+ "LocalControlStationsX":[12,24,40,64,96,128],
+ "SectionReviewX":[4,12,24,40,64,110],
+ "WaterlineReviewZ":[4,8,14,20,26,32,48,64],
+ "Notes":["Bulb dimensions and maximum positions are modelling controls, not measured ship dimensions or guaranteed surface extrema","BulbLength controls the longitudinal lobe influence; the full fairing finishes at X160","ReferenceWL is not a validated operating draft","Deck and the aft surface are copied from the original; new fore surfaces use constrained cubic section loft control nets","No sphere, ellipsoid, boolean attachment or Patch is used"]
+}

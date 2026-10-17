@@ -1,0 +1,61 @@
+{
+  "status": "GEOMETRY_CANDIDATE_NATIVE_QA_PENDING",
+  "source_classification": "D model assumption",
+  "join_x_mm": 160,
+  "aft_interface": {
+    "derivative_order_0_max": 5.684341886080802e-14,
+    "derivative_order_1_max": 1.0913936421275139e-11,
+    "derivative_order_2_max": 1.115949999075383e-09,
+    "max_normal_angle_deg": 2.2221956524282848e-13,
+    "principal_curvature_max_difference_per_mm": 4.744468706796567e-16
+  },
+  "bottom_mirror_seam": {
+    "normal_angle_max_deg": 3.184776324689806e-11,
+    "principal_curvature_max_difference_per_mm": 0.0,
+    "samples": 2001,
+    "status": "G1_AND_MATCHING_PRINCIPAL_CURVATURE_SAMPLED"
+  },
+  "underwater_stem_mirror_seam": {
+    "normal_angle_max_deg": 0.0,
+    "principal_curvature_max_difference_per_mm": 0.0,
+    "samples": 1001,
+    "scope": "Underwater centerline at u0, Z below referenceWL32; excludes existing-style upper stem ridge"
+  },
+  "aft_pointwise_max_difference_mm": 1.4210854715202004e-13,
+  "original_deck_and_reference_curves": "PRESERVED",
+  "bulb_centerline_tip_xyz_mm": [
+    0.7927845704759089,
+    0.0,
+    12.95626251174138
+  ],
+  "reference_WL_front_xyz_mm": [
+    10.703729599547074,
+    0.0,
+    31.999999999993605
+  ],
+  "forward_projection_from_reference_WL_stem_mm": 9.910945029071165,
+  "bulb_tip_below_reference_WL_mm": 19.04373748825862,
+  "global_finished_x_envelope_mm": [
+    0,
+    800
+  ],
+  "curvature_sample_count": 72900,
+  "sampled_max_abs_principal_curvature_per_mm": 0.6685772414544408,
+  "sampled_max_curvature_location_xyz_mm": [
+    12.806740437527305,
+    0.13840973176349916,
+    39.09915348050553
+  ],
+  "sampled_min_interior_jacobian": 0.020200014864045712,
+  "curve_regularities": "Cubic B-spline simple internal knots are C2 where surface is regular; the bottom UV corner has an exact planar neighbourhood",
+  "underwater_centerline": "G1/G2 geometric mirror match below cap start, verified by transverse tangent construction; upper narrow stem is an intentional original-style ridge, not G2",
+  "skin_independent_single_face_breps": 6,
+  "skin_boundary_edges_before_join": 180,
+  "overall_watertight": false,
+  "topology_note": "Boundary count is from native saved independent single-face Breps, not a Rhino ShowEdges screenshot. Coincident edges are not joined.",
+  "self_intersection_check": "Dense Jacobian and monotonic coordinate sampling plus visual section review; no complete native Brep self-intersection test",
+  "Rhino_Zebra": "NOT_CHECKED; Rhino app unavailable",
+  "Rhino_CurvatureGraph": "NOT_CHECKED; analytic diagnostics supplied instead",
+  "Rhino_Join_ShowEdges": "NOT_CHECKED",
+  "native_sha256": "92e1fa5a94018e56c86004e1471c4e9345c23e18c34cbe8035c52e08a26a8d71"
+}

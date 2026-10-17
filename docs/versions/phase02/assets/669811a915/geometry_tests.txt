@@ -1,0 +1,12 @@
+test_breadth_hierarchy (__main__.OuterTests.test_breadth_hierarchy) ... ok
+test_envelope_symmetry_and_no_fold (__main__.OuterTests.test_envelope_symmetry_and_no_fold) ... ok
+test_native_and_evaluation_match (__main__.OuterTests.test_native_and_evaluation_match) ... ok
+test_native_waterline_fit_matches_surface (__main__.OuterTests.test_native_waterline_fit_matches_surface) ... ok
+test_saved_native_and_display_bounds_match (__main__.OuterTests.test_saved_native_and_display_bounds_match) ... ok
+test_true_valid_nurbs (__main__.OuterTests.test_true_valid_nurbs) ... ok
+test_waterline_has_real_z_and_symmetry (__main__.OuterTests.test_waterline_has_real_z_and_symmetry) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.405s
+
+OK

@@ -1,0 +1,37 @@
+{
+  "max_finished_x_envelope_mm": [
+    0,
+    800
+  ],
+  "hull_x_mm": [
+    4.0,
+    776.0
+  ],
+  "hull_transom_x_mm": 776.0,
+  "aft_length_allowance_mm": 24.0,
+  "flightdeck_max_width_mm": 155.0,
+  "upper_hull_max_width_mm": 126.0,
+  "reference_waterline_z_mm": 32,
+  "reference_waterline_width_mm": 108.8129,
+  "waterline_widths_mm": {
+    "8": 88.6895,
+    "16": 98.5917,
+    "24": 104.2808,
+    "32": 108.8129,
+    "48": 116.5538,
+    "64": 122.4227,
+    "76": 126.0
+  },
+  "keel_z_mm": 0.0,
+  "deck_top_z_mm": 79,
+  "full_reference_height_mm": 133,
+  "native_objects": 59,
+  "native_brep_count": 8,
+  "native_extrusion_count": 5,
+  "native_mesh_count": 0,
+  "named_views": 5,
+  "native_readback_valid": true,
+  "native_Rhino_UI": "NOT_CHECKED",
+  "surface_construction": "Two independent bicubicNURBS15x8controlnets;no single integratedhull solid",
+  "reference_waterline_status": "D geometric level only, not hydrostatically validated draft"
+}

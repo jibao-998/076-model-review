@@ -1,0 +1,54 @@
+[
+  {
+    "name": "BOW_FORE_STBD_NURBS",
+    "control_net": [
+      13,
+      10
+    ],
+    "range_x_mm": [
+      0,
+      160
+    ],
+    "action": "NEW LOCAL FORE"
+  },
+  {
+    "name": "BOW_FORE_PORT_NURBS",
+    "control_net": [
+      13,
+      10
+    ],
+    "range_x_mm": [
+      0,
+      160
+    ],
+    "action": "NEW LOCAL FORE"
+  },
+  {
+    "name": "BOW_AFT_STBD_NURBS",
+    "control_net": [
+      12,
+      8
+    ],
+    "range_x_mm": [
+      160,
+      776
+    ],
+    "action": "EXACT SPLIT OF ORIGINAL; GEOMETRY UNCHANGED"
+  },
+  {
+    "name": "BOW_AFT_PORT_NURBS",
+    "control_net": [
+      12,
+      8
+    ],
+    "range_x_mm": [
+      160,
+      776
+    ],
+    "action": "EXACT SPLIT OF ORIGINAL; GEOMETRY UNCHANGED"
+  },
+  {
+    "name": "BOW_UPPER_STEM_STRIP",
+    "action": "Replace original narrow upper stem closing strip; lower bulb seam is centerline, no added sphere"
+  }
+]

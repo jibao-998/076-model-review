@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "view_and_orbit_checks": 144,
+  "independently_moved_and_restored": 233,
+  "real_controls": "selection XYZ move hide show restore RPM play pause tested",
+  "unrelated_keel_and_tube": "UNCHANGED",
+  "actual_timed_propeller_playback": "PASS",
+  "pause_keeps_angle": "PASS",
+  "offline_http_requests": [],
+  "errors": [],
+  "native_Rhino_UI": "NOT_CHECKED"
+}

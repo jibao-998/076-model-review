@@ -1,0 +1,47 @@
+{
+  "stage": "02_Hull_Outer_V1",
+  "status": "READY_FOR_USER_EXTERIOR_REVIEW",
+  "file_and_math_checks": "PASS",
+  "units": "mm",
+  "bounds_including_hidden_datums_min_mm": [
+    0.0,
+    -90.0,
+    0.0
+  ],
+  "bounds_including_hidden_datums_max_mm": [
+    800.0,
+    90.0,
+    133.0
+  ],
+  "external_geometry_bounds_min_mm": [
+    0.0,
+    -77.5,
+    0.0
+  ],
+  "external_geometry_bounds_max_mm": [
+    800.0,
+    77.5,
+    133.0
+  ],
+  "native_object_count": 59,
+  "native_brep_count": 8,
+  "native_extrusion_count": 5,
+  "native_display_components_checked": 13,
+  "native_display_bounds_max_error_mm": 8.71835936777643e-12,
+  "native_mesh_count": 0,
+  "section_planarity_max_error_mm": 9.094947017729282e-12,
+  "waterline_planarity_max_error_mm": 9.947598300641403e-14,
+  "named_view_cameras_valid": true,
+  "math_tests_passed": 7,
+  "sampled_native_waterline_sameX_fit_max_error_mm": 0.0034598484517047723,
+  "fit_check_scope": "14 fitted curves,71points/curve; no realship accuracy implication",
+  "browser_errors": 0,
+  "offline_http_requests": 0,
+  "old_file_hash_unchanged": true,
+  "portable_rebuild": "PASS_PREINSTALLED_DEPENDENCIES",
+  "parameter_variant_browser": "PASS",
+  "native_Rhino_UI": "NOT_CHECKED",
+  "water_tightness_normals_hydrostatics": "NOT_CHECKED",
+  "construction_and_assembly": "NOT_STARTED",
+  "next_stage": "PAUSED_AT_PHASE02_AS_USER_REQUESTED"
+}

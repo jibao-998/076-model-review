@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "independent_rebuild": "ZIP extraction outside project, unrelated cwd; package-local model/source inputs only",
+  "rebuild_steps": [
+    [
+      "build_functional.py",
+      0
+    ],
+    [
+      "verify_functional.py",
+      0
+    ],
+    [
+      "make_viewer.py",
+      0
+    ],
+    [
+      "render_diagrams.py",
+      0
+    ],
+    [
+      "write_report.py",
+      0
+    ]
+  ],
+  "deterministic_files": [
+    "assembly_scene.json",
+    "parameters.json",
+    "panel_details.json",
+    "076_V5_功能与内部观察.html"
+  ],
+  "native_rebuild": "all named Geometry.Encode equal in assembled/skeleton/exploded",
+  "original_v4_hashes_unchanged": 7,
+  "report_local_links": 27,
+  "final_archive": "Final ZIP CRC and SHA256 manifest readback verified",
+  "goal_status": "ACTIVE_NOT_COMPLETE",
+  "native_Rhino_UI": "NOT_CHECKED",
+  "physical_water_operation": "NOT_VERIFIED",
+  "report_images_loaded": 11,
+  "exported_images_visually_reviewed": 12,
+  "independent_review_bound_files": 11
+}

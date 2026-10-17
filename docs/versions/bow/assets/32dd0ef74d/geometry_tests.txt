@@ -1,0 +1,15 @@
+test_aft_exact (__main__.BowTests.test_aft_exact) ... ok
+test_bottom_mirror_seam_normal (__main__.BowTests.test_bottom_mirror_seam_normal) ... ok
+test_deck_edge_exact (__main__.BowTests.test_deck_edge_exact) ... ok
+test_interface_C2 (__main__.BowTests.test_interface_C2) ... ok
+test_native_evaluator_matches (__main__.BowTests.test_native_evaluator_matches) ... ok
+test_original_references_preserved (__main__.BowTests.test_original_references_preserved) ... ok
+test_saved_native_model (__main__.BowTests.test_saved_native_model) ... ok
+test_source_backup_hash (__main__.BowTests.test_source_backup_hash) ... ok
+test_submerged_rounded_tip_and_corner_limit (__main__.BowTests.test_submerged_rounded_tip_and_corner_limit) ... ok
+test_symmetry_and_regular_interior (__main__.BowTests.test_symmetry_and_regular_interior) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.133s
+
+OK

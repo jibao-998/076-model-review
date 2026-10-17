@@ -1,0 +1,140 @@
+[
+  {
+    "id": "v6",
+    "label": "V6",
+    "title": "检修与蒙皮",
+    "description": "可取出机库、双舵控制和蒙皮工装；艉部余量待复核",
+    "viewer": "versions/v6/viewer.html",
+    "report": "versions/v6/report.html",
+    "model": "versions/v6/model.3dm",
+    "parameters": "versions/v6/parameters.json",
+    "source_viewer_sha256": "44beb4502f67b69147029a8b5ee45547121b852d523c7cdc3f91bb409d57499c",
+    "download_bytes": 1409693,
+    "payload_gzip_bytes": 8013958,
+    "historical": false,
+    "review_notes": [
+      "艉部两片肋骨与下横板的蒙皮余量仍待联合改造；不能直接用于切割。",
+      "抽取机库前，须断开并移开照明末段，不能把线留在抽取路径上。",
+      "当前电机预留盒与推进轴线不共轴；直驱安装和实际舵机连杆仍未确定。"
+    ]
+  },
+  {
+    "id": "v5",
+    "label": "V5",
+    "title": "功能与内部",
+    "description": "封闭坞舱、独立顶板、走线与螺旋桨演示",
+    "viewer": "versions/v5/viewer.html",
+    "report": "versions/v5/report.html",
+    "model": "versions/v5/model.3dm",
+    "parameters": "versions/v5/parameters.json",
+    "source_viewer_sha256": "df4526c5004c05e1dbf576c886cd9283e67fab78fb621742e694865b56a72023",
+    "download_bytes": 1021740,
+    "payload_gzip_bytes": 7528678,
+    "historical": true,
+    "review_notes": [
+      "历史评审版本，装配与制造限制以当前评审说明为准。"
+    ]
+  },
+  {
+    "id": "v4",
+    "label": "V4",
+    "title": "船体优化",
+    "description": "船体线形、过道、锚孔和模型轴桨舵",
+    "viewer": "versions/v4/viewer.html",
+    "report": "versions/v4/report.html",
+    "model": "versions/v4/model.3dm",
+    "parameters": "versions/v4/parameters.json",
+    "source_viewer_sha256": "09ca94198c7afca06c9774b23ba2842c221b15d88d0d37e7752219544cc074a5",
+    "download_bytes": 981749,
+    "payload_gzip_bytes": 4988056,
+    "historical": true,
+    "review_notes": [
+      "历史评审版本，装配与制造限制以当前评审说明为准。"
+    ]
+  },
+  {
+    "id": "v3",
+    "label": "V3",
+    "title": "双横板",
+    "description": "上、下横板与肋骨插槽",
+    "viewer": "versions/v3/viewer.html",
+    "report": "versions/v3/report.html",
+    "model": "versions/v3/model.3dm",
+    "parameters": "versions/v3/parameters.json",
+    "source_viewer_sha256": "8815cf9b82ca87522834d13976435f2ff7d325760b39d4e2aa09ad33a027d92e",
+    "download_bytes": 625964,
+    "payload_gzip_bytes": 1510572,
+    "historical": true,
+    "review_notes": [
+      "历史评审版本，装配与制造限制以当前评审说明为准。"
+    ]
+  },
+  {
+    "id": "v2",
+    "label": "V2",
+    "title": "分组装配",
+    "description": "原骨架、可拆甲板与分组爆炸",
+    "viewer": "versions/v2/viewer.html",
+    "report": "versions/v2/report.html",
+    "model": "versions/v2/model.3dm",
+    "parameters": "versions/v2/parameters.json",
+    "source_viewer_sha256": "03c050672e82bf784f6d3fc9f495d8a847b9c09f8ab10bca4f930928c91f5c81",
+    "download_bytes": 616004,
+    "payload_gzip_bytes": 1501709,
+    "historical": true,
+    "review_notes": [
+      "历史评审版本，装配与制造限制以当前评审说明为准。"
+    ]
+  },
+  {
+    "id": "bow",
+    "label": "艏 V1",
+    "title": "球鼻艏",
+    "description": "局部重构与曲面诊断；模型假设",
+    "viewer": "versions/bow/viewer.html",
+    "report": "versions/bow/report.html",
+    "model": "versions/bow/model.3dm",
+    "parameters": "versions/bow/parameters.json",
+    "source_viewer_sha256": "0a983b75757e3a0a03dd2353c136a63194c02985c2ecb1062ad3fbe3b4ec2a8c",
+    "download_bytes": 1029659,
+    "payload_gzip_bytes": 4605105,
+    "historical": true,
+    "review_notes": [
+      "历史评审版本，装配与制造限制以当前评审说明为准。"
+    ]
+  },
+  {
+    "id": "phase02",
+    "label": "Phase02",
+    "title": "外形评审",
+    "description": "资料核查、外形与数学剖面对比",
+    "viewer": "versions/phase02/viewer.html",
+    "report": "versions/phase02/report.html",
+    "model": "versions/phase02/model.3dm",
+    "parameters": "versions/phase02/parameters.json",
+    "source_viewer_sha256": "80875889527e9b922f45b41750b92b3b4aa2844adaf5fb306c5d4d98afad158d",
+    "download_bytes": 421195,
+    "payload_gzip_bytes": null,
+    "historical": true,
+    "review_notes": [
+      "历史评审版本，装配与制造限制以当前评审说明为准。"
+    ]
+  },
+  {
+    "id": "v1",
+    "label": "V1",
+    "title": "最初方案",
+    "description": "历史概念版；不作为当前制造依据",
+    "viewer": "versions/v1/viewer.html",
+    "report": "versions/v1/report.html",
+    "model": "versions/v1/model.3dm",
+    "parameters": "versions/v1/parameters.json",
+    "source_viewer_sha256": "15709d72cce81c986ef7c73bc814d1429e61301072f49803a4d9339831baf6e9",
+    "download_bytes": 404776,
+    "payload_gzip_bytes": 63512,
+    "historical": true,
+    "review_notes": [
+      "历史评审版本，装配与制造限制以当前评审说明为准。"
+    ]
+  }
+]

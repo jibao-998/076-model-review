@@ -1,0 +1,107 @@
+{
+  "displayed_metrics": {
+    "max_finished_x_envelope_mm": [
+      0,
+      800
+    ],
+    "hull_x_mm": [
+      4,
+      776
+    ],
+    "hull_transom_x_mm": 776,
+    "aft_length_allowance_mm": 24,
+    "flightdeck_max_width_mm": 155,
+    "upper_hull_max_width_mm": 126,
+    "reference_waterline_z_mm": 32,
+    "reference_waterline_width_mm": 108.8129,
+    "waterline_widths_mm": {
+      "8": 88.6895,
+      "16": 98.5917,
+      "24": 104.2808,
+      "32": 108.8129,
+      "48": 116.5538,
+      "64": 122.4227,
+      "76": 126
+    },
+    "keel_z_mm": 0,
+    "deck_top_z_mm": 79,
+    "full_reference_height_mm": 133,
+    "native_objects": 59,
+    "native_brep_count": 8,
+    "native_extrusion_count": 5,
+    "native_mesh_count": 0,
+    "named_views": 5,
+    "native_readback_valid": true,
+    "native_Rhino_UI": "NOT_CHECKED",
+    "surface_construction": "Two independent bicubicNURBS15x8controlnets;no single integratedhull solid",
+    "reference_waterline_status": "D geometric level only, not hydrostatically validated draft"
+  },
+  "01_新版三维.png": {
+    "mode": "new",
+    "view": "iso",
+    "new_parts": 13,
+    "old_parts": 28,
+    "triangles": 35290
+  },
+  "02_新版顶视.png": {
+    "mode": "new",
+    "view": "top",
+    "new_parts": 13,
+    "old_parts": 28,
+    "triangles": 35290
+  },
+  "03_新版左视.png": {
+    "mode": "new",
+    "view": "port",
+    "new_parts": 13,
+    "old_parts": 28,
+    "triangles": 35290
+  },
+  "04_新版艏视.png": {
+    "mode": "new",
+    "view": "bow",
+    "new_parts": 13,
+    "old_parts": 28,
+    "triangles": 35290
+  },
+  "05_新版艉视.png": {
+    "mode": "new",
+    "view": "stern",
+    "new_parts": 13,
+    "old_parts": 28,
+    "triangles": 35290
+  },
+  "06_艏部低角度.png": {
+    "mode": "new",
+    "view": "low",
+    "new_parts": 13,
+    "old_parts": 28,
+    "triangles": 35290
+  },
+  "07_旧版同视角.png": {
+    "mode": "old",
+    "view": "iso",
+    "new_parts": 13,
+    "old_parts": 28,
+    "triangles": 2681
+  },
+  "08_新旧三维叠加.png": {
+    "mode": "overlay",
+    "view": "iso",
+    "new_parts": 13,
+    "old_parts": 28,
+    "triangles": 37971
+  },
+  "interaction_checks": {
+    "model_switch": true,
+    "views": true,
+    "candidate_band_toggle": true,
+    "reference_section_slider": true,
+    "curve_toggle": true,
+    "drag_and_zoom": true
+  },
+  "page_errors": [],
+  "http_requests": [],
+  "backend": "Local headlessEdge/WebGL, not nativeRhino UI",
+  "html_sha256": "80875889527e9b922f45b41750b92b3b4aa2844adaf5fb306c5d4d98afad158d"
+}

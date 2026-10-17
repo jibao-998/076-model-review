@@ -1,0 +1,1337 @@
+{
+  "models": {
+    "assembled": {
+      "objects": 104,
+      "mesh_count": 0,
+      "valid": true,
+      "units": "UnitSystem.Millimeters",
+      "named_views": 5,
+      "bbox_checks": [
+        {
+          "name": "SKIN_FORE_1_1_PORT",
+          "native_bbox_vs_display_max_mm": 0.1179907527940447,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_FORE_1_1_STBD",
+          "native_bbox_vs_display_max_mm": 0.1179907527940447,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_FORE_1_2_PORT",
+          "native_bbox_vs_display_max_mm": 0.01171875,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_FORE_1_2_STBD",
+          "native_bbox_vs_display_max_mm": 0.01171875,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_FORE_1_3_PORT",
+          "native_bbox_vs_display_max_mm": 1.4210854715202004e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_FORE_1_3_STBD",
+          "native_bbox_vs_display_max_mm": 1.4210854715202004e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_1_PORT",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_1_STBD",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_2_PORT",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_2_STBD",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_3_PORT",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_3_STBD",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_1_PORT",
+          "native_bbox_vs_display_max_mm": 1.025620122163673e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_1_STBD",
+          "native_bbox_vs_display_max_mm": 1.025620122163673e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_2_PORT",
+          "native_bbox_vs_display_max_mm": 1.539245886306162e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_2_STBD",
+          "native_bbox_vs_display_max_mm": 1.539245886306162e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_3_PORT",
+          "native_bbox_vs_display_max_mm": 1.9861225553086115e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_3_STBD",
+          "native_bbox_vs_display_max_mm": 1.9861225553086115e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_1_PORT",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_1_STBD",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_2_PORT",
+          "native_bbox_vs_display_max_mm": 1.1368683772161603e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_2_STBD",
+          "native_bbox_vs_display_max_mm": 1.1368683772161603e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_3_PORT",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_3_STBD",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_1_PORT",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_1_STBD",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_2_PORT",
+          "native_bbox_vs_display_max_mm": 1.1368683772161603e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_2_STBD",
+          "native_bbox_vs_display_max_mm": 1.1368683772161603e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_3_PORT",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_3_STBD",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_STEM",
+          "native_bbox_vs_display_max_mm": 0.529648919753086,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_TRANSOM",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "FRAME_01_X35",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_02_X70",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_03_X110",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_04_X160",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_05_X225",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_06_X300",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_07_X380",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_08_X460",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_09_X540",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_10_X610",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_11_X665",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_12_X710",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_13_X750",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_14_X772",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "MAIN_KEEL_3MM_SLOTTED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "LONGITUDINAL_-1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "LONGITUDINAL_+1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "INTERNAL_FLOOR_1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "INTERNAL_FLOOR_2",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "INTERNAL_FLOOR_3",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "DECK_LEDGE_-1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "DECK_LEDGE_+1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "REMOVABLE_FLIGHT_DECK_1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "REMOVABLE_FLIGHT_DECK_2",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "REMOVABLE_FLIGHT_DECK_3",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "ELEVATOR_PLATFORM_STBD",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "ELEVATOR_PLATFORM_PORT_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "ISLAND_FRONT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "BRIDGE_FRONT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_0",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_2",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_3",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_4",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_5",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_6",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_7",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_8",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FUNNEL_FRONT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "MAST_FRONT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RADAR_FRONT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "ISLAND_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "BRIDGE_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_AFT_0",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_AFT_1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_AFT_2",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_AFT_3",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_AFT_4",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FUNNEL_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "MAST_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RADAR_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "LANDING_MARK_1_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "LANDING_MARK_2_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "LANDING_MARK_3_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "LANDING_MARK_4_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "LANDING_MARK_5_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "LANDING_MARK_6_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "EMALS_SINGLE_PORT_REFERENCE",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "EMALS_EDGE_-40",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "EMALS_EDGE_-38",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "WELL_GATE_REFERENCE",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "STERN_WELL_OUTLINE",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "RESERVED_HANGAR",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_WELL",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_BATTERY",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ELECTRONICS",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_PROP_PORT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_PROP_STBD",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_EMALS",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ARRESTING",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ELEVATOR_STBD",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ELEVATOR_PORT_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        }
+      ]
+    },
+    "skeleton": {
+      "objects": 32,
+      "mesh_count": 0,
+      "valid": true,
+      "units": "UnitSystem.Millimeters",
+      "named_views": 5,
+      "bbox_checks": [
+        {
+          "name": "FRAME_01_X35",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_02_X70",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_03_X110",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_04_X160",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_05_X225",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_06_X300",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_07_X380",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_08_X460",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_09_X540",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_10_X610",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_11_X665",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_12_X710",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_13_X750",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_14_X772",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "MAIN_KEEL_3MM_SLOTTED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "LONGITUDINAL_-1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "LONGITUDINAL_+1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "INTERNAL_FLOOR_1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "INTERNAL_FLOOR_2",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "INTERNAL_FLOOR_3",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "DECK_LEDGE_-1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "DECK_LEDGE_+1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_HANGAR",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_WELL",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_BATTERY",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ELECTRONICS",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_PROP_PORT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_PROP_STBD",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_EMALS",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ARRESTING",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ELEVATOR_STBD",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ELEVATOR_PORT_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        }
+      ]
+    },
+    "exploded": {
+      "objects": 104,
+      "mesh_count": 0,
+      "valid": true,
+      "units": "UnitSystem.Millimeters",
+      "named_views": 5,
+      "bbox_checks": [
+        {
+          "name": "SKIN_FORE_1_1_PORT",
+          "native_bbox_vs_display_max_mm": 0.1179907527940447,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_FORE_1_1_STBD",
+          "native_bbox_vs_display_max_mm": 0.1179907527940447,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_FORE_1_2_PORT",
+          "native_bbox_vs_display_max_mm": 0.01171875,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_FORE_1_2_STBD",
+          "native_bbox_vs_display_max_mm": 0.01171875,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_FORE_1_3_PORT",
+          "native_bbox_vs_display_max_mm": 1.4210854715202004e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_FORE_1_3_STBD",
+          "native_bbox_vs_display_max_mm": 1.4210854715202004e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_1_PORT",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_1_STBD",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_2_PORT",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_2_STBD",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_3_PORT",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_1_3_STBD",
+          "native_bbox_vs_display_max_mm": 5.684341886080802e-14,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_1_PORT",
+          "native_bbox_vs_display_max_mm": 1.025620122163673e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_1_STBD",
+          "native_bbox_vs_display_max_mm": 1.025620122163673e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_2_PORT",
+          "native_bbox_vs_display_max_mm": 1.539245886306162e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_2_STBD",
+          "native_bbox_vs_display_max_mm": 1.539245886306162e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_3_PORT",
+          "native_bbox_vs_display_max_mm": 1.9861232658513472e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_2_3_STBD",
+          "native_bbox_vs_display_max_mm": 1.9861232658513472e-08,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_1_PORT",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_1_STBD",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_2_PORT",
+          "native_bbox_vs_display_max_mm": 1.1368683772161603e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_2_STBD",
+          "native_bbox_vs_display_max_mm": 1.1368683772161603e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_3_PORT",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_3_3_STBD",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_1_PORT",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_1_STBD",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_2_PORT",
+          "native_bbox_vs_display_max_mm": 1.1368683772161603e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_2_STBD",
+          "native_bbox_vs_display_max_mm": 1.1368683772161603e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_3_PORT",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_AFT_4_3_STBD",
+          "native_bbox_vs_display_max_mm": 2.2737367544323206e-13,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_STEM",
+          "native_bbox_vs_display_max_mm": 0.529648919753086,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "SKIN_TRANSOM",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "FRAME_01_X35",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_02_X70",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_03_X110",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_04_X160",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_05_X225",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_06_X300",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_07_X380",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_08_X460",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_09_X540",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_10_X610",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_11_X665",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_12_X710",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_13_X750",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FRAME_14_X772",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "MAIN_KEEL_3MM_SLOTTED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "LONGITUDINAL_-1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "LONGITUDINAL_+1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "INTERNAL_FLOOR_1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "INTERNAL_FLOOR_2",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "INTERNAL_FLOOR_3",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "DECK_LEDGE_-1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "DECK_LEDGE_+1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "REMOVABLE_FLIGHT_DECK_1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "REMOVABLE_FLIGHT_DECK_2",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "REMOVABLE_FLIGHT_DECK_3",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "ELEVATOR_PLATFORM_STBD",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "ELEVATOR_PLATFORM_PORT_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "ISLAND_FRONT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "BRIDGE_FRONT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_0",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_2",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_3",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_4",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_5",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_6",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_7",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_FRONT_8",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FUNNEL_FRONT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "MAST_FRONT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RADAR_FRONT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "ISLAND_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "BRIDGE_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_AFT_0",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_AFT_1",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_AFT_2",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_AFT_3",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "WINDOW_AFT_4",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "FUNNEL_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "MAST_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RADAR_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "LANDING_MARK_1_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "LANDING_MARK_2_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "LANDING_MARK_3_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "LANDING_MARK_4_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "LANDING_MARK_5_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "LANDING_MARK_6_ESTIMATED",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "EMALS_SINGLE_PORT_REFERENCE",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "EMALS_EDGE_-40",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "EMALS_EDGE_-38",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "WELL_GATE_REFERENCE",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "STERN_WELL_OUTLINE",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": false
+        },
+        {
+          "name": "RESERVED_HANGAR",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_WELL",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_BATTERY",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ELECTRONICS",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_PROP_PORT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_PROP_STBD",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_EMALS",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ARRESTING",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ELEVATOR_STBD",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        },
+        {
+          "name": "RESERVED_ELEVATOR_PORT_AFT",
+          "native_bbox_vs_display_max_mm": 0.0,
+          "exact_plate_bbox_check": true
+        }
+      ]
+    }
+  },
+  "skin_exact_subdivision_error_mm": 5.684341886080801e-13,
+  "assembled_length_mm": 800,
+  "frame_count": 14,
+  "native_desktop": "NOT_CHECKED",
+  "manufacturing_status": "CONCEPT_ONLY",
+  "hull_changed": false,
+  "joints": [
+    {
+      "x": 35,
+      "keel_bottom": 3.604774940767751,
+      "keel_top": 16,
+      "mate_z": 9.802387470383875,
+      "slot_width": 3.12
+    },
+    {
+      "x": 70,
+      "keel_bottom": 5.099986600039667,
+      "keel_top": 16,
+      "mate_z": 10.549993300019834,
+      "slot_width": 3.12
+    },
+    {
+      "x": 110,
+      "keel_bottom": 3.380515464956638,
+      "keel_top": 16,
+      "mate_z": 9.690257732478319,
+      "slot_width": 3.12
+    },
+    {
+      "x": 160,
+      "keel_bottom": 1.663023944214522,
+      "keel_top": 16,
+      "mate_z": 8.831511972107261,
+      "slot_width": 3.12
+    },
+    {
+      "x": 225,
+      "keel_bottom": 1.2628101558102462,
+      "keel_top": 16,
+      "mate_z": 8.631405077905123,
+      "slot_width": 3.12
+    },
+    {
+      "x": 300,
+      "keel_bottom": 1.25,
+      "keel_top": 16,
+      "mate_z": 8.625,
+      "slot_width": 3.12
+    },
+    {
+      "x": 380,
+      "keel_bottom": 1.251164694512834,
+      "keel_top": 16,
+      "mate_z": 8.625582347256417,
+      "slot_width": 3.12
+    },
+    {
+      "x": 460,
+      "keel_bottom": 1.353657559004835,
+      "keel_top": 16,
+      "mate_z": 8.676828779502417,
+      "slot_width": 3.12
+    },
+    {
+      "x": 540,
+      "keel_bottom": 1.8189560149318864,
+      "keel_top": 16,
+      "mate_z": 8.909478007465943,
+      "slot_width": 3.12
+    },
+    {
+      "x": 610,
+      "keel_bottom": 2.7792517631715414,
+      "keel_top": 16,
+      "mate_z": 9.38962588158577,
+      "slot_width": 3.12
+    },
+    {
+      "x": 665,
+      "keel_bottom": 4.141031942774362,
+      "keel_top": 16,
+      "mate_z": 10.07051597138718,
+      "slot_width": 3.12
+    },
+    {
+      "x": 710,
+      "keel_bottom": 6.1461554949266235,
+      "keel_top": 16,
+      "mate_z": 11.073077747463312,
+      "slot_width": 3.12
+    },
+    {
+      "x": 750,
+      "keel_bottom": 9.417754125030186,
+      "keel_top": 16,
+      "mate_z": 12.708877062515093,
+      "slot_width": 3.12
+    },
+    {
+      "x": 772,
+      "keel_bottom": 12.376881311857945,
+      "keel_top": 18.376881311857943,
+      "mate_z": 15.376881311857943,
+      "slot_width": 3.12
+    }
+  ]
+}

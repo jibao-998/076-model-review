@@ -1,0 +1,43 @@
+{
+  "overall_status": "ACTIVE_NOT_COMPLETE",
+  "scope": "User objective remains actual assembly and water operation; current results do not replace that goal",
+  "requirements": [
+    {
+      "item": "1",
+      "requirement": "螺旋桨启动、暂停、调转速，轴线对齐",
+      "status": "SOFTWARE_VERIFIED",
+      "evidence": "motion.js / test_motion.cjs / browser_validation.json / native_rotor_axis_error_mm",
+      "remaining": "动画演示；真实电机转速、扭矩、供电与全角度实体动态净空未验收"
+    },
+    {
+      "item": "2",
+      "requirement": "甲板、机库顶板等独立选择、移动、隐藏、恢复",
+      "status": "SOFTWARE_VERIFIED",
+      "evidence": "233个原生独立对象；浏览器逐件位移/恢复；非目标龙骨与轴管保持",
+      "remaining": "显示拆解可自由移动，不自动保证任意移动方向都无碰撞；实际拆装须按经过检查的顺序"
+    },
+    {
+      "item": "3",
+      "requirement": "艉部坞舱五面围护，仅保留外侧艉门",
+      "status": "GEOMETRY_VERIFIED_PHYSICAL_PENDING",
+      "evidence": "functional_validation.json：内衬、侧壁、前壁、顶板、真实横艉开口",
+      "remaining": "几何围护成立；板缝、可拆接缝水密和锁止未试验"
+    },
+    {
+      "item": "4",
+      "requirement": "规则机库、合理隔板与连续走线",
+      "status": "LAYOUT_VERIFIED_HARDWARE_PENDING",
+      "evidence": "规则板件；4×4mm预留、17线段连通、26个路线/实体候选无交叠",
+      "remaining": "设备未选型；安装/散热/检修手部空间、接插件与线束弯曲尚未根据实物核验"
+    },
+    {
+      "item": "5",
+      "requirement": "实际装配、可下水运行、电控改装条件及最终检查",
+      "status": "INCOMPLETE",
+      "evidence": "局部拆装路径、静态模型检查及备份已做；见open_items.csv",
+      "remaining": "3mm蒙皮/骨架协调、完整装配、锁止/密封、实际硬件、重量浮态与物理运行未完成"
+    }
+  ],
+  "hardware_selection": "User confirmed not selected",
+  "completion_claim": false
+}

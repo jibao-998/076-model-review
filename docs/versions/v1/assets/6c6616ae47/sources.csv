@@ -1,0 +1,8 @@
+﻿id,grade,publisher,date,title,url,used,limit,checked_on
+S01,S,国防部网 / 新华社,2024-12-27,中国海军076两栖攻击舰首舰下水命名,https://www.mod.gov.cn/gfbw/sy/rt/16361349.html,舰名51；双舰岛；全纵通甲板；电磁弹射和阻拦技术,没有主尺度、型值和内部结构尺寸,2026-10-16
+S02,S,国防部网 / 中国军号,2024-12-27,现场视频来了！多角度看四川舰,https://www.mod.gov.cn/gfbw/spbb_214126/16361370.html,多视角实船外观定性参考,照片未作相机标定；不能提供毫米级定位,2026-10-16
+S03,S,国资委 / 中国船舶集团,2024-12-31,海军076两栖攻击舰首舰下水 命名四川舰,https://wap.sasac.gov.cn/n2588025/n2588124/c32472524/content.html,独立核对官方特征发布主体,与S01重复事实；不作为独立尺寸测量,2026-10-16
+A01,B尺寸 / A外观交叉,"CSIS / Funaiole, Hart, Powers-Riggs, Bermudez",2024-08-01,China’s Massive Next-Generation Amphibious Assault Ship Takes Shape,https://www.csis.org/analysis/chinas-massive-next-generation-amphibious-assault-ship-takes-shape,2024-07-04卫星图甲板约260×52 m；左右升降机；左前弹射槽,卫星估计非官方；130 m为建造期槽区，未当作最终弹射行程,2026-10-16
+B01,B尺寸 / A-B位置,CMSI Translations #26 / 非官方《舰载武器》文章译文,2026-02-12 (原文2025-06),Sea Dragon Refits Its Armor: The Type 076 Amphibious Assault Ship Ushers in a New Era,https://www.andrewerickson.com/wp-content/uploads/2026/02/CMSI-Translation-26_Sea-Dragon-Refits-Its-Armor_The-Type-076-Amphibious-Assault-Ship-Ushers-in-a-New-Era_20260212.pdf,PDF23页岛长28/15 m宽10 m；PDF25页升降机约17×14 m及舷侧相对位置；实船照片,不当作官方数据；不用推进/动力/性能推测；文中面积35%疑似3.5%未采用,2026-10-16
+A02,A交叉 / 非官方,USNI News,2025-11-14,Next-generation Chinese Amphibious Assault Ship Holds First Sea Trial,https://news.usni.org/2025/11/14/next-generation-chinese-amphibious-assault-ship-holds-first-sea-trial,艉部well deck存在的公开报道交叉,未采用艇数、动力系统或内部尺寸推断,2026-10-16
+D01,D,用户任务与本次模型设计,2026-10-16,800 mm / 3 mm实体模型任务,,用户工作尺寸、24片骨架、插接与所有内部功能预留,不是076真实内部结构；不是制造发布,2026-10-16

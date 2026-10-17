@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "solid_structural_parts": 58,
+  "tested_gear_solids": 11,
+  "boolean_candidate_pairs": 79,
+  "intersections": [],
+  "regularity": {
+    "fore": {
+      "sample_count": 13029,
+      "min_jacobian": 0.12927015808242687,
+      "u_forward_min": 2.345997691679186
+    },
+    "aft": {
+      "sample_count": 13029,
+      "min_jacobian": 16997.820185423992,
+      "u_forward_min": 463.32398872115846
+    }
+  },
+  "mirror_error_mm": {
+    "fore": 0.0,
+    "aft": 0.0
+  },
+  "interface_jets_parameter_units": {
+    "0,0": 5.684341886080802e-14,
+    "1,0": 1.0231815394945443e-11,
+    "0,1": 1.2998491172311333e-12,
+    "2,0": 9.313225746154785e-10,
+    "1,1": 1.0792433613460162e-10,
+    "0,2": 1.8707169147091918e-10
+  },
+  "swept_propeller_vertical_gap_mm": 0.7235038561141334,
+  "swept_worst_point": [
+    760.3199966052873,
+    22.66617789836094,
+    13.906803513081513
+  ],
+  "swept_radius_mm": 11.00188997678901,
+  "swept_axial_half_extent_mm": 1.1306687104673578,
+  "swept_sampling_points": 19467,
+  "swept_check_note": "Sampled vertical gap at sameXY, not normal distance or real ship clearance",
+  "hawse_mother_openings_verified": 2,
+  "hawse_lining_frame_intrusions": [],
+  "native": {
+    "assembled": {
+      "objects": 208,
+      "named_views": 5,
+      "x_bounds": [
+        0.0,
+        800.0
+      ],
+      "mesh_objects": 0
+    },
+    "skeleton": {
+      "objects": 31,
+      "named_views": 5,
+      "x_bounds": [
+        33.0,
+        775.0
+      ],
+      "mesh_objects": 0
+    },
+    "exploded": {
+      "objects": 208,
+      "named_views": 5,
+      "x_bounds": [
+        -41.0,
+        841.2
+      ],
+      "mesh_objects": 0
+    }
+  },
+  "unchanged_deck_and_external_objects": [
+    "DECK_LEDGE_-1",
+    "DECK_LEDGE_+1",
+    "REMOVABLE_FLIGHT_DECK_1",
+    "REMOVABLE_FLIGHT_DECK_2",
+    "REMOVABLE_FLIGHT_DECK_3",
+    "ELEVATOR_PLATFORM_STBD",
+    "ELEVATOR_PLATFORM_PORT_AFT",
+    "ISLAND_FRONT",
+    "BRIDGE_FRONT",
+    "WINDOW_FRONT_0",
+    "WINDOW_FRONT_1",
+    "WINDOW_FRONT_2",
+    "WINDOW_FRONT_3",
+    "WINDOW_FRONT_4",
+    "WINDOW_FRONT_5",
+    "WINDOW_FRONT_6",
+    "WINDOW_FRONT_7",
+    "WINDOW_FRONT_8",
+    "FUNNEL_FRONT",
+    "MAST_FRONT",
+    "RADAR_FRONT",
+    "ISLAND_AFT",
+    "BRIDGE_AFT",
+    "WINDOW_AFT_0",
+    "WINDOW_AFT_1",
+    "WINDOW_AFT_2",
+    "WINDOW_AFT_3",
+    "WINDOW_AFT_4",
+    "FUNNEL_AFT",
+    "MAST_AFT",
+    "RADAR_AFT",
+    "LANDING_MARK_1_ESTIMATED",
+    "LANDING_MARK_2_ESTIMATED",
+    "LANDING_MARK_3_ESTIMATED",
+    "LANDING_MARK_4_ESTIMATED",
+    "LANDING_MARK_5_ESTIMATED",
+    "LANDING_MARK_6_ESTIMATED",
+    "EMALS_SINGLE_PORT_REFERENCE",
+    "EMALS_EDGE_-40",
+    "EMALS_EDGE_-38",
+    "WELL_GATE_REFERENCE",
+    "STERN_WELL_OUTLINE"
+  ],
+  "history": {
+    "outputs/076_Crossplates_V3/076_assembled_v3.3dm": "UNCHANGED",
+    "outputs/076_Crossplates_V3/076_skeleton_v3.3dm": "UNCHANGED",
+    "outputs/076_Crossplates_V3/076_exploded_v3.3dm": "UNCHANGED",
+    "outputs/076_Crossplates_V3/parameters.json": "UNCHANGED",
+    "outputs/076_Crossplates_V3/076_V3_双横板_交互预览.html": "UNCHANGED"
+  },
+  "reference_images": 9,
+  "duplicate_images": 1,
+  "native_Rhino_desktop": "NOT_CHECKED",
+  "manufacturing_release": false,
+  "real_Type076_underwater_layout": "UNKNOWN"
+}

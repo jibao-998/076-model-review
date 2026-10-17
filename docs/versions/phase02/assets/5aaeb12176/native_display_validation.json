@@ -1,0 +1,390 @@
+{
+  "status": "PASS",
+  "scope": "Per exterior component XYZ bounds, not full pointwise identity or ship accuracy",
+  "comparison_tolerance_mm": 0.02,
+  "components_checked": 13,
+  "max_bounds_error_mm": 8.71835936777643e-12,
+  "external_bounds_mm": [
+    [
+      0.0,
+      -77.5,
+      0.0
+    ],
+    [
+      800.0,
+      77.5,
+      133.0
+    ]
+  ],
+  "deck_z_mm": [
+    76,
+    79
+  ],
+  "components": [
+    {
+      "name": "HULL_STBD_NURBS_D",
+      "native_bounds_mm": [
+        [
+          4.0,
+          0.0,
+          0.0
+        ],
+        [
+          776.0,
+          63.0,
+          76.0
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          3.999999999999999,
+          0.0,
+          0.0
+        ],
+        [
+          776.0000000000001,
+          62.99999999999128,
+          76.00000000000003
+        ]
+      ],
+      "max_bounds_error_mm": 8.71835936777643e-12
+    },
+    {
+      "name": "HULL_PORT_NURBS_D",
+      "native_bounds_mm": [
+        [
+          4.0,
+          -63.0,
+          0.0
+        ],
+        [
+          776.0,
+          -0.0,
+          76.0
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          3.999999999999999,
+          -62.99999999999128,
+          0.0
+        ],
+        [
+          776.0000000000001,
+          -0.0,
+          76.00000000000003
+        ]
+      ],
+      "max_bounds_error_mm": 8.71835936777643e-12
+    },
+    {
+      "name": "STEM_REFERENCE_CAP",
+      "native_bounds_mm": [
+        [
+          4.0,
+          -1.5,
+          58.0
+        ],
+        [
+          4.0,
+          1.5,
+          76.0
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          4.0,
+          -1.5,
+          58.0
+        ],
+        [
+          4.0,
+          1.5,
+          76.0
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    },
+    {
+      "name": "TRANSOM_REFERENCE_CAP",
+      "native_bounds_mm": [
+        [
+          776.0,
+          -53.0,
+          12.0
+        ],
+        [
+          776.0,
+          53.0,
+          76.0
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          776.0,
+          -53.0,
+          12.0
+        ],
+        [
+          776.0,
+          53.0,
+          76.0
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    },
+    {
+      "name": "FLIGHT_DECK_ENVELOPE_NOT_FINAL_BOARD",
+      "native_bounds_mm": [
+        [
+          0.0,
+          -77.5,
+          76.0
+        ],
+        [
+          800.0,
+          77.5,
+          79.0
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          0.0,
+          -77.5,
+          76.0
+        ],
+        [
+          800.0,
+          77.5,
+          79.0
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    },
+    {
+      "name": "FRONT_ISLAND_ENVELOPE_C_SIZE_D_POSITION",
+      "native_bounds_mm": [
+        [
+          330.0,
+          45.0,
+          79.0
+        ],
+        [
+          416.0,
+          76.0,
+          107.0
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          330.0,
+          45.0,
+          79.0
+        ],
+        [
+          416.0,
+          76.0,
+          107.0
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    },
+    {
+      "name": "FRONT_MAST_REFERENCE",
+      "native_bounds_mm": [
+        [
+          365.56,
+          56.5,
+          107.0
+        ],
+        [
+          373.56,
+          64.5,
+          133.0
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          365.56,
+          56.5,
+          107.0
+        ],
+        [
+          373.56,
+          64.5,
+          133.0
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    },
+    {
+      "name": "AFT_ISLAND_ENVELOPE_C_SIZE_D_POSITION",
+      "native_bounds_mm": [
+        [
+          500.0,
+          45.0,
+          79.0
+        ],
+        [
+          546.0,
+          76.0,
+          102.0
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          500.0,
+          45.0,
+          79.0
+        ],
+        [
+          546.0,
+          76.0,
+          102.0
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    },
+    {
+      "name": "AFT_MAST_REFERENCE",
+      "native_bounds_mm": [
+        [
+          517.16,
+          56.5,
+          102.0
+        ],
+        [
+          525.16,
+          64.5,
+          118.0
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          517.16,
+          56.5,
+          102.0
+        ],
+        [
+          525.16,
+          64.5,
+          118.0
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    },
+    {
+      "name": "CANDIDATE_BAND_STBD_BETWEEN_ISLANDS_NO_PERMANENT_HOLE",
+      "native_bounds_mm": [
+        [
+          426.0,
+          64.0,
+          79.03
+        ],
+        [
+          490.0,
+          77.5,
+          79.06
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          426.0,
+          64.0,
+          79.03
+        ],
+        [
+          490.0,
+          77.5,
+          79.06
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    },
+    {
+      "name": "CANDIDATE_BAND_PORT_AFT_NO_PERMANENT_HOLE",
+      "native_bounds_mm": [
+        [
+          672.0,
+          -77.5,
+          79.03
+        ],
+        [
+          738.0,
+          -64.0,
+          79.06
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          672.0,
+          -77.5,
+          79.03
+        ],
+        [
+          738.0,
+          -64.0,
+          79.06
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    },
+    {
+      "name": "WELL_GATE_CLOSED_OUTLINE_D_DIMENSIONS",
+      "native_bounds_mm": [
+        [
+          776.02,
+          -25.0,
+          22.0
+        ],
+        [
+          776.04,
+          25.0,
+          44.0
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          776.02,
+          -25.0,
+          22.0
+        ],
+        [
+          776.04,
+          25.0,
+          44.0
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    },
+    {
+      "name": "PORT_FORWARD_SINGLE_TRACK_REFERENCE",
+      "native_bounds_mm": [
+        [
+          24.0,
+          -39.6,
+          79.04
+        ],
+        [
+          330.0,
+          -38.4,
+          79.08
+        ]
+      ],
+      "display_bounds_mm": [
+        [
+          24.0,
+          -39.6,
+          79.04
+        ],
+        [
+          330.0,
+          -38.4,
+          79.08
+        ]
+      ],
+      "max_bounds_error_mm": 0.0
+    }
+  ],
+  "model_sha256": "a2cde641d7e863c564165d5e44fdccf743dec49b735b8f35e2f4f769bb5e2ce7"
+}

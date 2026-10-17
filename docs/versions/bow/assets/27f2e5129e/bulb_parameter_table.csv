@@ -1,0 +1,9 @@
+﻿parameter,value,classification,meaning
+BulbLength,100,D MODEL ASSUMPTION,"Modelling control, not actual ship dimension or guaranteed geometric extremum"
+BulbHeight,24,D MODEL ASSUMPTION,"Modelling control, not actual ship dimension or guaranteed geometric extremum"
+BulbWidth,24,D MODEL ASSUMPTION,"Modelling control, not actual ship dimension or guaranteed geometric extremum"
+BulbCenterBelowWL,18,D MODEL ASSUMPTION,"Modelling control, not actual ship dimension or guaranteed geometric extremum"
+BulbMaxWidthPosition,32,D MODEL ASSUMPTION,"Modelling control, not actual ship dimension or guaranteed geometric extremum"
+BulbMaxHeightPosition,40,D MODEL ASSUMPTION,"Modelling control, not actual ship dimension or guaranteed geometric extremum"
+RebuildEndX,160,D MODEL ASSUMPTION,"Modelling control, not actual ship dimension or guaranteed geometric extremum"
+ReferenceWL,32,D MODEL ASSUMPTION,"Modelling control, not actual ship dimension or guaranteed geometric extremum"

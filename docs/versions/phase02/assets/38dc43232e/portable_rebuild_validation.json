@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "method": "Extract actual ZIP; verify every manifest SHA; rebuild from unrelated cwd using preinstalled Python dependencies only",
+  "dependencies": "Existing local Python packages via PYTHONPATH; no external original-model data/vendor access; no offline dependency installation claim",
+  "archive_files_verified": 65,
+  "default_rebuild_geometry_and_display_exact_match": true,
+  "default_math_tests_passed": 7,
+  "scripts_compile": true,
+  "no_fixed_deep_ancestor_cache_index": true,
+  "variant_checked": {
+    "reference_z_mm": 36,
+    "deck_width_mm": 160,
+    "transom_x_mm": 780,
+    "aft_budget_mm": 20,
+    "browser_errors": 0,
+    "http_requests": 0
+  },
+  "delivered_default_parameters_unchanged": true,
+  "verified_inputs_sha256": {
+    "outer_parameters.json": "f8291252e7dec65d08fa14539a3430f6adf15b7ce90ac0e846004ea6bb167d67",
+    "display_data.json": "4262768ae507e40a7388bbb1db1a7f6ec6f816ff4bd30e1b606e2a58687b67fd",
+    "source/build_outer.py": "1771cc612296bc9e8380d09eb577616aa9d83be8b07d355e4f18dc35581089e7",
+    "source/check_waterline_fit.py": "25786819239563753b93b20757d6512bc74e1df8b53ef82dde8b6d3923de068f",
+    "source/geometry_validation.py": "e6d9175e4d6a5f4e9e3c296753ae4b9d8943b85101ec9b92aea3c2e09cb9a7b5",
+    "source/make_outer_views.py": "720b171db7d356e4d9f7ff4ab9d1f179a16f97a0adb6b271639f7cf4a9fc7991",
+    "source/outer_geometry.py": "1abb6efd244e90d633a344a19803a3f6dda0243e6995c30f6e74145c6a77ede8",
+    "source/outer_viewer_template.html": "c1d49eaf20df4586a753a4a7077c95165d25ce38f61a975f56adff657860c66d",
+    "source/requirements.txt": "8a56ef8e191576aa93bd06aedb02c414d9863fd10530a442cc158de1c4ba3a3f",
+    "source/test_outer_geometry.py": "8d464460e9f2446de22dd632d2b9e3842b775538016343f2831ace1697eb7f69",
+    "source/VALIDATION.md": "5f5f604773a3fcdf886f9479703f560ea3619fc384de404ed4691fca4bf2e85e",
+    "source/vendor/OrbitControls.js": "02bb4ade710f3e607329e37a21f098bc3ac70eb6e33daf8a65e79f4db785e7b2",
+    "source/vendor/THIRD_PARTY_NOTICES.md": "cd94ef8c0c8335c9fb583cf58a4fb121556d5db6c5571c1418454e5b1888913f",
+    "source/vendor/three.min.js": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
+    "source/verify_outer_browser.py": "1368b89edac67926fc4bdd4a74c257cafc4b1eae2be577ea6f56b960891141f2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "project": "076-800mm-model-review",
+  "owner": "jibao-998",
+  "repository": "076-model-review",
+  "visibility": "public",
+  "branch": "main",
+  "pages_path": "/docs",
+  "build_type": "legacy",
+  "status": "PREPARED_NOT_PUBLISHED"
+}

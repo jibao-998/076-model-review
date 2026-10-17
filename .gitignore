@@ -1,0 +1,8 @@
+qa/
+mirror_validation.json
+loading_validation.json
+deployment_receipt.json
+__pycache__/
+preparation.json
+created_by_task.json
+public_validation.json

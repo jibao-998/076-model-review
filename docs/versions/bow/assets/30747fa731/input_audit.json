@@ -1,0 +1,41 @@
+{
+  "source_sha256": "a2cde641d7e863c564165d5e44fdccf743dec49b735b8f35e2f4f769bb5e2ce7",
+  "backup_sha256": "a2cde641d7e863c564165d5e44fdccf743dec49b735b8f35e2f4f769bb5e2ce7",
+  "units": "mm",
+  "X": "0 bow,800 aft",
+  "Y": "starboard positive,centerY0",
+  "baseline_z": 0,
+  "reference_WL_z": 32,
+  "design_waterline": "NOT_ESTABLISHED",
+  "old_hull_x": [
+    4,
+    776
+  ],
+  "old_bow": "Small planar stem at X4,Z58..76; lower centerline sweeps aft, no bulb",
+  "original_reference_sections": [
+    35,
+    70,
+    110,
+    160,
+    225,
+    300,
+    380,
+    460,
+    540,
+    610,
+    665,
+    710,
+    750,
+    772
+  ],
+  "native_Rhino_UI": "UNAVAILABLE; no Rhino app/window returned",
+  "planned_change_x_mm": [
+    0,
+    160
+  ],
+  "maximum_finished_envelope": [
+    0,
+    800
+  ],
+  "classification": "D model assumption, not confirmed Sichuan underwater shape"
+}

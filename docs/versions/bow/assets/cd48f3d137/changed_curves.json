@@ -1,0 +1,198 @@
+{
+  "original_curves": "ALL RETAINED BY ORIGINAL GUID; hidden on original reference layers",
+  "new_curves": [
+    {
+      "name": "BOW_ST_X4_STBD_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=4",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X4_PORT_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=4",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X12_STBD_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=12",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X12_STBD_1_SAMPLED",
+      "kind": "ST",
+      "plane": "X=12",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X12_PORT_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=12",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X12_PORT_1_SAMPLED",
+      "kind": "ST",
+      "plane": "X=12",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X24_STBD_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=24",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X24_PORT_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=24",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X40_STBD_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=40",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X40_PORT_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=40",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X64_STBD_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=64",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X64_PORT_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=64",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X110_STBD_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=110",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X110_PORT_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=110",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X160_STBD_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=160",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_ST_X160_PORT_0_SAMPLED",
+      "kind": "ST",
+      "plane": "X=160",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z4_STBD_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=4",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z4_PORT_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=4",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z8_STBD_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=8",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z8_PORT_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=8",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z14_STBD_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=14",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z14_PORT_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=14",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z20_STBD_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=20",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z20_PORT_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=20",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z26_STBD_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=26",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z26_PORT_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=26",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z32_STBD_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=32",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z32_PORT_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=32",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z48_STBD_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=48",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z48_PORT_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=48",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z64_STBD_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=64",
+      "original": "PRESERVED, NOT EDITED"
+    },
+    {
+      "name": "BOW_WL_Z64_PORT_0_SAMPLED",
+      "kind": "WL",
+      "plane": "Z=64",
+      "original": "PRESERVED, NOT EDITED"
+    }
+  ],
+  "exact_profiles_added": 2
+}

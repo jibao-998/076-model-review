@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "independent_extraction": "separate directory outside project, unrelated working directory",
+  "rebuild_steps": [
+    {
+      "script": "build_assembly.py",
+      "exit_code": 0,
+      "elapsed_s": 17.76
+    },
+    {
+      "script": "verify_geometry.py",
+      "exit_code": 0,
+      "elapsed_s": 12.33
+    },
+    {
+      "script": "make_viewer.py",
+      "exit_code": 0,
+      "elapsed_s": 0.66
+    },
+    {
+      "script": "render_review.py",
+      "exit_code": 0,
+      "elapsed_s": 7.26
+    },
+    {
+      "script": "write_report.py",
+      "exit_code": 0,
+      "elapsed_s": 0.84
+    }
+  ],
+  "reproduced_scene_and_details": [
+    "assembly_scene.json",
+    "076_V4_船体优化_交互预览.html",
+    "crossplate_details.json",
+    "resolved_parameters.json",
+    "hawse_location.json",
+    "part_inventory.json",
+    "reserved_clearance.json"
+  ],
+  "native_rebuild_geometry_encode": "all named objects identical in all 3 files; binary GUID identity not required",
+  "report_local_links_checked": 29,
+  "history_original_hashes_unchanged": 5,
+  "python_dependencies": "preinstalled external packages from requirements; no source/model inputs outside package",
+  "browser_validation": "separate browser_validation.json; not rerun inside extraction",
+  "native_Rhino_desktop": "NOT_CHECKED",
+  "manufacturing_release": false,
+  "package_crc": "Final delivery ZIP CRC and all manifest entries checked",
+  "report_render": "13 images loaded offline; no errors or horizontal overflow",
+  "image_review": "All 22 exported view images inspected",
+  "independent_review_bindings": "12 listed file hashes still match"
+}

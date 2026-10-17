@@ -1,0 +1,31 @@
+{
+  "stage": "00_Project_Base",
+  "status": "PASS_FILE_AUDIT_WITH_NATIVE_UI_LIMITATION",
+  "source_sha256": "69b5c62d1c00e132091e2a1a8cb996717ec6129a53567ba6afcc674801734f48",
+  "snapshot_sha256": "69b5c62d1c00e132091e2a1a8cb996717ec6129a53567ba6afcc674801734f48",
+  "backend": "rhino3dm.File3dm.Read; native Rhino not found in returned desktop apps",
+  "native_Rhino_UI": "NOT_CHECKED",
+  "units": "mm",
+  "bounds_min_mm": [
+    0.0,
+    -94.69999694824219,
+    0.0
+  ],
+  "bounds_max_mm": [
+    800.0,
+    94.69999694824219,
+    137.0
+  ],
+  "physical_length_mm": 800.0,
+  "max_width_with_platforms_mm": 189.39999389648438,
+  "deck_width_mm": 155,
+  "hull_upper_width_mm": 132,
+  "height_mm": 137.0,
+  "objects_by_type": {
+    "Mesh": 94,
+    "PolylineCurve": 112
+  },
+  "all_geometry_valid": true,
+  "coordinates": "X0 bow, X800 stern, +Y starboard, +Z up",
+  "original_overwritten": false
+}

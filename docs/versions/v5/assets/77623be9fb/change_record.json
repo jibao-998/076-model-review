@@ -1,0 +1,66 @@
+{
+  "modified_or_removed_v4_objects": [
+    "SKIN_TRANSOM",
+    "WELL_GATE_REFERENCE",
+    "STERN_WELL_OUTLINE",
+    "LOWER_CROSSPLATE_5_FRAMES",
+    "UPPER_CROSSPLATE_TO_FULL_BREADTH",
+    "FRAME_05_X225",
+    "FRAME_06_X300",
+    "FRAME_07_X380",
+    "FRAME_08_X460",
+    "FRAME_09_X540",
+    "FRAME_11_X665",
+    "FRAME_12_X710",
+    "FRAME_13_X750",
+    "FRAME_14_X772"
+  ],
+  "new_names": [
+    "TRANSOM_BELOW_OPENING",
+    "TRANSOM_ABOVE_OPENING",
+    "TRANSOM_OPENING_SIDE_-1",
+    "TRANSOM_OPENING_SIDE_1",
+    "WELL_FORWARD_WALL",
+    "WELL_PORT_WALL",
+    "WELL_STBD_WALL",
+    "WELL_INNER_FLOOR",
+    "HANGAR_FORWARD_WALL",
+    "HANGAR_AFT_WALL",
+    "HANGAR_PORT_WALL",
+    "HANGAR_STBD_WALL",
+    "HANGAR_REMOVABLE_ROOF",
+    "UPPER_CROSSPLATE_SIDE_FRAME",
+    "WELL_REMOVABLE_ROOF",
+    "WELL_BEAM_PORT_BEARING_X710",
+    "WELL_LIFT_OUT_BEAM_X665",
+    "WELL_LIFT_OUT_BEAM_X710",
+    "WELL_LIFT_OUT_BEAM_X750",
+    "WELL_LIFT_OUT_BEAM_X772",
+    "WIRE_MAIN_PORT",
+    "WIRE_MAIN_STBD",
+    "WIRE_CROSS_LINK",
+    "WIRE_BATTERY",
+    "WIRE_CONTROL",
+    "WIRE_MOTOR_PORT",
+    "WIRE_MOTOR_STBD",
+    "WIRE_SERVO",
+    "WIRE_LIGHT"
+  ],
+  "hangar_volume_before_mm3": 738720,
+  "hangar_volume_after_mm3": 726180,
+  "arresting_reserve_change": "Planning-only reserve X560–660 ->595–660 (length100->65), between new hangar wall and existing X665 crown; no selected mechanism fit claim",
+  "well_aperture": {
+    "x": 776,
+    "y": [
+      -22,
+      22
+    ],
+    "z": [
+      25,
+      44
+    ]
+  },
+  "well_floor_change": "Original structural plate Z19–22 retained; independent 3 mm flat inner liner Z22–25 reduces clear height from22 to19 and avoids severing original last-frame bottom web",
+  "hardware_unselected": true,
+  "water_operation_verified": false
+}

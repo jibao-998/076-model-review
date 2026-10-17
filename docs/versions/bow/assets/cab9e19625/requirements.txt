@@ -1,0 +1,8 @@
+numpy>=2.0
+scipy>=1.13
+rhino3dm>=8.0
+shapely>=2.0
+trimesh>=4.0
+mapbox-earcut>=1.0
+matplotlib>=3.9
+pillow>=10.0

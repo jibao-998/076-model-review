@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "surfaces_checked": 5,
+  "samples_each": [
+    31,
+    51
+  ],
+  "native_vs_math_max_coordinate_error_mm": 2.2737367544323206e-13,
+  "native_sha256": "92e1fa5a94018e56c86004e1471c4e9345c23e18c34cbe8035c52e08a26a8d71",
+  "scope": "Saved native surfaces, not a Rhino UI check"
+}

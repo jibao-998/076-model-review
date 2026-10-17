@@ -1,0 +1,866 @@
+[
+  {
+    "name": "FRAME_01_X35",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 1424.0545047580233,
+    "connected": true,
+    "hole_count": 1,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_02_X70",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 1572.9839347141078,
+    "connected": true,
+    "hole_count": 1,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_03_X110",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 1922.6273292775593,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_04_X160",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 2512.746816080842,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_05_X225",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 2500.2716834216303,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_06_X300",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 2529.0611298968693,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_07_X380",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 2567.538671222057,
+    "connected": true,
+    "hole_count": 1,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_08_X460",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 2336.289471746342,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_09_X540",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 2506.094995059457,
+    "connected": true,
+    "hole_count": 1,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_10_X610",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 2174.5247063966426,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_11_X665",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 2293.6935753618845,
+    "connected": true,
+    "hole_count": 1,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_12_X710",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 1806.272549641225,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_13_X750",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 1483.5810155267181,
+    "connected": true,
+    "hole_count": 1,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "FRAME_14_X772",
+    "group": "frames",
+    "thickness": 3.0,
+    "area_mm2": 1353.7212766857238,
+    "connected": true,
+    "hole_count": 1,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "MAIN_KEEL_3MM_SLOTTED",
+    "group": "keel",
+    "thickness": 3.0,
+    "area_mm2": 9434.263156382467,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "LONGITUDINAL_-1",
+    "group": "longitudinal",
+    "thickness": 3.0,
+    "area_mm2": 5833.016400000001,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "LONGITUDINAL_+1",
+    "group": "longitudinal",
+    "thickness": 3.0,
+    "area_mm2": 5833.016400000001,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": 3.12
+  },
+  {
+    "name": "LOWER_CROSSPLATE_5_FRAMES",
+    "group": "lower",
+    "thickness": 3.0,
+    "area_mm2": 14231.993395675294,
+    "connected": true,
+    "hole_count": 6,
+    "finished_slot_width": null
+  },
+  {
+    "name": "UPPER_CROSSPLATE_TO_FULL_BREADTH",
+    "group": "internal",
+    "thickness": 3.0,
+    "area_mm2": 63536.59780377473,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "DECK_LEDGE_-1",
+    "group": "support",
+    "thickness": 3,
+    "area_mm2": 2324.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "DECK_LEDGE_+1",
+    "group": "support",
+    "thickness": 3,
+    "area_mm2": 2324.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "REMOVABLE_FLIGHT_DECK_1",
+    "group": "deck",
+    "thickness": 3.0,
+    "area_mm2": 38615.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "REMOVABLE_FLIGHT_DECK_2",
+    "group": "deck",
+    "thickness": 3.0,
+    "area_mm2": 46620.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "REMOVABLE_FLIGHT_DECK_3",
+    "group": "deck",
+    "thickness": 3.0,
+    "area_mm2": 35671.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "ELEVATOR_PLATFORM_STBD",
+    "group": "elevators",
+    "thickness": 3,
+    "area_mm2": 2236.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "ELEVATOR_PLATFORM_PORT_AFT",
+    "group": "elevators",
+    "thickness": 3,
+    "area_mm2": 2236.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "ISLAND_FRONT",
+    "group": "superstructure",
+    "thickness": 22,
+    "area_mm2": 2648.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "BRIDGE_FRONT",
+    "group": "superstructure",
+    "thickness": 6,
+    "area_mm2": 3026.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_FRONT_0",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.533333333333359,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_FRONT_1",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.533333333333359,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_FRONT_2",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.533333333333359,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_FRONT_3",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.533333333333359,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_FRONT_4",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.533333333333359,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_FRONT_5",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.533333333333359,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_FRONT_6",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.533333333333359,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_FRONT_7",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.533333333333359,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_FRONT_8",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.533333333333359,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "FUNNEL_FRONT",
+    "group": "superstructure",
+    "thickness": 9,
+    "area_mm2": 417.95999999999947,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "MAST_FRONT",
+    "group": "superstructure",
+    "thickness": 26,
+    "area_mm2": 9.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RADAR_FRONT",
+    "group": "superstructure",
+    "thickness": 3,
+    "area_mm2": 77.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "ISLAND_AFT",
+    "group": "superstructure",
+    "thickness": 17,
+    "area_mm2": 1408.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "BRIDGE_AFT",
+    "group": "superstructure",
+    "thickness": 6,
+    "area_mm2": 1666.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_AFT_0",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.3200000000000234,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_AFT_1",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.3200000000000234,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_AFT_2",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.3200000000000234,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_AFT_3",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.3200000000000234,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WINDOW_AFT_4",
+    "group": "superstructure",
+    "thickness": 3.299999999999997,
+    "area_mm2": 1.3200000000000234,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "FUNNEL_AFT",
+    "group": "superstructure",
+    "thickness": 9,
+    "area_mm2": 223.55999999999926,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "MAST_AFT",
+    "group": "superstructure",
+    "thickness": 16,
+    "area_mm2": 9.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RADAR_AFT",
+    "group": "superstructure",
+    "thickness": 3,
+    "area_mm2": 77.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "WELL_GATE_REFERENCE",
+    "group": "superstructure",
+    "thickness": 22,
+    "area_mm2": 5.000000000001137,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RESERVED_HANGAR",
+    "group": "hangar",
+    "thickness": 24,
+    "area_mm2": 30780.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RESERVED_WELL",
+    "group": "well",
+    "thickness": 22,
+    "area_mm2": 7260.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RESERVED_BATTERY",
+    "group": "electronics",
+    "thickness": 17,
+    "area_mm2": 3600.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RESERVED_ELECTRONICS",
+    "group": "electronics",
+    "thickness": 17,
+    "area_mm2": 3600.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RESERVED_PROP_PORT",
+    "group": "propulsion",
+    "thickness": 10,
+    "area_mm2": 630.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RESERVED_PROP_STBD",
+    "group": "propulsion",
+    "thickness": 10,
+    "area_mm2": 630.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RESERVED_EMALS",
+    "group": "mechanism",
+    "thickness": 13,
+    "area_mm2": 1808.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RESERVED_ARRESTING",
+    "group": "mechanism",
+    "thickness": 9,
+    "area_mm2": 6000.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RESERVED_ELEVATOR_STBD",
+    "group": "mechanism",
+    "thickness": 34,
+    "area_mm2": 676.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RESERVED_ELEVATOR_PORT_AFT",
+    "group": "mechanism",
+    "thickness": 34,
+    "area_mm2": 676.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_FLOOR_-1_0",
+    "group": "catwalk",
+    "thickness": 3,
+    "area_mm2": 352.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_COAMING_-1_0",
+    "group": "catwalk",
+    "thickness": 3.5,
+    "area_mm2": 35.199999999999875,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_FLOOR_-1_1",
+    "group": "catwalk",
+    "thickness": 3,
+    "area_mm2": 5232.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_COAMING_-1_1",
+    "group": "catwalk",
+    "thickness": 3.5,
+    "area_mm2": 523.1999999999981,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X60",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 98.77603136600352,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X120",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 72.37204054953793,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X180",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 65.39370280221094,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X240",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 63.615984096117835,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X300",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 63.21753983415927,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X360",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 63.16753783919542,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X420",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 63.23803325279493,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X490",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 63.811804371037276,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X550",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 64.82426037965328,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X610",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 66.34523159244051,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X670",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 70.64451244162838,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_-1_X745",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 89.49374219134293,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_FLOOR_+1_0",
+    "group": "catwalk",
+    "thickness": 3,
+    "area_mm2": 2352.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_COAMING_+1_0",
+    "group": "catwalk",
+    "thickness": 3.5,
+    "area_mm2": 235.19999999999916,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_FLOOR_+1_1",
+    "group": "catwalk",
+    "thickness": 3,
+    "area_mm2": 3232.0,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_COAMING_+1_1",
+    "group": "catwalk",
+    "thickness": 3.5,
+    "area_mm2": 323.19999999999885,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X60",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 98.77603136600352,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X120",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 72.37204054953793,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X180",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 65.39370280221094,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X240",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 63.615984096117835,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X300",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 63.21753983415927,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X360",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 63.16753783919542,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X420",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 63.23803325279493,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X490",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 63.811804371037276,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X550",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 64.82426037965328,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X610",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 66.34523159244051,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X670",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 70.64451244162838,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "CATWALK_BRACKET_+1_X745",
+    "group": "catwalk",
+    "thickness": 1.2,
+    "area_mm2": 89.49374219134293,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RUDDER_PORT",
+    "group": "runninggear",
+    "thickness": 23,
+    "area_mm2": 14.88499999999998,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "RUDDER_STBD",
+    "group": "runninggear",
+    "thickness": 23,
+    "area_mm2": 14.88499999999998,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  },
+  {
+    "name": "STERN_MODEL_SKEG",
+    "group": "runninggear",
+    "thickness": 2.4,
+    "area_mm2": 487.395418219656,
+    "connected": true,
+    "hole_count": 0,
+    "finished_slot_width": null
+  }
+]
