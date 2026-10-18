@@ -17,6 +17,7 @@
   for(const key of ['view','scope'])if(s[key]!==undefined){if(!safeKey(s[key]))return null;result[key]=s[key]}
   if(s.flags){if(Object.keys(s.flags).length>40)return null;result.flags={};for(const[k,v]of Object.entries(s.flags)){if(!safeKey(k)||typeof v!=='boolean')return null;result.flags[k]=v}}
   if(s.assemblies){if(typeof s.assemblies!=='object'||Array.isArray(s.assemblies)||Object.keys(s.assemblies).length>30)return null;result.assemblies={};for(const[k,v]of Object.entries(s.assemblies)){if(!safeKey(k)||!vec(v,3000))return null;result.assemblies[k]=[...v]}}
+  if(version==='v9'&&result.assemblies){for(const [k,v]of Object.entries(result.assemblies)){if(k.startsWith('ELEVATOR_')&&(!['ELEVATOR_STBD','ELEVATOR_PORT'].includes(k)||v[0]!==0||v[1]!==0||v[2]<-32||v[2]>0))return null;if(['SERVICE_HATCH','HANGAR_HATCH','HANGAR_ROOF','HANGAR_CASSETTE'].includes(k)&&(v[0]!==0||v[1]!==0||v[2]<0||v[2]>400))return null}}
   return result;
  }
  function encode(s){const text=JSON.stringify(s);if(text.length>60000)throw Error('评审状态过大，请减少逐件位移后分享');return btoa(Array.from(new TextEncoder().encode(text),b=>String.fromCharCode(b)).join('')).replaceAll('+','-').replaceAll('/','_').replace(/=+$/,'')}

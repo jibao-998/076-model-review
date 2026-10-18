@@ -1,0 +1,953 @@
+{
+  "schema": "076.review.v1",
+  "version": "v9",
+  "model_sha256": "91ccbbf2ed096be40bcf0853755e0bc534109f5659251c5d861b18e2a53b6616",
+  "evidence_grades": {
+    "A": "官方确认",
+    "B": "独立可信来源交叉确认",
+    "C": "测量/研究估算",
+    "D": "模型假设",
+    "Unknown": "资料不足"
+  },
+  "validation_levels": [
+    "GEOMETRY_CHECKED",
+    "NOT_CHECKED",
+    "NOT_VERIFIED"
+  ],
+  "manufacturing": "REVIEW_ONLY_NOT_FOR_CUTTING",
+  "issues": [
+    {
+      "id": "whole-deck",
+      "title": "整块甲板拿取 / 连接与承压待实测",
+      "short": "整块甲板可拆",
+      "status": "几何路径通过 / 实物待验证",
+      "finding": "一块连通3 mm甲板，只有两侧边缘平台避让；双舰岛和标线随板同移。上提190 mm数值扫掠通过；建议双手托住两端，不以舰岛作把手。",
+      "close": "选定定位/固定方式，验证800 mm木板翘曲、拿取、承托与复装。",
+      "parts": [
+        "FLIGHT_DECK_WHOLE"
+      ],
+      "view": "iso",
+      "evidence": "versions/v9/report.html"
+    },
+    {
+      "id": "lift-stbd",
+      "title": "右舷升降机 / 两岛之间的观察通道",
+      "short": "右舷导轨与通道",
+      "status": "几何开通 / 执行器未选型",
+      "finding": "侧蒙皮、肋骨和局部横梁真实让出通道，平台到机库门间有连续过渡；双导轨、滑套和限位是D模型设计。",
+      "close": "校核实物滑动间隙、平台刚度、导轨固定、驱动与防夹；位置尺寸需人工照片复核。",
+      "parts": [
+        "ELEVATOR_PLATFORM_STBD"
+      ],
+      "view": "hangarClose",
+      "evidence": "versions/v9/report.html"
+    },
+    {
+      "id": "lift-port",
+      "title": "左舷艉升降机 / 内部观察区",
+      "short": "左舷导轨与通道",
+      "status": "几何开通 / 真实内部未知",
+      "finding": "侧口不蒙皮，过渡到坞舱上方的模型观察区；没有宣称它是实舰机库通道。下方坞舱侧壁和底板保留。",
+      "close": "复核导轨/支承承压、实物行程及观察口边缘收口；开口水密未验证。",
+      "parts": [
+        "ELEVATOR_PLATFORM_PORT_AFT"
+      ],
+      "view": "wellClose",
+      "evidence": "versions/v9/report.html"
+    },
+    {
+      "id": "drive-interface",
+      "title": "继承限制 / 动力与操舵未闭合",
+      "short": "硬件与制造未放行",
+      "status": "安装未通过",
+      "finding": "V8动力候选仍未选型，原电机占位与轴线不共轴。舵与升降动画均不代表完成真实执行机构。",
+      "close": "安装接口、抽轴/检修路径、承压样段、胶接密封与质量/浮态分别验证。",
+      "parts": [
+        "PROP_PORT",
+        "SHAFT_PORT",
+        "RUDDER_PORT"
+      ],
+      "view": "gearClose",
+      "evidence": "evidence/hardware_candidates.md"
+    }
+  ],
+  "parts": {
+    "FRAME_01_X35": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_02_X70": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_03_X110": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_04_X160": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_05_X225": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_06_X300": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_07_X380": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_08_X460": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_09_X540": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_10_X610": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_11_X665": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_12_X710": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_13_X750": {
+      "part_number": "V8-AFT-01",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-01",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。 本接头最小剩余木宽7.763 mm。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.199920 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FRAME_14_X772": {
+      "part_number": "V8-AFT-02",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-02",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。 本接头最小剩余木宽3.197 mm。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.199922 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "LOWER_CROSSPLATE_5_FRAMES_1": {
+      "part_number": "V8-AFT-03",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-03",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.211553 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "LOWER_CROSSPLATE_5_FRAMES_2": {
+      "part_number": "V8-AFT-04",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-04",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.210219 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "WELL_INNER_FLOOR_1": {
+      "part_number": "V8-AFT-05",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-05",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小3.021572 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "WELL_INNER_FLOOR_2": {
+      "part_number": "V8-AFT-06",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-06",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小7.541325 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FRAME_CHEEK_PORT_X750": {
+      "part_number": "V8-AFT-07",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-07",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.503507 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FRAME_CHEEK_STBD_X750": {
+      "part_number": "V8-AFT-08",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-08",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.503483 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FRAME_CHEEK_PORT_X772": {
+      "part_number": "V8-AFT-09",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-09",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.551114 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FRAME_CHEEK_STBD_X772": {
+      "part_number": "V8-AFT-10",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-10",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.552925 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FLIGHT_DECK_WHOLE": {
+      "material": "一整块3 mm木板；木种、批次实测和裁切能力待确认",
+      "purpose": "整块飞行甲板，连同双岛取下，便于观察与维护",
+      "check": "原生连通性、无内孔与190 mm连续上提路径通过；翘曲和双手拿取待试件",
+      "allowance": "Z76～79；两侧平台边缘名义避让0.5 mm",
+      "assembly": "双手托住两端沿+Z上提，不以舰岛作把手；定位/固定件未选型",
+      "issues": [
+        "整板承托、拿取与复装待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "甲板本体；升降机两侧开口不蒙皮"
+    },
+    "HANGAR_REMOVABLE_ROOF": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "HANGAR_ROOF",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "ELEVATOR_PLATFORM_STBD": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_STBD",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "ELEVATOR_PLATFORM_PORT_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_PORT",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "ISLAND_FRONT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "BRIDGE_FRONT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_0": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_1": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_2": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_3": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_4": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_5": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_6": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_7": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_8": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "FUNNEL_FRONT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "MAST_FRONT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "RADAR_FRONT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "ISLAND_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "BRIDGE_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_AFT_0": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_AFT_1": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_AFT_2": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_AFT_3": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_AFT_4": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "FUNNEL_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "MAST_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "RADAR_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_1_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_2_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_3_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_4_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_5_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_6_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "EMALS_SINGLE_PORT_REFERENCE": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "EMALS_EDGE_-40": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "EMALS_EDGE_-38": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_STBD_CARRIAGE_1_ARM": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_STBD",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_STBD_CARRIAGE_1_SLEEVE": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_STBD",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_STBD_CARRIAGE_2_ARM": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_STBD",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_STBD_CARRIAGE_2_SLEEVE": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_STBD",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_PORT_CARRIAGE_1_ARM": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_PORT",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_PORT_CARRIAGE_1_SLEEVE": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_PORT",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_PORT_CARRIAGE_2_ARM": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_PORT",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_PORT_CARRIAGE_2_SLEEVE": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_PORT",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    }
+  },
+  "changes": [
+    "甲板由分片与内部检修盖改为一整块连通可拆板；双舰岛随整板上提。",
+    "两舷出口真实去除局部蒙皮与骨架障碍，并增加内部过渡面。",
+    "双平台沿固定导轨作32 mm升降，带随动滑套与上下限位。",
+    "保持艉部联合接头与封闭坞舱；保护范围外母面继承V8。"
+  ],
+  "parameters": [
+    "总长：800 mm（项目约束）。甲板宽：155 mm（模型工作参数），不等于含舷台/升降机的最大宽度。",
+    "本版骨架设计板厚：3.0 mm。实测板厚/批次、木纹、切缝及试槽：待实物确认。",
+    "当前蒙皮目标：2.0 mm；V6以后采用椴木条约5 mm宽、胶层0.2 mm、法向目标2.2 mm。历史文件中的3 mm蒙皮文字不作为当前方案。",
+    "历史 FRAME_INSET=1.25 mm 是旧基线口径，不能当作每片修正后的实际法向余量。逐件结果见证据卡；未测项不填零。",
+    "名义成品槽宽：3.12 mm；材料厚度+配合间隙。未补偿激光中心线槽宽还需减切缝；实际以试槽板结果为准。",
+    "Z32仅为参考高度。展示蒙皮曲面不是可切割展开板或已验证铺条方案。硬件占位盒不是已安装设备。",
+    "两组独立离散采样均通过目标容差；底板独立更密采样最小2.809572 mm。任一采样网格均不作为全表面连续证明。",
+    "V9甲板：一块连通板；Z76～79，厚3 mm，X0～800。两侧仅为升降平台留边缘缺口。",
+    "双平台：52×43 mm；X430～482右舷、X680～732左舷；精确坐标和尺度为D模型假设，公开照片支持大致位置。",
+    "上位底/顶Z76/79，下位44/47；行程32 mm。导轨、支承和径向间隙0.25 mm均为模型功能设计。",
+    "左舷过渡至坞舱上方的模型观察区；两处口不蒙皮，不宣称船体水密。"
+  ],
+  "hardware": [
+    "7项厂商资料候选，均未选型。",
+    "400电机候选：当前包络拒绝；Pololu #999：仅本体候选，完整轴系/负载未验证。",
+    "Hitec HS-65MG尺寸23.6×11.6×24 mm；厂商质量11.9/12.5 g有冲突。",
+    "Gens ace 850 mAh 2S电池约58×32×20 mm、55 g；安装、供电接口及质量预算未闭合。"
+  ],
+  "service_supported": true,
+  "service_steps": [
+    "完整装配：甲板放回；升降状态独立保留",
+    "双手托板：取下整块甲板190 mm（固定件待定）",
+    "移开独立机库顶板80 mm；断开照明接头（条件）",
+    "把末段线束移出抽取路径",
+    "竖直提出五件机库组件130 mm",
+    "下层设备观察；固定与复装仍需实物检查"
+  ],
+  "evidence_links": [
+    {
+      "label": "V6独立走线/动力接口审查",
+      "href": "evidence/v6_wire_review.md"
+    },
+    {
+      "label": "独立原生与蒙皮审查",
+      "href": "evidence/v8_independent_review.md"
+    },
+    {
+      "label": "独立审查数值记录",
+      "href": "evidence/v8_independent_review.json"
+    },
+    {
+      "label": "艉部接头与采样数据",
+      "href": "evidence/v8_aft_validation.json"
+    },
+    {
+      "label": "静态与检修路径检查",
+      "href": "evidence/v8_service_validation.json"
+    },
+    {
+      "label": "原生保存回读",
+      "href": "evidence/v8_native_validation.json"
+    },
+    {
+      "label": "10件材料与零件号",
+      "href": "evidence/v8_part_material_records.json"
+    },
+    {
+      "label": "分段零件名称映射",
+      "href": "evidence/v8_part_name_mapping.json"
+    },
+    {
+      "label": "原生文件哈希",
+      "href": "evidence/v8_native_hashes.json"
+    },
+    {
+      "label": "升降机方位与图片证据",
+      "href": "evidence/v9/076_V9_升降机位置与图片证据审查.md"
+    },
+    {
+      "label": "逐项来源等级",
+      "href": "evidence/v9/claims.json"
+    },
+    {
+      "label": "13张图片与重复项",
+      "href": "evidence/v9/image_register.csv"
+    },
+    {
+      "label": "独立原生审查",
+      "href": "evidence/v9/v9_native_review.md"
+    },
+    {
+      "label": "V9连续扫掠与通道检查",
+      "href": "versions/v9/observation_validation.json"
+    },
+    {
+      "label": "V9运动参数",
+      "href": "versions/v9/motion_metadata.json"
+    }
+  ],
+  "elevators_supported": true
+}

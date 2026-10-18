@@ -1,0 +1,170 @@
+{
+  "version": "V9",
+  "source": "frozen inputs/v8",
+  "modified_or_removed": [
+    {
+      "name": "REMOVABLE_FLIGHT_DECK_1",
+      "action": "REPLACED_BY_FLIGHT_DECK_WHOLE",
+      "reason": "One whole removable deck requested"
+    },
+    {
+      "name": "REMOVABLE_FLIGHT_DECK_2_1",
+      "action": "REPLACED_BY_FLIGHT_DECK_WHOLE",
+      "reason": "One whole removable deck requested"
+    },
+    {
+      "name": "REMOVABLE_FLIGHT_DECK_2_2",
+      "action": "REPLACED_BY_FLIGHT_DECK_WHOLE",
+      "reason": "One whole removable deck requested"
+    },
+    {
+      "name": "REMOVABLE_FLIGHT_DECK_3",
+      "action": "REPLACED_BY_FLIGHT_DECK_WHOLE",
+      "reason": "One whole removable deck requested"
+    },
+    {
+      "name": "REMOVABLE_HANGAR_SERVICE_HATCH",
+      "action": "REPLACED_BY_FLIGHT_DECK_WHOLE",
+      "reason": "One whole removable deck requested"
+    },
+    {
+      "name": "UPPER_CROSSPLATE_SERVICE_RUNNER",
+      "action": "REPLACED",
+      "reason": "Fill local frame rebates to form continuous transfer floors at top Z47",
+      "replacement_parts": [
+        "UPPER_CROSSPLATE_SERVICE_RUNNER"
+      ]
+    },
+    {
+      "name": "FRAME_08_X460",
+      "action": "REPLACED",
+      "reason": "Local side-bay passage and elevator swept-volume clearance",
+      "replacement_parts": [
+        "FRAME_08_X460"
+      ]
+    },
+    {
+      "name": "FRAME_12_X710",
+      "action": "REPLACED",
+      "reason": "Local side-bay passage and elevator swept-volume clearance",
+      "replacement_parts": [
+        "FRAME_12_X710"
+      ]
+    },
+    {
+      "name": "FRAME_CHEEK_PORT_X710",
+      "action": "REMOVED",
+      "reason": "Local side-bay passage and elevator swept-volume clearance",
+      "replacement_parts": []
+    },
+    {
+      "name": "DECK_LEDGE_+1",
+      "action": "REPLACED",
+      "reason": "Local side-bay passage and elevator swept-volume clearance",
+      "replacement_parts": [
+        "DECK_LEDGE_+1_V9_1",
+        "DECK_LEDGE_+1_V9_2"
+      ]
+    },
+    {
+      "name": "DECK_LEDGE_-1",
+      "action": "REPLACED",
+      "reason": "Local side-bay passage and elevator swept-volume clearance",
+      "replacement_parts": [
+        "DECK_LEDGE_-1_V9_1",
+        "DECK_LEDGE_-1_V9_2"
+      ]
+    },
+    {
+      "name": "WELL_LIFT_OUT_BEAM_X710",
+      "action": "REPLACED",
+      "reason": "Local side-bay passage and elevator swept-volume clearance",
+      "replacement_parts": [
+        "WELL_LIFT_OUT_BEAM_X710"
+      ]
+    },
+    {
+      "name": "WELL_BEAM_PORT_BEARING_X710",
+      "action": "REMOVED",
+      "reason": "Local side-bay passage and elevator swept-volume clearance",
+      "replacement_parts": []
+    },
+    {
+      "name": "HANGAR_STBD_WALL",
+      "action": "REPLACED",
+      "reason": "Local side-bay passage and elevator swept-volume clearance",
+      "replacement_parts": [
+        "HANGAR_STBD_WALL"
+      ]
+    },
+    {
+      "name": "SKIN_AFT_2_3_STBD",
+      "action": "LOCAL_SKIN_CUTOUT",
+      "reason": "Authorized open observation/transition bay",
+      "replacement_parts": [
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1",
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_2",
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3"
+      ]
+    },
+    {
+      "name": "SKIN_AFT_3_3_PORT",
+      "action": "LOCAL_SKIN_CUTOUT",
+      "reason": "Authorized open observation/transition bay",
+      "replacement_parts": [
+        "SKIN_AFT_3_3_PORT_V9_RETAINED_1",
+        "SKIN_AFT_3_3_PORT_V9_RETAINED_2"
+      ]
+    },
+    {
+      "name": "SKIN_AFT_4_3_PORT",
+      "action": "LOCAL_SKIN_CUTOUT",
+      "reason": "Authorized open observation/transition bay",
+      "replacement_parts": [
+        "SKIN_AFT_4_3_PORT_V9_RETAINED_1",
+        "SKIN_AFT_4_3_PORT_V9_RETAINED_2"
+      ]
+    }
+  ],
+  "new_names": [
+    "DECK_LEDGE_+1_V9_1",
+    "DECK_LEDGE_+1_V9_2",
+    "DECK_LEDGE_-1_V9_1",
+    "DECK_LEDGE_-1_V9_2",
+    "FLIGHT_DECK_WHOLE",
+    "LIFT_PORT_CARRIAGE_1_ARM",
+    "LIFT_PORT_CARRIAGE_1_SLEEVE",
+    "LIFT_PORT_CARRIAGE_2_ARM",
+    "LIFT_PORT_CARRIAGE_2_SLEEVE",
+    "LIFT_PORT_GUIDE_1",
+    "LIFT_PORT_GUIDE_2",
+    "LIFT_PORT_STOP_1_LOWER",
+    "LIFT_PORT_STOP_1_UPPER",
+    "LIFT_PORT_STOP_2_LOWER",
+    "LIFT_PORT_STOP_2_UPPER",
+    "LIFT_PORT_SUPPORT_1",
+    "LIFT_PORT_SUPPORT_2",
+    "LIFT_STBD_CARRIAGE_1_ARM",
+    "LIFT_STBD_CARRIAGE_1_SLEEVE",
+    "LIFT_STBD_CARRIAGE_2_ARM",
+    "LIFT_STBD_CARRIAGE_2_SLEEVE",
+    "LIFT_STBD_GUIDE_1",
+    "LIFT_STBD_GUIDE_2",
+    "LIFT_STBD_STOP_1_LOWER",
+    "LIFT_STBD_STOP_1_UPPER",
+    "LIFT_STBD_STOP_2_LOWER",
+    "LIFT_STBD_STOP_2_UPPER",
+    "LIFT_STBD_SUPPORT_1",
+    "LIFT_STBD_SUPPORT_2",
+    "SKIN_AFT_2_3_STBD_V9_RETAINED_1",
+    "SKIN_AFT_2_3_STBD_V9_RETAINED_2",
+    "SKIN_AFT_2_3_STBD_V9_RETAINED_3",
+    "SKIN_AFT_3_3_PORT_V9_RETAINED_1",
+    "SKIN_AFT_3_3_PORT_V9_RETAINED_2",
+    "SKIN_AFT_4_3_PORT_V9_RETAINED_1",
+    "SKIN_AFT_4_3_PORT_V9_RETAINED_2"
+  ],
+  "skin": "Only documented local bay patches cut; retained pieces exact subpatches",
+  "classification": "C ESTIMATED OUTLINE / D MODEL DESIGN",
+  "manufacturing_release": "REVIEW_ONLY"
+}

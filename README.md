@@ -1,7 +1,7 @@
 # 076 model review — GitHub Pages mirror
 
-Nine review versions of the 800 mm wooden model, including the V8 aft-joint
-revision and eight preserved historical CAD downloads. Interactive 3D,
+Ten review versions of the 800 mm wooden model, including the V9 whole-deck
+and guided side-elevator revision and nine preserved historical CAD downloads. Interactive 3D,
 reports, parameters and native Rhino downloads are available. Desktop,
 landscape 3D and portrait report/problem reading are supported. Internal structure,
 bulb and running gear include model-design
@@ -15,12 +15,16 @@ Rhino downloads retain their historical save-path metadata; these files are
 the same downloads already present on the original public review website.
 Third-party notices and source attributions are retained.
 
-Public entry: https://jibao-998.github.io/076-model-review/#v8
+Public entry: https://jibao-998.github.io/076-model-review/?release=v9#v9
 
 The review interface links open issues to parts and evidence. Camera, visibility,
 selection, explosion, offsets and steering can be restored per version or shared
 with a model-hash-bound URL. Service steps show disconnect/withdraw prerequisites;
-fixtures and connectors remain unselected. Seven manufacturer hardware candidates
+fixtures and connectors remain unselected. V9 has one connected removable deck,
+unskinned side observation transitions, guide rods, carriages and stops; the two
+platforms demonstrate 32 mm vertical motion. Guide fixation, actuators and physical
+handling remain unverified. Exact model coordinates are assumptions, not official
+ship dimensions. Seven manufacturer hardware candidates
 are documented; complete drive fit, strength, sealing and water operation remain
 unverified. Existing Rhino files remain editable; native Rhino desktop is NOT_CHECKED.
 

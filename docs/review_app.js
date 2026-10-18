@@ -4,7 +4,7 @@ let versions=[],current=null,content='model',attempt=0,timer=null,review=null,aw
 const saved=new Map();let lockedPose=null;
 function toast(text){$('toast').textContent=text;$('toast').hidden=false;setTimeout(()=>$('toast').hidden=true,3500)}
 function post(type,extra={}){if(current)frame.contentWindow?.postMessage({type,version:current.id,attempt:String(attempt),...extra},location.origin)}
-function remember(s){if(!current)return;const v=ReviewState.validate(s,current.id,current.model_sha256);if(!v)return;saved.set(current.id,v);$('drive-overlay').checked=!!v.flags?.['review-drive-overlay'];try{sessionStorage.setItem('076.review.'+current.id,JSON.stringify(v))}catch{}}
+function remember(s){if(!current)return;const v=ReviewState.validate(s,current.id,current.model_sha256);if(!v)return;saved.set(current.id,v);$('drive-overlay').checked=!!v.flags?.['review-drive-overlay'];for(const side of ['stbd','port']){const pct=Math.round(-100*(v.assemblies?.['ELEVATOR_'+side.toUpperCase()]?.[2]||0)/32);$('lift-'+side).value=pct;$('lift-'+side+'-value').textContent=pct===0?'上位':pct===100?'下位':pct+'%下降'}try{sessionStorage.setItem('076.review.'+current.id,JSON.stringify(v))}catch{}}
 function capture(){try{if(content==='model'&&ready&&frame.contentWindow.reviewBridge){const s=frame.contentWindow.reviewBridge.capture();remember(s);return s}}catch{}return saved.get(current?.id)}
 function hashParts(){const raw=location.hash.slice(1),[path,query]=raw.split('?');const[id,type]=path.split('/');return{id,content:type==='report'?'report':'model',token:new URLSearchParams(query||'').get('state')}}
 function updateUrl(token){if(!current)return;history.replaceState(null,'','#'+current.id+(content==='report'?'/report':'')+(token?'?state='+token:''))}
@@ -33,11 +33,12 @@ function renderReview(){
  $('parameter-summary').replaceChildren(...review.parameters.map(p=>node('p',p)));
  $('hardware-summary').replaceChildren(...review.hardware.map(p=>node('p',p)));
  $('evidence-links').replaceChildren(...(review.evidence_links||[]).map(item=>{const p=node('p'),a=node('a',item.label+' ↗');a.href=item.href;a.target='_blank';a.rel='noopener';p.append(a);return p}));
- $('service-panel').hidden=!review.service_supported;serviceUI(serviceStep);
+ $('service-panel').hidden=!review.service_supported;$('elevator-panel').hidden=!review.elevators_supported;serviceUI(serviceStep);
  $('performance-status').textContent='首次可操作、解析和帧率记录见本次测试；桌面软件渲染不代表真实手机性能。';
  if(lastPart)partCard(lastPart);
 }
 function serviceUI(step){serviceStep=step;if(!review)return;$('service-note').textContent=review.service_supported?'先按顺序清除拆装条件，再演示机库上提。':'本历史版本未实现此维修流程。';$('service-steps').replaceChildren(...review.service_steps.map((s,i)=>node('li',s,i===step?'current':i<step?'done':'')));$('service-next').disabled=step>=5;$('service-prev').disabled=step<=0}
+for(const side of ['stbd','port']){$('lift-'+side).oninput=e=>post('review-lift',{side:side.toUpperCase(),percent:Number(e.target.value)});$('locate-'+side).onclick=()=>{post('review-locate',{issue:'lift-'+side});if(innerWidth<1050)showPanel(false)}}
 function partCard(p){
  lastPart=p;if(!p){$('part-card').replaceChildren(node('h2','零件证据卡'),node('p','点击模型或“定位部件”，查看材料、检查结果与证据。'));return}$('part-card').replaceChildren(node('h2','零件证据卡'),node('p',p.name,'part-name'));
  const own=review?.parts?.[p.name]||{},wood=['frames','keel','longitudinal','deck','lower','liner','hangarwalls','hangarfloor','hangarroof','wellroof','servicebearings','servicehatch','cheeks','plankingjigs','internal','wellbeams','support'].includes(p.group);

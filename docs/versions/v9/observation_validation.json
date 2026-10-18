@@ -1,0 +1,1192 @@
+{
+  "status": "PASS",
+  "native_file": "076_assembled_v9.3dm",
+  "native_sha256": "91ccbbf2ed096be40bcf0853755e0bc534109f5659251c5d861b18e2a53b6616",
+  "objects": 314,
+  "unchanged_native_objects_vs_v8": 273,
+  "unchanged_names": [
+    "BILGE_KEEL_PORT",
+    "BILGE_KEEL_STBD",
+    "BRIDGE_AFT",
+    "BRIDGE_FRONT",
+    "CATWALK_BRACKET_+1_X120",
+    "CATWALK_BRACKET_+1_X180",
+    "CATWALK_BRACKET_+1_X240",
+    "CATWALK_BRACKET_+1_X300",
+    "CATWALK_BRACKET_+1_X360",
+    "CATWALK_BRACKET_+1_X420",
+    "CATWALK_BRACKET_+1_X490",
+    "CATWALK_BRACKET_+1_X550",
+    "CATWALK_BRACKET_+1_X60",
+    "CATWALK_BRACKET_+1_X610",
+    "CATWALK_BRACKET_+1_X670",
+    "CATWALK_BRACKET_+1_X745",
+    "CATWALK_BRACKET_-1_X120",
+    "CATWALK_BRACKET_-1_X180",
+    "CATWALK_BRACKET_-1_X240",
+    "CATWALK_BRACKET_-1_X300",
+    "CATWALK_BRACKET_-1_X360",
+    "CATWALK_BRACKET_-1_X420",
+    "CATWALK_BRACKET_-1_X490",
+    "CATWALK_BRACKET_-1_X550",
+    "CATWALK_BRACKET_-1_X60",
+    "CATWALK_BRACKET_-1_X610",
+    "CATWALK_BRACKET_-1_X670",
+    "CATWALK_BRACKET_-1_X745",
+    "CATWALK_COAMING_+1_0",
+    "CATWALK_COAMING_+1_1",
+    "CATWALK_COAMING_-1_0",
+    "CATWALK_COAMING_-1_1",
+    "CATWALK_FLOOR_+1_0",
+    "CATWALK_FLOOR_+1_1",
+    "CATWALK_FLOOR_-1_0",
+    "CATWALK_FLOOR_-1_1",
+    "ELEVATOR_PLATFORM_PORT_AFT",
+    "ELEVATOR_PLATFORM_STBD",
+    "EMALS_EDGE_-38",
+    "EMALS_EDGE_-40",
+    "EMALS_SINGLE_PORT_REFERENCE",
+    "FRAME_01_X35",
+    "FRAME_02_X70",
+    "FRAME_03_X110",
+    "FRAME_04_X160",
+    "FRAME_05_X225",
+    "FRAME_06_X300",
+    "FRAME_07_X380",
+    "FRAME_09_X540",
+    "FRAME_10_X610",
+    "FRAME_11_X665",
+    "FRAME_13_X750",
+    "FRAME_14_X772",
+    "FRAME_CHEEK_PORT_X110",
+    "FRAME_CHEEK_PORT_X160",
+    "FRAME_CHEEK_PORT_X225",
+    "FRAME_CHEEK_PORT_X300",
+    "FRAME_CHEEK_PORT_X35",
+    "FRAME_CHEEK_PORT_X380",
+    "FRAME_CHEEK_PORT_X460",
+    "FRAME_CHEEK_PORT_X540",
+    "FRAME_CHEEK_PORT_X610",
+    "FRAME_CHEEK_PORT_X665",
+    "FRAME_CHEEK_PORT_X70",
+    "FRAME_CHEEK_PORT_X750",
+    "FRAME_CHEEK_PORT_X772",
+    "FRAME_CHEEK_STBD_X110",
+    "FRAME_CHEEK_STBD_X160",
+    "FRAME_CHEEK_STBD_X225",
+    "FRAME_CHEEK_STBD_X300",
+    "FRAME_CHEEK_STBD_X380",
+    "FRAME_CHEEK_STBD_X540",
+    "FRAME_CHEEK_STBD_X610",
+    "FRAME_CHEEK_STBD_X665",
+    "FRAME_CHEEK_STBD_X70",
+    "FRAME_CHEEK_STBD_X710",
+    "FRAME_CHEEK_STBD_X750",
+    "FRAME_CHEEK_STBD_X772",
+    "FUNNEL_AFT",
+    "FUNNEL_FRONT",
+    "HANGAR_AFT_WALL",
+    "HANGAR_CASSETTE_FLOOR",
+    "HANGAR_FORWARD_WALL",
+    "HANGAR_PORT_WALL",
+    "HANGAR_REMOVABLE_ROOF",
+    "HANGAR_SEAT_KEY_PORT_X225",
+    "HANGAR_SEAT_KEY_PORT_X300",
+    "HANGAR_SEAT_KEY_PORT_X380",
+    "HANGAR_SEAT_KEY_PORT_X540",
+    "HANGAR_SEAT_KEY_STBD_X225",
+    "HANGAR_SEAT_KEY_STBD_X300",
+    "HANGAR_SEAT_KEY_STBD_X380",
+    "HANGAR_SEAT_KEY_STBD_X540",
+    "HANGAR_SEAT_PORT_X225",
+    "HANGAR_SEAT_PORT_X300",
+    "HANGAR_SEAT_PORT_X380",
+    "HANGAR_SEAT_PORT_X540",
+    "HANGAR_SEAT_STBD_X225",
+    "HANGAR_SEAT_STBD_X300",
+    "HANGAR_SEAT_STBD_X380",
+    "HANGAR_SEAT_STBD_X540",
+    "HAWSE_BACK_PORT_0",
+    "HAWSE_BACK_PORT_1",
+    "HAWSE_BACK_PORT_2",
+    "HAWSE_BACK_PORT_3",
+    "HAWSE_BACK_STBD_0",
+    "HAWSE_BACK_STBD_1",
+    "HAWSE_BACK_STBD_2",
+    "HAWSE_BACK_STBD_3",
+    "HAWSE_RIM_PORT_0",
+    "HAWSE_RIM_PORT_1",
+    "HAWSE_RIM_PORT_2",
+    "HAWSE_RIM_PORT_3",
+    "HAWSE_RIM_STBD_0",
+    "HAWSE_RIM_STBD_1",
+    "HAWSE_RIM_STBD_2",
+    "HAWSE_RIM_STBD_3",
+    "HAWSE_TUNNEL_PORT_0",
+    "HAWSE_TUNNEL_PORT_1",
+    "HAWSE_TUNNEL_PORT_2",
+    "HAWSE_TUNNEL_PORT_3",
+    "HAWSE_TUNNEL_STBD_0",
+    "HAWSE_TUNNEL_STBD_1",
+    "HAWSE_TUNNEL_STBD_2",
+    "HAWSE_TUNNEL_STBD_3",
+    "ISLAND_AFT",
+    "ISLAND_FRONT",
+    "LANDING_MARK_1_ESTIMATED",
+    "LANDING_MARK_2_ESTIMATED",
+    "LANDING_MARK_3_ESTIMATED",
+    "LANDING_MARK_4_ESTIMATED",
+    "LANDING_MARK_5_ESTIMATED",
+    "LANDING_MARK_6_ESTIMATED",
+    "LONGITUDINAL_+1",
+    "LONGITUDINAL_-1",
+    "LOWER_CROSSPLATE_5_FRAMES_1",
+    "LOWER_CROSSPLATE_5_FRAMES_2",
+    "MAIN_KEEL_3MM_SLOTTED",
+    "MAST_AFT",
+    "MAST_FRONT",
+    "PROPELLER_HUB_PORT",
+    "PROPELLER_HUB_STBD",
+    "PROPELLER_PORT_BLADE_1",
+    "PROPELLER_PORT_BLADE_2",
+    "PROPELLER_PORT_BLADE_3",
+    "PROPELLER_PORT_BLADE_4",
+    "PROPELLER_PORT_BLADE_5",
+    "PROPELLER_STBD_BLADE_1",
+    "PROPELLER_STBD_BLADE_2",
+    "PROPELLER_STBD_BLADE_3",
+    "PROPELLER_STBD_BLADE_4",
+    "PROPELLER_STBD_BLADE_5",
+    "RADAR_AFT",
+    "RADAR_FRONT",
+    "RESERVED_ARRESTING",
+    "RESERVED_BATTERY",
+    "RESERVED_ELECTRONICS",
+    "RESERVED_ELEVATOR_PORT_AFT",
+    "RESERVED_ELEVATOR_STBD",
+    "RESERVED_EMALS",
+    "RESERVED_HANGAR",
+    "RESERVED_PROP_PORT",
+    "RESERVED_PROP_STBD",
+    "RESERVED_WELL",
+    "RUDDER_PORT",
+    "RUDDER_STBD",
+    "RUDDER_STOCK_PORT",
+    "RUDDER_STOCK_STBD",
+    "SHAFT_PORT",
+    "SHAFT_STBD",
+    "SHAFT_STRUT_PORT_1",
+    "SHAFT_STRUT_PORT_2",
+    "SHAFT_STRUT_STBD_1",
+    "SHAFT_STRUT_STBD_2",
+    "SKIN_AFT_1_1_PORT",
+    "SKIN_AFT_1_1_STBD",
+    "SKIN_AFT_1_2_PORT",
+    "SKIN_AFT_1_2_STBD",
+    "SKIN_AFT_1_3_PORT",
+    "SKIN_AFT_1_3_STBD",
+    "SKIN_AFT_2_1_PORT",
+    "SKIN_AFT_2_1_STBD",
+    "SKIN_AFT_2_2_PORT",
+    "SKIN_AFT_2_2_STBD",
+    "SKIN_AFT_2_3_PORT",
+    "SKIN_AFT_3_1_PORT",
+    "SKIN_AFT_3_1_STBD",
+    "SKIN_AFT_3_2_PORT",
+    "SKIN_AFT_3_2_STBD",
+    "SKIN_AFT_3_3_STBD",
+    "SKIN_AFT_4_1_PORT",
+    "SKIN_AFT_4_1_STBD",
+    "SKIN_AFT_4_2_PORT",
+    "SKIN_AFT_4_2_STBD",
+    "SKIN_AFT_4_3_STBD",
+    "SKIN_FORE_1_1_PORT",
+    "SKIN_FORE_1_1_STBD",
+    "SKIN_FORE_1_2_PORT",
+    "SKIN_FORE_1_2_STBD",
+    "SKIN_FORE_1_3_PORT",
+    "SKIN_FORE_1_3_STBD",
+    "SKIN_FORE_1_4_PORT",
+    "SKIN_FORE_1_4_STBD",
+    "SKIN_FORE_1_5_PORT",
+    "SKIN_FORE_1_5_STBD",
+    "SKIN_FORE_2_1_PORT",
+    "SKIN_FORE_2_1_STBD",
+    "SKIN_FORE_2_2_PORT",
+    "SKIN_FORE_2_2_STBD",
+    "SKIN_FORE_2_3_PORT",
+    "SKIN_FORE_2_3_STBD",
+    "SKIN_FORE_2_5_PORT",
+    "SKIN_FORE_2_5_STBD",
+    "SKIN_FORE_3_1_PORT",
+    "SKIN_FORE_3_1_STBD",
+    "SKIN_FORE_3_2_PORT",
+    "SKIN_FORE_3_2_STBD",
+    "SKIN_FORE_3_3_PORT",
+    "SKIN_FORE_3_3_STBD",
+    "SKIN_FORE_3_4_PORT",
+    "SKIN_FORE_3_4_STBD",
+    "SKIN_FORE_3_5_PORT",
+    "SKIN_FORE_3_5_STBD",
+    "SKIN_STEM",
+    "STERN_MODEL_SKEG",
+    "STERN_TUBE_PORT",
+    "STERN_TUBE_STBD",
+    "TEMP_PLANKING_BRACE_X110",
+    "TEMP_PLANKING_BRACE_X160",
+    "TEMP_PLANKING_BRACE_X225",
+    "TEMP_PLANKING_BRACE_X300",
+    "TEMP_PLANKING_BRACE_X380",
+    "TEMP_PLANKING_BRACE_X540",
+    "TEMP_PLANKING_BRACE_X610",
+    "TEMP_PLANKING_BRACE_X665",
+    "TEMP_PLANKING_BRACE_X750",
+    "TRANSOM_ABOVE_OPENING",
+    "TRANSOM_BELOW_OPENING",
+    "TRANSOM_OPENING_SIDE_-1",
+    "TRANSOM_OPENING_SIDE_1",
+    "WELL_FORWARD_WALL",
+    "WELL_INNER_FLOOR_1",
+    "WELL_INNER_FLOOR_2",
+    "WELL_LIFT_OUT_BEAM_X665",
+    "WELL_LIFT_OUT_BEAM_X750",
+    "WELL_LIFT_OUT_BEAM_X772",
+    "WELL_PORT_WALL",
+    "WELL_REMOVABLE_ROOF",
+    "WELL_STBD_WALL",
+    "WINDOW_AFT_0",
+    "WINDOW_AFT_1",
+    "WINDOW_AFT_2",
+    "WINDOW_AFT_3",
+    "WINDOW_AFT_4",
+    "WINDOW_FRONT_0",
+    "WINDOW_FRONT_1",
+    "WINDOW_FRONT_2",
+    "WINDOW_FRONT_3",
+    "WINDOW_FRONT_4",
+    "WINDOW_FRONT_5",
+    "WINDOW_FRONT_6",
+    "WINDOW_FRONT_7",
+    "WINDOW_FRONT_8",
+    "WIRE_BATTERY",
+    "WIRE_CONTROL",
+    "WIRE_CROSS_LINK",
+    "WIRE_LIGHT_FIXED",
+    "WIRE_LIGHT_WITHDRAWABLE",
+    "WIRE_MAIN_PORT",
+    "WIRE_MAIN_STBD",
+    "WIRE_MOTOR_PORT",
+    "WIRE_MOTOR_STBD",
+    "WIRE_SERVO"
+  ],
+  "native_profile_ties": [
+    {
+      "part": "FLIGHT_DECK_WHOLE",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "UPPER_CROSSPLATE_SERVICE_RUNNER",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_08_X460",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_12_X710",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "DECK_LEDGE_+1_V9_1",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "DECK_LEDGE_+1_V9_2",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "DECK_LEDGE_-1_V9_1",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "DECK_LEDGE_-1_V9_2",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "WELL_LIFT_OUT_BEAM_X710",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_STBD_WALL",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_PORT_X225",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_KEY_PORT_X225",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_STBD_X225",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_KEY_STBD_X225",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_PORT_X300",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_KEY_PORT_X300",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_STBD_X300",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_KEY_STBD_X300",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_PORT_X380",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_KEY_PORT_X380",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_STBD_X380",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_KEY_STBD_X380",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_PORT_X540",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_KEY_PORT_X540",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_STBD_X540",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_SEAT_KEY_STBD_X540",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_CASSETTE_FLOOR",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "WELL_FORWARD_WALL",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "WELL_PORT_WALL",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "WELL_STBD_WALL",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "WELL_INNER_FLOOR_1",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "WELL_INNER_FLOOR_2",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_FORWARD_WALL",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_AFT_WALL",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_PORT_WALL",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "HANGAR_REMOVABLE_ROOF",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LOWER_CROSSPLATE_5_FRAMES_1",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LOWER_CROSSPLATE_5_FRAMES_2",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "WELL_REMOVABLE_ROOF",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_01_X35",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_02_X70",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_03_X110",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_04_X160",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_05_X225",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_06_X300",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_07_X380",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_09_X540",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_10_X610",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "WELL_LIFT_OUT_BEAM_X665",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_11_X665",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "WELL_LIFT_OUT_BEAM_X750",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_13_X750",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "WELL_LIFT_OUT_BEAM_X772",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_14_X772",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "MAIN_KEEL_3MM_SLOTTED",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X35",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X70",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X70",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "TEMP_PLANKING_BRACE_X110",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X110",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X110",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "TEMP_PLANKING_BRACE_X160",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X160",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X160",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "TEMP_PLANKING_BRACE_X225",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X225",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X225",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "TEMP_PLANKING_BRACE_X300",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X300",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X300",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "TEMP_PLANKING_BRACE_X380",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X380",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X380",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X460",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "TEMP_PLANKING_BRACE_X540",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X540",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X540",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "TEMP_PLANKING_BRACE_X610",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X610",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X610",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "TEMP_PLANKING_BRACE_X665",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X665",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X665",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X710",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "TEMP_PLANKING_BRACE_X750",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X750",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X750",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X772",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X772",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_STBD_CARRIAGE_1_ARM",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_STBD_CARRIAGE_1_SLEEVE",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_STBD_STOP_1_LOWER",
+      "max_profile_coordinate_error_mm": 2.2648549702353193e-14,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_STBD_STOP_1_UPPER",
+      "max_profile_coordinate_error_mm": 2.2648549702353193e-14,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_STBD_SUPPORT_1",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_STBD_CARRIAGE_2_ARM",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_STBD_CARRIAGE_2_SLEEVE",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_STBD_STOP_2_LOWER",
+      "max_profile_coordinate_error_mm": 1.1368683772161603e-13,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_STBD_STOP_2_UPPER",
+      "max_profile_coordinate_error_mm": 1.1368683772161603e-13,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_STBD_SUPPORT_2",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_PORT_CARRIAGE_1_ARM",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_PORT_CARRIAGE_1_SLEEVE",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_PORT_STOP_1_LOWER",
+      "max_profile_coordinate_error_mm": 5.684341886080802e-14,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_PORT_STOP_1_UPPER",
+      "max_profile_coordinate_error_mm": 5.684341886080802e-14,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_PORT_SUPPORT_1",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_PORT_CARRIAGE_2_ARM",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_PORT_CARRIAGE_2_SLEEVE",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_PORT_STOP_2_LOWER",
+      "max_profile_coordinate_error_mm": 1.1368683772161603e-13,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_PORT_STOP_2_UPPER",
+      "max_profile_coordinate_error_mm": 1.1368683772161603e-13,
+      "valid_native_solid": true
+    },
+    {
+      "part": "LIFT_PORT_SUPPORT_2",
+      "max_profile_coordinate_error_mm": 0,
+      "valid_native_solid": true
+    }
+  ],
+  "deck": {
+    "one_connected_board": true,
+    "interior_holes": 0,
+    "x_mm": [
+      0,
+      800
+    ],
+    "thickness_mm": 3,
+    "islands_and_markings_move_with_deck": true
+  },
+  "assembled_solid_bbox_candidates": 197,
+  "assembled_collisions": [],
+  "inherited_decorative_superstructure_contacts": [
+    {
+      "a": "BRIDGE_FRONT",
+      "b": "WINDOW_FRONT_0",
+      "volume_mm3": 2.529960378023494
+    },
+    {
+      "a": "BRIDGE_FRONT",
+      "b": "WINDOW_FRONT_1",
+      "volume_mm3": 2.529970448679895
+    },
+    {
+      "a": "BRIDGE_FRONT",
+      "b": "WINDOW_FRONT_2",
+      "volume_mm3": 2.529960378023494
+    },
+    {
+      "a": "BRIDGE_FRONT",
+      "b": "WINDOW_FRONT_3",
+      "volume_mm3": 2.529960378023494
+    },
+    {
+      "a": "BRIDGE_FRONT",
+      "b": "WINDOW_FRONT_4",
+      "volume_mm3": 2.529970448679895
+    },
+    {
+      "a": "BRIDGE_FRONT",
+      "b": "WINDOW_FRONT_5",
+      "volume_mm3": 2.529960378023494
+    },
+    {
+      "a": "BRIDGE_FRONT",
+      "b": "WINDOW_FRONT_6",
+      "volume_mm3": 2.529960378023494
+    },
+    {
+      "a": "BRIDGE_FRONT",
+      "b": "WINDOW_FRONT_7",
+      "volume_mm3": 2.529970448679895
+    },
+    {
+      "a": "BRIDGE_FRONT",
+      "b": "WINDOW_FRONT_8",
+      "volume_mm3": 2.529960378023494
+    },
+    {
+      "a": "MAST_FRONT",
+      "b": "RADAR_FRONT",
+      "volume_mm3": 27.0
+    },
+    {
+      "a": "BRIDGE_AFT",
+      "b": "WINDOW_AFT_0",
+      "volume_mm3": 2.1779707946181284
+    },
+    {
+      "a": "BRIDGE_AFT",
+      "b": "WINDOW_AFT_1",
+      "volume_mm3": 2.1779707946181284
+    },
+    {
+      "a": "BRIDGE_AFT",
+      "b": "WINDOW_AFT_2",
+      "volume_mm3": 2.1779607239617085
+    },
+    {
+      "a": "BRIDGE_AFT",
+      "b": "WINDOW_AFT_3",
+      "volume_mm3": 2.1779808652745487
+    },
+    {
+      "a": "BRIDGE_AFT",
+      "b": "WINDOW_AFT_4",
+      "volume_mm3": 2.1779607239617085
+    },
+    {
+      "a": "MAST_AFT",
+      "b": "RADAR_AFT",
+      "volume_mm3": 27.0
+    }
+  ],
+  "corridors": [
+    {
+      "side": "STBD",
+      "clear_prism_mm": {
+        "x": [
+          430,
+          482
+        ],
+        "y": [
+          38,
+          93
+        ],
+        "z": [
+          47,
+          70
+        ]
+      },
+      "hits": []
+    },
+    {
+      "side": "PORT",
+      "clear_prism_mm": {
+        "x": [
+          680,
+          732
+        ],
+        "y": [
+          -93,
+          -25.5
+        ],
+        "z": [
+          47,
+          70
+        ]
+      },
+      "hits": []
+    }
+  ],
+  "corridor_solid_bbox_candidates": 3,
+  "continuous_sweeps": [
+    {
+      "assembly": "ELEVATOR_STBD",
+      "offset_range_z_mm": [
+        -32,
+        0
+      ],
+      "method": "CONTINUOUS_VERTICAL_EXTRUSION_SWEEP",
+      "precondition": null,
+      "members": [
+        "ELEVATOR_PLATFORM_STBD",
+        "LIFT_STBD_CARRIAGE_1_ARM",
+        "LIFT_STBD_CARRIAGE_1_SLEEVE",
+        "LIFT_STBD_CARRIAGE_2_ARM",
+        "LIFT_STBD_CARRIAGE_2_SLEEVE"
+      ],
+      "bbox_candidates_tested": 7,
+      "hits": []
+    },
+    {
+      "assembly": "ELEVATOR_PORT",
+      "offset_range_z_mm": [
+        -32,
+        0
+      ],
+      "method": "CONTINUOUS_VERTICAL_EXTRUSION_SWEEP",
+      "precondition": null,
+      "members": [
+        "ELEVATOR_PLATFORM_PORT_AFT",
+        "LIFT_PORT_CARRIAGE_1_ARM",
+        "LIFT_PORT_CARRIAGE_1_SLEEVE",
+        "LIFT_PORT_CARRIAGE_2_ARM",
+        "LIFT_PORT_CARRIAGE_2_SLEEVE"
+      ],
+      "bbox_candidates_tested": 7,
+      "hits": []
+    },
+    {
+      "assembly": "SERVICE_HATCH",
+      "offset_range_z_mm": [
+        0,
+        190
+      ],
+      "method": "CONTINUOUS_VERTICAL_EXTRUSION_SWEEP",
+      "precondition": null,
+      "members": [
+        "FLIGHT_DECK_WHOLE",
+        "ISLAND_FRONT",
+        "BRIDGE_FRONT",
+        "WINDOW_FRONT_0",
+        "WINDOW_FRONT_1",
+        "WINDOW_FRONT_2",
+        "WINDOW_FRONT_3",
+        "WINDOW_FRONT_4",
+        "WINDOW_FRONT_5",
+        "WINDOW_FRONT_6",
+        "WINDOW_FRONT_7",
+        "WINDOW_FRONT_8",
+        "FUNNEL_FRONT",
+        "MAST_FRONT",
+        "RADAR_FRONT",
+        "ISLAND_AFT",
+        "BRIDGE_AFT",
+        "WINDOW_AFT_0",
+        "WINDOW_AFT_1",
+        "WINDOW_AFT_2",
+        "WINDOW_AFT_3",
+        "WINDOW_AFT_4",
+        "FUNNEL_AFT",
+        "MAST_AFT",
+        "RADAR_AFT"
+      ],
+      "bbox_candidates_tested": 2,
+      "hits": []
+    },
+    {
+      "assembly": "HANGAR_ROOF",
+      "offset_range_z_mm": [
+        0,
+        80
+      ],
+      "method": "CONTINUOUS_VERTICAL_EXTRUSION_SWEEP",
+      "precondition": "REMOVE_WHOLE_DECK_FIRST",
+      "members": [
+        "HANGAR_REMOVABLE_ROOF"
+      ],
+      "bbox_candidates_tested": 5,
+      "hits": []
+    }
+  ],
+  "skin_samples": 102541,
+  "skin_corridor_hits": [],
+  "native_mother_subpatch_deviations": [
+    {
+      "part": "SKIN_AFT_2_3_STBD_V9_RETAINED_1",
+      "samples": 437,
+      "maximum_source_deviation_mm": 2.8457214390443806e-13
+    },
+    {
+      "part": "SKIN_AFT_2_3_STBD_V9_RETAINED_2",
+      "samples": 437,
+      "maximum_source_deviation_mm": 3.991707417636729e-13
+    },
+    {
+      "part": "SKIN_AFT_2_3_STBD_V9_RETAINED_3",
+      "samples": 437,
+      "maximum_source_deviation_mm": 3.4135644425146874e-13
+    },
+    {
+      "part": "SKIN_AFT_3_3_PORT_V9_RETAINED_1",
+      "samples": 437,
+      "maximum_source_deviation_mm": 3.4143038694577295e-13
+    },
+    {
+      "part": "SKIN_AFT_3_3_PORT_V9_RETAINED_2",
+      "samples": 437,
+      "maximum_source_deviation_mm": 4.558562219570331e-13
+    },
+    {
+      "part": "SKIN_AFT_4_3_PORT_V9_RETAINED_1",
+      "samples": 437,
+      "maximum_source_deviation_mm": 5.688781044809757e-13
+    },
+    {
+      "part": "SKIN_AFT_4_3_PORT_V9_RETAINED_2",
+      "samples": 437,
+      "maximum_source_deviation_mm": 5.686117965451148e-13
+    }
+  ],
+  "well_interior_hits": [],
+  "protected_well_and_stern_native_unchanged": [
+    "FRAME_13_X750",
+    "FRAME_14_X772",
+    "WELL_INNER_FLOOR_1",
+    "WELL_INNER_FLOOR_2",
+    "WELL_PORT_WALL",
+    "WELL_STBD_WALL",
+    "WELL_FORWARD_WALL"
+  ],
+  "rail_radial_clearance_mm": 0.25,
+  "stop_fixation_native_checks": [
+    {
+      "part": "LIFT_STBD_STOP_1_LOWER",
+      "native_circular_bore_radius_mm": 1.0,
+      "native_guide_radius_mm": 1.0,
+      "nominal_radial_gap_mm": 0.0,
+      "nominal_contact_surface_area_mm2": 18.84955592153876,
+      "lower_support_face_contact_area_mm2": 11.5415672044482,
+      "attachment": "D MODEL ASSUMPTION: nominal snug bore contacts guide; bonded/clamped fixing NOT_VERIFIED",
+      "physical_fixation_strength": "NOT_VERIFIED"
+    },
+    {
+      "part": "LIFT_STBD_STOP_1_UPPER",
+      "native_circular_bore_radius_mm": 1.0,
+      "native_guide_radius_mm": 1.0,
+      "nominal_radial_gap_mm": 0.0,
+      "nominal_contact_surface_area_mm2": 18.84955592153876,
+      "lower_support_face_contact_area_mm2": null,
+      "attachment": "D MODEL ASSUMPTION: nominal snug bore contacts guide; bonded/clamped fixing NOT_VERIFIED",
+      "physical_fixation_strength": "NOT_VERIFIED"
+    },
+    {
+      "part": "LIFT_STBD_STOP_2_LOWER",
+      "native_circular_bore_radius_mm": 1.0000000000001137,
+      "native_guide_radius_mm": 1.0,
+      "nominal_radial_gap_mm": 1.1368683772161603e-13,
+      "nominal_contact_surface_area_mm2": 18.8495559215409,
+      "lower_support_face_contact_area_mm2": 11.5415672044482,
+      "attachment": "D MODEL ASSUMPTION: nominal snug bore contacts guide; bonded/clamped fixing NOT_VERIFIED",
+      "physical_fixation_strength": "NOT_VERIFIED"
+    },
+    {
+      "part": "LIFT_STBD_STOP_2_UPPER",
+      "native_circular_bore_radius_mm": 1.0000000000001137,
+      "native_guide_radius_mm": 1.0,
+      "nominal_radial_gap_mm": 1.1368683772161603e-13,
+      "nominal_contact_surface_area_mm2": 18.8495559215409,
+      "lower_support_face_contact_area_mm2": null,
+      "attachment": "D MODEL ASSUMPTION: nominal snug bore contacts guide; bonded/clamped fixing NOT_VERIFIED",
+      "physical_fixation_strength": "NOT_VERIFIED"
+    },
+    {
+      "part": "LIFT_PORT_STOP_1_LOWER",
+      "native_circular_bore_radius_mm": 1.0,
+      "native_guide_radius_mm": 1.0,
+      "nominal_radial_gap_mm": 0.0,
+      "nominal_contact_surface_area_mm2": 18.84955592153876,
+      "lower_support_face_contact_area_mm2": 11.541567204448299,
+      "attachment": "D MODEL ASSUMPTION: nominal snug bore contacts guide; bonded/clamped fixing NOT_VERIFIED",
+      "physical_fixation_strength": "NOT_VERIFIED"
+    },
+    {
+      "part": "LIFT_PORT_STOP_1_UPPER",
+      "native_circular_bore_radius_mm": 1.0,
+      "native_guide_radius_mm": 1.0,
+      "nominal_radial_gap_mm": 0.0,
+      "nominal_contact_surface_area_mm2": 18.84955592153876,
+      "lower_support_face_contact_area_mm2": null,
+      "attachment": "D MODEL ASSUMPTION: nominal snug bore contacts guide; bonded/clamped fixing NOT_VERIFIED",
+      "physical_fixation_strength": "NOT_VERIFIED"
+    },
+    {
+      "part": "LIFT_PORT_STOP_2_LOWER",
+      "native_circular_bore_radius_mm": 1.0,
+      "native_guide_radius_mm": 1.0,
+      "nominal_radial_gap_mm": 0.0,
+      "nominal_contact_surface_area_mm2": 18.84955592153876,
+      "lower_support_face_contact_area_mm2": 11.541567204448299,
+      "attachment": "D MODEL ASSUMPTION: nominal snug bore contacts guide; bonded/clamped fixing NOT_VERIFIED",
+      "physical_fixation_strength": "NOT_VERIFIED"
+    },
+    {
+      "part": "LIFT_PORT_STOP_2_UPPER",
+      "native_circular_bore_radius_mm": 1.0,
+      "native_guide_radius_mm": 1.0,
+      "nominal_radial_gap_mm": 0.0,
+      "nominal_contact_surface_area_mm2": 18.84955592153876,
+      "lower_support_face_contact_area_mm2": null,
+      "attachment": "D MODEL ASSUMPTION: nominal snug bore contacts guide; bonded/clamped fixing NOT_VERIFIED",
+      "physical_fixation_strength": "NOT_VERIFIED"
+    }
+  ],
+  "deck_platform_nominal_edge_clearance_mm": 0.5,
+  "evidence_limits": [
+    "Rhino desktop UI NOT_CHECKED",
+    "Structural/material/actuator/physical load NOT_VERIFIED",
+    "Open skin tested by native sampling and exact subpatch domains; not solid boolean",
+    "Collision meshes are tessellated; native extrusion profiles independently tied",
+    "REVIEW_ONLY; no fabrication or watertight-release claim"
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "audit_timestamp_utc": "2026-10-18T10:38:04Z",
+  "scope": "V9升降机位置、竖向导向外观与甲板/无蒙皮过渡的参考证据审查；未修改模型或网页",
+  "grades": {
+    "A": "官方明确陈述",
+    "B": "不同机构原始材料交叉一致",
+    "C": "公开照片判读或估测；非校准量测",
+    "D": "模型设计假设",
+    "Unknown": "本次资料不足"
+  },
+  "image_total": 13,
+  "image_unique_count": 7,
+  "images": [
+    {
+      "id": "IMG06",
+      "original_path": "USER_IMAGES\\codex-clipboard-4fc0f439-aec2-4b8b-af81-c840e31017a4.jpg",
+      "copied_path": "inputs\\IMG06.jpg",
+      "sha256": "9c9cac497c2e8ec9632cd9d206f7ff64f72a11610202572ecaa722e0cc0e949c",
+      "bytes": 382043,
+      "width": 3840,
+      "height": 2160,
+      "category": "user_real_photo",
+      "duplicate_of": "",
+      "inspected": "unique_image_visually_inspected",
+      "observation": "左舷艉斜视实拍；可见左舷后部舷侧升降机平台与平台下方两端的竖向构件。",
+      "allowed_use": "左舷后部升降机与竖向导向外观的定性参考；不作长度标定、驱动原理或隐藏结构证据。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "IMG07",
+      "original_path": "USER_IMAGES\\codex-clipboard-d72d11e6-85fd-42db-8daf-af25a134992e.jpg",
+      "copied_path": "inputs\\IMG07.jpg",
+      "sha256": "9c9cac497c2e8ec9632cd9d206f7ff64f72a11610202572ecaa722e0cc0e949c",
+      "bytes": 382043,
+      "width": 3840,
+      "height": 2160,
+      "category": "user_real_photo_duplicate",
+      "duplicate_of": "IMG06",
+      "inspected": "hash_exact_duplicate_of_inspected_image",
+      "observation": "与IMG06逐字节相同。",
+      "allowed_use": "保留来源记录；不能计为第二视角或独立证据。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "MODEL01",
+      "original_path": "USER_IMAGES\\Snipaste_2026-10-18_18-11-53.png",
+      "copied_path": "inputs\\MODEL01.png",
+      "sha256": "dbb69a0cd04312e902793efcb5653a96120f38a8a51287339eed839b96639ffa",
+      "bytes": 47760,
+      "width": 403,
+      "height": 498,
+      "category": "user_current_model_screenshot",
+      "duplicate_of": "",
+      "inspected": "unique_image_visually_inspected",
+      "observation": "模型整体斜俯视，部分甲板处于移开/分离状态。",
+      "allowed_use": "定位当前模型与显示状态；不能用作真实076甲板结构资料。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "MODEL02",
+      "original_path": "USER_IMAGES\\Snipaste_2026-10-18_18-12-12.png",
+      "copied_path": "inputs\\MODEL02.png",
+      "sha256": "752996403a4d32c1bb5c59678611023ea6d18fe85f0ba1c5879606ceffee0118",
+      "bytes": 29546,
+      "width": 514,
+      "height": 349,
+      "category": "user_current_model_screenshot",
+      "duplicate_of": "",
+      "inspected": "unique_image_visually_inspected",
+      "observation": "模型内部板件与边缘接头局部。",
+      "allowed_use": "核对模型局部接合与过渡需求；不从截图推断板厚或实际间隙。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "MODEL03",
+      "original_path": "USER_IMAGES\\Snipaste_2026-10-18_18-12-21.png",
+      "copied_path": "inputs\\MODEL03.png",
+      "sha256": "1cc3ab15f8c095de1554d006e7b10475698910ed8dc493fa364b281bdfd8fbd8",
+      "bytes": 13996,
+      "width": 500,
+      "height": 251,
+      "category": "user_current_model_screenshot",
+      "duplicate_of": "",
+      "inspected": "unique_image_visually_inspected",
+      "observation": "舷侧升降机区域局部，平台板边与外侧立面可见。",
+      "allowed_use": "对应升降机导轨/舷侧外观修改需求；无尺寸标定。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "MODEL04",
+      "original_path": "USER_IMAGES\\Snipaste_2026-10-18_18-12-51.png",
+      "copied_path": "inputs\\MODEL04.png",
+      "sha256": "adb30db7da60b53184a35d39ddcde49c4c005306baf3ff6537a4fe9cfafc264d",
+      "bytes": 3225,
+      "width": 177,
+      "height": 153,
+      "category": "user_current_model_screenshot",
+      "duplicate_of": "",
+      "inspected": "unique_image_visually_inspected",
+      "observation": "模型外表面圆孔局部。",
+      "allowed_use": "仅保留为用户指出问题的局部图；不认定其为升降机特征。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "MODEL05",
+      "original_path": "USER_IMAGES\\Snipaste_2026-10-18_18-13-31.png",
+      "copied_path": "inputs\\MODEL05.png",
+      "sha256": "a7a35c0981b5e0d9e30be9c9e5a15fc218e0687291b826723079e9ed1698a787",
+      "bytes": 112454,
+      "width": 686,
+      "height": 339,
+      "category": "user_current_model_screenshot",
+      "duplicate_of": "",
+      "inspected": "unique_image_visually_inspected",
+      "observation": "模型内部艉部、双桨和舵构件可见。",
+      "allowed_use": "核对当前模型艉部装配与维修空间；不证明真实076轴系、舵形或水下线型。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "CGI01",
+      "original_path": "USER_IMAGES\\codex-clipboard-e5d38e00-616e-45db-9f7e-622a26cf579c.jpg",
+      "copied_path": "inputs\\CGI01.jpg",
+      "sha256": "98d41dc8539b761734f150bbcd2e4e319bf16b6f4f3be7086859ee6a40c9c1d0",
+      "bytes": 172693,
+      "width": 1200,
+      "height": 662,
+      "category": "third_party_CAD_CGI",
+      "duplicate_of": "",
+      "inspected": "unique_image_visually_inspected",
+      "observation": "SolidWorks界面中的第三方模型，含闲鱼水印。",
+      "allowed_use": "仅作为用户提供的第三方外观意向参考；不作为真实076证据、不照搬精确结构或尺寸。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "CGI02",
+      "original_path": "USER_IMAGES\\codex-clipboard-41a9d62c-1659-4d44-aaf1-2358cfcfcf9f.jpg",
+      "copied_path": "inputs\\CGI02.jpg",
+      "sha256": "98d41dc8539b761734f150bbcd2e4e319bf16b6f4f3be7086859ee6a40c9c1d0",
+      "bytes": 172693,
+      "width": 1200,
+      "height": 662,
+      "category": "third_party_CAD_CGI_duplicate",
+      "duplicate_of": "CGI01",
+      "inspected": "hash_exact_duplicate_of_inspected_image",
+      "observation": "与CGI01逐字节相同。",
+      "allowed_use": "保留记录；不增加独立证据数量。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "CGI03",
+      "original_path": "USER_IMAGES\\codex-clipboard-76288786-fd70-4779-bf8a-8589c904ac98.jpg",
+      "copied_path": "inputs\\CGI03.jpg",
+      "sha256": "98d41dc8539b761734f150bbcd2e4e319bf16b6f4f3be7086859ee6a40c9c1d0",
+      "bytes": 172693,
+      "width": 1200,
+      "height": 662,
+      "category": "third_party_CAD_CGI_duplicate",
+      "duplicate_of": "CGI01",
+      "inspected": "hash_exact_duplicate_of_inspected_image",
+      "observation": "与CGI01逐字节相同。",
+      "allowed_use": "保留记录；不增加独立证据数量。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "CGI04",
+      "original_path": "USER_IMAGES\\codex-clipboard-50d88091-4326-4ec8-b849-4b0595f34e19.jpg",
+      "copied_path": "inputs\\CGI04.jpg",
+      "sha256": "98d41dc8539b761734f150bbcd2e4e319bf16b6f4f3be7086859ee6a40c9c1d0",
+      "bytes": 172693,
+      "width": 1200,
+      "height": 662,
+      "category": "third_party_CAD_CGI_duplicate",
+      "duplicate_of": "CGI01",
+      "inspected": "hash_exact_duplicate_of_inspected_image",
+      "observation": "与CGI01逐字节相同。",
+      "allowed_use": "保留记录；不增加独立证据数量。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "MODEL03_DUP",
+      "original_path": "USER_IMAGES\\codex-clipboard-adf52b0b-5242-4881-b448-2067566a106e.png",
+      "copied_path": "inputs\\MODEL03_DUP.png",
+      "sha256": "1cc3ab15f8c095de1554d006e7b10475698910ed8dc493fa364b281bdfd8fbd8",
+      "bytes": 13996,
+      "width": 500,
+      "height": 251,
+      "category": "user_current_model_screenshot_duplicate",
+      "duplicate_of": "MODEL03",
+      "inspected": "hash_exact_duplicate_of_inspected_image",
+      "observation": "与MODEL03逐字节相同。",
+      "allowed_use": "保留临时路径来源；不重复计算证据。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    },
+    {
+      "id": "MODEL05_DUP",
+      "original_path": "USER_IMAGES\\codex-clipboard-50a5ffb9-0cb9-472b-92ec-7631cbd4a94c.png",
+      "copied_path": "inputs\\MODEL05_DUP.png",
+      "sha256": "a7a35c0981b5e0d9e30be9c9e5a15fc218e0687291b826723079e9ed1698a787",
+      "bytes": 112454,
+      "width": 686,
+      "height": 339,
+      "category": "user_current_model_screenshot_duplicate",
+      "duplicate_of": "MODEL05",
+      "inspected": "hash_exact_duplicate_of_inspected_image",
+      "observation": "与MODEL05逐字节相同。",
+      "allowed_use": "保留临时路径来源；不重复计算证据。",
+      "provenance": "用户提供本地文件；未核实原始摄影/建模作者与首次发布日期",
+      "public_reuse": "未知；用户提供不代表公开再发布许可"
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC01",
+      "title": "中国海军076两栖攻击舰首舰下水命名",
+      "publisher": "中国日报网",
+      "published": "2024-12-27",
+      "url": "https://cn.chinadaily.com.cn/a/202412/27/WS676e4473a310b59111dab326.html",
+      "source_type": "official_media_original_report",
+      "access": "正文已打开",
+      "supported": "双舰岛、全纵通飞行甲板、四川舰/51、满载排水量4万余吨。",
+      "limits": "未给升降机精确坐标、导轨尺寸或动力机构。"
+    },
+    {
+      "id": "SRC02",
+      "title": "Chinese PLA Navy's First Type 076 Amphibious Assault Ship \"Sichuan\" Conducts First Sea Trial",
+      "publisher": "China Military Online",
+      "published": "2025-11-14",
+      "url": "https://eng.chinamil.com.cn/2025xb/H_251454/L_251456/16421814.html",
+      "source_type": "official_original_report",
+      "access": "搜索索引全文可读；直接页面多次超时",
+      "supported": "2025-11-14首次海试、双舰岛和全纵通飞行甲板。",
+      "limits": "未完成页面图片核验；不以该页证明IMG06精确来源。"
+    },
+    {
+      "id": "SRC03",
+      "title": "China Names Type 076 Amphibious Catapult Carrier Sichuan At Launch Ceremony In Shanghai",
+      "publisher": "Naval News / Alex Luck",
+      "published": "2024-12-27; update 2024-12-30",
+      "url": "https://www.navalnews.com/naval-news/2024/12/type-076-amphibious-carrier-launched-by-hudong-in-shanghai/",
+      "source_type": "own_reporting_and_analysis",
+      "access": "正文已打开",
+      "supported": "明确叙述：右舷升降机位于两舰岛之间，左舷升降机近艉；给约260m长、约50m飞行甲板宽。",
+      "limits": "非官方精确图纸；图片有中国官媒/社媒来源，不自动构成独立照片证据。"
+    },
+    {
+      "id": "SRC04",
+      "title": "Chinese Type 076 Amphibious Assault Ship Sichuan Starts Sea Trials In Shanghai",
+      "publisher": "Naval News / Alex Luck",
+      "published": "2025-11-14; update 2025-11-16",
+      "url": "https://www.navalnews.com/naval-news/2025/11/chinese-type-076-amphibious-carrier-sichuan-starts-sea-trials/",
+      "source_type": "own_reporting_and_analysis",
+      "access": "正文已打开",
+      "supported": "两台舷侧航空升降机；记载252m总长、45m飞行甲板宽；配图注明中国官媒。",
+      "limits": "与SRC03同作者同媒体，不计独立互证；252×45与旧报260×50冲突；未对IMG06执行源图字节比对。首图说明误写31而正文51，按官方51保留异常。"
+    },
+    {
+      "id": "SRC05",
+      "title": "China’s Massive Next-Generation Amphibious Assault Ship Takes Shape",
+      "publisher": "CSIS / Matthew P. Funaiole, Brian Hart, Aidan Powers-Riggs, Joseph S. Bermudez Jr.",
+      "published": "2024-08-01",
+      "url": "https://www.csis.org/analysis/chinas-massive-next-generation-amphibious-assault-ship-takes-shape",
+      "source_type": "independent_original_satellite_analysis",
+      "access": "正文及标注影像链接已打开；未下载远程影像",
+      "supported": "自有卫星影像分析明确左右两舷各一航空升降机；2024-07-04影像估计飞行甲板约260×52m。",
+      "limits": "不把估计当官方尺寸；仅用于两舷各一的独立互证。本审查未进行其影像的量测或导轨解读。"
+    },
+    {
+      "id": "SRC06",
+      "title": "Chinese PLA Navy's first Type 076 amphibious assault ship Sichuan launches first sea trial",
+      "publisher": "Xinhua",
+      "published": "2025-11-14",
+      "url": "https://english.news.cn/20251114/8cc31e2150c44447be000ef351fdd516/c.html",
+      "source_type": "official_media_original_report",
+      "access": "正文已打开；图片原链接cache miss",
+      "supported": "首次海试、51舷号、双舰岛、全纵通飞行甲板；图说明署张亮/新华社。",
+      "limits": "图片链接未成功获取，不声称IMG06就是该页图片；与官媒同一事件转载不能假作独立技术证据。"
+    }
+  ],
+  "claims": [
+    {
+      "id": "Q01",
+      "claim": "真实076具有双舰岛与全纵通飞行甲板。",
+      "grade": "A",
+      "meaning": "官方明确",
+      "support": [
+        "SRC01",
+        "SRC02",
+        "SRC06"
+      ],
+      "limitation": "不能推出800mm模型的可拆分块、甲板厚度或内部承力方式。"
+    },
+    {
+      "id": "Q02",
+      "claim": "航空升降机为两台、左右两舷各一的舷侧布置。",
+      "grade": "B",
+      "meaning": "不同机构原始分析交叉一致",
+      "support": [
+        "SRC03",
+        "SRC04",
+        "SRC05"
+      ],
+      "limitation": "独立互证为Naval News与CSIS两机构；SRC03与SRC04本身只算同一来源家族。"
+    },
+    {
+      "id": "Q03",
+      "claim": "右舷升降机的大致纵向关系为两舰岛之间。",
+      "grade": "C",
+      "meaning": "公开资料定性判读/报道；具体纵向未取得独立图纸互证",
+      "support": [
+        "SRC03"
+      ],
+      "limitation": "IMG06为左舷艉斜视，远侧右舷受遮挡；不能据此精确复测右舷位置。"
+    },
+    {
+      "id": "Q04",
+      "claim": "左舷升降机位于船体后部、近艉但未贴艉端。",
+      "grade": "C",
+      "meaning": "用户实拍定性判读与媒体报道相符",
+      "support": [
+        "IMG06",
+        "SRC03"
+      ],
+      "limitation": "照片与报道可能同属官媒影像链，独立性未证；不导出精确X/L。"
+    },
+    {
+      "id": "Q05",
+      "claim": "IMG06中左舷升降机平台下方可见两端竖向构件及其下方延伸。",
+      "grade": "C",
+      "meaning": "照片外观判读",
+      "support": [
+        "IMG06"
+      ],
+      "limitation": "可以支持模型表现竖向导向构件；不能确认真实轨道截面、驱动、导轮数量、行程或容差。"
+    },
+    {
+      "id": "Q06",
+      "claim": "现右舷X430..482位于前岛330..416与后岛500..546之间；两端净间隔14mm、18mm。",
+      "grade": "D",
+      "meaning": "V8模型坐标与算术检查",
+      "support": [
+        "MODEL_PARAMETERS_V8"
+      ],
+      "limitation": "归一化范围53.75%..60.25%L、中心57%L只是800mm模型参数；不能标为真实舰量测。"
+    },
+    {
+      "id": "Q07",
+      "claim": "现左舷X680..732位于85%..91.5%L，中心88.25%L，距模型艉端68mm。",
+      "grade": "D",
+      "meaning": "V8模型坐标与算术检查",
+      "support": [
+        "MODEL_PARAMETERS_V8"
+      ],
+      "limitation": "满足近艉的定性关系；其精确位置、52mm长、43mm宽不是已证实的真实比例。"
+    },
+    {
+      "id": "Q08",
+      "claim": "800mm模型中新增竖轨的截面、板厚、行程、安装点及上部过渡和可拆甲板分块。",
+      "grade": "D",
+      "meaning": "模型结构设计",
+      "support": [
+        "USER_TASK"
+      ],
+      "limitation": "应由板材、运动包络、装配及维修需求确定；不能写成真实076内部结构复原。"
+    },
+    {
+      "id": "Q09",
+      "claim": "真实076升降机精确长宽、中心坐标、导轨截面、驱动原理与完整行程。",
+      "grade": "Unknown",
+      "meaning": "本次资料不足",
+      "support": [],
+      "limitation": "不填补缺失数据，不把CGI或模型截图当真实图纸。"
+    },
+    {
+      "id": "Q10",
+      "claim": "公开尺寸估值存在260×50m、252×45m与260×52m三组冲突。",
+      "grade": "C",
+      "meaning": "公开估值与口径记录",
+      "support": [
+        "SRC03",
+        "SRC04",
+        "SRC05"
+      ],
+      "limitation": "分别涉及近似船长/飞行甲板宽、总长/飞行甲板宽、卫星甲板估计；无法在本次审查统一为精确尺度。800mm为模型约束，不据此声称唯一真实比例。"
+    }
+  ],
+  "model_parameters": {
+    "id": "MODEL_PARAMETERS_V8",
+    "original_path": "PROJECT\\outputs\\076_Integration_V8\\parameters.json",
+    "snapshot": "inputs/parameters_v8_snapshot.json",
+    "sha256": "754860f47516432a6521433497289841e7d4a5377a02ae73cfff97d0d1f3c50b",
+    "LENGTH": 800,
+    "ELEVATORS": [
+      {
+        "id": "STBD",
+        "x": 430,
+        "y": 50,
+        "length": 52,
+        "width": 43
+      },
+      {
+        "id": "PORT_AFT",
+        "x": 680,
+        "y": -93,
+        "length": 52,
+        "width": 43
+      }
+    ],
+    "ISLANDS": [
+      {
+        "id": "FRONT",
+        "x": 330,
+        "y": 45,
+        "length": 86,
+        "width": 31,
+        "height": 28,
+        "mast": 26
+      },
+      {
+        "id": "AFT",
+        "x": 500,
+        "y": 45,
+        "length": 46,
+        "width": 31,
+        "height": 23,
+        "mast": 16
+      }
+    ],
+    "source_status": "当前V8模型参数，只证明模型坐标"
+  }
+}

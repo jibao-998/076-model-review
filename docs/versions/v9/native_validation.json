@@ -1,0 +1,42 @@
+{
+  "assembled": {
+    "objects": 314,
+    "valid": true,
+    "mesh_count": 0,
+    "units": "UnitSystem.Millimeters",
+    "named_views": 5,
+    "sha256": "91ccbbf2ed096be40bcf0853755e0bc534109f5659251c5d861b18e2a53b6616",
+    "backend": "rhino3dm.File3dm.Read; actual saved file",
+    "native_desktop_UI": "NOT_CHECKED"
+  },
+  "skeleton": {
+    "objects": 125,
+    "valid": true,
+    "mesh_count": 0,
+    "units": "UnitSystem.Millimeters",
+    "named_views": 5,
+    "sha256": "d5eb5f8b4f8fb4edbb8a156bc937a43d2583be4d6bd1ecacdb7184bc72fdee8b",
+    "backend": "rhino3dm.File3dm.Read; actual saved file",
+    "native_desktop_UI": "NOT_CHECKED"
+  },
+  "exploded": {
+    "objects": 314,
+    "valid": true,
+    "mesh_count": 0,
+    "units": "UnitSystem.Millimeters",
+    "named_views": 5,
+    "sha256": "1e27fda14c754f2fb56feadc24656bbd9b1091fdb28a1023efa493fb28d49631",
+    "backend": "rhino3dm.File3dm.Read; actual saved file",
+    "native_desktop_UI": "NOT_CHECKED"
+  },
+  "planking_jig": {
+    "objects": 128,
+    "valid": true,
+    "mesh_count": 0,
+    "units": "UnitSystem.Millimeters",
+    "named_views": 5,
+    "sha256": "901e7659f6f545051f59ef13d827bd8d83c87ffd7e6fe27baba593912c11a751",
+    "backend": "rhino3dm.File3dm.Read; actual saved file",
+    "native_desktop_UI": "NOT_CHECKED"
+  }
+}

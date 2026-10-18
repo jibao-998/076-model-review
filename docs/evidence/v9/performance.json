@@ -1,0 +1,17 @@
+{
+  "firstInteractiveMs": 577.4000000059605,
+  "downloadInflateMs": 126.3999999910593,
+  "sceneBuildMs": 75.70000000298023,
+  "frameSamples": 35,
+  "meanFrameMs": 120.46000000000001,
+  "triangles": 304648,
+  "drawCalls": 285,
+  "renderer": "Edge / SwiftShader software renderer in QA",
+  "viewport": [
+    1600,
+    829
+  ],
+  "devicePixelRatio": 1,
+  "jsHeapBytes": 82585694,
+  "realMobile": "NOT_CHECKED"
+}

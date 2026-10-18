@@ -1,0 +1,445 @@
+{
+  "deck": {
+    "name": "FLIGHT_DECK_WHOLE",
+    "assembly": "SERVICE_HATCH",
+    "x_mm": [
+      0,
+      800
+    ],
+    "z_mm": [
+      76,
+      79
+    ],
+    "thickness_mm": 3,
+    "connected_pieces": 1,
+    "interior_holes": 0,
+    "edge_notches": [
+      {
+        "x": [
+          429.5,
+          482.5
+        ],
+        "y": [
+          49.5,
+          110
+        ]
+      },
+      {
+        "x": [
+          679.5,
+          732.5
+        ],
+        "y": [
+          -110,
+          -49.5
+        ]
+      }
+    ],
+    "removal_axis": [
+      0,
+      0,
+      1
+    ],
+    "suggested_lift_mm": 190,
+    "islands_move_with_deck": true
+  },
+  "roof": {
+    "part": "HANGAR_REMOVABLE_ROOF",
+    "assembly": "HANGAR_ROOF",
+    "independent": true,
+    "suggested_lift_mm": 80
+  },
+  "lifts": {
+    "STBD": {
+      "assembly": "ELEVATOR_STBD",
+      "platform": "ELEVATOR_PLATFORM_STBD",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "stroke_mm": 32,
+      "offset_range_z_mm": [
+        -32,
+        0
+      ],
+      "upper_platform_z_mm": [
+        76,
+        79
+      ],
+      "lower_platform_z_mm": [
+        44,
+        47
+      ],
+      "rails": [
+        {
+          "center_xy_mm": [
+            433,
+            96
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "rod_radius_mm": 1,
+          "rod_z_mm": [
+            44,
+            88
+          ],
+          "carriage_bore_radius_mm": 1.25,
+          "radial_clearance_mm": 0.25,
+          "stop_bore_radius_mm": 1.0,
+          "stop_to_rod_nominal_radial_gap_mm": 0.0,
+          "stop_attachment": "D MODEL ASSUMPTION: snug contact plus bonding/clamping; fixing/strength NOT_VERIFIED",
+          "lower_stop_z_mm": [
+            44,
+            47
+          ],
+          "upper_stop_z_mm": [
+            85,
+            88
+          ],
+          "carriage_upper_z_mm": [
+            79,
+            85
+          ],
+          "carriage_lower_z_mm": [
+            47,
+            53
+          ]
+        },
+        {
+          "center_xy_mm": [
+            479,
+            96
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "rod_radius_mm": 1,
+          "rod_z_mm": [
+            44,
+            88
+          ],
+          "carriage_bore_radius_mm": 1.25,
+          "radial_clearance_mm": 0.25,
+          "stop_bore_radius_mm": 1.0,
+          "stop_to_rod_nominal_radial_gap_mm": 0.0,
+          "stop_attachment": "D MODEL ASSUMPTION: snug contact plus bonding/clamping; fixing/strength NOT_VERIFIED",
+          "lower_stop_z_mm": [
+            44,
+            47
+          ],
+          "upper_stop_z_mm": [
+            85,
+            88
+          ],
+          "carriage_upper_z_mm": [
+            79,
+            85
+          ],
+          "carriage_lower_z_mm": [
+            47,
+            53
+          ]
+        }
+      ],
+      "actuator": "UNSELECTED / NOT_VERIFIED",
+      "position_basis": "D MODEL ASSUMPTION: exact coordinates, 52x43mm footprint and guides; C photo/analysis inference only for gross starboard inter-island / port-aft placement"
+    },
+    "PORT": {
+      "assembly": "ELEVATOR_PORT",
+      "platform": "ELEVATOR_PLATFORM_PORT_AFT",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "stroke_mm": 32,
+      "offset_range_z_mm": [
+        -32,
+        0
+      ],
+      "upper_platform_z_mm": [
+        76,
+        79
+      ],
+      "lower_platform_z_mm": [
+        44,
+        47
+      ],
+      "rails": [
+        {
+          "center_xy_mm": [
+            683,
+            -96
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "rod_radius_mm": 1,
+          "rod_z_mm": [
+            44,
+            88
+          ],
+          "carriage_bore_radius_mm": 1.25,
+          "radial_clearance_mm": 0.25,
+          "stop_bore_radius_mm": 1.0,
+          "stop_to_rod_nominal_radial_gap_mm": 0.0,
+          "stop_attachment": "D MODEL ASSUMPTION: snug contact plus bonding/clamping; fixing/strength NOT_VERIFIED",
+          "lower_stop_z_mm": [
+            44,
+            47
+          ],
+          "upper_stop_z_mm": [
+            85,
+            88
+          ],
+          "carriage_upper_z_mm": [
+            79,
+            85
+          ],
+          "carriage_lower_z_mm": [
+            47,
+            53
+          ]
+        },
+        {
+          "center_xy_mm": [
+            729,
+            -96
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "rod_radius_mm": 1,
+          "rod_z_mm": [
+            44,
+            88
+          ],
+          "carriage_bore_radius_mm": 1.25,
+          "radial_clearance_mm": 0.25,
+          "stop_bore_radius_mm": 1.0,
+          "stop_to_rod_nominal_radial_gap_mm": 0.0,
+          "stop_attachment": "D MODEL ASSUMPTION: snug contact plus bonding/clamping; fixing/strength NOT_VERIFIED",
+          "lower_stop_z_mm": [
+            44,
+            47
+          ],
+          "upper_stop_z_mm": [
+            85,
+            88
+          ],
+          "carriage_upper_z_mm": [
+            79,
+            85
+          ],
+          "carriage_lower_z_mm": [
+            47,
+            53
+          ]
+        }
+      ],
+      "actuator": "UNSELECTED / NOT_VERIFIED",
+      "position_basis": "D MODEL ASSUMPTION: exact coordinates, 52x43mm footprint and guides; C photo/analysis inference only for gross starboard inter-island / port-aft placement"
+    }
+  },
+  "corridors": {
+    "STBD": {
+      "x": [
+        430,
+        482
+      ],
+      "y": [
+        38,
+        93
+      ],
+      "z": [
+        47,
+        70
+      ]
+    },
+    "PORT": {
+      "x": [
+        680,
+        732
+      ],
+      "y": [
+        -93,
+        -25.5
+      ],
+      "z": [
+        47,
+        70
+      ]
+    }
+  },
+  "skin_cutouts": [
+    {
+      "source": "SKIN_AFT_2_3_STBD",
+      "side": "STBD",
+      "x_mm": [
+        428.0,
+        484.0
+      ],
+      "removed_uv": [
+        0.5478984266775915,
+        0.615680304355126,
+        0.85192071294413,
+        1.0
+      ],
+      "bottom_edge_z_range_mm": [
+        40.67620727346212,
+        40.750000000000014
+      ],
+      "upper_edge_z_mm": 76,
+      "retained": [
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_1",
+          "uv": [
+            0.45294918373494125,
+            0.5478984266775915,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 2.2881241346943593e-13
+        },
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_2",
+          "uv": [
+            0.5478984266775915,
+            0.615680304355126,
+            0.6,
+            0.85192071294413
+          ],
+          "max_sample_deviation_from_source_mm": 3.9822101226724415e-13
+        },
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_3",
+          "uv": [
+            0.615680304355126,
+            0.6948838208908007,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 3.42316453453745e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC; NOT A HORIZONTAL CUT"
+    },
+    {
+      "source": "SKIN_AFT_3_3_PORT",
+      "side": "PORT",
+      "x_mm": [
+        678.0,
+        700.0
+      ],
+      "removed_uv": [
+        0.8569060389197426,
+        0.8871972240699832,
+        0.8386597246366576,
+        1.0
+      ],
+      "bottom_edge_z_range_mm": [
+        40.26711297525977,
+        40.75
+      ],
+      "upper_edge_z_mm": 76,
+      "retained": [
+        {
+          "name": "SKIN_AFT_3_3_PORT_V9_RETAINED_1",
+          "uv": [
+            0.6948838208908007,
+            0.8569060389197426,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 3.42021353007986e-13
+        },
+        {
+          "name": "SKIN_AFT_3_3_PORT_V9_RETAINED_2",
+          "uv": [
+            0.8569060389197426,
+            0.8871972240699832,
+            0.6,
+            0.8386597246366576
+          ],
+          "max_sample_deviation_from_source_mm": 4.575144894262521e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC; NOT A HORIZONTAL CUT"
+    },
+    {
+      "source": "SKIN_AFT_4_3_PORT",
+      "side": "PORT",
+      "x_mm": [
+        700.0,
+        734.0
+      ],
+      "removed_uv": [
+        0.8871972240699832,
+        0.9368152458324764,
+        0.8299989233380539,
+        1.0
+      ],
+      "bottom_edge_z_range_mm": [
+        39.55690242100845,
+        40.749999999999986
+      ],
+      "upper_edge_z_mm": 76,
+      "retained": [
+        {
+          "name": "SKIN_AFT_4_3_PORT_V9_RETAINED_1",
+          "uv": [
+            0.8871972240699832,
+            0.9368152458324764,
+            0.6,
+            0.8299989233380539
+          ],
+          "max_sample_deviation_from_source_mm": 5.702077785298025e-13
+        },
+        {
+          "name": "SKIN_AFT_4_3_PORT_V9_RETAINED_2",
+          "uv": [
+            0.9368152458324764,
+            1.0,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 4.554684241650576e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC; NOT A HORIZONTAL CUT"
+    }
+  ],
+  "well_preserved": {
+    "x": [
+      610,
+      776
+    ],
+    "y": [
+      -22,
+      22
+    ],
+    "z": [
+      25,
+      44
+    ],
+    "sidewalls_and_bottom": "UNCHANGED_NATIVE_GEOMETRY"
+  },
+  "limitations": [
+    "REVIEW_ONLY",
+    "RHINO_DESKTOP_UI_NOT_CHECKED",
+    "PHYSICAL_STRENGTH_NOT_VERIFIED",
+    "ACTUATOR_UNSELECTED",
+    "SIDE_BAYS_ARE_OPEN_NOT_WATERTIGHT",
+    "NO_MANUFACTURING_RELEASE"
+  ]
+}

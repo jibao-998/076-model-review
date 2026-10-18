@@ -1,5 +1,30 @@
 [
   {
+    "id": "v9",
+    "label": "V9",
+    "title": "整甲板与观察升降口",
+    "description": "一整块可拆甲板、两侧不蒙皮过渡与导轨平台；功能设计待实测",
+    "viewer": "versions/v9/viewer.html",
+    "report": "versions/v9/report.html",
+    "model": "versions/v9/model.3dm",
+    "parameters": "versions/v9/parameters.json",
+    "review": "versions/v9/review.json",
+    "model_sha256": "91ccbbf2ed096be40bcf0853755e0bc534109f5659251c5d861b18e2a53b6616",
+    "viewer_revision": "ac8ff419ec26ee40",
+    "historical": false,
+    "download_bytes": 1632480,
+    "payload_gzip_bytes": 8773399,
+    "review_notes": [
+      "整甲板 / 双导轨 / 实物驱动与强度待验证"
+    ],
+    "changes": [
+      "甲板由分片与内部检修盖改为一整块连通可拆板；双舰岛随整板上提。",
+      "两舷出口真实去除局部蒙皮与骨架障碍，并增加内部过渡面。",
+      "双平台沿固定导轨作32 mm升降，带随动滑套与上下限位。",
+      "保持艉部联合接头与封闭坞舱；保护范围外母面继承V8。"
+    ]
+  },
+  {
     "id": "v8",
     "label": "V8",
     "title": "接头与工程评审",
@@ -11,7 +36,7 @@
     "download_bytes": 1454897,
     "payload_gzip_bytes": 8532063,
     "source_viewer_sha256": "452c289262b64db16ba3787aa1e3a5f871813d72dd3683b938a6f956583e4b5c",
-    "historical": false,
+    "historical": true,
     "review_notes": [
       "接头数值检查与木工实测分开验收；不可直接切割。"
     ],
