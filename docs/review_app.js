@@ -11,7 +11,7 @@ function updateUrl(token){if(!current)return;history.replaceState(null,'','#'+cu
 function showPanel(on){document.body.classList.toggle('panel-closed',!on);$('issues-panel').setAttribute('aria-hidden',String(!on));$('show-issues').classList.toggle('active',on)}
 function openContent(which){
  capture();if(which==='model'&&!desired)desired=saved.get(current.id)||null;content=which;attempt++;ready=false;awaitRestore=false;loading.hidden=false;$('load-error').hidden=true;$('download-progress').value=0;$('loading-note').textContent=which==='report'?'正在打开本版报告':'首次下载后即可旋转浏览';
- const url=new URL(which==='report'?current.report:current.viewer,location.href);url.searchParams.set('attempt',String(attempt));frame.src=url.href;
+ const url=new URL(which==='report'?current.report:current.viewer,location.href);url.searchParams.set('attempt',String(attempt));url.searchParams.set('reviewRevision',current.viewer_revision||window.SITE_REVISION||'1');frame.src=url.href;
  $('show-model').classList.toggle('active',which==='model');$('show-report').classList.toggle('active',which==='report');updateUrl();clearTimeout(timer);timer=setTimeout(()=>$('loading-note').textContent='下载仍在进行，可以重试或切到报告。',30000);
 }
 function error(message){clearTimeout(timer);timer=null;loading.hidden=true;$('error-detail').textContent=message;$('load-error').hidden=false}
@@ -69,4 +69,4 @@ $('fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await docume
 $('copy-link').onclick=async()=>{const s=capture();let token;try{if(s)token=ReviewState.encode(s);updateUrl(token);const url=location.href;try{await navigator.clipboard.writeText(url);toast('已复制：版本、视角、选择、显隐与爆炸状态')}catch{prompt('复制评审状态链接',url)}}catch(e){toast(e.message)}};
 window.addEventListener('hashchange',()=>{if(versions.length){const p=hashParts();choose(p.id,p.content,p.token)}});
 if(innerWidth<1050)showPanel(false);matchMedia('(max-width:1050px)').addEventListener('change',e=>{if(e.matches)showPanel(false)});
-fetch('versions.json').then(r=>{if(!r.ok)throw Error('版本清单读取失败');return r.json()}).then(v=>{versions=v;for(const item of v){const o=node('option',item.label+' · '+item.title+(!item.historical?' / 当前':''));o.value=item.id;$('versions').append(o)}const p=hashParts();choose(p.id,p.content,p.token)}).catch(e=>error(e.message));
+fetch('versions.json?revision='+encodeURIComponent(window.SITE_REVISION||'1')).then(r=>{if(!r.ok)throw Error('版本清单读取失败');return r.json()}).then(v=>{versions=v;for(const item of v){const o=node('option',item.label+' · '+item.title+(!item.historical?' / 当前':''));o.value=item.id;$('versions').append(o)}const p=hashParts();choose(p.id,p.content,p.token)}).catch(e=>error(e.message));
