@@ -1,0 +1,51 @@
+{
+  "status": "MEASURED_LOCAL_QA",
+  "renderer": "Edge / SwiftShader software rendering",
+  "real_mobile": "NOT_CHECKED",
+  "cache": "fresh page navigations; shared browser process; no claim of public cold cache",
+  "samples": [
+    {
+      "version": "v8",
+      "sample": "local HTTP fresh navigation; desktop Edge SwiftShader",
+      "metrics": {
+        "firstInteractiveMs": 433.19999998807907,
+        "downloadInflateMs": 145,
+        "sceneBuildMs": 86,
+        "frameSamples": 35,
+        "meanFrameMs": 108.24000000000001,
+        "triangles": 285076,
+        "drawCalls": 261,
+        "renderer": "Edge / SwiftShader software renderer in QA",
+        "viewport": [
+          999,
+          829
+        ],
+        "devicePixelRatio": 1,
+        "jsHeapBytes": 85640371,
+        "realMobile": "NOT_CHECKED"
+      }
+    },
+    {
+      "version": "v6",
+      "sample": "local HTTP fresh navigation; desktop Edge SwiftShader",
+      "metrics": {
+        "firstInteractiveMs": 361.79999999701977,
+        "downloadInflateMs": 116,
+        "sceneBuildMs": 74.70000000298023,
+        "frameSamples": 35,
+        "meanFrameMs": 107.29142857142857,
+        "triangles": 279804,
+        "drawCalls": 259,
+        "renderer": "Edge / SwiftShader software renderer in QA",
+        "viewport": [
+          999,
+          829
+        ],
+        "devicePixelRatio": 1,
+        "jsHeapBytes": 94462131,
+        "realMobile": "NOT_CHECKED"
+      }
+    }
+  ],
+  "decision": "Preserve Three.js/JSON gzip; defer GLB until same-device A/B. Parent state management fixes are independent of asset format."
+}

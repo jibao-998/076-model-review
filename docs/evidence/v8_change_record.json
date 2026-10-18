@@ -1,0 +1,228 @@
+{
+  "modified_or_removed_v5_objects": [
+    "UPPER_CROSSPLATE_SIDE_FRAME",
+    "HANGAR_STBD_WALL",
+    "WELL_INNER_FLOOR",
+    "LOWER_CROSSPLATE_5_FRAMES",
+    "FRAME_01_X35",
+    "FRAME_02_X70",
+    "FRAME_03_X110",
+    "FRAME_04_X160",
+    "FRAME_05_X225",
+    "FRAME_06_X300",
+    "FRAME_07_X380",
+    "FRAME_08_X460",
+    "FRAME_09_X540",
+    "FRAME_10_X610",
+    "FRAME_11_X665",
+    "FRAME_12_X710",
+    "FRAME_13_X750",
+    "FRAME_14_X772",
+    "MAIN_KEEL_3MM_SLOTTED",
+    "REMOVABLE_FLIGHT_DECK_1",
+    "REMOVABLE_FLIGHT_DECK_2",
+    "REMOVABLE_FLIGHT_DECK_3",
+    "WIRE_LIGHT"
+  ],
+  "new_names": [
+    "HANGAR_SEAT_PORT_X225",
+    "HANGAR_SEAT_KEY_PORT_X225",
+    "HANGAR_SEAT_STBD_X225",
+    "HANGAR_SEAT_KEY_STBD_X225",
+    "HANGAR_SEAT_PORT_X300",
+    "HANGAR_SEAT_KEY_PORT_X300",
+    "HANGAR_SEAT_STBD_X300",
+    "HANGAR_SEAT_KEY_STBD_X300",
+    "HANGAR_SEAT_PORT_X380",
+    "HANGAR_SEAT_KEY_PORT_X380",
+    "HANGAR_SEAT_STBD_X380",
+    "HANGAR_SEAT_KEY_STBD_X380",
+    "HANGAR_SEAT_PORT_X540",
+    "HANGAR_SEAT_KEY_PORT_X540",
+    "HANGAR_SEAT_STBD_X540",
+    "HANGAR_SEAT_KEY_STBD_X540",
+    "UPPER_CROSSPLATE_SERVICE_RUNNER",
+    "HANGAR_CASSETTE_FLOOR",
+    "WELL_INNER_FLOOR_1",
+    "WELL_INNER_FLOOR_2",
+    "LOWER_CROSSPLATE_5_FRAMES_1",
+    "LOWER_CROSSPLATE_5_FRAMES_2",
+    "REMOVABLE_FLIGHT_DECK_2_1",
+    "REMOVABLE_FLIGHT_DECK_2_2",
+    "WIRE_LIGHT_FIXED",
+    "WIRE_LIGHT_WITHDRAWABLE",
+    "REMOVABLE_HANGAR_SERVICE_HATCH",
+    "FRAME_CHEEK_PORT_X35",
+    "FRAME_CHEEK_PORT_X70",
+    "FRAME_CHEEK_STBD_X70",
+    "TEMP_PLANKING_BRACE_X110",
+    "FRAME_CHEEK_PORT_X110",
+    "FRAME_CHEEK_STBD_X110",
+    "TEMP_PLANKING_BRACE_X160",
+    "FRAME_CHEEK_PORT_X160",
+    "FRAME_CHEEK_STBD_X160",
+    "TEMP_PLANKING_BRACE_X225",
+    "FRAME_CHEEK_PORT_X225",
+    "FRAME_CHEEK_STBD_X225",
+    "TEMP_PLANKING_BRACE_X300",
+    "FRAME_CHEEK_PORT_X300",
+    "FRAME_CHEEK_STBD_X300",
+    "TEMP_PLANKING_BRACE_X380",
+    "FRAME_CHEEK_PORT_X380",
+    "FRAME_CHEEK_STBD_X380",
+    "FRAME_CHEEK_PORT_X460",
+    "TEMP_PLANKING_BRACE_X540",
+    "FRAME_CHEEK_PORT_X540",
+    "FRAME_CHEEK_STBD_X540",
+    "TEMP_PLANKING_BRACE_X610",
+    "FRAME_CHEEK_PORT_X610",
+    "FRAME_CHEEK_STBD_X610",
+    "TEMP_PLANKING_BRACE_X665",
+    "FRAME_CHEEK_PORT_X665",
+    "FRAME_CHEEK_STBD_X665",
+    "FRAME_CHEEK_PORT_X710",
+    "FRAME_CHEEK_STBD_X710",
+    "TEMP_PLANKING_BRACE_X750",
+    "FRAME_CHEEK_PORT_X750",
+    "FRAME_CHEEK_STBD_X750",
+    "FRAME_CHEEK_PORT_X772",
+    "FRAME_CHEEK_STBD_X772"
+  ],
+  "all_added_geometry_class": "D MODEL DESIGN",
+  "outer_mother": "UNCHANGED",
+  "temporary_braces": "install only after removing hangar and flight decks; remove before reinstalling cassette",
+  "skin_clearance": "frames and keel clipped to 2.2mm normal-offset envelope; seven axial samples across each frame/cheek/jig; verify nearest-surface distances independently; not released for cutting",
+  "frame_area_changes": [
+    {
+      "name": "FRAME_01_X35",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 1424.0545047580233,
+      "area_after_mm2": 1129.7804634197018
+    },
+    {
+      "name": "FRAME_02_X70",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 1572.9839347141078,
+      "area_after_mm2": 1294.9507079380564
+    },
+    {
+      "name": "FRAME_03_X110",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 1922.6273292775593,
+      "area_after_mm2": 1652.0366497759144
+    },
+    {
+      "name": "FRAME_04_X160",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2512.746816080842,
+      "area_after_mm2": 2296.1222741763027
+    },
+    {
+      "name": "FRAME_05_X225",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2211.221683421632,
+      "area_after_mm2": 1999.4294322239004
+    },
+    {
+      "name": "FRAME_06_X300",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2240.0111298968704,
+      "area_after_mm2": 2030.556043398629
+    },
+    {
+      "name": "FRAME_07_X380",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2278.263671222058,
+      "area_after_mm2": 2069.3765367463216
+    },
+    {
+      "name": "FRAME_08_X460",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2009.4194717463429,
+      "area_after_mm2": 1832.6187767371773
+    },
+    {
+      "name": "FRAME_09_X540",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2216.8199950594453,
+      "area_after_mm2": 2007.210910424542
+    },
+    {
+      "name": "FRAME_10_X610",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2174.5247063966426,
+      "area_after_mm2": 1964.5039513061215
+    },
+    {
+      "name": "FRAME_11_X665",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2058.093575361884,
+      "area_after_mm2": 1845.9943759088576
+    },
+    {
+      "name": "FRAME_12_X710",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 1445.5775496412268,
+      "area_after_mm2": 1265.2716241123005
+    },
+    {
+      "name": "FRAME_13_X750",
+      "status": "COOPERATIVE_JOINT_REBUILT",
+      "area_before_mm2": 1242.108210953334,
+      "area_after_mm2": 1488.2896570571925
+    },
+    {
+      "name": "FRAME_14_X772",
+      "status": "COOPERATIVE_JOINT_REBUILT",
+      "area_before_mm2": 1104.953239942435,
+      "area_after_mm2": 1067.0676626296947
+    }
+  ],
+  "version": "V8",
+  "baseline_native": "inputs/v6/076_assembled_v6.3dm",
+  "part_name_mapping": {
+    "LOWER_CROSSPLATE_5_FRAMES": [
+      "LOWER_CROSSPLATE_5_FRAMES_1",
+      "LOWER_CROSSPLATE_5_FRAMES_2"
+    ],
+    "WELL_INNER_FLOOR": [
+      "WELL_INNER_FLOOR_1",
+      "WELL_INNER_FLOOR_2"
+    ]
+  },
+  "modified_vs_v6": [
+    "FRAME_13_X750",
+    "FRAME_14_X772",
+    "LOWER_CROSSPLATE_5_FRAMES",
+    "WELL_INNER_FLOOR"
+  ],
+  "revised_plan": "Former continuous lowerplate and well floor each become two bonded segments. A 40mm-wide integral tongue crosses X772 in the final floor piece; lowerplate ends at X770.44. Fixed full-length well sidewalls and existing keyed keel remain.",
+  "geometry_evidence": "aft_validation.json and service_validation.json",
+  "material_strength": "NOT_VERIFIED",
+  "short_terminal_offcuts": "ELIMINATED: no separate aft floor cap or lowerplate tail; cap is integral with 40mm-wide floor tongue supported at final frame Z22",
+  "actual_native_diff_vs_v6": {
+    "changed_same_name": [
+      "FRAME_13_X750",
+      "FRAME_14_X772",
+      "FRAME_CHEEK_PORT_X750",
+      "FRAME_CHEEK_PORT_X772",
+      "FRAME_CHEEK_STBD_X750",
+      "FRAME_CHEEK_STBD_X772"
+    ],
+    "removed": [
+      "LOWER_CROSSPLATE_5_FRAMES",
+      "WELL_INNER_FLOOR",
+      "WIRE_LIGHT"
+    ],
+    "added": [
+      "LOWER_CROSSPLATE_5_FRAMES_1",
+      "LOWER_CROSSPLATE_5_FRAMES_2",
+      "WELL_INNER_FLOOR_1",
+      "WELL_INNER_FLOOR_2",
+      "WIRE_LIGHT_FIXED",
+      "WIRE_LIGHT_WITHDRAWABLE"
+    ],
+    "cheek_note": "four aft upper cheeks now follow the clipped frame outer edge; included in native/skin checks",
+    "wire_note": "inherited V7 fixed/withdrawable lamp branch separation, explicitly different from V6 WIRE_LIGHT"
+  }
+}

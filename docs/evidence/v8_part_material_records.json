@@ -1,0 +1,232 @@
+[
+  {
+    "name": "FRAME_13_X750",
+    "part_number": "V8-AFT-01",
+    "material": "3mm wooden board; species/grade of structural board NOT_SPECIFIED",
+    "nominal_board_thickness_mm": 3,
+    "grain_direction": "NOT_SPECIFIED; cutting grain/veneer orientation requires prototype review",
+    "evidence_grade": "D MODEL DESIGN",
+    "source": "V5 panel + V8 cooperative aft web revision; original skin frozen",
+    "manufacturing_release": "REVIEW_ONLY",
+    "insertion": "lowerplates/floors seated in open bays before fixed well walls; fixture and exact motion path NOT_CHECKED",
+    "actual_bbox_mm": {
+      "min": [
+        748.5,
+        -58.154891263898286,
+        10.553290059948848
+      ],
+      "max": [
+        751.5,
+        58.154891263898286,
+        74.75
+      ]
+    }
+  },
+  {
+    "name": "FRAME_14_X772",
+    "part_number": "V8-AFT-02",
+    "material": "3mm wooden board; species/grade of structural board NOT_SPECIFIED",
+    "nominal_board_thickness_mm": 3,
+    "grain_direction": "NOT_SPECIFIED; cutting grain/veneer orientation requires prototype review",
+    "evidence_grade": "D MODEL DESIGN",
+    "source": "V5 panel + V8 cooperative aft web revision; original skin frozen",
+    "manufacturing_release": "REVIEW_ONLY",
+    "insertion": "lowerplates/floors seated in open bays before fixed well walls; fixture and exact motion path NOT_CHECKED",
+    "actual_bbox_mm": {
+      "min": [
+        770.5,
+        -55.69941238609384,
+        13.699271307829088
+      ],
+      "max": [
+        773.5,
+        55.69941238609384,
+        74.75
+      ]
+    }
+  },
+  {
+    "name": "LOWER_CROSSPLATE_5_FRAMES_1",
+    "part_number": "V8-AFT-03",
+    "material": "3mm wooden board; species/grade of structural board NOT_SPECIFIED",
+    "nominal_board_thickness_mm": 3,
+    "grain_direction": "NOT_SPECIFIED; cutting grain/veneer orientation requires prototype review",
+    "evidence_grade": "D MODEL DESIGN",
+    "source": "V5 panel + V8 cooperative aft web revision; original skin frozen",
+    "manufacturing_release": "REVIEW_ONLY",
+    "insertion": "lowerplates/floors seated in open bays before fixed well walls; fixture and exact motion path NOT_CHECKED",
+    "actual_bbox_mm": {
+      "min": [
+        600.0,
+        -46.1342514129416,
+        19.0
+      ],
+      "max": [
+        748.44,
+        46.1342514129416,
+        22.0
+      ]
+    }
+  },
+  {
+    "name": "LOWER_CROSSPLATE_5_FRAMES_2",
+    "part_number": "V8-AFT-04",
+    "material": "3mm wooden board; species/grade of structural board NOT_SPECIFIED",
+    "nominal_board_thickness_mm": 3,
+    "grain_direction": "NOT_SPECIFIED; cutting grain/veneer orientation requires prototype review",
+    "evidence_grade": "D MODEL DESIGN",
+    "source": "V5 panel + V8 cooperative aft web revision; original skin frozen",
+    "manufacturing_release": "REVIEW_ONLY",
+    "insertion": "lowerplates/floors seated in open bays before fixed well walls; fixture and exact motion path NOT_CHECKED",
+    "actual_bbox_mm": {
+      "min": [
+        751.56,
+        -32.684551674947876,
+        19.0
+      ],
+      "max": [
+        770.44,
+        32.684551674947876,
+        22.0
+      ]
+    }
+  },
+  {
+    "name": "WELL_INNER_FLOOR_1",
+    "part_number": "V8-AFT-05",
+    "material": "3mm wooden board; species/grade of structural board NOT_SPECIFIED",
+    "nominal_board_thickness_mm": 3,
+    "grain_direction": "NOT_SPECIFIED; cutting grain/veneer orientation requires prototype review",
+    "evidence_grade": "D MODEL DESIGN",
+    "source": "V5 panel + V8 cooperative aft web revision; original skin frozen",
+    "manufacturing_release": "REVIEW_ONLY",
+    "insertion": "lowerplates/floors seated in open bays before fixed well walls; fixture and exact motion path NOT_CHECKED",
+    "actual_bbox_mm": {
+      "min": [
+        751.56,
+        -25.0,
+        22.0
+      ],
+      "max": [
+        776.0,
+        25.0,
+        25.0
+      ]
+    }
+  },
+  {
+    "name": "WELL_INNER_FLOOR_2",
+    "part_number": "V8-AFT-06",
+    "material": "3mm wooden board; species/grade of structural board NOT_SPECIFIED",
+    "nominal_board_thickness_mm": 3,
+    "grain_direction": "NOT_SPECIFIED; cutting grain/veneer orientation requires prototype review",
+    "evidence_grade": "D MODEL DESIGN",
+    "source": "V5 panel + V8 cooperative aft web revision; original skin frozen",
+    "manufacturing_release": "REVIEW_ONLY",
+    "insertion": "lowerplates/floors seated in open bays before fixed well walls; fixture and exact motion path NOT_CHECKED",
+    "actual_bbox_mm": {
+      "min": [
+        607.0,
+        -25.0,
+        22.0
+      ],
+      "max": [
+        748.44,
+        25.0,
+        25.0
+      ]
+    }
+  },
+  {
+    "name": "FRAME_CHEEK_PORT_X750",
+    "part_number": "V8-AFT-07",
+    "material": "3mm wooden board; species/grade of structural board NOT_SPECIFIED",
+    "nominal_board_thickness_mm": 3,
+    "grain_direction": "NOT_SPECIFIED; cutting grain/veneer orientation requires prototype review",
+    "evidence_grade": "D MODEL DESIGN",
+    "source": "V5 panel + V8 cooperative aft web revision; original skin frozen",
+    "manufacturing_release": "REVIEW_ONLY",
+    "insertion": "lowerplates/floors seated in open bays before fixed well walls; fixture and exact motion path NOT_CHECKED",
+    "actual_bbox_mm": {
+      "min": [
+        745.5,
+        -56.65784964394968,
+        48.0
+      ],
+      "max": [
+        748.5,
+        -46.19425429648875,
+        69.0
+      ]
+    }
+  },
+  {
+    "name": "FRAME_CHEEK_STBD_X750",
+    "part_number": "V8-AFT-08",
+    "material": "3mm wooden board; species/grade of structural board NOT_SPECIFIED",
+    "nominal_board_thickness_mm": 3,
+    "grain_direction": "NOT_SPECIFIED; cutting grain/veneer orientation requires prototype review",
+    "evidence_grade": "D MODEL DESIGN",
+    "source": "V5 panel + V8 cooperative aft web revision; original skin frozen",
+    "manufacturing_release": "REVIEW_ONLY",
+    "insertion": "lowerplates/floors seated in open bays before fixed well walls; fixture and exact motion path NOT_CHECKED",
+    "actual_bbox_mm": {
+      "min": [
+        745.5,
+        46.19425429648875,
+        48.0
+      ],
+      "max": [
+        748.5,
+        56.65784964394968,
+        69.0
+      ]
+    }
+  },
+  {
+    "name": "FRAME_CHEEK_PORT_X772",
+    "part_number": "V8-AFT-09",
+    "material": "3mm wooden board; species/grade of structural board NOT_SPECIFIED",
+    "nominal_board_thickness_mm": 3,
+    "grain_direction": "NOT_SPECIFIED; cutting grain/veneer orientation requires prototype review",
+    "evidence_grade": "D MODEL DESIGN",
+    "source": "V5 panel + V8 cooperative aft web revision; original skin frozen",
+    "manufacturing_release": "REVIEW_ONLY",
+    "insertion": "lowerplates/floors seated in open bays before fixed well walls; fixture and exact motion path NOT_CHECKED",
+    "actual_bbox_mm": {
+      "min": [
+        767.5,
+        -54.17169334398731,
+        48.0
+      ],
+      "max": [
+        770.5,
+        -43.57579692126616,
+        69.0
+      ]
+    }
+  },
+  {
+    "name": "FRAME_CHEEK_STBD_X772",
+    "part_number": "V8-AFT-10",
+    "material": "3mm wooden board; species/grade of structural board NOT_SPECIFIED",
+    "nominal_board_thickness_mm": 3,
+    "grain_direction": "NOT_SPECIFIED; cutting grain/veneer orientation requires prototype review",
+    "evidence_grade": "D MODEL DESIGN",
+    "source": "V5 panel + V8 cooperative aft web revision; original skin frozen",
+    "manufacturing_release": "REVIEW_ONLY",
+    "insertion": "lowerplates/floors seated in open bays before fixed well walls; fixture and exact motion path NOT_CHECKED",
+    "actual_bbox_mm": {
+      "min": [
+        767.5,
+        44.1,
+        48.0
+      ],
+      "max": [
+        770.5,
+        54.17169334398731,
+        69.0
+      ]
+    }
+  }
+]

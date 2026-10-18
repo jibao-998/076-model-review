@@ -1,8 +1,10 @@
 # 076 model review — GitHub Pages mirror
 
-Eight preserved versions of the 800 mm wooden model, with interactive 3D,
-reports, parameters and native Rhino downloads. Desktop and landscape phones
-are supported. Internal structure, bulb and running gear include model-design
+Nine review versions of the 800 mm wooden model, including the V8 aft-joint
+revision and eight preserved historical CAD downloads. Interactive 3D,
+reports, parameters and native Rhino downloads are available. Desktop,
+landscape 3D and portrait report/problem reading are supported. Internal structure,
+bulb and running gear include model-design
 assumptions; this is a review model, not released manufacturing data.
 
 `docs/` contains byte-identical copies of the reviewed static website plus
@@ -13,8 +15,18 @@ Rhino downloads retain their historical save-path metadata; these files are
 the same downloads already present on the original public review website.
 Third-party notices and source attributions are retained.
 
-Publication target is recorded in `mirror-project.json`. It is a proposed
-target until authenticated publication returns the actual Pages URL.
+Public entry: https://jibao-998.github.io/076-model-review/#v8
+
+The review interface links open issues to parts and evidence. Camera, visibility,
+selection, explosion, offsets and steering can be restored per version or shared
+with a model-hash-bound URL. Service steps show disconnect/withdraw prerequisites;
+fixtures and connectors remain unselected. Seven manufacturer hardware candidates
+are documented; complete drive fit, strength, sealing and water operation remain
+unverified. Existing Rhino files remain editable; native Rhino desktop is NOT_CHECKED.
+
+Publication identity is recorded in `mirror-project.json`. Actual build/public
+verification state is recorded in the local deployment receipt, not its historical
+preparation-status field.
 
 ## Publish
 

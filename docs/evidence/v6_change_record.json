@@ -1,0 +1,168 @@
+{
+  "modified_or_removed_v5_objects": [
+    "UPPER_CROSSPLATE_SIDE_FRAME",
+    "HANGAR_STBD_WALL",
+    "FRAME_01_X35",
+    "FRAME_02_X70",
+    "FRAME_03_X110",
+    "FRAME_04_X160",
+    "FRAME_05_X225",
+    "FRAME_06_X300",
+    "FRAME_07_X380",
+    "FRAME_08_X460",
+    "FRAME_09_X540",
+    "FRAME_10_X610",
+    "FRAME_11_X665",
+    "FRAME_12_X710",
+    "MAIN_KEEL_3MM_SLOTTED",
+    "REMOVABLE_FLIGHT_DECK_1",
+    "REMOVABLE_FLIGHT_DECK_2",
+    "REMOVABLE_FLIGHT_DECK_3"
+  ],
+  "new_names": [
+    "HANGAR_SEAT_PORT_X225",
+    "HANGAR_SEAT_KEY_PORT_X225",
+    "HANGAR_SEAT_STBD_X225",
+    "HANGAR_SEAT_KEY_STBD_X225",
+    "HANGAR_SEAT_PORT_X300",
+    "HANGAR_SEAT_KEY_PORT_X300",
+    "HANGAR_SEAT_STBD_X300",
+    "HANGAR_SEAT_KEY_STBD_X300",
+    "HANGAR_SEAT_PORT_X380",
+    "HANGAR_SEAT_KEY_PORT_X380",
+    "HANGAR_SEAT_STBD_X380",
+    "HANGAR_SEAT_KEY_STBD_X380",
+    "HANGAR_SEAT_PORT_X540",
+    "HANGAR_SEAT_KEY_PORT_X540",
+    "HANGAR_SEAT_STBD_X540",
+    "HANGAR_SEAT_KEY_STBD_X540",
+    "UPPER_CROSSPLATE_SERVICE_RUNNER",
+    "HANGAR_CASSETTE_FLOOR",
+    "REMOVABLE_FLIGHT_DECK_2_1",
+    "REMOVABLE_FLIGHT_DECK_2_2",
+    "REMOVABLE_HANGAR_SERVICE_HATCH",
+    "FRAME_CHEEK_PORT_X35",
+    "FRAME_CHEEK_PORT_X70",
+    "FRAME_CHEEK_STBD_X70",
+    "TEMP_PLANKING_BRACE_X110",
+    "FRAME_CHEEK_PORT_X110",
+    "FRAME_CHEEK_STBD_X110",
+    "TEMP_PLANKING_BRACE_X160",
+    "FRAME_CHEEK_PORT_X160",
+    "FRAME_CHEEK_STBD_X160",
+    "TEMP_PLANKING_BRACE_X225",
+    "FRAME_CHEEK_PORT_X225",
+    "FRAME_CHEEK_STBD_X225",
+    "TEMP_PLANKING_BRACE_X300",
+    "FRAME_CHEEK_PORT_X300",
+    "FRAME_CHEEK_STBD_X300",
+    "TEMP_PLANKING_BRACE_X380",
+    "FRAME_CHEEK_PORT_X380",
+    "FRAME_CHEEK_STBD_X380",
+    "FRAME_CHEEK_PORT_X460",
+    "TEMP_PLANKING_BRACE_X540",
+    "FRAME_CHEEK_PORT_X540",
+    "FRAME_CHEEK_STBD_X540",
+    "TEMP_PLANKING_BRACE_X610",
+    "FRAME_CHEEK_PORT_X610",
+    "FRAME_CHEEK_STBD_X610",
+    "TEMP_PLANKING_BRACE_X665",
+    "FRAME_CHEEK_PORT_X665",
+    "FRAME_CHEEK_STBD_X665",
+    "FRAME_CHEEK_PORT_X710",
+    "FRAME_CHEEK_STBD_X710",
+    "TEMP_PLANKING_BRACE_X750",
+    "FRAME_CHEEK_PORT_X750",
+    "FRAME_CHEEK_STBD_X750",
+    "FRAME_CHEEK_PORT_X772",
+    "FRAME_CHEEK_STBD_X772"
+  ],
+  "all_added_geometry_class": "D MODEL DESIGN",
+  "outer_mother": "UNCHANGED",
+  "temporary_braces": "install only after removing hangar and flight decks; remove before reinstalling cassette",
+  "skin_clearance": "frames and keel clipped to 2.2mm normal-offset envelope; seven axial samples across each frame/cheek/jig; verify nearest-surface distances independently; not released for cutting",
+  "frame_area_changes": [
+    {
+      "name": "FRAME_01_X35",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 1424.0545047580233,
+      "area_after_mm2": 1129.7804634197018
+    },
+    {
+      "name": "FRAME_02_X70",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 1572.9839347141078,
+      "area_after_mm2": 1294.9507079380564
+    },
+    {
+      "name": "FRAME_03_X110",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 1922.6273292775593,
+      "area_after_mm2": 1652.0366497759144
+    },
+    {
+      "name": "FRAME_04_X160",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2512.746816080842,
+      "area_after_mm2": 2296.1222741763027
+    },
+    {
+      "name": "FRAME_05_X225",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2211.221683421632,
+      "area_after_mm2": 1999.4294322239004
+    },
+    {
+      "name": "FRAME_06_X300",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2240.0111298968704,
+      "area_after_mm2": 2030.556043398629
+    },
+    {
+      "name": "FRAME_07_X380",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2278.263671222058,
+      "area_after_mm2": 2069.3765367463216
+    },
+    {
+      "name": "FRAME_08_X460",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2009.4194717463429,
+      "area_after_mm2": 1832.6187767371773
+    },
+    {
+      "name": "FRAME_09_X540",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2216.8199950594453,
+      "area_after_mm2": 2007.210910424542
+    },
+    {
+      "name": "FRAME_10_X610",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2174.5247063966426,
+      "area_after_mm2": 1964.5039513061215
+    },
+    {
+      "name": "FRAME_11_X665",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 2058.093575361884,
+      "area_after_mm2": 1845.9943759088576
+    },
+    {
+      "name": "FRAME_12_X710",
+      "status": "NORMAL_ALLOWANCE_CLIPPED",
+      "area_before_mm2": 1445.5775496412268,
+      "area_after_mm2": 1265.2716241123005
+    },
+    {
+      "name": "FRAME_13_X750",
+      "status": "REVIEW_RETAINED_CONNECTED",
+      "reason": "2.2mm clip disconnects bottom web at lower plate rebate; coupled stern floor and slot redesign required"
+    },
+    {
+      "name": "FRAME_14_X772",
+      "status": "REVIEW_RETAINED_CONNECTED",
+      "reason": "2.2mm clip disconnects bottom web at lower plate rebate; coupled stern floor and slot redesign required"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "schema": "076.review.v1",
+  "version": "v6",
+  "model_sha256": "6de9a4571aa78f69bf85a0225880a3d48d9cc029c24b0416ce23d4d1a7fe542b",
+  "evidence_grades": {
+    "A": "官方确认",
+    "B": "独立可信来源交叉确认",
+    "C": "测量/研究估算",
+    "D": "模型假设",
+    "Unknown": "资料不足"
+  },
+  "validation_levels": [
+    "GEOMETRY_CHECKED",
+    "NOT_CHECKED",
+    "NOT_VERIFIED"
+  ],
+  "manufacturing": "REVIEW_ONLY_NOT_FOR_CUTTING",
+  "issues": [
+    {
+      "id": "stern-skin",
+      "title": "艉部肋骨与下横板 / 蒙皮余量",
+      "short": "艉部接头与蒙皮",
+      "status": "待几何修正",
+      "finding": "X750/X772仍保留旧连接轮廓，2.2 mm法向目标尚未完成；下横板需联合调整。",
+      "close": "保存后余量、最小剩余木宽、接触及插入路径检查；代表段试槽、压贴和胶接验证。",
+      "parts": [
+        "X750",
+        "X772",
+        "LOWER_CROSSPLATE_5_FRAMES"
+      ],
+      "view": "sternClose",
+      "evidence": "evidence/v6_change_record.json"
+    },
+    {
+      "id": "drive-interface",
+      "title": "动力与操舵接口 / 候选未实配",
+      "short": "轴系与候选硬件",
+      "status": "安装未通过",
+      "finding": "原电机占位与轴线不共轴；400电机候选包络被拒绝，小电机仅本体候选，完整轴管/联轴器/舵机机构未通过。",
+      "close": "候选接口与尺寸图一致，安装/支承/密封/推力/抽轴及连杆扫掠检查通过，并验证负载能力。",
+      "parts": [
+        "PROP_PORT",
+        "PROP_STBD",
+        "SHAFT_PORT",
+        "SHAFT_STBD",
+        "RUDDER_PORT",
+        "RUDDER_STBD"
+      ],
+      "view": "gearClose",
+      "evidence": "evidence/hardware_candidates.md"
+    },
+    {
+      "id": "hangar-service",
+      "title": "机库检修 / 断线与移线前置条件",
+      "short": "机库拆装前置条件",
+      "status": "几何路径检查 / 机构待定",
+      "finding": "必须先取检修甲板，断开并移出照明末段，再提出机库；接头、固定件与线束支承尚未选型。",
+      "close": "维修接近性、接头松脱/移线、固定件释放、承托和重新装配实物检查；动画不是实物验证。",
+      "parts": [
+        "HANGAR_FORWARD_WALL",
+        "HANGAR_CASSETTE_FLOOR",
+        "WIRE_LIGHT_WITHDRAWABLE",
+        "WIRE_LIGHT"
+      ],
+      "view": "hangarClose",
+      "evidence": "evidence/v6_wire_review.md"
+    }
+  ],
+  "parts": {
+    "FRAME_01_X35": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_02_X70": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_03_X110": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_04_X160": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_05_X225": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_06_X300": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_07_X380": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_08_X460": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_09_X540": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_10_X610": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_11_X665": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_12_X710": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_13_X750": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "REVIEW_RETAINED_CONNECTED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    },
+    "FRAME_14_X772": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "REVIEW_RETAINED_CONNECTED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "evidence/v6_change_record.json"
+    }
+  },
+  "changes": [
+    "可取出机库、双舵控制和蒙皮工装；艉部余量待复核",
+    "保留历史模型；网页增加视角记忆和本版证据入口。"
+  ],
+  "parameters": [
+    "总长：800 mm（项目约束）。甲板宽：155 mm（模型工作参数），不等于含舷台/升降机的最大宽度。",
+    "本版骨架设计板厚：3.0 mm。实测板厚/批次、木纹、切缝及试槽：待实物确认。",
+    "当前蒙皮目标：2.0 mm；V6以后采用椴木条约5 mm宽、胶层0.2 mm、法向目标2.2 mm。历史文件中的3 mm蒙皮文字不作为当前方案。",
+    "历史 FRAME_INSET=1.25 mm 是旧基线口径，不能当作每片修正后的实际法向余量。逐件结果见证据卡；未测项不填零。",
+    "名义成品槽宽：3.12 mm；材料厚度+配合间隙。未补偿激光中心线槽宽还需减切缝；实际以试槽板结果为准。",
+    "Z32仅为参考高度。展示蒙皮曲面不是可切割展开板或已验证铺条方案。硬件占位盒不是已安装设备。"
+  ],
+  "hardware": [
+    "7项厂商资料候选，均未选型。",
+    "400电机候选：当前包络拒绝；Pololu #999：仅本体候选，完整轴系/负载未验证。",
+    "Hitec HS-65MG尺寸23.6×11.6×24 mm；厂商质量11.9/12.5 g有冲突。",
+    "Gens ace 850 mAh 2S电池约58×32×20 mm、55 g；安装、供电接口及质量预算未闭合。"
+  ],
+  "service_supported": true,
+  "service_steps": [
+    "原始装配状态",
+    "取下检修甲板；固定件形式未定",
+    "断开照明接头：条件示意，接头未建模",
+    "把末段线束移出抽取路径",
+    "竖直提出完整机库130 mm",
+    "暴露下层设备，检查维修与复装空间"
+  ],
+  "evidence_links": [
+    {
+      "label": "V6独立走线/动力接口审查",
+      "href": "evidence/v6_wire_review.md"
+    }
+  ]
+}

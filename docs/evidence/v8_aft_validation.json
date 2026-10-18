@@ -1,0 +1,277 @@
+{
+  "status": "PASS",
+  "native_sha256": "a2c7793993c420136dc34f3d4a209371e33a7474a2c46ebca334e999d8e8db39",
+  "native_geometry_backend": "rhino3dm File3dm.Read; not Rhino desktop UI",
+  "native_tie_out": [
+    {
+      "part": "WELL_INNER_FLOOR_1",
+      "native_outline_max_coordinate_error_mm": 0.0,
+      "closed_solid": true
+    },
+    {
+      "part": "WELL_INNER_FLOOR_2",
+      "native_outline_max_coordinate_error_mm": 0.0,
+      "closed_solid": true
+    },
+    {
+      "part": "LOWER_CROSSPLATE_5_FRAMES_1",
+      "native_outline_max_coordinate_error_mm": 0.0,
+      "closed_solid": true
+    },
+    {
+      "part": "LOWER_CROSSPLATE_5_FRAMES_2",
+      "native_outline_max_coordinate_error_mm": 0.0,
+      "closed_solid": true
+    },
+    {
+      "part": "FRAME_13_X750",
+      "native_outline_max_coordinate_error_mm": 0.0,
+      "closed_solid": true
+    },
+    {
+      "part": "FRAME_14_X772",
+      "native_outline_max_coordinate_error_mm": 0.0,
+      "closed_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X750",
+      "native_outline_max_coordinate_error_mm": 0.0,
+      "closed_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X750",
+      "native_outline_max_coordinate_error_mm": 0.0,
+      "closed_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X772",
+      "native_outline_max_coordinate_error_mm": 0.0,
+      "closed_solid": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X772",
+      "native_outline_max_coordinate_error_mm": 0.0,
+      "closed_solid": true
+    }
+  ],
+  "unchanged_v6_skin_objects": 53,
+  "revised_joint_ligaments": [
+    {
+      "part": "FRAME_13_X750",
+      "scope": "revised lower well-wall receiving notch",
+      "shortest_distance_mm": 7.762552191622291,
+      "notch_yz_mm": [
+        -25.06,
+        25.0
+      ],
+      "outer_yz_mm": [
+        -27.510739733965345,
+        17.634465987857805
+      ],
+      "complete_shortest_segment_inside_wood": true,
+      "strength": "NOT_VERIFIED"
+    },
+    {
+      "part": "FRAME_14_X772",
+      "scope": "revised lower floor-tongue notch",
+      "shortest_distance_mm": 3.196953651959704,
+      "notch_yz_mm": [
+        -20.06,
+        22.0
+      ],
+      "outer_yz_mm": [
+        -21.51391170818307,
+        19.152781462973614
+      ],
+      "complete_shortest_segment_inside_wood": true,
+      "strength": "NOT_VERIFIED"
+    }
+  ],
+  "continuous_fixed_load_path_contacts": [
+    {
+      "floor": "WELL_INNER_FLOOR_1",
+      "continuous_wall_contact_at_z25_mm2": {
+        "WELL_PORT_WALL": 63.96000000000049,
+        "WELL_STBD_WALL": 63.96000000000049
+      },
+      "lowerplate_contact_at_z22_mm2": 930.4386523474218,
+      "bond_and_support_capacity": "NOT_VERIFIED",
+      "fixed_longitudinal_path": "original continuous well sidewalls, glued floor-sidewall faces; unchanged keel retains original mating slots"
+    },
+    {
+      "floor": "WELL_INNER_FLOOR_2",
+      "continuous_wall_contact_at_z25_mm2": {
+        "WELL_PORT_WALL": 415.32000000000016,
+        "WELL_STBD_WALL": 415.32000000000016
+      },
+      "lowerplate_contact_at_z22_mm2": 7072.000000000003,
+      "bond_and_support_capacity": "NOT_VERIFIED",
+      "fixed_longitudinal_path": "original continuous well sidewalls, glued floor-sidewall faces; unchanged keel retains original mating slots"
+    },
+    {
+      "floor": "WELL_INNER_FLOOR_1",
+      "frame": "FRAME_14_X772",
+      "actual_horizontal_bearing_at_z22_mm2": 120.0,
+      "integral_tongue_width_mm": 40,
+      "lateral_clearance_each_side_mm": 0.06,
+      "vertical_bearing_gap_mm": 0,
+      "separate_small_terminal_parts": false,
+      "bond_and_support_capacity": "NOT_VERIFIED"
+    }
+  ],
+  "clear_well_mm": {
+    "x": [
+      610,
+      776
+    ],
+    "y": [
+      -22,
+      22
+    ],
+    "z": [
+      25,
+      44
+    ],
+    "width": 44,
+    "height": 19,
+    "new_wood_positive_volume_clashes": []
+  },
+  "native_skin_distances": [
+    {
+      "part": "WELL_INNER_FLOOR_1",
+      "edge_samples": 171,
+      "minimum_native_skin_distance_mm": 3.0215722783936774,
+      "wood_point_xyz_mm": [
+        776.0,
+        -24.424285714285766,
+        22.0
+      ],
+      "native_surface": "SKIN_AFT_4_1_PORT",
+      "criterion_mm": 2.2,
+      "pass_with_0_01mm_numeric_tolerance": true
+    },
+    {
+      "part": "WELL_INNER_FLOOR_2",
+      "edge_samples": 384,
+      "minimum_native_skin_distance_mm": 7.541325464462841,
+      "wood_point_xyz_mm": [
+        748.44,
+        25.0,
+        22.0
+      ],
+      "native_surface": "SKIN_AFT_4_1_STBD",
+      "criterion_mm": 2.2,
+      "pass_with_0_01mm_numeric_tolerance": true
+    },
+    {
+      "part": "LOWER_CROSSPLATE_5_FRAMES_1",
+      "edge_samples": 660,
+      "minimum_native_skin_distance_mm": 2.2115534272860726,
+      "wood_point_xyz_mm": [
+        747.7018521502906,
+        35.401914817702455,
+        19.0
+      ],
+      "native_surface": "SKIN_AFT_4_2_STBD",
+      "criterion_mm": 2.2,
+      "pass_with_0_01mm_numeric_tolerance": true
+    },
+    {
+      "part": "LOWER_CROSSPLATE_5_FRAMES_2",
+      "edge_samples": 156,
+      "minimum_native_skin_distance_mm": 2.210219426306562,
+      "wood_point_xyz_mm": [
+        752.5,
+        31.998185975209925,
+        19.0
+      ],
+      "native_surface": "SKIN_AFT_4_2_STBD",
+      "criterion_mm": 2.2,
+      "pass_with_0_01mm_numeric_tolerance": true
+    },
+    {
+      "part": "FRAME_13_X750",
+      "edge_samples": 531,
+      "minimum_native_skin_distance_mm": 2.199919755641242,
+      "wood_point_xyz_mm": [
+        751.5,
+        26.022446711018052,
+        17.106655087173046
+      ],
+      "native_surface": "SKIN_AFT_4_1_STBD",
+      "criterion_mm": 2.2,
+      "pass_with_0_01mm_numeric_tolerance": true
+    },
+    {
+      "part": "FRAME_14_X772",
+      "edge_samples": 504,
+      "minimum_native_skin_distance_mm": 2.199921925651019,
+      "wood_point_xyz_mm": [
+        773.5,
+        26.204947032211642,
+        21.226904628024577
+      ],
+      "native_surface": "SKIN_AFT_4_1_STBD",
+      "criterion_mm": 2.2,
+      "pass_with_0_01mm_numeric_tolerance": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X750",
+      "edge_samples": 54,
+      "minimum_native_skin_distance_mm": 2.503506988785862,
+      "wood_point_xyz_mm": [
+        748.5,
+        -50.48855088575936,
+        48.540083285762925
+      ],
+      "native_surface": "SKIN_AFT_4_3_PORT",
+      "criterion_mm": 2.2,
+      "pass_with_0_01mm_numeric_tolerance": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X750",
+      "edge_samples": 54,
+      "minimum_native_skin_distance_mm": 2.503482664475549,
+      "wood_point_xyz_mm": [
+        748.5,
+        51.58899458750265,
+        51.8374794073536
+      ],
+      "native_surface": "SKIN_AFT_4_3_STBD",
+      "criterion_mm": 2.2,
+      "pass_with_0_01mm_numeric_tolerance": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X772",
+      "edge_samples": 54,
+      "minimum_native_skin_distance_mm": 2.5511136648260613,
+      "wood_point_xyz_mm": [
+        770.5,
+        -54.13813062312632,
+        68.87765922092306
+      ],
+      "native_surface": "SKIN_AFT_4_3_PORT",
+      "criterion_mm": 2.2,
+      "pass_with_0_01mm_numeric_tolerance": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X772",
+      "edge_samples": 54,
+      "minimum_native_skin_distance_mm": 2.5529252019131783,
+      "wood_point_xyz_mm": [
+        770.5,
+        53.75476757960648,
+        67.48877443933245
+      ],
+      "native_surface": "SKIN_AFT_4_3_STBD",
+      "criterion_mm": 2.2,
+      "pass_with_0_01mm_numeric_tolerance": true
+    }
+  ],
+  "distance_method": "native saved AFT Brep surface PointAt bounded optimization, nearest coarse-grid patch candidates; discrete boundary samples max3mm spacing and three extrusion depths; not a continuous global proof",
+  "seam_side_gap_mm": 0.06,
+  "seam_waterproofing": "BOND_AND_SEAL_PROCESS_NOT_VERIFIED",
+  "insertion": "floor integral tongue lowered into open final-frame notch before fixed well walls; full assembly swept path NOT_CHECKED",
+  "native_Rhino_UI": "NOT_CHECKED",
+  "physical_strength": "NOT_VERIFIED"
+}

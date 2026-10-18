@@ -1,0 +1,26 @@
+{
+  "assembled": {
+    "objects": 290,
+    "units": "mm",
+    "mesh_count": 0,
+    "named_views": 5
+  },
+  "skeleton": {
+    "objects": 101,
+    "units": "mm",
+    "mesh_count": 0,
+    "named_views": 5
+  },
+  "exploded": {
+    "objects": 290,
+    "units": "mm",
+    "mesh_count": 0,
+    "named_views": 5
+  },
+  "planking_jig": {
+    "objects": 104,
+    "units": "mm",
+    "mesh_count": 0,
+    "named_views": 5
+  }
+}

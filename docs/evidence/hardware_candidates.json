@@ -1,0 +1,132 @@
+{
+  "schema": "076.hardware-candidate-review.v1",
+  "checked_date": "2026-10-18",
+  "units": {"length": "mm", "mass": "g", "voltage": "V"},
+  "status": "CANDIDATE_NOT_SELECTED",
+  "system_fit_status": "FAIL_FIT_NOT_CLOSED",
+  "purchase_authorized": false,
+  "native_model_modified": false,
+  "website_modified": false,
+  "unknown_policy": "UNKNOWN is not zero. Manufacturer dimensions do not establish installed fit.",
+  "sources": [
+    {"id": "RAB2025", "type": "MANUFACTURER_CATALOG", "url": "https://raboeschmodels.com/wp-content/uploads/2020/09/RABOESCH_CATALOGUS-2025-compressed.pdf", "locators": {"motor": "printed16/PDF18", "shaft": "printed22/PDF24", "coupling": "printed24/PDF26"}, "verification": "BROWSED_TEXT; PDF screenshot fetch unavailable; no offline manufacturer file stored"},
+    {"id": "RAB_SHAFT_WEB", "type": "MANUFACTURER_PRODUCT_PAGE", "url": "https://raboeschmodels.com/product/propeller-shaft-301-0206/", "verification": "BROWSED"},
+    {"id": "POLOLU999", "type": "MANUFACTURER_PRODUCT_PAGE", "url": "https://www.pololu.com/product/999/specs", "verification": "BROWSED"},
+    {"id": "POLOLU_DRAWING", "type": "MANUFACTURER_DIMENSION_DRAWING", "url": "https://www.pololu.com/file/0J949/micro-metal-gearmotors-dimensions.pdf#page=4", "verification": "BROWSED_TEXT; screenshot tool returned no viewable image"},
+    {"id": "HITEC_WEB", "type": "MANUFACTURER_PRODUCT_PAGE", "url": "https://hitecrcd.com/hs-65mg-metal-gear-analog-micro-servo/", "verification": "BROWSED"},
+    {"id": "HITEC_V22", "type": "MANUFACTURER_DATASHEET", "url": "https://www.hiteccs.com/public/uploads/data_sheet/HCS_HS-65MG_Specsheetv2.2_10-1729888021.pdf", "verification": "BROWSED_TEXT"},
+    {"id": "GENS850", "type": "MANUFACTURER_PRODUCT_PAGE", "url": "https://gensace.de/collections/s152026/products/gens-ace-850mah-7-4v-2s1p-60c-lipo-battery-pack-with-ec2-plug", "verification": "BROWSED"}
+  ],
+  "candidates": [
+    {
+      "id": "motor_rm410", "category": "motor", "manufacturer": "Raboesch", "model": "Blue RM410", "part_number": "109-41", "quantity_if_adopted": 2,
+      "status": "CANDIDATE_NOT_SELECTED", "fit_status": "REJECTED_FOR_CURRENT_ENVELOPE", "source_ids": ["RAB2025"],
+      "manufacturer_specs": {"housing_diameter_mm": 27.5, "housing_length_mm": 38, "shaft_diameter_mm": 2.3, "drawing_front_shaft_projection_mm": 13, "drawing_overall_axial_length_mm": 57, "mounting_threads": "2 x M2.5", "mounting_hole_spacing_mm": 16, "mass_g": 72, "nominal_voltage_V": 7.2, "voltage_range_V": [6,9]},
+      "unknown": ["allowed screw depth", "mount bracket envelope", "terminal and cable envelope", "service envelope", "installed wet-load performance"],
+      "decision": "Existing low reserve is not coaxial. Example forward coaxial placement breaches current deck/cassette envelope; do not render as installed solution."
+    },
+    {
+      "id": "shaft_30122", "category": "shaft_tube", "manufacturer": "Raboesch", "model": "301-22", "quantity_if_adopted": 2,
+      "status": "CANDIDATE_NOT_SELECTED", "fit_status": "NOT_DROP_IN", "source_ids": ["RAB2025", "RAB_SHAFT_WEB"],
+      "manufacturer_specs": {"tube_length_mm": 150, "shaft_length_mm": 186, "tube_outer_diameter_mm": 6, "shaft_diameter_mm": 4, "propeller_end_thread": "M4 x 16 mm", "bearing_house_max_diameter_mm": 10.5, "tube_material": "brass", "shaft_material": "stainless steel", "mass_g": "UNKNOWN"},
+      "source_conflict": "Catalog A=150 tube, B=186 shaft; webpage table A=186,B=150. Use explicit catalog tube/shaft definitions pending confirmation.",
+      "unknown": ["bearing-house axial length", "usable motor-end shaft engagement", "seal geometry", "shortening/reassembly dimensions", "actual installed mass", "propeller hub datum"]
+    },
+    {
+      "id": "coupling_10660", "category": "coupling", "manufacturer": "Raboesch", "model": "106-60", "quantity_if_adopted": 2,
+      "status": "CANDIDATE_NOT_SELECTED", "fit_status": "NOMINAL_DIAMETERS_ONLY", "source_ids": ["RAB2025"],
+      "manufacturer_specs": {"type": "rigid", "bore_diameters_mm": [2.3,4], "length_mm": 25, "outer_diameter_mm": 12, "locking": "2 metric lock screws included", "mass_g": "UNKNOWN"},
+      "nominal_interfaces": ["motor_rm410 shaft 2.3", "shaft_30122 shaft 4"],
+      "unknown": ["bore engagement depths", "lock screw size and location", "torque capacity", "permitted alignment error", "mass"]
+    },
+    {
+      "id": "motor_pololu999", "category": "small_motor_alternative", "manufacturer": "Pololu", "model": "10:1 Micro Metal Gearmotor HP 6V", "part_number": "999", "variant": "no encoder; no extended rear shaft", "quantity_if_adopted": 2,
+      "status": "CANDIDATE_NOT_SELECTED", "fit_status": "BODY_ONLY_GEOMETRY_CANDIDATE_FULL_DRIVE_UNVERIFIED", "source_ids": ["POLOLU999", "POLOLU_DRAWING"],
+      "manufacturer_specs": {"cross_section_mm": [10,12], "listed_body_length_mm": 25, "footnote_body_length_mm": 26, "drawing_OL_max_mm": 25.6, "shaft_diameter_mm": 3, "shaft_profile": "D", "description_shaft_length_mm": 9, "footnote_front_axial_addition_mm": 10, "mass_g": 9.5, "nominal_voltage_V": 6, "gear_ratio": 9.96, "no_load_speed_at_6V_rpm": 3100, "no_load_speed_tolerance_percent": 20},
+      "source_conflict": "Product size25 versus footnote26; detailed precious-metal-brush no-encoder drawing OL max25.6. Research box conservatively26, excluding front shaft.",
+      "incompatible_interfaces": ["3mm D shaft does not fit 106-60 motor bore2.3", "2S7.4V battery is not the verified6V performance point"],
+      "unknown": ["full shaft-tube-coupling axial stack", "loaded propulsion torque/rpm", "continuous wet-load capability", "bracket, terminals and service clearances", "regulator/driver envelope"]
+    },
+    {
+      "id": "coupling_10662", "category": "small_motor_coupling_alternative", "manufacturer": "Raboesch", "model": "106-62", "status": "CANDIDATE_NOT_SELECTED", "fit_status": "NOMINAL_DIAMETERS_ONLY", "source_ids": ["RAB2025"],
+      "manufacturer_specs": {"type": "rigid", "bore_diameters_mm": [3,4], "length_mm": 25, "outer_diameter_mm": 12, "locking": "2 metric lock screws included", "mass_g": "UNKNOWN"},
+      "unknown": ["D-shaft clamping and engagement", "bore depth", "well wall collision", "full axial stack", "mass"]
+    },
+    {
+      "id": "servo_hs65mg", "category": "rudder_servo", "manufacturer": "Hitec", "model": "HS-65MG", "part_number": "32065S", "quantity_if_adopted": 1,
+      "status": "CANDIDATE_NOT_SELECTED", "fit_status": "MOUNT_AND_LINKAGE_UNVERIFIED", "source_ids": ["HITEC_WEB", "HITEC_V22"],
+      "manufacturer_specs": {"listed_dimensions_mm": [23.6,11.6,24], "voltage_range_V": [4.8,6], "control": "PWM", "output_spline": "M25T (diameter5mm) per v2.2; website Micro25", "lead_length_mm": 160, "mass_g": "CONFLICT", "mass_web_g": 11.9, "mass_v22_excluding_horn_g": 12.5},
+      "source_conflict": "Manufacturer product page mass11.9g; manufacturer v2.2 mass12.5g excluding horn. Do not assign one exact installed mass.",
+      "incompatible_interfaces": ["modeled rudder stockdiameter2mm is not the servo spline interface", "24mm upright height exceeds well19mm", "do not directly supply from2S battery"],
+      "unknown": ["ear/mount hole complete geometry", "horn and linkage sweep", "two-rudder load requirement", "installed mass including horn/linkage", "water-exposure protection"]
+    },
+    {
+      "id": "battery_gea8502s60e2", "category": "battery", "manufacturer": "Gens ace / Genspow", "model": "850mAh 2S 60C 7.4V EC2 Car Classic", "part_number": "GEA8502S60E2", "quantity_if_adopted": 1,
+      "status": "CANDIDATE_NOT_SELECTED", "fit_status": "FRONT_REMOVABLE_TRAY_TO_BE_DESIGNED", "source_ids": ["GENS850"],
+      "manufacturer_specs": {"approx_dimensions_mm": [58,32,20], "approx_mass_g": 55, "capacity_mAh": 850, "nominal_voltage_V": 7.4, "cell_count_series": 2, "discharge_connector": "EC2", "balance_connector": "JST-XHR-3P"},
+      "incompatible_interfaces": ["20mm body height exceeds well19mm", "servo needs4.8..6V regulation", "Pololu candidate verified nominal6V differs from battery7.4V"],
+      "unknown": ["tolerances", "lead and connector envelope", "restraint and removal space", "driver connector", "runtime", "CG/buoyancy impact"]
+    }
+  ],
+  "geometry_reference": {
+    "source": "outputs/076_Integration_V7/parameters.json",
+    "grade": "D_MODEL_DESIGN",
+    "shaft_roots_mm": [[722,-28,18],[722,28,18]],
+    "hub_centers_mm": [[758,-28,4.5],[758,28,4.5]],
+    "axis_unit_toward_stern": [0.9363291776,0,-0.3511234416],
+    "axis_equation": "z=18+0.375*(722-x); y=+/-28",
+    "old_motor_reserve_mm": {"x": [620,655], "z": [8,18]},
+    "axis_z_at_old_reserve_ends_mm": [56.25,43.125],
+    "well_interior_mm": {"x": [610,776], "y": [-22,22], "z": [25,44]},
+    "wall_thickness_mm": 3,
+    "cassette_outer_mm": {"x": [190,595], "y": [-35,41], "z": [44,76]},
+    "hatch_mm": {"x": [187,598], "y": [-37.5,42], "z": [76,79]},
+    "visual_model_shaft_diameter_mm": 1.7,
+    "visual_model_tube_outer_diameter_mm": 3,
+    "visual_model_rudder_stock_diameter_mm": 2,
+    "visual_propeller_thread": "UNKNOWN"
+  },
+  "review_envelopes": [
+    {
+      "id": "rm410_rejected_coaxial_example", "candidate_id": "motor_rm410", "status": "REJECTED_FOR_CURRENT_ENVELOPE", "evidence_grade": "D_ANALYTIC_MODEL_DESIGN", "show_as": "REJECTED_RED_GHOST_NOT_INSTALLED",
+      "front_face_centers_mm": [[570,-28,75],[570,28,75]],
+      "body_extends_forward_along_negative_shaft_axis_mm": 38,
+      "body_radius_mm": 13.75,
+      "rear_face_centers_mm": [[534.419491,-28,88.342691],[534.419491,28,88.342691]],
+      "analytic_highest_body_z_mm": 101.217217,
+      "reason": "Coaxial but above z76..79 hatch/deck within x190..595 cassette region. Cannot use as practical mount."
+    },
+    {
+      "id": "pololu999_body_only_research_box", "candidate_id": "motor_pololu999", "status": "BODY_ONLY_GEOMETRY_CANDIDATE_FULL_DRIVE_UNVERIFIED", "evidence_grade": "D_DESIGN_ASSUMPTION", "show_as": "AMBER_BODY_ONLY_NOT_INSTALLED",
+      "front_face_centers_mm": [[625,-28,54.375],[625,28,54.375]],
+      "conservative_body_length_mm": 26,
+      "body_extends_along": "negative shaft axis",
+      "cross_section_y_mm": 10,
+      "cross_section_axis_normal_xz_mm": 12,
+      "axis_normal_xz": [0.3511234416,0,0.9363291776],
+      "analytic_body_aabb_x_mm": [598.5487,627.1067],
+      "analytic_body_aabb_z_mm": [48.7570,69.1222],
+      "analytic_body_aabb_y_port_mm": [-33,-23],
+      "analytic_body_aabb_y_starboard_mm": [23,33],
+      "included": "only conservative motor body", "excluded": ["shaft", "coupling", "tube", "bracket", "terminal leads", "tools", "service sweep"],
+      "full_native_collision_check": "NOT_RUN",
+      "cross_section_datum_assumption": "Research rectangle centered on output axis; rebuild if detailed manufacturer geometry shows offset. This is not an installed-fit acceptance.",
+      "reason": "Analytic body box can avoid named well/cassette/deck boxes. Stock186mm shaft and25mm coupling are not reconciled; no complete fit claim."
+    },
+    {
+      "id": "stock_shaft_length_counterexample", "candidate_id": "shaft_30122", "status": "ILLUSTRATIVE_DATUM_ASSUMPTION_NOT_INSTALLATION", "evidence_grade": "D_DESIGN_ASSUMPTION",
+      "assumption": "For illustration only place stern shaft tip at existing hub center; true propeller-end datum UNKNOWN",
+      "shaft_length_mm": 186,
+      "inferred_front_tip_mm": [[583.842773,-28,69.808961],[583.842773,28,69.808961]],
+      "reason": "Does not form a drop-in axial stack with body-only small motor atx625. Required shortening and seal relocation not established."
+    }
+  ],
+  "closing_gates": [
+    {"id": "HW1", "status": "OPEN", "criterion": "Select architecture/model and obtain missing mounting/engagement/seal dimensions; weigh actual parts."},
+    {"id": "HW2", "status": "OPEN", "criterion": "Validate whole shaft-coupling-motor stack against actual native wooden parts, well walls, skin, deck and cassette extraction sweep; measure minimum clearance and tools/service paths."},
+    {"id": "HW3", "status": "OPEN", "criterion": "Prove shaft supports, thrust path, penetration seal, propeller thread and actual-end datums; visual shafts/props are not standard-hardware evidence."},
+    {"id": "HW4", "status": "OPEN", "criterion": "Resolve servo mount/horn/linkage double-rudder sweep, battery removal, wiring, motor controllers and regulated receiver/servo supply."},
+    {"id": "HW5", "status": "OPEN", "criterion": "Measure wet-load current, temperature, rpm and required propulsion; verify complete mass, CG, floatation and endurance."}
+  ],
+  "validation_scope": "Manufacturer facts browsed. Analytic candidate-axis/body estimates only. No native CAD hardware insertion, shop test, physical hardware measurement, purchase, or water-operation test."
+}

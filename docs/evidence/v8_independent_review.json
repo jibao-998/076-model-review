@@ -1,0 +1,538 @@
+{
+  "review_kind": "INDEPENDENT_READ_ONLY_NUMERICAL_GEOMETRY",
+  "native_sha256": "a2c7793993c420136dc34f3d4a209371e33a7474a2c46ebca334e999d8e8db39",
+  "findings": [
+    {
+      "id": "V8-REVIEW-01",
+      "severity": "INFORMATIONAL_NONBLOCKING",
+      "finding": "Alternate boundary sampling gives WELL_INNER_FLOOR_1 minimum 2.80957249 mm, below the implementer sampled 3.02157228 mm. Both pass the 2.2mm target. Small differences also occur elsewhere, consistent with the explicit discrete-sampling scope.",
+      "action": "Use sampled-minimum wording and retain the independent evidence alongside aft_validation.json; do not promote any one sampling grid to a continuous/global guarantee."
+    }
+  ],
+  "unchanged_source_hull_objects": 53,
+  "native_readback": [
+    {
+      "file": "076_assembled_v8.3dm",
+      "objects": 290,
+      "invalid": [],
+      "mesh_count": 0,
+      "units": "UnitSystem.Millimeters",
+      "named_views": 5
+    },
+    {
+      "file": "076_exploded_v8.3dm",
+      "objects": 290,
+      "invalid": [],
+      "mesh_count": 0,
+      "units": "UnitSystem.Millimeters",
+      "named_views": 5
+    },
+    {
+      "file": "076_planking_jig_v8.3dm",
+      "objects": 104,
+      "invalid": [],
+      "mesh_count": 0,
+      "units": "UnitSystem.Millimeters",
+      "named_views": 5
+    },
+    {
+      "file": "076_skeleton_v8.3dm",
+      "objects": 101,
+      "invalid": [],
+      "mesh_count": 0,
+      "units": "UnitSystem.Millimeters",
+      "named_views": 5
+    }
+  ],
+  "native_x_bounds_mm": [
+    0.0,
+    800.0
+  ],
+  "source_v6_preserved": true,
+  "frozen_input_hashes_pass": true,
+  "actual_native_diff_vs_v6": {
+    "changed": [
+      "FRAME_13_X750",
+      "FRAME_14_X772",
+      "FRAME_CHEEK_PORT_X750",
+      "FRAME_CHEEK_PORT_X772",
+      "FRAME_CHEEK_STBD_X750",
+      "FRAME_CHEEK_STBD_X772"
+    ],
+    "added": [
+      "LOWER_CROSSPLATE_5_FRAMES_1",
+      "LOWER_CROSSPLATE_5_FRAMES_2",
+      "WELL_INNER_FLOOR_1",
+      "WELL_INNER_FLOOR_2",
+      "WIRE_LIGHT_FIXED",
+      "WIRE_LIGHT_WITHDRAWABLE"
+    ],
+    "removed": [
+      "LOWER_CROSSPLATE_5_FRAMES",
+      "WELL_INNER_FLOOR",
+      "WIRE_LIGHT"
+    ]
+  },
+  "native_panel_scene_correspondence": [
+    {
+      "part": "WELL_INNER_FLOOR_1",
+      "native_polygon_symmetric_difference_mm2": 0.0,
+      "native_profile_to_scene_max_mm": 0.0,
+      "solid": true,
+      "thickness_mm": 3,
+      "area_mm2": 1190.8000000000038,
+      "bounds_local_mm": [
+        751.56,
+        -25.0,
+        776.0,
+        25.0
+      ]
+    },
+    {
+      "part": "WELL_INNER_FLOOR_2",
+      "native_polygon_symmetric_difference_mm2": 0.0,
+      "native_profile_to_scene_max_mm": 0.0,
+      "solid": true,
+      "thickness_mm": 3,
+      "area_mm2": 7072.000000000003,
+      "bounds_local_mm": [
+        607.0,
+        -25.0,
+        748.44,
+        25.0
+      ]
+    },
+    {
+      "part": "LOWER_CROSSPLATE_5_FRAMES_1",
+      "native_polygon_symmetric_difference_mm2": 0.0,
+      "native_profile_to_scene_max_mm": 0.0,
+      "solid": true,
+      "thickness_mm": 3,
+      "area_mm2": 12681.912009932905,
+      "bounds_local_mm": [
+        600.0,
+        -46.1342514129416,
+        748.44,
+        46.1342514129416
+      ]
+    },
+    {
+      "part": "LOWER_CROSSPLATE_5_FRAMES_2",
+      "native_polygon_symmetric_difference_mm2": 0.0,
+      "native_profile_to_scene_max_mm": 0.0,
+      "solid": true,
+      "thickness_mm": 3,
+      "area_mm2": 1024.2202667970691,
+      "bounds_local_mm": [
+        751.56,
+        -32.684551674947876,
+        770.44,
+        32.684551674947876
+      ]
+    },
+    {
+      "part": "FRAME_13_X750",
+      "native_polygon_symmetric_difference_mm2": 0.0,
+      "native_profile_to_scene_max_mm": 0.0,
+      "solid": true,
+      "thickness_mm": 3,
+      "area_mm2": 1488.289657057189,
+      "bounds_local_mm": [
+        -58.154891263898286,
+        10.553290059948848,
+        58.154891263898286,
+        74.75
+      ]
+    },
+    {
+      "part": "FRAME_14_X772",
+      "native_polygon_symmetric_difference_mm2": 0.0,
+      "native_profile_to_scene_max_mm": 0.0,
+      "solid": true,
+      "thickness_mm": 3,
+      "area_mm2": 1067.0676626296952,
+      "bounds_local_mm": [
+        -55.69941238609384,
+        13.699271307829088,
+        55.69941238609384,
+        74.75
+      ]
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X750",
+      "native_polygon_symmetric_difference_mm2": 0.0,
+      "native_profile_to_scene_max_mm": 0.0,
+      "solid": true,
+      "thickness_mm": 3,
+      "area_mm2": 85.31993657117303,
+      "bounds_local_mm": [
+        -56.65784964394968,
+        48.0,
+        -46.19425429648875,
+        69.0
+      ]
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X750",
+      "native_polygon_symmetric_difference_mm2": 0.0,
+      "native_profile_to_scene_max_mm": 0.0,
+      "solid": true,
+      "thickness_mm": 3,
+      "area_mm2": 85.319936571173,
+      "bounds_local_mm": [
+        46.19425429648875,
+        48.0,
+        56.65784964394968,
+        69.0
+      ]
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X772",
+      "native_polygon_symmetric_difference_mm2": 0.0,
+      "native_profile_to_scene_max_mm": 0.0,
+      "solid": true,
+      "thickness_mm": 3,
+      "area_mm2": 84.63220664550829,
+      "bounds_local_mm": [
+        -54.17169334398731,
+        48.0,
+        -43.57579692126616,
+        69.0
+      ]
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X772",
+      "native_polygon_symmetric_difference_mm2": 0.0,
+      "native_profile_to_scene_max_mm": 0.0,
+      "solid": true,
+      "thickness_mm": 3,
+      "area_mm2": 84.24438235736636,
+      "bounds_local_mm": [
+        44.1,
+        48.0,
+        54.17169334398731,
+        69.0
+      ]
+    }
+  ],
+  "lower_joint_minimum_wood_distances": [
+    {
+      "part": "FRAME_13_X750",
+      "independent_minimum_mm": 7.762552191622291,
+      "sides": [
+        {
+          "side": -1,
+          "distance_mm": 7.762552191622291,
+          "from_yz_mm": [
+            -25.06,
+            25.0
+          ],
+          "to_yz_mm": [
+            -27.510739733965345,
+            17.634465987857805
+          ],
+          "whole_segment_in_wood": true
+        },
+        {
+          "side": 1,
+          "distance_mm": 7.762552191622291,
+          "from_yz_mm": [
+            25.06,
+            25.0
+          ],
+          "to_yz_mm": [
+            27.510739733965345,
+            17.634465987857805
+          ],
+          "whole_segment_in_wood": true
+        }
+      ]
+    },
+    {
+      "part": "FRAME_14_X772",
+      "independent_minimum_mm": 3.196953651959704,
+      "sides": [
+        {
+          "side": -1,
+          "distance_mm": 3.196953651959704,
+          "from_yz_mm": [
+            -20.06,
+            22.0
+          ],
+          "to_yz_mm": [
+            -21.51391170818307,
+            19.152781462973614
+          ],
+          "whole_segment_in_wood": true
+        },
+        {
+          "side": 1,
+          "distance_mm": 3.196953651959704,
+          "from_yz_mm": [
+            20.06,
+            22.0
+          ],
+          "to_yz_mm": [
+            21.51391170818307,
+            19.152781462973614
+          ],
+          "whole_segment_in_wood": true
+        }
+      ]
+    }
+  ],
+  "clear_well": {
+    "width_mm": 44,
+    "height_mm": 19,
+    "xyz_bounds": [
+      [
+        610,
+        776
+      ],
+      [
+        -22,
+        22
+      ],
+      [
+        25,
+        44
+      ]
+    ],
+    "new_wood_positive_volume_hits": []
+  },
+  "modified_vs_all_native_tied_panels_static": {
+    "candidate_pairs": 19,
+    "positive_volume_clashes": []
+  },
+  "contacts": [
+    {
+      "floor": "WELL_INNER_FLOOR_1",
+      "sidewall_face_contacts_mm2": {
+        "WELL_PORT_WALL": 63.96000000000049,
+        "WELL_STBD_WALL": 63.96000000000049
+      },
+      "lowerplate_contact_mm2": 930.4386523474218,
+      "components": 1,
+      "narrow_terminal_separate_piece": false
+    },
+    {
+      "floor": "WELL_INNER_FLOOR_2",
+      "sidewall_face_contacts_mm2": {
+        "WELL_PORT_WALL": 415.32000000000016,
+        "WELL_STBD_WALL": 415.32000000000016
+      },
+      "lowerplate_contact_mm2": 7072.000000000003,
+      "components": 1,
+      "narrow_terminal_separate_piece": false
+    }
+  ],
+  "cheek_frame_face_contacts_mm2": {
+    "FRAME_CHEEK_PORT_X750": 85.31993657117302,
+    "FRAME_CHEEK_STBD_X750": 85.31993657117303,
+    "FRAME_CHEEK_PORT_X772": 84.63220664550825,
+    "FRAME_CHEEK_STBD_X772": 84.24438235736639
+  },
+  "integral_terminal_tongue": {
+    "name": "WELL_INNER_FLOOR_1",
+    "frame_axial_footprint_area_mm2": 120.0,
+    "frame_bearing_line_length_mm": 40.0,
+    "frame_thickness_mm": 3,
+    "lowerplate_max_x_mm": 770.44,
+    "component_counts": {
+      "WELL_INNER_FLOOR_1": 1,
+      "WELL_INNER_FLOOR_2": 1,
+      "LOWER_CROSSPLATE_5_FRAMES_1": 1,
+      "LOWER_CROSSPLATE_5_FRAMES_2": 1
+    },
+    "wood_strength": "NOT_VERIFIED"
+  },
+  "wire_branch_geometry": {
+    "WIRE_LIGHT_FIXED": [
+      [
+        200.0,
+        42.0,
+        40.0
+      ],
+      [
+        187.0,
+        42.0,
+        40.0
+      ],
+      [
+        187.0,
+        42.0,
+        70.0
+      ],
+      [
+        187.0,
+        0.0,
+        70.0
+      ]
+    ],
+    "WIRE_LIGHT_WITHDRAWABLE": [
+      [
+        187.0,
+        0.0,
+        70.0
+      ],
+      [
+        400.0,
+        0.0,
+        70.0
+      ]
+    ]
+  },
+  "wire_service_qualification": "terminal withdrawable branch removal prerequisite is necessary; no connector/strain-relief or full removal swept volume modeled",
+  "alternate_native_surface_sampling": [
+    {
+      "part": "WELL_INNER_FLOOR_1",
+      "independent_boundary_points": 430,
+      "minimum_mm": 2.8095724897477408,
+      "wood_point_mm": [
+        776.0,
+        -25.0,
+        22.0
+      ],
+      "mother_surface": "SKIN_AFT_4_1_PORT",
+      "target_mm": 2.2,
+      "numerical_tolerance_mm": 0.01,
+      "passes_numerical_threshold": true
+    },
+    {
+      "part": "WELL_INNER_FLOOR_2",
+      "independent_boundary_points": 855,
+      "minimum_mm": 7.541325464464279,
+      "wood_point_mm": [
+        748.44,
+        -25.0,
+        22.0
+      ],
+      "mother_surface": "SKIN_AFT_4_1_PORT",
+      "target_mm": 2.2,
+      "numerical_tolerance_mm": 0.01,
+      "passes_numerical_threshold": true
+    },
+    {
+      "part": "LOWER_CROSSPLATE_5_FRAMES_1",
+      "independent_boundary_points": 2085,
+      "minimum_mm": 2.2106441441295703,
+      "wood_point_mm": [
+        748.44,
+        -34.9285083509,
+        19.0
+      ],
+      "mother_surface": "SKIN_AFT_4_2_PORT",
+      "target_mm": 2.2,
+      "numerical_tolerance_mm": 0.01,
+      "passes_numerical_threshold": true
+    },
+    {
+      "part": "LOWER_CROSSPLATE_5_FRAMES_2",
+      "independent_boundary_points": 725,
+      "minimum_mm": 2.209844336596321,
+      "wood_point_mm": [
+        751.56,
+        -32.6845516749,
+        19.0
+      ],
+      "mother_surface": "SKIN_AFT_4_2_PORT",
+      "target_mm": 2.2,
+      "numerical_tolerance_mm": 0.01,
+      "passes_numerical_threshold": true
+    },
+    {
+      "part": "FRAME_13_X750",
+      "independent_boundary_points": 6840,
+      "minimum_mm": 2.199938927593649,
+      "wood_point_mm": [
+        751.5,
+        -26.5803085366,
+        17.3126331819
+      ],
+      "mother_surface": "SKIN_AFT_4_1_PORT",
+      "target_mm": 2.2,
+      "numerical_tolerance_mm": 0.01,
+      "passes_numerical_threshold": true
+    },
+    {
+      "part": "FRAME_14_X772",
+      "independent_boundary_points": 7335,
+      "minimum_mm": 2.199898901290639,
+      "wood_point_mm": [
+        773.5,
+        -23.4980388529,
+        20.1277795941
+      ],
+      "mother_surface": "SKIN_AFT_4_1_PORT",
+      "target_mm": 2.2,
+      "numerical_tolerance_mm": 0.01,
+      "passes_numerical_threshold": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X750",
+      "independent_boundary_points": 480,
+      "minimum_mm": 2.503479221034463,
+      "wood_point_mm": [
+        748.5,
+        -51.3631061996,
+        51.1497279111
+      ],
+      "mother_surface": "SKIN_AFT_4_3_PORT",
+      "target_mm": 2.2,
+      "numerical_tolerance_mm": 0.01,
+      "passes_numerical_threshold": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X750",
+      "independent_boundary_points": 480,
+      "minimum_mm": 2.503479221034463,
+      "wood_point_mm": [
+        748.5,
+        51.3631061996,
+        51.1497279111
+      ],
+      "mother_surface": "SKIN_AFT_4_3_STBD",
+      "target_mm": 2.2,
+      "numerical_tolerance_mm": 0.01,
+      "passes_numerical_threshold": true
+    },
+    {
+      "part": "FRAME_CHEEK_PORT_X772",
+      "independent_boundary_points": 505,
+      "minimum_mm": 2.5508916295219697,
+      "wood_point_mm": [
+        770.5,
+        -54.171693344,
+        69.0
+      ],
+      "mother_surface": "SKIN_AFT_4_3_PORT",
+      "target_mm": 2.2,
+      "numerical_tolerance_mm": 0.01,
+      "passes_numerical_threshold": true
+    },
+    {
+      "part": "FRAME_CHEEK_STBD_X772",
+      "independent_boundary_points": 500,
+      "minimum_mm": 2.5508916295219697,
+      "wood_point_mm": [
+        770.5,
+        54.171693344,
+        69.0
+      ],
+      "mother_surface": "SKIN_AFT_4_3_STBD",
+      "target_mm": 2.2,
+      "numerical_tolerance_mm": 0.01,
+      "passes_numerical_threshold": true
+    }
+  ],
+  "skin_scope": "native bounded surface sampling at native profile vertices plus independent <=2.3mm boundary grid, five thickness positions; Euclidean shortest surface distance, not whole-boundary/global certification",
+  "open_qualifications": [
+    "native Rhino desktop not tested",
+    "wood grade/grain/pressing capacity not verified",
+    "full lower-board insertion and fixtures not swept",
+    "bond/0.06mm seam sealing and water operation not verified",
+    "hardware/interfaces not selected",
+    "skin margin target is 2.2mm with 0.01mm numerical tolerance, sampled minima may round just below 2.2"
+  ],
+  "verdict": "PASS_FOR_GEOMETRY_REVIEW_ONLY"
+}

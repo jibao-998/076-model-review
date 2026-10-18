@@ -1,5 +1,29 @@
 [
   {
+    "id": "v8",
+    "label": "V8",
+    "title": "接头与工程评审",
+    "description": "艉部联合接头修正、分步检修与可追溯评审；实物与硬件待验证",
+    "viewer": "versions/v8/viewer.html",
+    "report": "versions/v8/report.html",
+    "model": "versions/v8/model.3dm",
+    "parameters": "versions/v8/parameters.json",
+    "download_bytes": 1454897,
+    "payload_gzip_bytes": 8532063,
+    "source_viewer_sha256": "452c289262b64db16ba3787aa1e3a5f871813d72dd3683b938a6f956583e4b5c",
+    "historical": false,
+    "review_notes": [
+      "接头数值检查与木工实测分开验收；不可直接切割。"
+    ],
+    "changes": [
+      "取消艉部薄腹板贯通槽，重做两片肋骨及横板/坞舱底接头。",
+      "保留船体母面、800 mm长度与44×19 mm坞舱净空。",
+      "问题与部件证据关联；视角、显隐、选择与爆炸状态可恢复/分享。"
+    ],
+    "model_sha256": "a2c7793993c420136dc34f3d4a209371e33a7474a2c46ebca334e999d8e8db39",
+    "review": "versions/v8/review.json"
+  },
+  {
     "id": "v6",
     "label": "V6",
     "title": "检修与蒙皮",
@@ -11,12 +35,14 @@
     "source_viewer_sha256": "44beb4502f67b69147029a8b5ee45547121b852d523c7cdc3f91bb409d57499c",
     "download_bytes": 1409693,
     "payload_gzip_bytes": 8013958,
-    "historical": false,
+    "historical": true,
     "review_notes": [
       "艉部两片肋骨与下横板的蒙皮余量仍待联合改造；不能直接用于切割。",
       "抽取机库前，须断开并移开照明末段，不能把线留在抽取路径上。",
       "当前电机预留盒与推进轴线不共轴；直驱安装和实际舵机连杆仍未确定。"
-    ]
+    ],
+    "model_sha256": "6de9a4571aa78f69bf85a0225880a3d48d9cc029c24b0416ce23d4d1a7fe542b",
+    "review": "versions/v6/review.json"
   },
   {
     "id": "v5",
@@ -33,7 +59,9 @@
     "historical": true,
     "review_notes": [
       "历史评审版本，装配与制造限制以当前评审说明为准。"
-    ]
+    ],
+    "model_sha256": "62e14f7d17ff5cbf43d9290c011dcf71edee6b13978f421e3de14d34ae5856be",
+    "review": "versions/v5/review.json"
   },
   {
     "id": "v4",
@@ -50,7 +78,9 @@
     "historical": true,
     "review_notes": [
       "历史评审版本，装配与制造限制以当前评审说明为准。"
-    ]
+    ],
+    "model_sha256": "ebe2b10639ebc0229860a0b225632de6a9a8e1f491ca83b06de73b1a35c82497",
+    "review": "versions/v4/review.json"
   },
   {
     "id": "v3",
@@ -67,7 +97,9 @@
     "historical": true,
     "review_notes": [
       "历史评审版本，装配与制造限制以当前评审说明为准。"
-    ]
+    ],
+    "model_sha256": "91857abece272dcbe0d26bdda6ba60b002b51d4587d8d03ed4bec17214c4a6a0",
+    "review": "versions/v3/review.json"
   },
   {
     "id": "v2",
@@ -84,7 +116,9 @@
     "historical": true,
     "review_notes": [
       "历史评审版本，装配与制造限制以当前评审说明为准。"
-    ]
+    ],
+    "model_sha256": "ff102a20200c3b29e7d3d4fd84f5556f6f9242f5a28b047be804e7a00d2397cf",
+    "review": "versions/v2/review.json"
   },
   {
     "id": "bow",
@@ -101,7 +135,9 @@
     "historical": true,
     "review_notes": [
       "历史评审版本，装配与制造限制以当前评审说明为准。"
-    ]
+    ],
+    "model_sha256": "92e1fa5a94018e56c86004e1471c4e9345c23e18c34cbe8035c52e08a26a8d71",
+    "review": "versions/bow/review.json"
   },
   {
     "id": "phase02",
@@ -118,7 +154,9 @@
     "historical": true,
     "review_notes": [
       "历史评审版本，装配与制造限制以当前评审说明为准。"
-    ]
+    ],
+    "model_sha256": "a2cde641d7e863c564165d5e44fdccf743dec49b735b8f35e2f4f769bb5e2ce7",
+    "review": "versions/phase02/review.json"
   },
   {
     "id": "v1",
@@ -135,6 +173,8 @@
     "historical": true,
     "review_notes": [
       "历史评审版本，装配与制造限制以当前评审说明为准。"
-    ]
+    ],
+    "model_sha256": "69b5c62d1c00e132091e2a1a8cb996717ec6129a53567ba6afcc674801734f48",
+    "review": "versions/v1/review.json"
   }
 ]

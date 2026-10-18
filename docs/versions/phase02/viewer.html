@@ -7,7 +7,7 @@ header{display:none!important}.layout{height:100dvh!important}html,body{height:1
 <div class="layout"><aside><h2>新旧比较 / MODEL</h2><div class="buttons" id="modes"><button data-mode="new" class="active">新版外形</button><button data-mode="old">旧版外形</button><button data-mode="overlay">半透明叠加</button><button id="reset">复位视角</button></div><h2>视角 / CAMERA</h2><div class="buttons" id="views"><button data-view="iso" class="active">三维透视</button><button data-view="top">顶视</button><button data-view="port">左视</button><button data-view="bow">艏视</button><button data-view="stern">艉视</button><button data-view="low">低角度艏视</button></div><h2>外形基准 / REFERENCES</h2><label><input id="waterline" type="checkbox" checked> Z32几何参考线</label><label><input id="bands" type="checkbox" checked> 升降机候选位置带</label><label><input id="sections" type="checkbox"> 数学截面（不是肋骨）</label><input type="range" id="section-x" min="35" max="772" step="1" value="380"><p class="note" id="section-label">参考剖面 X=380 mm</p><label><input id="curves" type="checkbox"> 水线参考曲线</label><p class="note">拖动旋转 · 滚轮缩放 · 右键平移。点击对象查看分类。<br>默认隐藏曲线，避免把参考线误认为木质结构。</p><div class="block"><span class="tag">D 模型假设</span><br>新版下部型线、具体尺寸与坐标均为外形设计。<br>参考水线未通过静浮验证。</div><a href="model.3dm">下载Rhino NURBS模型 ↗</a><br><a href="report.html">阶段报告与新旧对比 ↗</a></aside>
 <main id="stage"><div class="toolbar"><span id="title">新版 / NURBS外形候选</span><span>0–800 mm 成品X包络</span></div><canvas id="canvas"></canvas><div class="legend">白色：外部体块 · 深红：Z32以下的设计参考区<br>青色：候选位置带，未永久切孔 · 黄色：数学截面<br>原生3dm含NURBS/Brep与挤出体；此处为同一曲面的采样预览<br>原生Rhino界面目视复核：NOT_CHECKED</div></main>
 <aside class="right"><h2>新版实际曲面尺寸 / mm</h2><div class="metric"><span>最大长度包络</span><b>800</b></div><div class="metric"><span>甲板最大宽</span><b id="deck-b">155</b></div><div class="metric"><span>上部船体最大宽</span><b id="hull-b">126</b></div><div class="metric"><span>Z32参考线处宽</span><b id="wl-b">108.8</b></div><div class="metric"><span>船体横艉X / 艉部预算</span><b id="aft-budget">776 / 24</b></div><div class="metric"><span>甲板顶高 / 总参考高</span><b id="heights">79 / 133</b></div><div class="spacer"></div><h2>依据与未知 / EVIDENCE</h2><p class="note"><b>A 官方确认</b><br>双舰岛、全纵通甲板、电磁弹射和阻拦技术。</p><p class="note"><b>B/C 外观与估算</b><br>实船照片约束上部比例和相对位置；各公开长宽估计冲突，未强选实舰比例。</p><p class="note key"><b>Unknown 水下附体</b><br>球鼻艏、舭龙骨、尾鳍、真实轴桨舵和轴架未确认，本阶段未添加。</p><div class="block" id="picked">点选对象查看外形分类。<br>本阶段没有新增木板骨架、设备或推进机构。</div><p class="note">艉部<span id="aft-note">24</span> mm只是长度预算；尚未证明能放下未来轴、桨、舵。最大成品仍不得超过800 mm。</p></aside></div>
-<div id="hosted-load" class="hosted-load">正在载入 Phase02<small>首次载入需下载模型，稍候即可旋转浏览</small></div><script>/**
+<div id="hosted-load" class="hosted-load">正在载入 Phase02<small>首次载入需下载模型，稍候即可旋转浏览</small></div><script src="../../review_state.js"></script><script>window.REVIEW_CONFIG={"version": "phase02", "hash": "a2cde641d7e863c564165d5e44fdccf743dec49b735b8f35e2f4f769bb5e2ce7", "issues": [{"id": "historical-review", "title": "历史版本 / 按本版证据阅读", "short": "历史评审 / 不用于制造", "status": "历史快照", "finding": "资料核查、外形与数学剖面对比", "close": "本历史版未执行当前完整制造与功能验收；查阅本版报告和参数。", "parts": [], "view": "iso", "evidence": "versions/phase02/report.html"}]};</script><script>/**
  * @license
  * Copyright 2010-2021 Three.js Authors
  * SPDX-License-Identifier: MIT
@@ -1090,7 +1090,109 @@ document.querySelector('#section-x').oninput=e=>{const x=+e.target.value;documen
 let down=[0,0];canvas.onpointerdown=e=>down=[e.clientX,e.clientY];canvas.onpointerup=e=>{if(Math.hypot(e.clientX-down[0],e.clientY-down[1])>5)return;const r=canvas.getBoundingClientRect(),ray=new THREE.Raycaster();ray.setFromCamera(new THREE.Vector2((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1),camera);const hit=ray.intersectObjects(meshes.filter(o=>o.visible&&o.parent.visible))[0];if(hit){const {q,which}=hit.object.userData;document.querySelector('#picked').textContent=(which==='new'?'新版：':'旧版：')+q.name+' / '+(q.layer||'外观参考')+' / 具体毫米定位与下部形状均为D模型假设。';}};
 document.querySelector('#deck-b').textContent=NEW.metrics.flightdeck_max_width_mm;document.querySelector('#hull-b').textContent=NEW.metrics.upper_hull_max_width_mm;document.querySelector('#wl-b').textContent=NEW.metrics.reference_waterline_width_mm.toFixed(1);
 document.querySelector('#aft-budget').textContent=NEW.metrics.hull_transom_x_mm+' / '+NEW.metrics.aft_length_allowance_mm;document.querySelector('#aft-note').textContent=NEW.metrics.aft_length_allowance_mm;document.querySelector('#heights').textContent=NEW.metrics.deck_top_z_mm+' / '+NEW.metrics.full_reference_height_mm;const slider=document.querySelector('#section-x');slider.min=Math.min(...NEW.parameters.REFERENCE_SECTIONS_X);slider.max=Math.max(...NEW.parameters.REFERENCE_SECTIONS_X);slider.value=+initialSection.slice(8);document.querySelector('#section-label').textContent='参考剖面 X='+initialSection.slice(8)+' mm（非肋骨）';
-window.viewer={setView,setMode,stats(){return {mode,view,new_parts:NEW.parts.length,old_parts:OLD.parts.length,triangles:renderer.info.render.triangles}},render};setView('iso');update();window.MODEL_READY=true;
+window.viewer={setView,setMode,stats(){return {mode,view,new_parts:NEW.parts.length,old_parts:OLD.parts.length,triangles:renderer.info.render.triangles}},render};setView('iso');update();/* Injected INSIDE the existing application closure; no eval or geometry rebuild. */
+const reviewConfig=window.REVIEW_CONFIG;
+window.viewer=window.viewer||window.modelViewer||{};
+let reviewRestoring=false,reviewReframe=false,reviewStep=0,reviewSelected=null,reviewPending=false,reviewLastPart='',reviewPoseBusy=false;
+const reviewHasMotion=typeof motion!=='undefined',reviewItems=typeof items!=='undefined'?items:typeof meshes!=='undefined'?meshes:typeof objects!=='undefined'?objects.map(o=>{o.m.name=o.q.name;o.m.userData=o.q;return o.m}):[],reviewGroups=typeof groups!=='undefined'?groups:typeof layerState!=='undefined'?Object.fromEntries(Object.keys(layerState).map(k=>[k,{get visible(){return layerState[k]},set visible(v){layerState[k]=v}}])):{};
+for(const o of reviewItems)if(!o.name)o.name=o.userData?.q?.name||'';
+const reviewNative={setMode:typeof setMode==='function'?setMode:null,setView:typeof setView==='function'?setView:null,fit:typeof fit==='function'?fit:null,select:typeof selectPart==='function'?selectPart:null};
+const reviewDefault={mode:typeof mode==='undefined'?'new':mode,view:typeof view==='undefined'?'iso':view};
+function reviewPost(type,extra={}){if(parent!==window)parent.postMessage({type,version:reviewConfig.version,attempt:new URLSearchParams(location.search).get('attempt'),...extra},location.origin)}
+function reviewPose(){return {position:camera.position.toArray(),target:controls.target.toArray(),up:camera.up.toArray(),zoom:camera.zoom,halfHeight:(camera.top-camera.bottom)/2}}
+function reviewPoseRestore(p){if(reviewPoseBusy)return;reviewPoseBusy=true;try{camera.position.fromArray(p.position);controls.target.fromArray(p.target);camera.up.fromArray(p.up);camera.zoom=p.zoom;const aspect=Math.max(.01,stage.clientWidth/Math.max(1,stage.clientHeight));camera.left=-p.halfHeight*aspect;camera.right=p.halfHeight*aspect;camera.top=p.halfHeight;camera.bottom=-p.halfHeight;camera.lookAt(controls.target);camera.updateProjectionMatrix();controls.update();render()}finally{reviewPoseBusy=false}}
+function reviewCapture(){
+ const parts={};if(reviewHasMotion)for(const p of DATA.parts){const st=motion.state(p.name);if(st.offset.some(v=>v!==0)||!st.visible)parts[p.name]={offset:[...st.offset],visible:st.visible}}
+ const flags={};for(const el of document.querySelectorAll('input[type="checkbox"][id]'))flags[el.id]=el.checked;
+ flags['review-drive-overlay']=reviewOverlay.visible;
+ const assemblies=reviewHasMotion&&motion.assemblies?Object.fromEntries([...motion.assemblies].map(([k,v])=>[k,[...v]])):{};
+ return {schema:1,version:reviewConfig.version,hash:reviewConfig.hash,camera:reviewPose(),mode:typeof mode==='undefined'?'new':mode,view:typeof view==='undefined'?'iso':view,scope:typeof scope==='undefined'?'full':scope,explosion:typeof explosion==='undefined'?0:explosion,selected:typeof selected==='undefined'?reviewSelected:selected,groups:Object.fromEntries(Object.entries(reviewGroups).map(([k,g])=>[k,g.visible])),parts,assemblies,steering:reviewHasMotion&&typeof motion.steeringDegrees==='number'?motion.steeringDegrees:0,serviceStep:reviewStep,flags};
+}
+function reviewChanged(){if(reviewRestoring||reviewPending)return;reviewPending=true;requestAnimationFrame(()=>{reviewPending=false;const state=reviewCapture();reviewPost('review-state',{state});reviewPartCard(state.selected)})}
+if(reviewNative.fit)fit=function(recenter=false){if(reviewPoseBusy)return;if(reviewReframe)return reviewNative.fit(recenter);const p=reviewPose();reviewNative.fit(recenter);reviewPoseRestore(p)};
+if(reviewNative.setMode){setMode=function(name){const p=reviewPose(),oldView=typeof view==='undefined'?null:view,oldScope=typeof scope==='undefined'?null:scope;reviewNative.setMode(name);if(oldView!==null)view=oldView;if(oldScope!==null)scope=oldScope;reviewPoseRestore(p);if(typeof caption==='function')caption();reviewChanged()};window.viewer.setMode=setMode}
+if(reviewNative.setView){setView=function(name){reviewReframe=true;try{reviewNative.setView(name)}finally{reviewReframe=false}reviewChanged()};window.viewer.setView=setView}
+if(reviewNative.select){selectPart=function(name){reviewNative.select(name);reviewSelected=name;reviewPartCard(name);reviewChanged()};window.viewer.selectPart=selectPart}
+function reviewPartCard(name){
+ if(name===reviewLastPart)return;reviewLastPart=name;
+ const o=reviewItems.find(o=>o.name===name||o.userData?.name===name);const p=o?.userData;
+ if(!name){reviewPost('review-part',{part:null});return}
+ const bb=o?new THREE.Box3().setFromObject(o):null;
+ reviewPost('review-part',{part:{name,group:p?.group||'unknown',bounds:bb?[bb.min.toArray(),bb.max.toArray()]:null,temporary:!!p?.temporary,sourceLevel:'D 模型设计',sourceModel:reviewConfig.hash}});
+}
+function reviewChoose(name){const o=reviewItems.find(o=>o.name===name);if(!o)return false;if(reviewNative.select)selectPart(name);else{reviewSelected=name;reviewPartCard(name)}return true}
+const reviewOverlay=new THREE.Group();scene.add(reviewOverlay);reviewOverlay.visible=false;
+if(['v6','v8'].includes(reviewConfig.version)){
+ for(const sign of [-1,1]){
+  const pts=[[535,sign*28,88.125],[785,sign*28,-5.625]].map(p=>new THREE.Vector3(...p));reviewOverlay.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),new THREE.LineBasicMaterial({color:0xff791e,depthTest:false})));
+  const b=new THREE.BoxGeometry(35,18,10),e=new THREE.LineSegments(new THREE.EdgesGeometry(b),new THREE.LineBasicMaterial({color:0xef4e49,depthTest:false}));e.position.set(637.5,sign*34,13);reviewOverlay.add(e);
+  // Candidate reference envelopes only: neither selected nor a validated assembly.
+  const axis=new THREE.Vector3(.9363291776,0,-.3511234416),front=new THREE.Vector3(625,sign*28,54.375);
+  for(const[length,width,height,center,color]of [[26,10,12,front.clone().addScaledVector(axis,-13),0xc39629],[25,12,12,front.clone().addScaledVector(axis,22.5),0xda6761]]){const outline=new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(length,width,height)),new THREE.LineBasicMaterial({color,depthTest:false}));outline.quaternion.setFromUnitVectors(new THREE.Vector3(1,0,0),axis);outline.position.copy(center);reviewOverlay.add(outline)}
+  reviewOverlay.add(new THREE.ArrowHelper(axis,new THREE.Vector3(722,sign*28,18),160,0x8b53ae,8,4));
+ }
+}
+let reviewTerminal=null;
+if(reviewHasMotion&&['v6','v8'].includes(reviewConfig.version)){
+ reviewTerminal=reviewItems.find(o=>o.name==='WIRE_LIGHT_WITHDRAWABLE');
+ if(!reviewTerminal){
+  const line=reviewItems.find(o=>o.name==='WIRE_LIGHT'),route=DATA.routes?.LIGHT;
+  if(line&&route?.length>2){line.geometry=new THREE.BufferGeometry().setFromPoints(route.slice(0,-1).map(p=>new THREE.Vector3(...p)));reviewTerminal=new THREE.Line(new THREE.BufferGeometry().setFromPoints(route.slice(-2).map(p=>new THREE.Vector3(...p))),new THREE.LineBasicMaterial({color:0xffc333,depthTest:false}));reviewTerminal.name='REVIEW_TERMINAL_LIGHT';(reviewGroups.wiring||scene).add(reviewTerminal)}
+ }
+}
+function reviewApplyService(step){
+ reviewStep=step;if(!reviewHasMotion||typeof setAssemblyOffset!=='function')return;
+ motion.setPlaying(false);motion.setAssemblyOffset('SERVICE_HATCH',step>=1?[0,0,160]:[0,0,0]);motion.setAssemblyOffset('HANGAR_CASSETTE',step>=4?[0,0,130]:[0,0,0]);
+ if(reviewTerminal){if(motion.states.has(reviewTerminal.name))motion.setVisible(reviewTerminal.name,step<3);else reviewTerminal.visible=step<3}
+ if(step>=3){for(const k of ['skin','deck','superstructure'])if(reviewGroups[k])reviewGroups[k].visible=false;for(const k of ['wiring','electronics'])if(reviewGroups[k])reviewGroups[k].visible=true}
+ if(step===0){for(const[k,v]of Object.entries(reviewInitialState.groups))if(reviewGroups[k])reviewGroups[k].visible=v;for(const[k,g]of Object.entries(reviewGroups)){const cb=document.querySelector(`[data-group="${k}"]`);if(cb)cb.checked=g.visible}}
+ syncTransforms();if(reviewTerminal&&!motion.states.has(reviewTerminal.name))reviewTerminal.visible=step<3;render();reviewChanged();
+}
+function reviewService(step){if(!Number.isInteger(step)||step<0||step>5||step>reviewStep+1)return false;if(!['v6','v8'].includes(reviewConfig.version))return false;reviewApplyService(step);reviewPost('review-service',{step,message:'维修动作是条件演示；固定件、接头及实物操作尚未验证。'});return true}
+function reviewRestore(input){
+ const s=ReviewState.validate(input,reviewConfig.version,reviewConfig.hash);if(!s)return false;reviewRestoring=true;
+ try{
+  if(reviewHasMotion)motion.resetAll();
+  const modes=Array.from(document.querySelectorAll('[data-mode]')).map(b=>b.dataset.mode);if(reviewNative.setMode&&modes.includes(s.mode))reviewNative.setMode(s.mode);
+  if(typeof explosion!=='undefined'){explosion=s.explosion;if(typeof applyExplosion==='function')applyExplosion();else if(typeof refresh==='function')refresh()}
+  if(typeof view!=='undefined')view=s.view||view;if(typeof scope!=='undefined')scope=s.scope||'full';
+  if(typeof setSteering==='function')setSteering(s.steering);
+  reviewApplyService(s.serviceStep);
+  if(reviewHasMotion){for(const [n,st]of Object.entries(s.parts))if(motion.states.has(n)){motion.setOffset(n,st.offset);motion.setVisible(n,st.visible)}for(const[n,v]of Object.entries(s.assemblies||{}))if(motion.assemblies?.has(n))motion.setAssemblyOffset(n,v);syncTransforms();motion.setPlaying(false)}
+  for(const [id,v]of Object.entries(s.flags||{})){const el=document.getElementById(id);if(el?.type==='checkbox'&&el.checked!==v){el.checked=v;el.dispatchEvent(new Event('change'))}}
+  reviewOverlay.visible=!!s.flags?.['review-drive-overlay'];
+  for(const [k,v]of Object.entries(s.groups))if(reviewGroups[k])reviewGroups[k].visible=v;
+  if(typeof layerState!=='undefined'&&typeof refresh==='function')refresh();
+  for(const[k,g]of Object.entries(reviewGroups)){const cb=document.querySelector(`[data-group="${k}"]`);if(cb)cb.checked=g.visible}
+  if(s.selected)reviewChoose(s.selected);else if(reviewNative.select)selectPart(null);
+  reviewPoseRestore(s.camera);return true;
+ }finally{reviewRestoring=false;reviewPost('review-restored',{state:reviewCapture()});reviewChanged()}
+}
+function reviewLocate(issue){
+ const data=reviewConfig.issues.find(q=>q.id===issue);if(!data)return false;
+ if(reviewNative.setMode)setMode('skeleton');let names=reviewItems.filter(o=>(data.parts||[]).some(n=>o.name===n||o.name.endsWith(n)));
+ if(!names.length&&issue==='drive-interface')names=reviewItems.filter(o=>o.name.includes('PROP_')||o.name.includes('SHAFT_'));
+ for(const o of names){o.visible=true;if(o.parent)o.parent.visible=true;if(reviewHasMotion&&motion.states.has(o.name))motion.setVisible(o.name,true)}
+ if(names[0])reviewChoose(names[0].name);reviewOverlay.visible=issue==='drive-interface';
+ const views=Array.from(document.querySelectorAll('[data-view]')).map(b=>b.dataset.view),v=data.view||'sternClose';if(views.includes(v))setView(v);else if(views.includes('full'))setView('full');
+ reviewChanged();return true;
+}
+function reviewFit(){reviewReframe=true;try{if(typeof scope!=='undefined')scope='full';camera.zoom=1;if(reviewNative.fit)reviewNative.fit(true);else if(reviewNative.setView)reviewNative.setView(reviewDefault.view)}finally{reviewReframe=false}reviewChanged()}
+function reviewReset(){reviewOverlay.visible=false;reviewRestore(reviewInitialState);if(reviewHasMotion){motion.setRPM(60);if(typeof updatePropUI==='function')updatePropUI()}if(typeof setSteering==='function')setSteering(0);reviewSelected=null;reviewChanged()}
+const reviewPanel=document.createElement('div');reviewPanel.id='review-hint';reviewPanel.style.cssText='position:absolute;bottom:38px;right:8px;z-index:9;display:flex;gap:5px';for(const[label,fn]of [['适配全部',reviewFit],['恢复默认',reviewReset]]){const b=document.createElement('button');b.textContent=label;b.onclick=fn;reviewPanel.append(b)}stage.append(reviewPanel);
+for(const [id,step]of [['lift-hatch',1],['lift-cassette',1]]){const el=document.getElementById(id);if(el){el.textContent=id==='lift-cassette'?'按维修步骤取出机库':'①取下检修甲板';el.onclick=()=>{reviewService(step);reviewPost('review-open-service')}}}
+for(const id of ['all-reset','recover']){const el=document.getElementById(id);if(el)el.onclick=reviewReset}
+const plankingButton=document.getElementById('planking-mode');if(plankingButton)plankingButton.onclick=()=>setMode('planking');
+renderer.domElement.addEventListener('dblclick',e=>{e.stopImmediatePropagation();reviewFit()},true);
+controls.addEventListener('change',reviewChanged);document.addEventListener('click',()=>setTimeout(reviewChanged,0));document.addEventListener('input',reviewChanged);document.addEventListener('change',reviewChanged);
+window.addEventListener('message',e=>{if(e.source!==parent||e.origin!==location.origin||e.data?.version!==reviewConfig.version||e.data?.attempt!==new URLSearchParams(location.search).get('attempt'))return;const d=e.data;if(d.type==='review-restore')reviewRestore(d.state);if(d.type==='review-capture')reviewPost('review-state',{state:reviewCapture()});if(d.type==='review-locate')reviewLocate(d.issue);if(d.type==='review-service')reviewService(d.step);if(d.type==='review-reset')reviewReset();if(d.type==='review-fit')reviewFit();if(d.type==='review-select')reviewChoose(d.name);if(d.type==='review-overlay'){reviewOverlay.visible=!!d.on;render()}});
+window.reviewBridge={capture:reviewCapture,restore:reviewRestore,locate:reviewLocate,service:reviewService,reset:reviewReset,fit:reviewFit};
+const reviewInteractiveMs=performance.now();
+const reviewInitialState=reviewCapture();
+window.reviewBridge.measure=async function(){const wasPlaying=reviewHasMotion&&motion.playing;if(reviewHasMotion)motion.setPlaying(false);const intervals=[],p=reviewPose();let last=null;for(let i=0;i<36;i++){const stamp=await new Promise(requestAnimationFrame);if(last!==null)intervals.push(stamp-last);last=stamp;const delta=camera.position.clone().sub(controls.target);delta.applyAxisAngle(new THREE.Vector3(0,0,1),.002);camera.position.copy(controls.target).add(delta);camera.lookAt(controls.target);renderer.render(scene,camera)}reviewPoseRestore(p);if(reviewHasMotion)motion.setPlaying(wasPlaying);return {firstInteractiveMs:reviewInteractiveMs,downloadInflateMs:window.reviewMetrics?.downloadAndInflateMs??null,sceneBuildMs:window.reviewMetrics?.jsonReady?reviewInteractiveMs-window.reviewMetrics.jsonReady:null,frameSamples:intervals.length,meanFrameMs:intervals.reduce((a,b)=>a+b,0)/intervals.length,triangles:renderer.info.render.triangles,drawCalls:renderer.info.render.calls,renderer:'Edge / SwiftShader software renderer in QA',viewport:[stage.clientWidth,stage.clientHeight],devicePixelRatio:renderer.getPixelRatio(),jsHeapBytes:performance.memory?.usedJSHeapSize??null,realMobile:'NOT_CHECKED'}};
+reviewPost('review-ready',{state:reviewCapture(),capabilities:{parts:reviewItems.length,motion:reviewHasMotion,service:['v6','v8'].includes(reviewConfig.version)}});reviewChanged();
+
+window.MODEL_READY=true;
 
 document.getElementById('hosted-load').remove();parent.postMessage({type:'model-ready',attempt:new URLSearchParams(location.search).get('attempt'),version:'phase02'},location.origin);</script></html>
 <script>(()=>{

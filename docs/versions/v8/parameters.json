@@ -1,0 +1,616 @@
+{
+  "LENGTH": 800,
+  "DECK_WIDTH": 155,
+  "DECK_BOTTOM_Z": 76,
+  "MATERIAL_THICKNESS": 3.0,
+  "CUTTING_KERF": 0.15,
+  "FIT_CLEARANCE": 0.12,
+  "SLOT_WIDTH": 3.12,
+  "DECK_BOW_HALF_WIDTH": 70,
+  "DECK_STERN_HALF_WIDTH": 72,
+  "DECK_CORNER_LENGTH": 18,
+  "SKIN_TARGET_THICKNESS": 2.0,
+  "FRAME_STATIONS": [
+    35,
+    70,
+    110,
+    160,
+    225,
+    300,
+    380,
+    460,
+    540,
+    610,
+    665,
+    710,
+    750,
+    772
+  ],
+  "FRAME_INSET": 1.25,
+  "FRAME_RING_WIDTH": 5,
+  "KEEL_TOP_Z": 16,
+  "STRINGER_Y": 35,
+  "STRINGER_Z": [
+    19,
+    30
+  ],
+  "STRINGER_X": [
+    158,
+    740
+  ],
+  "ELEVATORS": [
+    {
+      "id": "STBD",
+      "x": 430,
+      "y": 50,
+      "length": 52,
+      "width": 43
+    },
+    {
+      "id": "PORT_AFT",
+      "x": 680,
+      "y": -93,
+      "length": 52,
+      "width": 43
+    }
+  ],
+  "ISLANDS": [
+    {
+      "id": "FRONT",
+      "x": 330,
+      "y": 45,
+      "length": 86,
+      "width": 31,
+      "height": 28,
+      "mast": 26
+    },
+    {
+      "id": "AFT",
+      "x": 500,
+      "y": 45,
+      "length": 46,
+      "width": 31,
+      "height": 23,
+      "mast": 16
+    }
+  ],
+  "REFERENCE_WL_Z": 32,
+  "NOTES": "800 project constraint; all other exact dimensions C estimate or D model design; geometry is review concept, not cutting release",
+  "RESERVED_VOLUMES": [
+    {
+      "name": "HANGAR",
+      "group": "hangar",
+      "x": [
+        193,
+        592
+      ],
+      "y": [
+        -32,
+        38
+      ],
+      "z": [
+        47,
+        73
+      ]
+    },
+    {
+      "name": "WELL",
+      "group": "well",
+      "x": [
+        610,
+        776
+      ],
+      "y": [
+        -22,
+        22
+      ],
+      "z": [
+        25,
+        44
+      ]
+    },
+    {
+      "name": "BATTERY",
+      "group": "electronics",
+      "x": [
+        200,
+        290
+      ],
+      "y": [
+        -20,
+        20
+      ],
+      "z": [
+        19,
+        36
+      ]
+    },
+    {
+      "name": "ELECTRONICS",
+      "group": "electronics",
+      "x": [
+        320,
+        410
+      ],
+      "y": [
+        -20,
+        20
+      ],
+      "z": [
+        19,
+        36
+      ]
+    },
+    {
+      "name": "PROP_PORT",
+      "group": "propulsion",
+      "x": [
+        620,
+        655
+      ],
+      "y": [
+        -43,
+        -25
+      ],
+      "z": [
+        8,
+        18
+      ]
+    },
+    {
+      "name": "PROP_STBD",
+      "group": "propulsion",
+      "x": [
+        620,
+        655
+      ],
+      "y": [
+        25,
+        43
+      ],
+      "z": [
+        8,
+        18
+      ]
+    },
+    {
+      "name": "EMALS",
+      "group": "mechanism",
+      "x": [
+        100,
+        326
+      ],
+      "y": [
+        -43,
+        -35
+      ],
+      "z": [
+        62,
+        75
+      ]
+    },
+    {
+      "name": "ARRESTING",
+      "group": "mechanism",
+      "x": [
+        595,
+        660
+      ],
+      "y": [
+        -30,
+        30
+      ],
+      "z": [
+        66,
+        75
+      ]
+    },
+    {
+      "name": "ELEVATOR_STBD",
+      "group": "mechanism",
+      "x": [
+        430,
+        482
+      ],
+      "y": [
+        50,
+        63
+      ],
+      "z": [
+        42,
+        76
+      ]
+    },
+    {
+      "name": "ELEVATOR_PORT_AFT",
+      "group": "mechanism",
+      "x": [
+        680,
+        732
+      ],
+      "y": [
+        -63,
+        -50
+      ],
+      "z": [
+        42,
+        76
+      ]
+    }
+  ],
+  "SLOT_WIDTH_FORMULA": "finished = MATERIAL_THICKNESS + FIT_CLEARANCE; uncompensated laser centerline width = finished - CUTTING_KERF",
+  "MANUFACTURING_LIMITS": [
+    "14 frames are new model design, not original 24 nor real ship structure",
+    "FRAME_INSET 1.25 is reference clearance; less than nominal 3mm inward skin. Reconcile physical skin offset before cutting",
+    "Skin panels are exact reference surfaces, not developable patterns",
+    "No completed insertion path/wood grain/strength/watertightness/hydrostatic validation",
+    "Continuous plates replace V2 three small floors; frame side grooves and aft longitudinal bottom rebates are new model design",
+    "Insertion path with two rigid plates is not validated by static boolean clearance"
+  ],
+  "CROSSPLATES": {
+    "lower": {
+      "x": [
+        600,
+        775
+      ],
+      "bottom_z": 19,
+      "top_z": 22
+    },
+    "upper": {
+      "x_start": 190,
+      "x_end": 775,
+      "bottom_z": 44,
+      "top_z": 47
+    },
+    "SIDE_BACK_WALL": 2.0,
+    "OUTLINE_STEP": 5.0,
+    "UPPER_START_WIDTH_RATIO_REFERENCE": 0.95,
+    "AFT_GIRDER_MATE_Z": 26.0
+  },
+  "VERSION": "V8_CONTINUOUS_AFT_WEBS_REVIEW",
+  "REFINEMENT": {
+    "UPPER_FLARE_TARGET": [
+      54,
+      57,
+      61,
+      65,
+      68,
+      69,
+      69,
+      69,
+      69,
+      68.5,
+      68,
+      66,
+      62,
+      59,
+      58
+    ],
+    "FLARE_V6_WEIGHT": 0.55,
+    "BULB_OVERRIDES": {
+      "BulbLength": 115,
+      "BulbHeight": 20,
+      "BulbWidth": 20,
+      "BulbMaxWidthPosition": 45,
+      "BulbMaxHeightPosition": 52,
+      "NoseTipControlX": 0.9
+    },
+    "HAWSE": {
+      "x": 52,
+      "z": 53,
+      "half_u": 0.0045,
+      "half_v": 0.018,
+      "rim_factor": 2.4,
+      "tunnel_depth": 4
+    },
+    "BILGE_KEELS": {
+      "x": [
+        220,
+        640
+      ],
+      "v": 0.34,
+      "width": 3.5,
+      "nominal_thickness": 0.8
+    },
+    "CATWALK": {
+      "x": [
+        24,
+        778
+      ],
+      "outer_y": 85,
+      "inner_y": 77.0,
+      "floor_z": [
+        69,
+        72
+      ],
+      "coaming_height": 3.5,
+      "coaming_thickness": 0.8
+    },
+    "PROPULSION_MODEL": {
+      "count": 2,
+      "propeller_x": 758,
+      "shaft_y": 28,
+      "shaft_z": 4.5,
+      "diameter": 22,
+      "blades": 5,
+      "hub_length": 7,
+      "hub_radius": 2.3,
+      "shaft_radius": 0.85,
+      "tube_radius": 1.5,
+      "shaft_start": [
+        722,
+        28,
+        18
+      ],
+      "rudder_x": [
+        767,
+        777
+      ],
+      "rudder_z": [
+        -7,
+        16
+      ],
+      "rudder_stock_x": 769,
+      "rudder_stock_top_z": 25,
+      "rudder_stock_radius": 1.0
+    },
+    "APPENDAGE_STATUS": "D visual model layout derived from supplied CGI; real Type076 underwater appendages UNKNOWN",
+    "AFT_SECTION_LIFT": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      7,
+      8,
+      8
+    ]
+  },
+  "FUNCTIONAL": {
+    "well_inner": {
+      "x": [
+        610,
+        776
+      ],
+      "y": [
+        -22,
+        22
+      ],
+      "z": [
+        25,
+        44
+      ]
+    },
+    "hangar_inner": {
+      "x": [
+        193,
+        592
+      ],
+      "y": [
+        -32,
+        38
+      ],
+      "z": [
+        47,
+        73
+      ]
+    },
+    "wall_thickness": 3,
+    "wire_clearance_section_mm": [
+      4,
+      4
+    ],
+    "hardware_status": "UNSELECTED",
+    "physical_water_operation": "NOT_VERIFIED"
+  },
+  "PLANKING": {
+    "wood": "basswood / 椴木",
+    "strip_thickness_mm": 2.0,
+    "strip_width_mm": 5.0,
+    "glue_allowance_mm": 0.2,
+    "required_normal_allowance_mm": 2.2,
+    "baseline_frame_inset_mm": 1.25,
+    "strength": "PHYSICAL_SAMPLE_PRESS_TEST_REQUIRED",
+    "temporary_brace_section_mm": [
+      3,
+      6
+    ],
+    "cheek_thickness_mm": 3
+  },
+  "SERVICE": {
+    "cassette_outer": {
+      "x": [
+        190,
+        595
+      ],
+      "y": [
+        -35,
+        41
+      ],
+      "z": [
+        44,
+        76
+      ]
+    },
+    "hatch": {
+      "x": [
+        187,
+        598
+      ],
+      "y": [
+        -37.5,
+        42
+      ],
+      "z": [
+        76,
+        79
+      ]
+    },
+    "starboard_wall_opening": {
+      "x": [
+        430,
+        482
+      ],
+      "z": [
+        47,
+        70
+      ],
+      "clear_width_mm": 52,
+      "clear_height_mm": 23
+    },
+    "lift_stroke_mm": 130,
+    "note": "remove hatch; disconnect AND physically clear terminal lamp branch; lift cassette; connectors/strain relief unselected",
+    "lamp_terminal_branch": {
+      "name": "WIRE_LIGHT_WITHDRAWABLE",
+      "from": [
+        187,
+        0,
+        70
+      ],
+      "to": [
+        400,
+        0,
+        70
+      ],
+      "service_state": "REMOVED_FROM_EXTRACTION_PATH, not left fixed"
+    }
+  },
+  "DRIVE_INTEGRATION": {
+    "status": "UNRESOLVED_ARCHITECTURE; hardware unselected",
+    "reason": "motor planning boxes are not coaxial with shafts",
+    "motor_box_x": [
+      620,
+      655
+    ],
+    "motor_box_z": [
+      8,
+      18
+    ],
+    "shaft_center_z_at_box_ends": [
+      56.25,
+      43.125
+    ],
+    "warning": "do not use motor reserves as finished direct-drive mounting geometry"
+  },
+  "STEERING": {
+    "range_degrees": [
+      -30,
+      30
+    ],
+    "stock_radius_mm": 1,
+    "hardware": "UNSELECTED",
+    "type": "linked demonstration, not selected servo/linkage",
+    "axes": {
+      "PORT": {
+        "center": [
+          769,
+          -28,
+          0
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ]
+      },
+      "STBD": {
+        "center": [
+          769,
+          28,
+          0
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ]
+      }
+    }
+  },
+  "STERN_JOINT": {
+    "frame_joints": [
+      {
+        "name": "FRAME_13_X750",
+        "station": 750,
+        "old_rebates": "REMOVED; full bottom web to Z25 except final 40mm integral floor tongue",
+        "well_wall_receiving_notch_y_mm": [
+          -25.06,
+          25.06
+        ],
+        "well_notch_z_mm": [
+          25,
+          44.06
+        ],
+        "floor_tongue_notch": null,
+        "minimum_bridge_strength": "NOT_VERIFIED",
+        "status": "CONTINUOUS_LOWER_WEB",
+        "area_before_mm2": 1242.108210953334,
+        "area_after_mm2": 1488.2896570571925
+      },
+      {
+        "name": "FRAME_14_X772",
+        "station": 772,
+        "old_rebates": "REMOVED; full bottom web to Z25 except final 40mm integral floor tongue",
+        "well_wall_receiving_notch_y_mm": [
+          -25.06,
+          25.06
+        ],
+        "well_notch_z_mm": [
+          25,
+          44.06
+        ],
+        "floor_tongue_notch": {
+          "y": [
+            -20.06,
+            20.06
+          ],
+          "z": [
+            22,
+            25.06
+          ],
+          "nominal_bearing_area_mm2": 120
+        },
+        "minimum_bridge_strength": "NOT_VERIFIED",
+        "status": "CONTINUOUS_LOWER_WEB",
+        "area_before_mm2": 1104.953239942435,
+        "area_after_mm2": 1067.0676626296947
+      }
+    ],
+    "plate_normal_allowance_mm": 2.2,
+    "plate_lateral_discretization_margin_mm": 0.05,
+    "sampling_x_step_max_mm": 0.5,
+    "well_interior": "UNCHANGED X610..776 Y+-22 Z25..44",
+    "seams": "0.06mm each side of frame; adhesive and waterproof sealing required, process unverified",
+    "manufacturing": "REVIEW; sample joint/press testing still required",
+    "assembly_seams": [
+      {
+        "frame": "FRAME_13_X750",
+        "x": 750,
+        "clearance_each_side_x_mm": 0.06,
+        "bottom_floor_top_z_mm": 25,
+        "adhesive_and_sealing": "REQUIRED; type, bondline, fillet and cured-water test NOT_VERIFIED"
+      },
+      {
+        "frame": "FRAME_14_X772",
+        "x": 772,
+        "clearance_each_side_x_mm": 0.06,
+        "bottom_floor_top_z_mm": 25,
+        "adhesive_and_sealing": "REQUIRED; type, bondline, fillet and cured-water test NOT_VERIFIED"
+      }
+    ],
+    "actual_lower_joint_wood_width_mm": {
+      "FRAME_13_X750": 7.762552191622291,
+      "FRAME_14_X772": 3.196953651959704
+    },
+    "native_skin_sample_minimum_mm": 2.199919755641242,
+    "validation_native_sha256": "a2c7793993c420136dc34f3d4a209371e33a7474a2c46ebca334e999d8e8db39",
+    "release": "GEOMETRY_REVIEW_ONLY; bond/press/seal/hardware unverified"
+  }
+}

@@ -6,3 +6,5 @@ __pycache__/
 preparation.json
 created_by_task.json
 public_validation.json
+all_versions_validation.json
+performance_measurement.json

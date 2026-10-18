@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "scope": "SERVICE_PATH_AND_MODELED_SOLIDS_ONLY; skin clearance is a separate review gate",
+  "objects": 290,
+  "native_meshes": 0,
+  "units": "mm",
+  "assembled_length_mm": 800,
+  "native_named_views": 5,
+  "unchanged_v5_objects": 210,
+  "outer_mother_unchanged": true,
+  "static_candidate_pairs": 175,
+  "static_clashes": [],
+  "inherited_superstructure_color_detail_overlaps": [
+    [
+      "BRIDGE_FRONT",
+      "WINDOW_FRONT_0",
+      2.529960378023494
+    ],
+    [
+      "BRIDGE_FRONT",
+      "WINDOW_FRONT_1",
+      2.529970448679895
+    ],
+    [
+      "BRIDGE_FRONT",
+      "WINDOW_FRONT_2",
+      2.529960378023494
+    ],
+    [
+      "BRIDGE_FRONT",
+      "WINDOW_FRONT_3",
+      2.529960378023494
+    ],
+    [
+      "BRIDGE_FRONT",
+      "WINDOW_FRONT_4",
+      2.529970448679895
+    ],
+    [
+      "BRIDGE_FRONT",
+      "WINDOW_FRONT_5",
+      2.529960378023494
+    ],
+    [
+      "BRIDGE_FRONT",
+      "WINDOW_FRONT_6",
+      2.529960378023494
+    ],
+    [
+      "BRIDGE_FRONT",
+      "WINDOW_FRONT_7",
+      2.529970448679895
+    ],
+    [
+      "BRIDGE_FRONT",
+      "WINDOW_FRONT_8",
+      2.529960378023494
+    ],
+    [
+      "MAST_FRONT",
+      "RADAR_FRONT",
+      27.0
+    ],
+    [
+      "BRIDGE_AFT",
+      "WINDOW_AFT_0",
+      2.1779707946181284
+    ],
+    [
+      "BRIDGE_AFT",
+      "WINDOW_AFT_1",
+      2.1779707946181284
+    ],
+    [
+      "BRIDGE_AFT",
+      "WINDOW_AFT_2",
+      2.1779607239617085
+    ],
+    [
+      "BRIDGE_AFT",
+      "WINDOW_AFT_3",
+      2.1779808652745487
+    ],
+    [
+      "BRIDGE_AFT",
+      "WINDOW_AFT_4",
+      2.1779607239617085
+    ],
+    [
+      "MAST_AFT",
+      "RADAR_AFT",
+      27.0
+    ]
+  ],
+  "continuous_vertical_sweeps": {
+    "hatch": {
+      "stroke_mm": 130,
+      "method": "continuous full envelope prism; conservative for all cassette boards",
+      "candidates": 2,
+      "clashes": []
+    },
+    "cassette": {
+      "stroke_mm": 130,
+      "method": "continuous full envelope prism; conservative for all cassette boards",
+      "candidates": 16,
+      "clashes": []
+    }
+  },
+  "cassette_seats": {
+    "count": 8,
+    "nominal_contact_area_mm2": 144.0,
+    "downward_0_1mm_hits_seats": true,
+    "retaining_keys": 8
+  },
+  "full_cross_braces": 9,
+  "starboard_wall_opening_mm": [
+    52,
+    23
+  ],
+  "opening_x": [
+    430,
+    482
+  ],
+  "steering_degrees": [
+    -30,
+    30
+  ],
+  "steering_positions": 122,
+  "steering_gear_solid_clashes": [],
+  "immutable_inputs": 15,
+  "native_Rhino_UI": "NOT_CHECKED",
+  "physical_pressing_assembly_water_operation": "NOT_VERIFIED",
+  "hardware": "UNSELECTED"
+}
