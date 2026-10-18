@@ -7,7 +7,17 @@ header{display:none!important}.layout{height:100dvh!important}html,body{height:1
 <div class="layout"><aside><h2>形态对比</h2><div class="buttons"><button data-mode="new" class="active">修改后</button><button data-mode="old">修改前</button><button data-mode="overlay">新旧叠加</button><button id="reset">复位</button></div><h2>检查视角</h2><div class="buttons"><button data-view="bow3d" class="active">艏部三维</button><button data-view="profile">Profile侧视</button><button data-view="plan">Plan俯视</button><button data-view="front">艏视</button><button data-view="low">艏底低视角</button><button data-view="full">全船</button></div><h2>诊断显示</h2><label><input id="stripes" type="checkbox"> 反射条纹诊断</label><label><input id="deck" type="checkbox" checked> 甲板/上层建筑</label><label><input id="water" type="checkbox" checked> Z32参考线</label><label><input id="sections" type="checkbox"> 6组横剖面</label><p>拖动旋转，滚轮缩放，右键平移。</p><a href="model.3dm">Rhino原生模型 ↗</a><br><a href="report.html">检查报告 ↗</a><br><a href="parameters.json">可编辑参数 ↗</a></aside>
 <main id="stage"><canvas id="canvas"></canvas><div class="tag" id="view-label">修改后 / 艏部三维</div><div class="note" id="diagnostic-note">本图为同一NURBS母面的采样预览；尺寸为D模型设计。Z32并非验证后的设计吃水。<br>反射条纹由WebGL计算，不能冒充Rhino原生Zebra。Rhino桌面检查：NOT_CHECKED。</div></main>
 <aside class="right"><h2>局部重构参数 / mm</h2><div class="metric"><span>成品长度上限</span><b>800</b></div><div class="metric"><span>重构结束X</span><b>160</b></div><div class="metric"><span>球鼻影响长度</span><b id="bulb-l"></b></div><div class="metric"><span>控制宽 / 高</span><b id="bulb-wh"></b></div><div class="metric"><span>中心低于参考WL</span><b id="bulb-z"></b></div><div class="box"><p>上述为建模控制参数，不是076实舰测量尺寸，也不保证等于曲面最终极值。</p></div><h2>连续性与保护</h2><p>X160接口按原面位置、一阶与二阶导数约束。中后体与甲板原样保留。原始曲线保留在原图层，新截线另置Bow_Rebuild工作层。</p><h2>尚待原生Rhino检查</h2><p>Zebra、CurvatureGraph、ShowEdges、Join及完整Brep自交检查。整体尚未组成闭合水密体。</p></aside></div>
-<div id="hosted-load" class="hosted-load">正在载入 艏 V1<small>首次载入需下载模型，稍候即可旋转浏览</small></div><script src="../../review_state.js?rev=b7fc9ac66c900d5b"></script><script>window.REVIEW_CONFIG={"version": "bow", "hash": "92e1fa5a94018e56c86004e1471c4e9345c23e18c34cbe8035c52e08a26a8d71", "issues": [{"id": "historical-review", "title": "历史版本 / 按本版证据阅读", "short": "历史评审 / 不用于制造", "status": "历史快照", "finding": "局部重构与曲面诊断；模型假设", "close": "本历史版未执行当前完整制造与功能验收；查阅本版报告和参数。", "parts": [], "view": "iso", "evidence": "versions/bow/report.html"}]};</script><script>/**
+<div id="hosted-load" class="hosted-load">正在载入 艏 V1<small>首次载入需下载模型，稍候即可旋转浏览</small></div><script src="../../review_state.js?rev=914c114d0a6cdb0d"></script><style>/* Full-width viewport; advanced native controls are an explicit overlay. */
+html.ui-refresh body{overflow:hidden}
+html.ui-refresh body .layout{display:block!important;height:100dvh!important;position:relative}
+html.ui-refresh body .layout>main{display:block!important;height:100%!important;width:100%!important;margin:0!important}
+html.ui-refresh body .layout>aside{display:none!important}
+html.ui-refresh body.ui-native-open .layout>aside:first-of-type{display:block!important;position:absolute!important;left:0;top:0;bottom:0;width:280px;max-width:85vw;z-index:120;padding:18px 16px;box-shadow:5px 0 24px #1d354022;background:#fff;overflow:auto}
+html.ui-refresh body #tools-toggle,html.ui-refresh body #site-tools,html.ui-refresh body #caption,html.ui-refresh body main>.toolbar,html.ui-refresh body .legend,html.ui-refresh body #info,html.ui-refresh body #review-hint{display:none!important}
+html.ui-refresh body canvas{touch-action:none}
+html.ui-refresh body button,html.ui-refresh body select{min-height:36px}
+@media(pointer:coarse){html.ui-refresh body button{min-height:44px}}
+</style><script>document.documentElement.classList.add('ui-refresh');</script><script>window.REVIEW_CONFIG={"version": "bow", "hash": "92e1fa5a94018e56c86004e1471c4e9345c23e18c34cbe8035c52e08a26a8d71", "issues": [{"id": "historical-review", "title": "历史版本 / 按本版证据阅读", "short": "历史评审 / 不用于制造", "status": "历史快照", "finding": "局部重构与曲面诊断；模型假设", "close": "本历史版未执行当前完整制造与功能验收；查阅本版报告和参数。", "parts": [], "view": "iso", "evidence": "versions/bow/report.html"}]};</script><script>/**
  * @license
  * Copyright 2010-2021 Three.js Authors
  * SPDX-License-Identifier: MIT
@@ -1197,6 +1207,46 @@ const reviewInteractiveMs=performance.now();
 const reviewInitialState=reviewCapture();
 window.reviewBridge.measure=async function(){const wasPlaying=reviewHasMotion&&motion.playing;if(reviewHasMotion)motion.setPlaying(false);const intervals=[],p=reviewPose();let last=null;for(let i=0;i<36;i++){const stamp=await new Promise(requestAnimationFrame);if(last!==null)intervals.push(stamp-last);last=stamp;const delta=camera.position.clone().sub(controls.target);delta.applyAxisAngle(new THREE.Vector3(0,0,1),.002);camera.position.copy(controls.target).add(delta);camera.lookAt(controls.target);renderer.render(scene,camera)}reviewPoseRestore(p);if(reviewHasMotion)motion.setPlaying(wasPlaying);return {firstInteractiveMs:reviewInteractiveMs,downloadInflateMs:window.reviewMetrics?.downloadAndInflateMs??null,sceneBuildMs:window.reviewMetrics?.jsonReady?reviewInteractiveMs-window.reviewMetrics.jsonReady:null,frameSamples:intervals.length,meanFrameMs:intervals.reduce((a,b)=>a+b,0)/intervals.length,triangles:renderer.info.render.triangles,drawCalls:renderer.info.render.calls,renderer:'Edge / SwiftShader software renderer in QA',viewport:[stage.clientWidth,stage.clientHeight],devicePixelRatio:renderer.getPixelRatio(),jsHeapBytes:performance.memory?.usedJSHeapSize??null,realMobile:'NOT_CHECKED'}};
 reviewPost('review-ready',{state:reviewCapture(),capabilities:{parts:reviewItems.length,motion:reviewHasMotion,service:['v6','v8'].includes(reviewConfig.version)}});reviewChanged();
+
+/* UI-only adapter inside the existing viewer closure. No geometry or motion math. */
+function uiReply(type,extra={}){reviewPost(type,extra)}
+const uiChoices=key=>[...document.querySelectorAll('[data-'+key+']')].map(b=>({id:b.dataset[key],label:b.textContent.trim()})).filter((q,i,a)=>q.id&&a.findIndex(x=>x.id===q.id)===i);
+const uiCapabilities={modes:uiChoices('mode'),views:uiChoices('view'),deck:reviewModernSafe(),lifts:reviewConfig.version==='v9'};
+if(reviewConfig.version==='v1'){
+ const uiMode=setMode;setMode=function(name){const oldView=reviewCapture().view,pose=reviewPose(),fixed=['mid','aft'].includes(oldView)&&document.getElementById('section')?.style.display!=='none';uiMode(name);if(fixed){setView(oldView);reviewPoseRestore(pose)}reviewChanged()};window.viewer.setMode=setMode;
+}
+if(['v1','bow','phase02'].includes(reviewConfig.version)){
+ // These legacy viewers compute a new span directly in resize. Preserve pose/vertical scale for orientation changes.
+ // Explicit standard-view calls still use their native resize fitting.
+ const uiOriginalResize=resize;window.removeEventListener('resize',uiOriginalResize);window.addEventListener('resize',()=>{const pose=reviewPose();uiOriginalResize();reviewPoseRestore(pose);reviewChanged()});
+}
+function reviewModernSafe(){return ['v6','v8','v9'].includes(reviewConfig.version)}
+function uiNative(on){document.body.classList.toggle('ui-native-open',!!on);uiReply('ui-tools',{open:!!on})}
+function uiFitActual(){
+ // Project real visible vertices rather than an empty 3D bounding-box corner envelope.
+ // Only explicit Fit or a fresh, unsaved default view uses this; mode/resize/restore preserve pose.
+ const visible=[];scene.updateMatrixWorld(true);scene.traverse(o=>{if(!o.geometry?.attributes?.position||o.userData?.reserved)return;for(let q=o;q;q=q.parent)if(!q.visible||q.userData?.reserved)return;visible.push(o)});
+ if(visible.length){camera.updateMatrixWorld(true);const right=new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld,0),up=new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld,1),v=new THREE.Vector3(),origin=controls.target.clone();let minX=Infinity,maxX=-Infinity,minY=Infinity,maxY=-Infinity;
+  for(const o of visible){const a=o.geometry.attributes.position;for(let i=0;i<a.count;i++){v.fromBufferAttribute(a,i).applyMatrix4(o.matrixWorld).sub(origin);const x=v.dot(right),y=v.dot(up);minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y)}}
+  if(Number.isFinite(minX)){const target=origin.addScaledVector(right,(minX+maxX)/2).addScaledVector(up,(minY+maxY)/2),delta=camera.position.clone().sub(controls.target),aspect=stage.clientWidth/Math.max(1,stage.clientHeight),hh=Math.max((maxY-minY)/2,(maxX-minX)/2/aspect,12)*1.13;reviewPoseRestore({position:target.clone().add(delta).toArray(),target:target.toArray(),up:camera.up.toArray(),zoom:1,halfHeight:hh});if(typeof scope!=='undefined')scope='full';reviewChanged()}
+ }
+ uiReply('ui-fit',{state:reviewCapture()});
+}
+window.addEventListener('message',e=>{
+ if(e.source!==parent||e.origin!==location.origin||e.data?.version!==reviewConfig.version||e.data?.attempt!==new URLSearchParams(location.search).get('attempt')||e.data.type!=='ui-command')return;
+ const {action,value}=e.data;
+ if(action==='mode'&&uiCapabilities.modes.some(q=>q.id===value))window.viewer.setMode(value);
+ if(action==='view'&&uiCapabilities.views.some(q=>q.id===value))window.viewer.setView(value);
+ if(action==='native')uiNative(value);
+ if(action==='fit')uiFitActual();
+ if(action==='reset'){window.reviewBridge.reset();uiFitActual()}
+ if(action==='capabilities')uiReply('ui-ready',{capabilities:uiCapabilities});
+ if(action==='deck'&&uiCapabilities.deck)window.reviewBridge.service(value?1:0);
+ if(action==='prepare-lifts'&&uiCapabilities.lifts){const state=window.reviewBridge.capture();if(['planking','old','exploded'].includes(state.mode))window.viewer.setMode('assembled');if(window.reviewBridge.capture().explosion&&typeof window.viewer.setExplosion==='function')window.viewer.setExplosion(0);reviewChanged()}
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){uiNative(false);uiReply('ui-close')}});
+document.addEventListener('pointerdown',e=>{if(!e.target.closest('aside'))uiReply('ui-canvas-interaction')},{passive:true});
+uiReply('ui-ready',{capabilities:uiCapabilities});
 
 window.MODEL_READY=true;
 

@@ -15,7 +15,13 @@ Rhino downloads retain their historical save-path metadata; these files are
 the same downloads already present on the original public review website.
 Third-party notices and source attributions are retained.
 
-Public entry: https://jibao-998.github.io/076-model-review/?release=v9#v9
+Public entry: https://jibao-998.github.io/076-model-review/?release=ui1#v9
+
+UI1 uses a light workbench with a full-width model viewport and one common toolbar.
+Review evidence and original advanced tools open as overlays. Two-column lift
+controls support landscape touch screens; portrait reports remain readable.
+Fresh views fit visible geometry while existing camera/session/share states are
+preserved. All ten CAD, parameter, report and review files are unchanged by UI1.
 
 The review interface links open issues to parts and evidence. Camera, visibility,
 selection, explosion, offsets and steering can be restored per version or shared

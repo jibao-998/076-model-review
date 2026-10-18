@@ -70,7 +70,7 @@ def main():
  if any(entry and entry.split()[0] not in ['100644','100755'] for entry in entries):raise RuntimeError('Unexpected symlink or Git submodule; no commit or push performed')
  if run(['git','diff','--cached','--quiet'],check=False).returncode:
   email=str(user['id'])+'+'+user['login']+'@users.noreply.github.com'
-  run(['git','-c','user.name='+user['login'],'-c','user.email='+email,'commit','-m','Add V9 single deck and guided observation elevators'])
+  run(['git','-c','user.name='+user['login'],'-c','user.email='+email,'commit','-m','Expand model viewport and centralize review controls'])
  run(['git','-c','credential.helper=','-c','credential.helper=!gh auth git-credential','push','--set-upstream','origin','main'])
  check,pages=api('repos/'+full+'/pages',check=False)
  if check.returncode:
