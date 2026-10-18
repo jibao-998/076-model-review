@@ -10,7 +10,7 @@ header{display:none!important}.layout{height:100dvh!important}html,body{height:1
 <h2>独立部件</h2><div id="groups"></div><label><input type="checkbox" id="skin-alpha">蒙皮半透明</label><label><input type="checkbox" id="reserves">显示功能预留空间</label><label><input type="checkbox" id="old-deck">旧甲板轮廓叠加</label>
 <div id="legend">X：艏 0 → 艉 800<br>+Y 右舷 / −Y 左舷 / +Z 向上<br>左拖旋转 · 滚轮缩放 · 右拖平移<br>双击画布可找回全船</div><p>沿用V2的14片肋骨。下横板覆盖艉部5片，上横板向前至X190；两侧承托槽高3.12 mm。蒙皮为零厚度 NURBS 分块参考；3 mm 木板的窄条拼接、分块打磨方案待验证。结构板保留插接概念，尚未完成制造审查。</p><p>参考外观：2025年11月试航照片。甲板尺寸与涂装位置均为估算/模型工作值。</p></aside>
 <main class="stage" id="stage"><div id="caption"></div><div id="info">点击部件可查看名称与分组。</div></main></div>
-<div id="hosted-load" class="hosted-load">正在载入 V3<small>首次载入需下载模型，稍候即可旋转浏览</small></div><script src="../../review_state.js?rev=460813e4022ac0d5"></script><script>window.REVIEW_CONFIG={"version": "v3", "hash": "91857abece272dcbe0d26bdda6ba60b002b51d4587d8d03ed4bec17214c4a6a0", "issues": [{"id": "historical-review", "title": "历史版本 / 按本版证据阅读", "short": "历史评审 / 不用于制造", "status": "历史快照", "finding": "上、下横板与肋骨插槽", "close": "本历史版未执行当前完整制造与功能验收；查阅本版报告和参数。", "parts": [], "view": "iso", "evidence": "versions/v3/report.html"}]};</script><script>/**
+<div id="hosted-load" class="hosted-load">正在载入 V3<small>首次载入需下载模型，稍候即可旋转浏览</small></div><script src="../../review_state.js?rev=51131d0203410f7c"></script><script>window.REVIEW_CONFIG={"version": "v3", "hash": "91857abece272dcbe0d26bdda6ba60b002b51d4587d8d03ed4bec17214c4a6a0", "issues": [{"id": "historical-review", "title": "历史版本 / 按本版证据阅读", "short": "历史评审 / 不用于制造", "status": "历史快照", "finding": "上、下横板与肋骨插槽", "close": "本历史版未执行当前完整制造与功能验收；查阅本版报告和参数。", "parts": [], "view": "iso", "evidence": "versions/v3/report.html"}]};</script><script>/**
  * @license
  * Copyright 2010-2021 Three.js Authors
  * SPDX-License-Identifier: MIT
@@ -1170,6 +1170,7 @@ function reviewRestore(input){
  try{
   if(reviewHasMotion)motion.resetAll();
   const modes=Array.from(document.querySelectorAll('[data-mode]')).map(b=>b.dataset.mode);if(reviewNative.setMode&&modes.includes(s.mode))reviewNative.setMode(s.mode);
+  const views=Array.from(document.querySelectorAll('[data-view]')).map(b=>b.dataset.view);if(reviewNative.setView&&views.includes(s.view))reviewNative.setView(s.view);
   if(typeof explosion!=='undefined'){explosion=s.explosion;if(typeof applyExplosion==='function')applyExplosion();else if(typeof refresh==='function')refresh()}
   if(typeof view!=='undefined')view=s.view||view;if(typeof scope!=='undefined')scope=s.scope||'full';
   if(typeof setSteering==='function')setSteering(s.steering);

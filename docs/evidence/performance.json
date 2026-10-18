@@ -8,11 +8,11 @@
       "version": "v8",
       "sample": "local HTTP fresh navigation; desktop Edge SwiftShader",
       "metrics": {
-        "firstInteractiveMs": 433.19999998807907,
-        "downloadInflateMs": 145,
-        "sceneBuildMs": 86,
+        "firstInteractiveMs": 471.09999999403954,
+        "downloadInflateMs": 140.59999999403954,
+        "sceneBuildMs": 80.79999999701977,
         "frameSamples": 35,
-        "meanFrameMs": 108.24000000000001,
+        "meanFrameMs": 113.63428571428571,
         "triangles": 285076,
         "drawCalls": 261,
         "renderer": "Edge / SwiftShader software renderer in QA",
@@ -21,7 +21,7 @@
           829
         ],
         "devicePixelRatio": 1,
-        "jsHeapBytes": 85640371,
+        "jsHeapBytes": 85579092,
         "realMobile": "NOT_CHECKED"
       }
     },
@@ -29,11 +29,11 @@
       "version": "v6",
       "sample": "local HTTP fresh navigation; desktop Edge SwiftShader",
       "metrics": {
-        "firstInteractiveMs": 361.79999999701977,
-        "downloadInflateMs": 116,
-        "sceneBuildMs": 74.70000000298023,
+        "firstInteractiveMs": 359.20000000298023,
+        "downloadInflateMs": 113.79999999701977,
+        "sceneBuildMs": 78,
         "frameSamples": 35,
-        "meanFrameMs": 107.29142857142857,
+        "meanFrameMs": 110.14571428571428,
         "triangles": 279804,
         "drawCalls": 259,
         "renderer": "Edge / SwiftShader software renderer in QA",
@@ -42,7 +42,7 @@
           829
         ],
         "devicePixelRatio": 1,
-        "jsHeapBytes": 94462131,
+        "jsHeapBytes": 93439760,
         "realMobile": "NOT_CHECKED"
       }
     }
