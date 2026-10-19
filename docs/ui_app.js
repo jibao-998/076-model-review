@@ -27,7 +27,7 @@ $('main-advanced').onclick=()=>{uiCloseLifts();uiNativeOpen=!uiNativeOpen;uiComm
 $('part-peek').onclick=()=>{showPanel(true);$('part-card').scrollIntoView({block:'nearest'});$('close-panel').focus()};
 function uiEscape(){uiCloseLifts(true);if(uiNativeOpen){uiNativeOpen=false;uiCommand('native',false);$('main-advanced').setAttribute('aria-expanded','false');$('main-advanced').focus()}if(!document.body.classList.contains('panel-closed')){showPanel(false);$('show-issues').focus()}}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')uiEscape()});
-document.addEventListener('pointerdown',e=>{if(!e.target.closest('#lift-popover,#main-lifts'))uiCloseLifts()},{passive:true});
+// V11 dock closes through its button or Escape.
 window.addEventListener('message',e=>{
  const d=e.data;if(e.source!==frame.contentWindow||e.origin!==location.origin||d?.version!==current?.id||d.attempt!==String(attempt)||content!=='model')return;
  if(d.type==='ui-ready'){
@@ -38,7 +38,7 @@ window.addEventListener('message',e=>{
  if(d.type==='ui-fit'){uiFreshPending=false;remember(d.state);uiUpdate(saved.get(current.id))}
  if(d.type==='ui-tools'){uiNativeOpen=!!d.open;$('main-advanced').setAttribute('aria-expanded',String(uiNativeOpen))}
  if(d.type==='ui-close')uiEscape();
- if(d.type==='ui-canvas-interaction')uiCloseLifts();
+ // V11 scene interaction keeps the dock available.
  if(d.type==='review-ready'||d.type==='model-ready')uiUpdate(saved.get(current.id));
 });
 window.UIRefresh={update:uiUpdate,content:uiContent};uiUpdate();

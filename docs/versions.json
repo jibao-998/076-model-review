@@ -3,14 +3,14 @@
     "id": "v10",
     "label": "V10 · R1",
     "title": "隐藏升降与双舷收锚评审",
-    "description": "原生R1结构、两侧独立场景与双舷收锚；D候选参数，驱动与实物未验",
+    "description": "V11界面 / V10原生几何未修订；观察口、外框收口未验收；驱动未选型。",
     "viewer": "versions/v10/viewer.html",
     "report": "versions/v10/report.html",
     "model": "versions/v10/model.3dm",
     "parameters": "versions/v10/parameters.json",
     "review": "versions/v10/review.json",
     "model_sha256": "0352b90959281bf8d2a00da80d84266ee01646c5af7086e7d2d4f017acf0c301",
-    "viewer_revision": "8a8a3679e5b0c2dc",
+    "viewer_revision": "baea4789d61691ca",
     "historical": false,
     "download_bytes": 1771794,
     "payload_gzip_bytes": 8892364,
@@ -21,7 +21,7 @@
       "隐藏导轨与固定荷载框；升降平台由V9 52×43 mm改为52×29 mm候选，32 mm行程暂定。",
       "两层倒角入口、可拆袋衬/导轨盖和独立左舷局部场景。",
       "双舷收锚采用独立原生组件与演示绳路；70 mm为D模型演示参数。",
-      "保留浅色工作台、R1方案入口及全部历史版本；不可直接制造。"
+      "改为深蓝舰桥界面，保留R1方案入口及全部历史版本；右舷候选遮挡FAIL，不可直接制造。"
     ]
   },
   {

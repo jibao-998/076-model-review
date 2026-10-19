@@ -1,0 +1,12 @@
+{
+  "status": "SAVED_GEOMETRY_READBACK_ONLY",
+  "unit": "UnitSystem.Millimeters",
+  "objects": 457,
+  "mesh_count": 0,
+  "named_views": 5,
+  "longitudinal_span_mm": 800,
+  "unchanged_original_objects": 412,
+  "original_sha256": "0352b90959281bf8d2a00da80d84266ee01646c5af7086e7d2d4f017acf0c301",
+  "native_sha256": "39ff2ecc6367e7dd18ee20aa08cbf8f1edd6293345139d32a17edab4eb0632be",
+  "Rhino_desktop": "NOT_CHECKED"
+}

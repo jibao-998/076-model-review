@@ -1,3 +1,11 @@
+# 076 model review · Deep-blue bridge UI
+
+UI revision `baea4789d61691ca`: navy console, cyan controls, static gray-blue model background, 44px controls. Default native geometry remains V10. Right-side study is an unselected candidate with concealment FAIL. UI/browser validation does not verify physical hardware or manufacturing.
+
+Design references only: [OpenBridge](https://github.com/Ocean-Industries-Concept-Lab/openbridge-webcomponents), [KIP](https://github.com/mxtommy/Kip). No new framework, copied source, fonts or icons. Existing Three.js notices retained. Historical model assets and reports preserved.
+
+---
+
 # 076 model review — GitHub Pages mirror
 
 Ten review versions of the 800 mm wooden model, including the V9 whole-deck

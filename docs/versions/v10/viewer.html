@@ -1,4 +1,4 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>076 V10 R1 · 隐藏升降与双舷收锚评审</title>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><link rel="stylesheet" href="../../marine_viewer.css?rev=baea4789d61691ca"><meta name="viewport" content="width=device-width,initial-scale=1"><title>076 V10 R1 · 隐藏升降与双舷收锚评审</title>
 <style>*{box-sizing:border-box}body{margin:0;background:#edf1f4;color:#173247;font:14px "Microsoft YaHei",sans-serif}header{padding:15px 22px;background:#173247;color:#f8fafb;display:flex;justify-content:space-between;align-items:center}h1{font-size:20px;margin:0 0 5px}header small{color:#b8cbd6}.layout{display:grid;grid-template-columns:246px 1fr;height:calc(100vh - 82px)}aside{padding:16px;overflow:auto;background:#f8fafb;border-right:1px solid #d1dce3}h2{font-size:14px;margin:17px 0 9px}button{border:1px solid #b9c9d2;border-radius:5px;background:white;color:#173247;padding:8px 9px;cursor:pointer;margin:0 3px 5px 0}button.active{background:#23536d;color:#fff;border-color:#23536d}button:hover{border-color:#279aaf}.buttons{display:flex;flex-wrap:wrap}label{display:block;padding:4px 0}input[type=range]{width:100%}input[type=checkbox]{accent-color:#267b92}p{line-height:1.65;font-size:12px;color:#587080}.stage{position:relative;min-width:0;overflow:hidden}canvas{display:block;width:100%;height:100%;touch-action:none}#caption{position:absolute;top:14px;left:17px;pointer-events:none;background:#ffffffd9;border:1px solid #d5e0e6;padding:10px 13px;border-radius:5px;max-width:calc(100% - 28px);font-size:12px}#caption b{font-size:15px}#info{position:absolute;bottom:15px;left:17px;background:#ffffffde;padding:9px 12px;border-radius:4px;font-size:12px;pointer-events:none}#legend{font-size:12px;line-height:1.8;padding-top:9px;color:#587080}a{color:#26708c}@media(max-width:850px){header{padding:10px 14px;height:82px}h1{font-size:16px}.layout{grid-template-columns:190px 1fr}aside{padding:10px}button{font-size:12px;padding:7px}#caption{top:8px;left:8px;padding:7px;max-width:calc(100% - 16px)}#caption b{font-size:13px}}input[type=number]{width:80px;padding:5px;border:1px solid #b9c9d2}#part-search,#part-select{width:100%;padding:6px;margin-bottom:5px;border:1px solid #b9c9d2}#part-title{font-size:11px;overflow-wrap:anywhere;color:#546f80}.offsets{display:flex;gap:4px}.offsets input{width:52px}small{line-height:1.5}header a{white-space:nowrap}
 header{height:76px}.layout{height:calc(100dvh - 76px)}#tools-toggle{position:fixed;z-index:20;left:255px;top:85px;box-shadow:0 2px 9px #0002}.tools-hidden .layout{grid-template-columns:0 1fr}.tools-hidden aside{display:none}.tools-hidden .stage{grid-column:2}.tools-hidden #tools-toggle{left:9px}#caption{left:80px;max-width:calc(100% - 90px)}
 @media(max-width:950px){header{height:58px;padding:7px 12px}header small{display:none}header h1{font-size:15px}.layout{height:calc(100dvh - 58px);grid-template-columns:220px 1fr}aside{padding:10px}#tools-toggle{top:67px;left:229px}#caption{font-size:10px}#caption b{font-size:12px}button{min-height:33px}#info{font-size:10px;max-width:calc(100% - 24px);overflow-wrap:anywhere}input[type=range]{height:28px}}
@@ -1118,7 +1118,7 @@ html.ui-refresh body button,html.ui-refresh body select{min-height:36px}
 
 (async()=>{
 const DATA=await loadHostedModel('model.bin','v10',8892364);
-const stage=document.getElementById('stage'),renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setClearColor(0xedf1f4);stage.appendChild(renderer.domElement);
+const stage=document.getElementById('stage'),renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setClearColor(0x3b5365);stage.appendChild(renderer.domElement);
 const scene=new THREE.Scene(),camera=new THREE.OrthographicCamera(-500,500,300,-300,.1,8000);camera.up.set(0,0,1);const controls=new THREE.OrbitControls(camera,renderer.domElement);controls.enableDamping=false;controls.enablePan=true;controls.minZoom=.12;controls.maxZoom=20;controls.maxPolarAngle=Math.PI-.001;controls.minPolarAngle=.001;
 scene.add(new THREE.AmbientLight(0xffffff,.72));for(const [x,y,z,intensity] of [[-400,-800,1200,.8],[1000,600,800,.5]]){const l=new THREE.DirectionalLight(0xffffff,intensity);l.position.set(x,y,z);scene.add(l)}
 const groups={},items=[],labels={skin:'船体蒙皮 / 含锚孔开口',keel:'中央主龙骨',frames:'14片开孔肋骨',longitudinal:'左右贯通纵梁',support:'甲板承托条',deck:'可拆飞行甲板',internal:'上层横板 Z44–47',lower:'艉部下横板 Z19–22',elevators:'两侧升降机平台',superstructure:'双舰岛 / 艉门',markings:'甲板标线',catwalk:'甲板边过道 / 支座',bilge:'舭龙骨（模型设计）',runninggear:'轴桨舵 / 艉鳍（模型设计）',hawse:'锚孔 / 内凹通道',liner:'坞舱前壁 / 左右封板',wellroof:'坞舱独立顶板',hangarwalls:'机库规则壁板',hangarroof:'机库独立顶板',wellbeams:'坞舱可拆横撑',hangarfloor:'机库独立底板',servicehatch:'机库检修甲板',cheeks:'肋骨局部贴片',plankingjigs:'蒙皮临时横撑（需拆除）',servicebearings:'机库承托与插销'};
@@ -1408,6 +1408,20 @@ window.reviewBridge.anchorPreview=()=>[...v10AnchorLines].map(([side,{line}])=>(
 function v10Ready(){reviewPost('v10-ready',{anchors:[...v10AnchorLines].map(([side,{row}])=>({side,assembly:row.anchor_assembly,drop_mm:row.drop_working_mm})),trays:v10TrayRows.map(r=>r.assembly),reviewOnly:true})}
 window.addEventListener('message',e=>{const d=e.data;if(e.source!==parent||e.origin!==location.origin||d?.version!=='v10'||d.attempt!==new URLSearchParams(location.search).get('attempt'))return;if(d.type==='v10-anchor')v10Anchor(d.side,d.percent);if(d.type==='v10-tray')v10Tray(d.assembly,d.on);if(d.type==='v10-capabilities')v10Ready()});
 v10UpdateAnchorLines();v10Ready();
+
+/* UI-only observation cameras. Native mesh, motion and historical state schema stay intact. */
+function v11Observe(side,angle){
+ if(!['STBD','PORT'].includes(side)||!['front','forward','aft','above','below'].includes(angle))return false;
+ const sign=side==='STBD'?1:-1,x=side==='STBD'?456:706;
+ // Aim through the measured platform centre. Fixed offsets describe camera poses only.
+ const target=[x,sign*64,60],offset={front:[0,260*sign,0],forward:[-145,260*sign,45],aft:[145,260*sign,45],above:[0,260*sign,100],below:[0,260*sign,-65]}[angle];
+ const aspect=Math.max(.1,stage.clientWidth/Math.max(1,stage.clientHeight));
+ reviewPoseRestore({target,position:target.map((v,i)=>v+offset[i]),up:[0,0,1],zoom:1,halfHeight:Math.max(44,70/aspect)});
+ if(typeof scope!=='undefined')scope='full';reviewChanged();return true;
+}
+window.reviewBridge.observe=v11Observe;
+reviewConfig.issues.push({id:'battery-tray-fit',parts:['R1_BATTERY_REMOVABLE_FLOOR'],view:'iso'});
+window.addEventListener('message',e=>{const d=e.data;if(e.source!==parent||e.origin!==location.origin||d?.version!==reviewConfig.version||d.attempt!==new URLSearchParams(location.search).get('attempt'))return;if(d.type==='v11-observe')v11Observe(d.side,d.angle);if(d.type==='review-locate'&&d.issue==='opening-unaccepted')v11Observe('STBD','front')});
 
 window.MODEL_READY=true;
 

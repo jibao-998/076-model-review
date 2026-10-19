@@ -17,6 +17,30 @@
   "manufacturing": "REVIEW_ONLY_NOT_FOR_CUTTING",
   "issues": [
     {
+      "id": "opening-unaccepted",
+      "title": "观察口露机构 / 外框收口尚未验收",
+      "short": "观察口与收口未验收",
+      "status": "NOT_VERIFIED / V10几何",
+      "finding": "当前仍使用V10原生几何。侧面观察口的机构可见性、上下行程露出与外框收口尚未完成验收；V11仅更新操作界面。此项独立于驱动未选型。",
+      "close": "逐侧检查上、中、下位以及正视和斜视；冻结机构遮蔽、外框收口及间隙后再验收。",
+      "parts": [],
+      "view": "hangarClose",
+      "evidence": "study/index.html"
+    },
+    {
+      "id": "battery-tray-fit",
+      "title": "20 mm厚候选电池不适配当前17 mm托盘",
+      "short": "电池托盘不适配",
+      "status": "NOT_FIT_CURRENT_TRAY",
+      "finding": "20 mm厚候选电池超过当前托盘17 mm容纳厚度，相差3 mm；当前托盘不能视为适配该候选电池。",
+      "close": "核实电池完整外形与接头空间，再修改托盘或更换候选并重新验收。",
+      "parts": [
+        "R1_BATTERY_REMOVABLE_FLOOR"
+      ],
+      "view": "iso",
+      "evidence": "study/index.html"
+    },
+    {
       "id": "lift-stbd",
       "title": "右舷隐藏升降 / 承载与驱动待选",
       "short": "右舷隐藏升降",
@@ -2500,10 +2524,11 @@
     }
   },
   "changes": [
+    "V11只更新界面与观察角度，原生模型、平台、观察口和外框几何仍是V10；未制造放行。",
     "隐藏导轨与固定荷载框；升降平台由V9 52×43 mm改为52×29 mm候选，32 mm行程暂定。",
     "两层倒角入口、可拆袋衬/导轨盖和独立左舷局部场景。",
     "双舷收锚采用独立原生组件与演示绳路；70 mm为D模型演示参数。",
-    "保留浅色工作台、R1方案入口及全部历史版本；不可直接制造。"
+    "改为深蓝舰桥界面，保留R1方案入口及全部历史版本；右舷候选遮挡FAIL，不可直接制造。"
   ],
   "parameters": [
     "总长：800 mm（项目约束）。甲板宽：155 mm（模型工作参数），不等于含舷台/升降机的最大宽度。",

@@ -1,0 +1,13 @@
+/* Presentation only. Materials, lighting, geometry and state are unchanged. */
+:root { color-scheme:dark; }
+body { background:#3b5365; color:#e7f1f6; }
+html.ui-refresh body.ui-native-open .layout>aside:first-of-type { background:#102c40!important; color:#e7f1f6; }
+aside,#caption,#info,#details,.hosted-load { background:#102c40; color:#e7f1f6; border-color:#426377; }
+button,select,input[type=number],input[type=text],#part-search,#part-select {
+  background:#17394e; color:#e7f1f6; border:1px solid #527082; min-height:44px;
+}
+button.active { background:#74d8df; color:#082937; }
+aside p,aside small,#part-title,#legend,.hosted-load small { color:#bed0da; }
+a { color:#98e6eb; }
+input[type=range],input[type=checkbox] { accent-color:#74d8df; min-height:44px; }
+button:focus-visible,select:focus-visible,input:focus-visible { outline:3px solid #b9f8ff; }

@@ -1,0 +1,5879 @@
+{
+  "status": "FAIL",
+  "tag": "candidate_v11",
+  "cases": 54,
+  "lights": "Geometry is light-independent; lit visual/physical checks separately NOT_CHECKED",
+  "grid": [
+    39,
+    25
+  ],
+  "method": "First triangle hit in actual opaque geometry; mechanism geometry retained; platform natural occlusion allowed",
+  "elapsed_seconds": 4.85,
+  "rows": [
+    {
+      "position_percent": 0,
+      "azimuth_deg": -45,
+      "elevation_deg": -20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 39,
+      "failures": [
+        {
+          "target": [
+            450.85263157894735,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            453.4263157894737,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            456.0,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            458.5736842105263,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            461.14736842105265,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            463.7210526315789,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            466.29473684210524,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            468.86842105263156,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            471.4421052631579,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            474.0157894736842,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            476.58947368421053,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            479.16315789473686,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            481.7368421052631,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            484.31052631578945,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            486.88421052631577,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            489.4578947368421,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            492.0315789473684,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            52.5
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            54.45
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            62.25000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            64.2
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            72.0
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            73.95
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_TOP_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 68,
+        "V11_FORE_POD_FLOOR": 13,
+        "V11_FORE_POD_END": 49,
+        "V11_FORE_POD_LOWER_END": 5,
+        "V11_FORE_POD_LOWER_FRONT": 30,
+        "V11_FORE_POD_FRONT": 210,
+        "V11_LOWER_EXTERNAL_APRON": 187,
+        "V11_FORE_FRONT_RETURN": 43,
+        "V11_TRANSFER_FLOOR_CORE": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 18,
+        "V11_SCENE_CEILING_3": 12,
+        "R1_HANGAR_CEILING_BEAM_X474": 3,
+        "R1_STBD_TUNNEL_ROOF": 26,
+        "V11_SCENE_CEILING_2": 61,
+        "V11_PLATFORM_BOTTOM": 17,
+        "V11_SCENE_AFT": 12,
+        "HANGAR_REMOVABLE_ROOF": 3,
+        "R1_STBD_INNER_BEVEL_FRAME": 10,
+        "R1_STBD_TUNNEL_AFT": 13,
+        "R1_STBD_OUTER_BEVEL_FRAME": 9,
+        "V11_TUNNEL_AFT": 67,
+        "V11_FLOOR_AFT_EDGE_FINISH": 1,
+        "V11_AFT_SIDE_BAFFLE": 1,
+        "V11_AFT_POD_FLOOR": 7,
+        "R1_STBD_GUIDE_FOOT_2": 1,
+        "R1_STBD_LOAD_POST_2": 20,
+        "R1_STBD_LOAD_POST_TOP_2": 1,
+        "V11_AFT_FRONT_RETURN": 44,
+        "V11_AFT_POD_LOWER_FRONT": 6,
+        "V11_AFT_POD_FRONT": 21
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": -45,
+      "elevation_deg": -20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 1,
+      "failures": [
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 78,
+        "V11_FORE_POD_FLOOR": 4,
+        "V11_FORE_POD_END": 39,
+        "V11_FORE_POD_LOWER_END": 5,
+        "V11_FORE_POD_LOWER_FRONT": 43,
+        "V11_FORE_POD_FRONT": 231,
+        "V11_LOWER_EXTERNAL_APRON": 174,
+        "V11_FORE_FRONT_RETURN": 21,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 17,
+        "V11_SCENE_CEILING_3": 12,
+        "R1_HANGAR_CEILING_BEAM_X474": 3,
+        "R1_STBD_TUNNEL_ROOF": 27,
+        "V11_SCENE_CEILING_2": 60,
+        "V11_PLATFORM_BOTTOM": 17,
+        "V11_SCENE_AFT": 16,
+        "HANGAR_REMOVABLE_ROOF": 3,
+        "R1_STBD_INNER_BEVEL_FRAME": 6,
+        "R1_STBD_TUNNEL_AFT": 13,
+        "R1_STBD_OUTER_BEVEL_FRAME": 8,
+        "V11_TUNNEL_AFT": 56,
+        "V11_AFT_POD_FLOOR": 7,
+        "V11_AFT_SIDE_BAFFLE": 21,
+        "V11_FLOOR_AFT_EDGE_FINISH": 1,
+        "R1_STBD_GUIDE_FOOT_2": 1,
+        "V11_AFT_FRONT_RETURN": 42,
+        "V11_AFT_POD_LOWER_FRONT": 11,
+        "V11_AFT_POD_FRONT": 42
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": -45,
+      "elevation_deg": 0,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 38,
+      "failures": [
+        {
+          "target": [
+            450.85263157894735,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            453.4263157894737,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            456.0,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            458.5736842105263,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            461.14736842105265,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            463.7210526315789,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            466.29473684210524,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            468.86842105263156,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            471.4421052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            474.0157894736842,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            476.58947368421053,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            479.16315789473686,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            481.7368421052631,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            484.31052631578945,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            486.88421052631577,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            489.4578947368421,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            492.0315789473684,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            29.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            31.05
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            33.0
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            52.5
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            54.45
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            62.25000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            64.2
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 63,
+        "CATWALK_FLOOR_+1_1": 42,
+        "CATWALK_COAMING_+1_1": 21,
+        "V11_FORE_POD_END": 47,
+        "V11_FORE_POD_FRONT": 220,
+        "V11_FORE_FRONT_RETURN": 44,
+        "V11_LOWER_EXTERNAL_APRON": 126,
+        "V11_TRANSFER_FLOOR_CORE": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 18,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 14,
+        "V11_SCENE_AFT": 54,
+        "V11_SCENE_CEILING_3": 6,
+        "V11_SCENE_CEILING_2": 18,
+        "V11_PLATFORM_BOTTOM": 37,
+        "V11_PLATFORM_FORE_FASCIA": 12,
+        "R1_STBD_INNER_BEVEL_FRAME": 12,
+        "HANGAR_PORT_WALL": 8,
+        "R1_STBD_TUNNEL_AFT": 20,
+        "R1_STBD_OUTER_BEVEL_FRAME": 10,
+        "V11_PLATFORM_OUTER_FASCIA": 24,
+        "V11_TUNNEL_AFT": 74,
+        "V11_FLOOR_AFT_EDGE_FINISH": 1,
+        "R1_STBD_GUIDE_FOOT_2": 1,
+        "R1_STBD_LOAD_POST_2": 20,
+        "V11_AFT_FRONT_RETURN": 44,
+        "V11_AFT_POD_FRONT": 22
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": -45,
+      "elevation_deg": 0,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 66,
+        "CATWALK_FLOOR_+1_1": 41,
+        "CATWALK_COAMING_+1_1": 42,
+        "V11_FORE_POD_END": 39,
+        "V11_FORE_POD_FRONT": 231,
+        "V11_FORE_FRONT_RETURN": 21,
+        "V11_LOWER_EXTERNAL_APRON": 119,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 34,
+        "V11_SCENE_AFT": 62,
+        "V11_SCENE_CEILING_3": 6,
+        "V11_SCENE_CEILING_2": 17,
+        "V11_PLATFORM_BOTTOM": 19,
+        "V11_PLATFORM_FORE_FASCIA": 15,
+        "R1_STBD_INNER_BEVEL_FRAME": 12,
+        "R1_STBD_TUNNEL_AFT": 20,
+        "V11_PLATFORM_OUTER_FASCIA": 39,
+        "R1_STBD_OUTER_BEVEL_FRAME": 10,
+        "V11_TUNNEL_AFT": 60,
+        "V11_AFT_SIDE_BAFFLE": 19,
+        "V11_FLOOR_AFT_EDGE_FINISH": 2,
+        "V11_AFT_FRONT_RETURN": 42,
+        "V11_AFT_POD_FRONT": 42
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": -45,
+      "elevation_deg": 20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 9,
+      "failures": [
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            29.1
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            31.05
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            33.0
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 42,
+        "CATWALK_FLOOR_+1_1": 42,
+        "CATWALK_COAMING_+1_1": 42,
+        "FLIGHT_DECK_WHOLE": 87,
+        "ISLAND_FRONT": 44,
+        "V11_FORE_POD_END": 33,
+        "V11_FORE_POD_FRONT": 150,
+        "V11_FORE_FRONT_RETURN": 30,
+        "V11_PLATFORM_TOP": 180,
+        "V11_LOWER_EXTERNAL_APRON": 72,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 18,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 34,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 28,
+        "R1_STBD_OUTER_BEVEL_FRAME": 19,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 7,
+        "V11_PLATFORM_BOTTOM": 17,
+        "V11_PLATFORM_FORE_FASCIA": 38,
+        "R1_STBD_INNER_BEVEL_FRAME": 2,
+        "V11_PLATFORM_OUTER_FASCIA": 44,
+        "V11_TUNNEL_AFT": 10,
+        "R1_STBD_LOAD_POST_2": 9,
+        "V11_AFT_FRONT_RETURN": 18,
+        "V11_AFT_POD_FRONT": 9
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": -45,
+      "elevation_deg": 20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 41,
+        "CATWALK_FLOOR_+1_1": 42,
+        "CATWALK_COAMING_+1_1": 42,
+        "FLIGHT_DECK_WHOLE": 117,
+        "ISLAND_FRONT": 55,
+        "V11_FORE_POD_END": 29,
+        "V11_FORE_POD_FRONT": 154,
+        "V11_PLATFORM_TOP": 162,
+        "V11_FORE_FRONT_RETURN": 14,
+        "V11_LOWER_EXTERNAL_APRON": 68,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 33,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 28,
+        "R1_STBD_OUTER_BEVEL_FRAME": 21,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 7,
+        "V11_PLATFORM_BOTTOM": 4,
+        "V11_PLATFORM_FORE_FASCIA": 28,
+        "R1_STBD_INNER_BEVEL_FRAME": 2,
+        "HANGAR_CASSETTE_FLOOR": 1,
+        "V11_PLATFORM_OUTER_FASCIA": 48,
+        "V11_TUNNEL_AFT": 12,
+        "V11_AFT_SIDE_BAFFLE": 8,
+        "V11_FLOOR_AFT_EDGE_FINISH": 2,
+        "V11_AFT_FRONT_RETURN": 20,
+        "V11_AFT_POD_FRONT": 20
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 0,
+      "elevation_deg": -20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 18,
+        "V11_FORE_POD_FLOOR": 8,
+        "V11_FORE_POD_FRONT": 176,
+        "V11_FORE_FRONT_RETURN": 46,
+        "V11_LOWER_EXTERNAL_APRON": 175,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 19,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 38,
+        "V11_TUNNEL_FORE": 8,
+        "V11_SCENE_CEILING_2": 57,
+        "V11_PLATFORM_BOTTOM": 38,
+        "V11_SCENE_FORE": 3,
+        "V11_SCENE_CEILING_1": 42,
+        "HANGAR_REMOVABLE_ROOF": 19,
+        "R1_STBD_TUNNEL_ROOF": 34,
+        "R1_HANGAR_CEILING_BEAM_X442": 2,
+        "V11_SCENE_CEILING_3": 32,
+        "R1_HANGAR_CEILING_BEAM_X474": 1,
+        "V11_SCENE_AFT": 3,
+        "V11_TUNNEL_AFT": 8,
+        "V11_AFT_FRONT_RETURN": 46,
+        "V11_AFT_POD_LOWER_FRONT": 18,
+        "V11_AFT_POD_FLOOR": 8,
+        "V11_AFT_POD_FRONT": 176
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 0,
+      "elevation_deg": -20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 18,
+        "V11_FORE_POD_FLOOR": 9,
+        "V11_FORE_POD_FRONT": 198,
+        "V11_LOWER_EXTERNAL_APRON": 177,
+        "V11_FORE_FRONT_RETURN": 22,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 19,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 38,
+        "V11_TUNNEL_FORE": 8,
+        "V11_SCENE_CEILING_2": 57,
+        "V11_PLATFORM_BOTTOM": 38,
+        "V11_SCENE_CEILING_1": 54,
+        "R1_STBD_TUNNEL_ROOF": 34,
+        "HANGAR_REMOVABLE_ROOF": 10,
+        "V11_SCENE_CEILING_3": 38,
+        "V11_TUNNEL_AFT": 8,
+        "V11_AFT_FRONT_RETURN": 22,
+        "V11_AFT_POD_LOWER_FRONT": 18,
+        "V11_AFT_POD_FLOOR": 9,
+        "V11_AFT_POD_FRONT": 198
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 0,
+      "elevation_deg": 0,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 179,
+        "CATWALK_FLOOR_+1_1": 14,
+        "CATWALK_COAMING_+1_1": 7,
+        "V11_FORE_FRONT_RETURN": 47,
+        "V11_PLATFORM_BOTTOM": 40,
+        "V11_PLATFORM_OUTER_FASCIA": 42,
+        "V11_LOWER_EXTERNAL_APRON": 133,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 19,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 19,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 19,
+        "V11_TUNNEL_FORE": 10,
+        "V11_SCENE_CEILING_2": 19,
+        "V11_SCENE_FORE": 17,
+        "V11_SCENE_CEILING_1": 9,
+        "HANGAR_CASSETTE_FLOOR": 10,
+        "R1_HANGAR_REMOVABLE_BACK_LINING": 91,
+        "V11_SCENE_BACK_1": 7,
+        "V11_SCENE_AIRCRAFT_VISUAL": 5,
+        "HANGAR_PORT_WALL": 2,
+        "V11_SCENE_BACK_2": 5,
+        "V11_SCENE_CEILING_3": 7,
+        "V11_SCENE_AFT": 17,
+        "V11_TUNNEL_AFT": 10,
+        "V11_AFT_FRONT_RETURN": 47,
+        "V11_AFT_POD_FRONT": 179,
+        "CATWALK_FLOOR_+1_0": 14,
+        "CATWALK_COAMING_+1_0": 7
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 0,
+      "elevation_deg": 0,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 193,
+        "CATWALK_FLOOR_+1_1": 16,
+        "CATWALK_COAMING_+1_1": 16,
+        "V11_FORE_FRONT_RETURN": 25,
+        "V11_LOWER_EXTERNAL_APRON": 133,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 19,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 38,
+        "V11_TUNNEL_FORE": 10,
+        "V11_SCENE_CEILING_2": 19,
+        "V11_PLATFORM_BOTTOM": 19,
+        "V11_PLATFORM_OUTER_FASCIA": 57,
+        "V11_SCENE_FORE": 9,
+        "V11_SCENE_CEILING_1": 9,
+        "R1_HANGAR_REMOVABLE_BACK_LINING": 115,
+        "V11_SCENE_BACK_1": 8,
+        "V11_SCENE_AIRCRAFT_VISUAL": 5,
+        "HANGAR_PORT_WALL": 2,
+        "V11_SCENE_BACK_2": 6,
+        "V11_SCENE_CEILING_3": 7,
+        "V11_SCENE_AFT": 9,
+        "V11_TUNNEL_AFT": 10,
+        "V11_AFT_FRONT_RETURN": 25,
+        "V11_AFT_POD_FRONT": 193,
+        "CATWALK_FLOOR_+1_0": 16,
+        "CATWALK_COAMING_+1_0": 16
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 0,
+      "elevation_deg": 20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 140,
+        "CATWALK_FLOOR_+1_1": 14,
+        "CATWALK_COAMING_+1_1": 14,
+        "FLIGHT_DECK_WHOLE": 84,
+        "ISLAND_FRONT": 6,
+        "V11_FORE_FRONT_RETURN": 35,
+        "V11_PLATFORM_BOTTOM": 21,
+        "V11_PLATFORM_OUTER_FASCIA": 63,
+        "V11_PLATFORM_TOP": 143,
+        "R1_STBD_OUTER_BEVEL_FRAME": 19,
+        "V11_LOWER_EXTERNAL_APRON": 95,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 19,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 19,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 38,
+        "V11_TUNNEL_FORE": 4,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 17,
+        "R1_STBD_INNER_BEVEL_FRAME": 17,
+        "HANGAR_CASSETTE_FLOOR": 17,
+        "V11_TUNNEL_AFT": 4,
+        "V11_AFT_FRONT_RETURN": 35,
+        "V11_AFT_POD_FRONT": 140,
+        "CATWALK_FLOOR_+1_0": 14,
+        "CATWALK_COAMING_+1_0": 14,
+        "ISLAND_AFT": 3
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 0,
+      "elevation_deg": 20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 148,
+        "CATWALK_FLOOR_+1_1": 16,
+        "CATWALK_COAMING_+1_1": 16,
+        "FLIGHT_DECK_WHOLE": 98,
+        "ISLAND_FRONT": 10,
+        "V11_FORE_FRONT_RETURN": 22,
+        "R1_STBD_OUTER_BEVEL_FRAME": 19,
+        "V11_LOWER_EXTERNAL_APRON": 95,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 19,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 38,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 19,
+        "V11_TUNNEL_FORE": 4,
+        "V11_PLATFORM_BOTTOM": 19,
+        "V11_PLATFORM_OUTER_FASCIA": 57,
+        "V11_PLATFORM_TOP": 133,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 17,
+        "R1_STBD_INNER_BEVEL_FRAME": 17,
+        "HANGAR_CASSETTE_FLOOR": 17,
+        "V11_TUNNEL_AFT": 4,
+        "V11_AFT_FRONT_RETURN": 22,
+        "V11_AFT_POD_FRONT": 148,
+        "CATWALK_FLOOR_+1_0": 16,
+        "CATWALK_COAMING_+1_0": 16,
+        "ISLAND_AFT": 5
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 45,
+      "elevation_deg": -20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 39,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            52.5
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            54.45
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            62.25000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            64.2
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            72.0
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            73.95
+          ],
+          "first_hit": "R1_STBD_ARM_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_ARM_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            419.9684210526316,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            422.5421052631579,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            425.11578947368423,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            427.68947368421055,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            430.2631578947369,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            432.83684210526314,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            435.41052631578947,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            437.9842105263158,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            440.5578947368421,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            443.13157894736844,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            445.70526315789476,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            448.2789473684211,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            450.85263157894735,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            453.4263157894737,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            456.0,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            458.5736842105263,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            461.14736842105265,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 6,
+        "V11_FORE_POD_FLOOR": 7,
+        "V11_FORE_POD_FRONT": 21,
+        "V11_FORE_FRONT_RETURN": 44,
+        "R1_STBD_GUIDE_FOOT_1": 1,
+        "R1_STBD_GUIDE_1": 16,
+        "R1_STBD_CARRIAGE_1": 3,
+        "R1_STBD_ARM_1": 2,
+        "V11_LOWER_EXTERNAL_APRON": 187,
+        "V11_FLOOR_FORE_EDGE_FINISH": 1,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 18,
+        "V11_TUNNEL_FORE": 67,
+        "V11_SCENE_CEILING_2": 60,
+        "V11_FORE_SIDE_BAFFLE": 1,
+        "V11_TRANSFER_FLOOR_CORE": 17,
+        "V11_PLATFORM_BOTTOM": 17,
+        "R1_STBD_OUTER_BEVEL_FRAME": 10,
+        "R1_STBD_TUNNEL_FORE": 13,
+        "R1_STBD_TUNNEL_ROOF": 26,
+        "R1_STBD_INNER_BEVEL_FRAME": 10,
+        "V11_SCENE_FORE": 12,
+        "HANGAR_REMOVABLE_ROOF": 5,
+        "V11_SCENE_CEILING_1": 12,
+        "R1_HANGAR_CEILING_BEAM_X442": 1,
+        "V11_AFT_FRONT_RETURN": 43,
+        "V11_AFT_POD_LOWER_FRONT": 30,
+        "V11_AFT_POD_FLOOR": 13,
+        "V11_AFT_POD_FRONT": 210,
+        "V11_AFT_POD_LOWER_END": 5,
+        "V11_AFT_POD_END": 51,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 66
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 45,
+      "elevation_deg": -20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 1,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 11,
+        "V11_FORE_POD_FRONT": 42,
+        "V11_FORE_POD_FLOOR": 7,
+        "V11_FORE_FRONT_RETURN": 42,
+        "R1_STBD_GUIDE_FOOT_1": 1,
+        "V11_FORE_SIDE_BAFFLE": 21,
+        "V11_FLOOR_FORE_EDGE_FINISH": 1,
+        "V11_LOWER_EXTERNAL_APRON": 174,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 17,
+        "V11_TUNNEL_FORE": 56,
+        "V11_SCENE_CEILING_2": 59,
+        "V11_PLATFORM_BOTTOM": 17,
+        "R1_STBD_OUTER_BEVEL_FRAME": 9,
+        "R1_STBD_TUNNEL_FORE": 13,
+        "R1_STBD_TUNNEL_ROOF": 27,
+        "R1_STBD_INNER_BEVEL_FRAME": 6,
+        "V11_SCENE_FORE": 16,
+        "HANGAR_REMOVABLE_ROOF": 5,
+        "V11_SCENE_CEILING_1": 12,
+        "R1_HANGAR_CEILING_BEAM_X442": 1,
+        "V11_AFT_FRONT_RETURN": 21,
+        "V11_AFT_POD_LOWER_FRONT": 43,
+        "V11_AFT_POD_FRONT": 231,
+        "V11_AFT_POD_FLOOR": 4,
+        "V11_AFT_POD_LOWER_END": 5,
+        "V11_AFT_POD_END": 40,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 77
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 45,
+      "elevation_deg": 0,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 38,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            29.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            31.05
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            33.0
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            52.5
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            54.45
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            62.25000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            64.2
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            419.9684210526316,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            422.5421052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            425.11578947368423,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            427.68947368421055,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            430.2631578947369,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            432.83684210526314,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            435.41052631578947,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            437.9842105263158,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            440.5578947368421,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            443.13157894736844,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            445.70526315789476,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            448.2789473684211,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            450.85263157894735,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            453.4263157894737,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            456.0,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            458.5736842105263,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            461.14736842105265,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 22,
+        "V11_PLATFORM_BOTTOM": 37,
+        "V11_PLATFORM_OUTER_FASCIA": 24,
+        "V11_FORE_FRONT_RETURN": 44,
+        "R1_STBD_GUIDE_FOOT_1": 2,
+        "R1_STBD_GUIDE_1": 16,
+        "R1_STBD_CARRIAGE_1": 3,
+        "V11_LOWER_EXTERNAL_APRON": 126,
+        "V11_FLOOR_FORE_EDGE_FINISH": 1,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 18,
+        "V11_TUNNEL_FORE": 74,
+        "V11_SCENE_CEILING_2": 18,
+        "V11_TRANSFER_FLOOR_CORE": 17,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 14,
+        "R1_STBD_OUTER_BEVEL_FRAME": 10,
+        "R1_STBD_TUNNEL_FORE": 20,
+        "V11_PLATFORM_AFT_FASCIA": 12,
+        "R1_STBD_INNER_BEVEL_FRAME": 12,
+        "HANGAR_PORT_WALL": 8,
+        "V11_SCENE_FORE": 54,
+        "V11_SCENE_CEILING_1": 6,
+        "CATWALK_FLOOR_+1_0": 42,
+        "CATWALK_COAMING_+1_0": 21,
+        "V11_AFT_FRONT_RETURN": 44,
+        "V11_AFT_POD_FRONT": 220,
+        "V11_AFT_POD_END": 47,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 63
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 45,
+      "elevation_deg": 0,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 42,
+        "V11_PLATFORM_BOTTOM": 19,
+        "V11_PLATFORM_OUTER_FASCIA": 39,
+        "V11_FORE_FRONT_RETURN": 42,
+        "V11_FORE_SIDE_BAFFLE": 19,
+        "V11_FLOOR_FORE_EDGE_FINISH": 2,
+        "V11_LOWER_EXTERNAL_APRON": 119,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 34,
+        "V11_TUNNEL_FORE": 60,
+        "V11_SCENE_CEILING_2": 17,
+        "R1_STBD_OUTER_BEVEL_FRAME": 10,
+        "R1_STBD_TUNNEL_FORE": 20,
+        "V11_PLATFORM_AFT_FASCIA": 15,
+        "R1_STBD_INNER_BEVEL_FRAME": 12,
+        "V11_SCENE_FORE": 62,
+        "V11_SCENE_CEILING_1": 6,
+        "CATWALK_FLOOR_+1_0": 41,
+        "CATWALK_COAMING_+1_0": 42,
+        "V11_AFT_FRONT_RETURN": 21,
+        "V11_AFT_POD_FRONT": 231,
+        "V11_AFT_POD_END": 41,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 64
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 45,
+      "elevation_deg": 20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 9,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            29.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            31.05
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            33.0
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 9,
+        "V11_PLATFORM_BOTTOM": 17,
+        "V11_PLATFORM_OUTER_FASCIA": 44,
+        "V11_PLATFORM_TOP": 180,
+        "FLIGHT_DECK_WHOLE": 95,
+        "V11_FORE_FRONT_RETURN": 18,
+        "R1_STBD_GUIDE_1": 9,
+        "V11_LOWER_EXTERNAL_APRON": 72,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 18,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 34,
+        "V11_TUNNEL_FORE": 10,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 28,
+        "V11_PLATFORM_AFT_FASCIA": 38,
+        "R1_STBD_OUTER_BEVEL_FRAME": 19,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 7,
+        "R1_STBD_INNER_BEVEL_FRAME": 2,
+        "CATWALK_FLOOR_+1_0": 42,
+        "CATWALK_COAMING_+1_0": 42,
+        "V11_AFT_FRONT_RETURN": 30,
+        "V11_AFT_POD_FRONT": 150,
+        "ISLAND_AFT": 36,
+        "V11_AFT_POD_END": 35,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 40
+      }
+    },
+    {
+      "position_percent": 0,
+      "azimuth_deg": 45,
+      "elevation_deg": 20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 20,
+        "V11_PLATFORM_OUTER_FASCIA": 48,
+        "V11_PLATFORM_TOP": 162,
+        "FLIGHT_DECK_WHOLE": 122,
+        "ISLAND_FRONT": 1,
+        "V11_FORE_FRONT_RETURN": 20,
+        "V11_FORE_SIDE_BAFFLE": 8,
+        "V11_FLOOR_FORE_EDGE_FINISH": 2,
+        "V11_LOWER_EXTERNAL_APRON": 68,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 33,
+        "V11_TUNNEL_FORE": 12,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 28,
+        "R1_STBD_OUTER_BEVEL_FRAME": 21,
+        "V11_PLATFORM_BOTTOM": 4,
+        "V11_PLATFORM_AFT_FASCIA": 28,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 7,
+        "R1_STBD_INNER_BEVEL_FRAME": 2,
+        "HANGAR_CASSETTE_FLOOR": 1,
+        "CATWALK_FLOOR_+1_0": 42,
+        "CATWALK_COAMING_+1_0": 42,
+        "V11_AFT_FRONT_RETURN": 14,
+        "V11_AFT_POD_FRONT": 154,
+        "ISLAND_AFT": 49,
+        "V11_AFT_POD_END": 31,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 39
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": -45,
+      "elevation_deg": -20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 31,
+      "failures": [
+        {
+          "target": [
+            450.85263157894735,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            453.4263157894737,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            456.0,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            458.5736842105263,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            461.14736842105265,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            463.7210526315789,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            466.29473684210524,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            468.86842105263156,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            471.4421052631579,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            474.0157894736842,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            476.58947368421053,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            479.16315789473686,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            481.7368421052631,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            484.31052631578945,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            486.88421052631577,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            489.4578947368421,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            492.0315789473684,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            52.5
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            54.45
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_ARM_2",
+          "group": "liftcarriages"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 68,
+        "V11_FORE_POD_FLOOR": 13,
+        "V11_FORE_POD_END": 49,
+        "V11_FORE_POD_LOWER_END": 5,
+        "V11_FORE_POD_LOWER_FRONT": 30,
+        "V11_FORE_POD_FRONT": 210,
+        "V11_LOWER_EXTERNAL_APRON": 187,
+        "V11_FORE_FRONT_RETURN": 43,
+        "V11_TRANSFER_FLOOR_CORE": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 18,
+        "V11_SCENE_CEILING_3": 12,
+        "V11_PLATFORM_BOTTOM": 162,
+        "V11_PLATFORM_FORE_FASCIA": 23,
+        "V11_PLATFORM_TOP": 6,
+        "V11_OUTER_HEADER": 1,
+        "V11_SCENE_AFT": 12,
+        "R1_STBD_INNER_BEVEL_FRAME": 8,
+        "R1_STBD_TUNNEL_AFT": 8,
+        "R1_STBD_OUTER_BEVEL_FRAME": 4,
+        "V11_TUNNEL_AFT": 28,
+        "V11_FLOOR_AFT_EDGE_FINISH": 1,
+        "V11_AFT_POD_FLOOR": 7,
+        "R1_STBD_GUIDE_FOOT_2": 1,
+        "R1_STBD_LOAD_POST_2": 12,
+        "R1_STBD_ARM_2": 1,
+        "V11_AFT_FRONT_RETURN": 29,
+        "V11_AFT_POD_LOWER_FRONT": 6,
+        "V11_AFT_POD_FRONT": 14
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": -45,
+      "elevation_deg": -20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 2,
+      "failures": [
+        {
+          "target": [
+            494.60526315789474,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_ARM_2",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 78,
+        "V11_FORE_POD_FLOOR": 4,
+        "V11_FORE_POD_END": 39,
+        "V11_FORE_POD_LOWER_END": 5,
+        "V11_FORE_POD_LOWER_FRONT": 43,
+        "V11_FORE_POD_FRONT": 231,
+        "V11_LOWER_EXTERNAL_APRON": 174,
+        "V11_FORE_FRONT_RETURN": 21,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 17,
+        "V11_SCENE_CEILING_3": 12,
+        "V11_PLATFORM_BOTTOM": 154,
+        "V11_PLATFORM_FORE_FASCIA": 24,
+        "V11_PLATFORM_TOP": 8,
+        "V11_SCENE_CEILING_2": 1,
+        "V11_OUTER_HEADER": 2,
+        "V11_SCENE_AFT": 16,
+        "R1_STBD_INNER_BEVEL_FRAME": 4,
+        "R1_STBD_TUNNEL_AFT": 8,
+        "R1_STBD_OUTER_BEVEL_FRAME": 4,
+        "V11_TUNNEL_AFT": 24,
+        "V11_AFT_POD_FLOOR": 7,
+        "V11_AFT_SIDE_BAFFLE": 12,
+        "V11_FLOOR_AFT_EDGE_FINISH": 1,
+        "R1_STBD_ARM_2": 1,
+        "R1_STBD_GUIDE_FOOT_2": 1,
+        "V11_AFT_FRONT_RETURN": 27,
+        "V11_AFT_POD_LOWER_FRONT": 11,
+        "V11_AFT_POD_FRONT": 29
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": -45,
+      "elevation_deg": 0,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 36,
+      "failures": [
+        {
+          "target": [
+            450.85263157894735,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            453.4263157894737,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            456.0,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            458.5736842105263,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            461.14736842105265,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            463.7210526315789,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            466.29473684210524,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            468.86842105263156,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            471.4421052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            474.0157894736842,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            476.58947368421053,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            479.16315789473686,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            481.7368421052631,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            484.31052631578945,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            486.88421052631577,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            489.4578947368421,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            492.0315789473684,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            494.60526315789474,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            29.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            31.05
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            33.0
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            72.0
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_TOP_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            73.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 63,
+        "CATWALK_FLOOR_+1_1": 42,
+        "CATWALK_COAMING_+1_1": 21,
+        "V11_FORE_POD_END": 47,
+        "V11_FORE_POD_FRONT": 220,
+        "V11_FORE_FRONT_RETURN": 44,
+        "V11_LOWER_EXTERNAL_APRON": 126,
+        "V11_TRANSFER_FLOOR_CORE": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 18,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 14,
+        "V11_SCENE_AFT": 18,
+        "V11_PLATFORM_BOTTOM": 22,
+        "V11_PLATFORM_FORE_FASCIA": 39,
+        "V11_PLATFORM_TOP": 38,
+        "V11_SCENE_CEILING_3": 6,
+        "V11_SCENE_CEILING_2": 18,
+        "V11_OUTER_HEADER": 56,
+        "R1_STBD_INNER_BEVEL_FRAME": 5,
+        "HANGAR_PORT_WALL": 2,
+        "R1_STBD_TUNNEL_AFT": 6,
+        "R1_STBD_OUTER_BEVEL_FRAME": 3,
+        "V11_PLATFORM_OUTER_FASCIA": 48,
+        "V11_TUNNEL_AFT": 25,
+        "V11_FLOOR_AFT_EDGE_FINISH": 1,
+        "V11_AFT_SIDE_BAFFLE": 3,
+        "R1_STBD_GUIDE_CAP_2": 3,
+        "R1_STBD_GUIDE_FOOT_2": 1,
+        "R1_STBD_LOAD_POST_2": 14,
+        "R1_STBD_LOAD_POST_TOP_2": 1,
+        "V11_AFT_FRONT_RETURN": 36,
+        "V11_AFT_POD_FRONT": 18
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": -45,
+      "elevation_deg": 0,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 2,
+      "failures": [
+        {
+          "target": [
+            492.0315789473684,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            494.60526315789474,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 66,
+        "CATWALK_FLOOR_+1_1": 41,
+        "CATWALK_COAMING_+1_1": 42,
+        "V11_FORE_POD_END": 39,
+        "V11_FORE_POD_FRONT": 231,
+        "V11_FORE_FRONT_RETURN": 21,
+        "V11_LOWER_EXTERNAL_APRON": 119,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 34,
+        "V11_SCENE_AFT": 27,
+        "V11_PLATFORM_FORE_FASCIA": 27,
+        "V11_PLATFORM_TOP": 31,
+        "V11_SCENE_CEILING_3": 6,
+        "V11_SCENE_CEILING_2": 17,
+        "V11_OUTER_HEADER": 49,
+        "R1_STBD_INNER_BEVEL_FRAME": 7,
+        "R1_STBD_TUNNEL_AFT": 8,
+        "V11_PLATFORM_BOTTOM": 14,
+        "V11_PLATFORM_OUTER_FASCIA": 52,
+        "R1_STBD_OUTER_BEVEL_FRAME": 4,
+        "V11_TUNNEL_AFT": 24,
+        "V11_AFT_SIDE_BAFFLE": 19,
+        "R1_STBD_GUIDE_CAP_2": 2,
+        "V11_FLOOR_AFT_EDGE_FINISH": 2,
+        "V11_AFT_FRONT_RETURN": 38,
+        "V11_AFT_POD_FRONT": 38
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": -45,
+      "elevation_deg": 20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 8,
+      "failures": [
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            62.25000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            64.2
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_TOP_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 42,
+        "CATWALK_FLOOR_+1_1": 42,
+        "CATWALK_COAMING_+1_1": 42,
+        "FLIGHT_DECK_WHOLE": 130,
+        "ISLAND_FRONT": 44,
+        "V11_FORE_POD_END": 33,
+        "V11_FORE_POD_FRONT": 150,
+        "V11_FORE_FRONT_RETURN": 30,
+        "V11_LOWER_EXTERNAL_APRON": 26,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 4,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 3,
+        "V11_PLATFORM_BOTTOM": 6,
+        "V11_PLATFORM_FORE_FASCIA": 40,
+        "V11_PLATFORM_TOP": 197,
+        "HANGAR_CASSETTE_FLOOR": 1,
+        "V11_SCENE_CEILING_2": 18,
+        "V11_OUTER_HEADER": 65,
+        "V11_SCENE_AFT": 7,
+        "R1_STBD_INNER_BEVEL_FRAME": 4,
+        "R1_STBD_TUNNEL_AFT": 4,
+        "R1_STBD_OUTER_BEVEL_FRAME": 2,
+        "V11_PLATFORM_OUTER_FASCIA": 33,
+        "V11_TUNNEL_AFT": 15,
+        "V11_AFT_SIDE_BAFFLE": 4,
+        "R1_STBD_LOAD_POST_2": 6,
+        "R1_STBD_LOAD_POST_TOP_2": 1,
+        "R1_STBD_GUIDE_CAP_2": 1,
+        "V11_AFT_FRONT_RETURN": 16,
+        "V11_AFT_POD_FRONT": 9
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": -45,
+      "elevation_deg": 20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 1,
+      "failures": [
+        {
+          "target": [
+            494.60526315789474,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 41,
+        "CATWALK_FLOOR_+1_1": 42,
+        "CATWALK_COAMING_+1_1": 42,
+        "FLIGHT_DECK_WHOLE": 140,
+        "ISLAND_FRONT": 55,
+        "V11_FORE_POD_END": 29,
+        "V11_FORE_POD_FRONT": 154,
+        "V11_FORE_FRONT_RETURN": 14,
+        "V11_OUTER_HEADER": 60,
+        "V11_LOWER_EXTERNAL_APRON": 32,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 5,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 5,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 1,
+        "V11_PLATFORM_FORE_FASCIA": 34,
+        "V11_PLATFORM_TOP": 167,
+        "HANGAR_CASSETTE_FLOOR": 1,
+        "V11_SCENE_CEILING_2": 17,
+        "V11_SCENE_AFT": 9,
+        "V11_PLATFORM_BOTTOM": 16,
+        "R1_STBD_INNER_BEVEL_FRAME": 2,
+        "R1_STBD_TUNNEL_AFT": 4,
+        "V11_PLATFORM_OUTER_FASCIA": 48,
+        "R1_STBD_OUTER_BEVEL_FRAME": 2,
+        "V11_TUNNEL_AFT": 12,
+        "V11_AFT_SIDE_BAFFLE": 11,
+        "R1_STBD_GUIDE_CAP_2": 1,
+        "V11_AFT_FRONT_RETURN": 15,
+        "V11_AFT_POD_FRONT": 16
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 0,
+      "elevation_deg": -20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 18,
+        "V11_FORE_POD_FLOOR": 8,
+        "V11_FORE_POD_FRONT": 176,
+        "V11_FORE_FRONT_RETURN": 39,
+        "V11_LOWER_EXTERNAL_APRON": 175,
+        "V11_PLATFORM_BOTTOM": 141,
+        "V11_PLATFORM_OUTER_FASCIA": 63,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 19,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 38,
+        "V11_TUNNEL_FORE": 3,
+        "V11_SCENE_FORE": 3,
+        "V11_SCENE_CEILING_1": 24,
+        "HANGAR_REMOVABLE_ROOF": 3,
+        "V11_SCENE_CEILING_3": 18,
+        "V11_SCENE_AFT": 3,
+        "V11_TUNNEL_AFT": 3,
+        "V11_AFT_FRONT_RETURN": 39,
+        "V11_AFT_POD_LOWER_FRONT": 18,
+        "V11_AFT_POD_FLOOR": 8,
+        "V11_AFT_POD_FRONT": 176
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 0,
+      "elevation_deg": -20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 18,
+        "V11_FORE_POD_FLOOR": 9,
+        "V11_FORE_POD_FRONT": 198,
+        "V11_LOWER_EXTERNAL_APRON": 177,
+        "V11_FORE_FRONT_RETURN": 22,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 19,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 38,
+        "V11_TUNNEL_FORE": 3,
+        "V11_PLATFORM_BOTTOM": 114,
+        "V11_PLATFORM_OUTER_FASCIA": 76,
+        "V11_SCENE_CEILING_1": 27,
+        "HANGAR_REMOVABLE_ROOF": 4,
+        "V11_SCENE_CEILING_3": 20,
+        "V11_TUNNEL_AFT": 3,
+        "V11_AFT_FRONT_RETURN": 22,
+        "V11_AFT_POD_LOWER_FRONT": 18,
+        "V11_AFT_POD_FLOOR": 9,
+        "V11_AFT_POD_FRONT": 198
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 0,
+      "elevation_deg": 0,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 179,
+        "CATWALK_FLOOR_+1_1": 14,
+        "CATWALK_COAMING_+1_1": 7,
+        "V11_FORE_FRONT_RETURN": 44,
+        "V11_PLATFORM_BOTTOM": 21,
+        "V11_PLATFORM_OUTER_FASCIA": 84,
+        "V11_PLATFORM_TOP": 21,
+        "V11_LOWER_EXTERNAL_APRON": 133,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 19,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 19,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 19,
+        "V11_TUNNEL_FORE": 4,
+        "V11_SCENE_CEILING_2": 19,
+        "V11_OUTER_HEADER": 76,
+        "V11_SCENE_FORE": 5,
+        "V11_SCENE_CEILING_1": 9,
+        "HANGAR_CASSETTE_FLOOR": 10,
+        "R1_HANGAR_REMOVABLE_BACK_LINING": 13,
+        "V11_SCENE_BACK_1": 7,
+        "V11_SCENE_AIRCRAFT_VISUAL": 5,
+        "HANGAR_PORT_WALL": 2,
+        "V11_SCENE_BACK_2": 5,
+        "V11_SCENE_CEILING_3": 7,
+        "V11_SCENE_AFT": 5,
+        "V11_TUNNEL_AFT": 4,
+        "V11_AFT_FRONT_RETURN": 44,
+        "V11_AFT_POD_FRONT": 179,
+        "CATWALK_FLOOR_+1_0": 14,
+        "CATWALK_COAMING_+1_0": 7
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 0,
+      "elevation_deg": 0,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 193,
+        "CATWALK_FLOOR_+1_1": 16,
+        "CATWALK_COAMING_+1_1": 16,
+        "V11_FORE_FRONT_RETURN": 25,
+        "V11_LOWER_EXTERNAL_APRON": 133,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 19,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 38,
+        "V11_TUNNEL_FORE": 5,
+        "V11_PLATFORM_OUTER_FASCIA": 57,
+        "V11_PLATFORM_TOP": 38,
+        "V11_SCENE_CEILING_2": 19,
+        "V11_OUTER_HEADER": 76,
+        "V11_SCENE_FORE": 4,
+        "V11_SCENE_CEILING_1": 9,
+        "R1_HANGAR_REMOVABLE_BACK_LINING": 40,
+        "V11_SCENE_BACK_1": 8,
+        "V11_SCENE_AIRCRAFT_VISUAL": 5,
+        "HANGAR_PORT_WALL": 2,
+        "V11_SCENE_BACK_2": 6,
+        "V11_SCENE_CEILING_3": 7,
+        "V11_SCENE_AFT": 4,
+        "V11_TUNNEL_AFT": 5,
+        "V11_AFT_FRONT_RETURN": 25,
+        "V11_AFT_POD_FRONT": 193,
+        "CATWALK_FLOOR_+1_0": 16,
+        "CATWALK_COAMING_+1_0": 16
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 0,
+      "elevation_deg": 20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 140,
+        "CATWALK_FLOOR_+1_1": 14,
+        "CATWALK_COAMING_+1_1": 14,
+        "FLIGHT_DECK_WHOLE": 103,
+        "ISLAND_FRONT": 6,
+        "V11_FORE_FRONT_RETURN": 34,
+        "V11_PLATFORM_BOTTOM": 21,
+        "V11_PLATFORM_OUTER_FASCIA": 84,
+        "V11_PLATFORM_TOP": 162,
+        "R1_STBD_OUTER_BEVEL_FRAME": 2,
+        "V11_LOWER_EXTERNAL_APRON": 57,
+        "V11_TUNNEL_FORE": 2,
+        "V11_SCENE_CEILING_2": 19,
+        "V11_OUTER_HEADER": 76,
+        "V11_SCENE_FORE": 2,
+        "HANGAR_CASSETTE_FLOOR": 24,
+        "V11_SCENE_AIRCRAFT_VISUAL": 6,
+        "V11_SCENE_AFT": 2,
+        "V11_TUNNEL_AFT": 2,
+        "V11_AFT_FRONT_RETURN": 34,
+        "V11_AFT_POD_FRONT": 140,
+        "CATWALK_FLOOR_+1_0": 14,
+        "CATWALK_COAMING_+1_0": 14,
+        "ISLAND_AFT": 3
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 0,
+      "elevation_deg": 20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 148,
+        "CATWALK_FLOOR_+1_1": 16,
+        "CATWALK_COAMING_+1_1": 16,
+        "FLIGHT_DECK_WHOLE": 117,
+        "ISLAND_FRONT": 10,
+        "V11_FORE_FRONT_RETURN": 22,
+        "R1_STBD_OUTER_BEVEL_FRAME": 2,
+        "V11_LOWER_EXTERNAL_APRON": 76,
+        "V11_PLATFORM_BOTTOM": 19,
+        "V11_PLATFORM_OUTER_FASCIA": 57,
+        "V11_PLATFORM_TOP": 152,
+        "V11_TUNNEL_FORE": 2,
+        "V11_OUTER_HEADER": 95,
+        "HANGAR_CASSETTE_FLOOR": 28,
+        "V11_SCENE_AIRCRAFT_VISUAL": 6,
+        "V11_TUNNEL_AFT": 2,
+        "V11_AFT_FRONT_RETURN": 22,
+        "V11_AFT_POD_FRONT": 148,
+        "CATWALK_FLOOR_+1_0": 16,
+        "CATWALK_COAMING_+1_0": 16,
+        "ISLAND_AFT": 5
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 45,
+      "elevation_deg": -20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 31,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            52.5
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            54.45
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_ARM_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_ARM_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            419.9684210526316,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            422.5421052631579,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            425.11578947368423,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            427.68947368421055,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            430.2631578947369,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            432.83684210526314,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            435.41052631578947,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            437.9842105263158,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            440.5578947368421,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            443.13157894736844,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            445.70526315789476,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            448.2789473684211,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            450.85263157894735,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            453.4263157894737,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            456.0,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            458.5736842105263,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            461.14736842105265,
+            53.0,
+            48.6
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 6,
+        "V11_FORE_POD_FLOOR": 7,
+        "V11_FORE_POD_FRONT": 14,
+        "V11_PLATFORM_BOTTOM": 162,
+        "V11_FORE_FRONT_RETURN": 29,
+        "R1_STBD_GUIDE_FOOT_1": 1,
+        "R1_STBD_GUIDE_1": 7,
+        "R1_STBD_CARRIAGE_1": 4,
+        "R1_STBD_ARM_1": 2,
+        "V11_LOWER_EXTERNAL_APRON": 187,
+        "V11_FLOOR_FORE_EDGE_FINISH": 1,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 18,
+        "V11_TUNNEL_FORE": 28,
+        "V11_TRANSFER_FLOOR_CORE": 17,
+        "R1_STBD_OUTER_BEVEL_FRAME": 4,
+        "R1_STBD_TUNNEL_FORE": 8,
+        "R1_STBD_INNER_BEVEL_FRAME": 8,
+        "V11_PLATFORM_AFT_FASCIA": 23,
+        "V11_SCENE_FORE": 12,
+        "V11_SCENE_CEILING_1": 12,
+        "V11_PLATFORM_TOP": 6,
+        "V11_OUTER_HEADER": 1,
+        "V11_AFT_FRONT_RETURN": 43,
+        "V11_AFT_POD_LOWER_FRONT": 30,
+        "V11_AFT_POD_FLOOR": 13,
+        "V11_AFT_POD_FRONT": 210,
+        "V11_AFT_POD_LOWER_END": 5,
+        "V11_AFT_POD_END": 51,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 66
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 45,
+      "elevation_deg": -20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 2,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            417.39473684210526,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_ARM_1",
+          "group": "liftcarriages"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 11,
+        "V11_FORE_POD_FRONT": 29,
+        "V11_PLATFORM_BOTTOM": 154,
+        "V11_FORE_POD_FLOOR": 7,
+        "V11_FORE_FRONT_RETURN": 27,
+        "R1_STBD_GUIDE_FOOT_1": 1,
+        "V11_FORE_SIDE_BAFFLE": 12,
+        "V11_FLOOR_FORE_EDGE_FINISH": 1,
+        "R1_STBD_ARM_1": 1,
+        "V11_LOWER_EXTERNAL_APRON": 174,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 17,
+        "V11_TUNNEL_FORE": 24,
+        "R1_STBD_OUTER_BEVEL_FRAME": 4,
+        "R1_STBD_TUNNEL_FORE": 8,
+        "V11_PLATFORM_AFT_FASCIA": 24,
+        "R1_STBD_INNER_BEVEL_FRAME": 4,
+        "V11_SCENE_FORE": 16,
+        "V11_SCENE_CEILING_1": 12,
+        "V11_PLATFORM_TOP": 8,
+        "V11_OUTER_HEADER": 2,
+        "V11_SCENE_CEILING_2": 1,
+        "V11_AFT_FRONT_RETURN": 21,
+        "V11_AFT_POD_LOWER_FRONT": 43,
+        "V11_AFT_POD_FRONT": 231,
+        "V11_AFT_POD_FLOOR": 4,
+        "V11_AFT_POD_LOWER_END": 5,
+        "V11_AFT_POD_END": 40,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 77
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 45,
+      "elevation_deg": 0,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 36,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            29.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            31.05
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            33.0
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            72.0
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            73.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            417.39473684210526,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            419.9684210526316,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            422.5421052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            425.11578947368423,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            427.68947368421055,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            430.2631578947369,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            432.83684210526314,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            435.41052631578947,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            437.9842105263158,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            440.5578947368421,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            443.13157894736844,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            445.70526315789476,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            448.2789473684211,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            450.85263157894735,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            453.4263157894737,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            456.0,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            458.5736842105263,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            461.14736842105265,
+            53.0,
+            42.75
+          ],
+          "first_hit": "V11_TRANSFER_FLOOR_CORE",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 18,
+        "V11_PLATFORM_BOTTOM": 22,
+        "V11_PLATFORM_OUTER_FASCIA": 48,
+        "V11_PLATFORM_TOP": 38,
+        "V11_FORE_FRONT_RETURN": 36,
+        "R1_STBD_GUIDE_FOOT_1": 2,
+        "R1_STBD_GUIDE_1": 12,
+        "R1_STBD_CARRIAGE_1": 2,
+        "R1_STBD_GUIDE_CAP_1": 3,
+        "V11_LOWER_EXTERNAL_APRON": 126,
+        "V11_FLOOR_FORE_EDGE_FINISH": 1,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 18,
+        "V11_TUNNEL_FORE": 25,
+        "V11_SCENE_CEILING_2": 18,
+        "V11_FORE_SIDE_BAFFLE": 3,
+        "V11_TRANSFER_FLOOR_CORE": 17,
+        "V11_OUTER_HEADER": 56,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 14,
+        "R1_STBD_OUTER_BEVEL_FRAME": 3,
+        "R1_STBD_TUNNEL_FORE": 6,
+        "V11_PLATFORM_AFT_FASCIA": 39,
+        "R1_STBD_INNER_BEVEL_FRAME": 5,
+        "HANGAR_PORT_WALL": 2,
+        "V11_SCENE_FORE": 18,
+        "V11_SCENE_CEILING_1": 6,
+        "CATWALK_FLOOR_+1_0": 42,
+        "CATWALK_COAMING_+1_0": 21,
+        "V11_AFT_FRONT_RETURN": 44,
+        "V11_AFT_POD_FRONT": 220,
+        "V11_AFT_POD_END": 47,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 63
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 45,
+      "elevation_deg": 0,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 2,
+      "failures": [
+        {
+          "target": [
+            417.39473684210526,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            419.9684210526316,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 38,
+        "V11_PLATFORM_BOTTOM": 14,
+        "V11_PLATFORM_OUTER_FASCIA": 52,
+        "V11_PLATFORM_TOP": 31,
+        "V11_FORE_FRONT_RETURN": 38,
+        "V11_FORE_SIDE_BAFFLE": 19,
+        "V11_FLOOR_FORE_EDGE_FINISH": 2,
+        "R1_STBD_GUIDE_CAP_1": 2,
+        "V11_LOWER_EXTERNAL_APRON": 119,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 34,
+        "V11_TUNNEL_FORE": 24,
+        "V11_SCENE_CEILING_2": 17,
+        "V11_OUTER_HEADER": 49,
+        "R1_STBD_OUTER_BEVEL_FRAME": 4,
+        "R1_STBD_TUNNEL_FORE": 8,
+        "V11_PLATFORM_AFT_FASCIA": 27,
+        "R1_STBD_INNER_BEVEL_FRAME": 7,
+        "V11_SCENE_FORE": 27,
+        "V11_SCENE_CEILING_1": 6,
+        "CATWALK_FLOOR_+1_0": 41,
+        "CATWALK_COAMING_+1_0": 42,
+        "V11_AFT_FRONT_RETURN": 21,
+        "V11_AFT_POD_FRONT": 231,
+        "V11_AFT_POD_END": 41,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 64
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 45,
+      "elevation_deg": 20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 8,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            62.25000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            64.2
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_PLATFORM_OUTER_FASCIA": 33,
+        "V11_PLATFORM_TOP": 197,
+        "V11_FORE_POD_FRONT": 9,
+        "FLIGHT_DECK_WHOLE": 138,
+        "V11_FORE_FRONT_RETURN": 16,
+        "R1_STBD_GUIDE_1": 7,
+        "R1_STBD_GUIDE_CAP_1": 1,
+        "V11_TUNNEL_FORE": 15,
+        "V11_SCENE_CEILING_2": 18,
+        "V11_FORE_SIDE_BAFFLE": 4,
+        "V11_OUTER_HEADER": 65,
+        "V11_PLATFORM_AFT_FASCIA": 40,
+        "R1_STBD_OUTER_BEVEL_FRAME": 2,
+        "R1_STBD_TUNNEL_FORE": 4,
+        "V11_PLATFORM_BOTTOM": 6,
+        "V11_LOWER_EXTERNAL_APRON": 26,
+        "R1_STBD_INNER_BEVEL_FRAME": 4,
+        "V11_SCENE_FORE": 7,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 4,
+        "CATWALK_FLOOR_+1_0": 42,
+        "CATWALK_COAMING_+1_0": 42,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 3,
+        "HANGAR_CASSETTE_FLOOR": 1,
+        "V11_AFT_FRONT_RETURN": 30,
+        "V11_AFT_POD_FRONT": 150,
+        "ISLAND_AFT": 36,
+        "V11_AFT_POD_END": 35,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 40
+      }
+    },
+    {
+      "position_percent": 50,
+      "azimuth_deg": 45,
+      "elevation_deg": 20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 1,
+      "failures": [
+        {
+          "target": [
+            417.39473684210526,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_PLATFORM_BOTTOM": 16,
+        "V11_PLATFORM_OUTER_FASCIA": 48,
+        "V11_PLATFORM_TOP": 167,
+        "V11_FORE_POD_FRONT": 16,
+        "FLIGHT_DECK_WHOLE": 145,
+        "ISLAND_FRONT": 1,
+        "V11_FORE_FRONT_RETURN": 15,
+        "V11_FORE_SIDE_BAFFLE": 11,
+        "R1_STBD_GUIDE_CAP_1": 1,
+        "V11_TUNNEL_FORE": 12,
+        "V11_SCENE_CEILING_2": 17,
+        "V11_OUTER_HEADER": 60,
+        "R1_STBD_OUTER_BEVEL_FRAME": 2,
+        "V11_LOWER_EXTERNAL_APRON": 32,
+        "V11_PLATFORM_AFT_FASCIA": 34,
+        "R1_STBD_TUNNEL_FORE": 4,
+        "R1_STBD_INNER_BEVEL_FRAME": 2,
+        "V11_SCENE_FORE": 9,
+        "V11_TRANSFER_FLOOR_UNDERSIDE_FINISH": 5,
+        "CATWALK_FLOOR_+1_0": 42,
+        "CATWALK_COAMING_+1_0": 42,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 5,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 1,
+        "HANGAR_CASSETTE_FLOOR": 1,
+        "V11_AFT_FRONT_RETURN": 14,
+        "V11_AFT_POD_FRONT": 154,
+        "ISLAND_AFT": 49,
+        "V11_AFT_POD_END": 31,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 39
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": -45,
+      "elevation_deg": -20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 8,
+      "failures": [
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_ARM_2",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            72.0
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            73.95
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_TOP_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 68,
+        "V11_FORE_POD_FLOOR": 13,
+        "V11_FORE_POD_END": 49,
+        "V11_FORE_POD_LOWER_END": 5,
+        "V11_FORE_POD_LOWER_FRONT": 30,
+        "V11_FORE_POD_FRONT": 210,
+        "V11_LOWER_EXTERNAL_APRON": 133,
+        "V11_FORE_FRONT_RETURN": 43,
+        "V11_PLATFORM_BOTTOM": 152,
+        "V11_PLATFORM_FORE_FASCIA": 40,
+        "V11_PLATFORM_TOP": 43,
+        "V11_SCENE_CEILING_3": 3,
+        "R1_HANGAR_CEILING_BEAM_X474": 3,
+        "R1_STBD_TUNNEL_ROOF": 19,
+        "V11_SCENE_CEILING_2": 54,
+        "V11_OUTER_HEADER": 17,
+        "V11_PLATFORM_OUTER_FASCIA": 44,
+        "V11_TUNNEL_AFT": 2,
+        "V11_AFT_SIDE_BAFFLE": 1,
+        "V11_AFT_POD_FLOOR": 7,
+        "R1_STBD_GUIDE_FOOT_2": 1,
+        "R1_STBD_LOAD_POST_2": 5,
+        "R1_STBD_ARM_2": 1,
+        "R1_STBD_LOAD_POST_TOP_2": 1,
+        "V11_AFT_FRONT_RETURN": 17,
+        "V11_AFT_POD_LOWER_FRONT": 6,
+        "V11_AFT_POD_FRONT": 8
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": -45,
+      "elevation_deg": -20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 1,
+      "failures": [
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 78,
+        "V11_FORE_POD_FLOOR": 4,
+        "V11_FORE_POD_END": 39,
+        "V11_FORE_POD_LOWER_END": 5,
+        "V11_FORE_POD_LOWER_FRONT": 43,
+        "V11_FORE_POD_FRONT": 231,
+        "V11_LOWER_EXTERNAL_APRON": 123,
+        "V11_FORE_FRONT_RETURN": 21,
+        "V11_PLATFORM_BOTTOM": 151,
+        "V11_PLATFORM_FORE_FASCIA": 34,
+        "V11_PLATFORM_TOP": 41,
+        "V11_SCENE_CEILING_3": 3,
+        "R1_HANGAR_CEILING_BEAM_X474": 3,
+        "R1_STBD_TUNNEL_ROOF": 19,
+        "V11_SCENE_CEILING_2": 56,
+        "V11_OUTER_HEADER": 16,
+        "HANGAR_REMOVABLE_ROOF": 1,
+        "V11_PLATFORM_OUTER_FASCIA": 36,
+        "V11_TUNNEL_AFT": 4,
+        "V11_AFT_SIDE_BAFFLE": 10,
+        "V11_AFT_POD_FLOOR": 7,
+        "R1_STBD_GUIDE_FOOT_2": 1,
+        "V11_AFT_FRONT_RETURN": 18,
+        "V11_AFT_POD_LOWER_FRONT": 11,
+        "V11_AFT_POD_FRONT": 20
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": -45,
+      "elevation_deg": 0,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 18,
+      "failures": [
+        {
+          "target": [
+            494.60526315789474,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            29.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            52.5
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            54.45
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            62.25000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            64.2
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            72.0
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_TOP_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            73.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 63,
+        "CATWALK_FLOOR_+1_1": 42,
+        "CATWALK_COAMING_+1_1": 21,
+        "V11_FORE_POD_END": 47,
+        "V11_FORE_POD_FRONT": 220,
+        "V11_FORE_FRONT_RETURN": 44,
+        "V11_LOWER_EXTERNAL_APRON": 34,
+        "V11_PLATFORM_BOTTOM": 18,
+        "V11_PLATFORM_FORE_FASCIA": 36,
+        "V11_PLATFORM_TOP": 58,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 14,
+        "V11_SCENE_AFT": 54,
+        "V11_SCENE_CEILING_3": 6,
+        "V11_SCENE_CEILING_2": 18,
+        "V11_OUTER_HEADER": 56,
+        "R1_STBD_INNER_BEVEL_FRAME": 12,
+        "HANGAR_PORT_WALL": 8,
+        "R1_STBD_TUNNEL_AFT": 20,
+        "V11_PLATFORM_OUTER_FASCIA": 48,
+        "R1_STBD_OUTER_BEVEL_FRAME": 10,
+        "V11_TUNNEL_AFT": 74,
+        "V11_AFT_SIDE_BAFFLE": 3,
+        "R1_STBD_GUIDE_CAP_2": 3,
+        "R1_STBD_GUIDE_FOOT_2": 1,
+        "R1_STBD_LOAD_POST_2": 13,
+        "R1_STBD_LOAD_POST_TOP_2": 1,
+        "V11_AFT_FRONT_RETURN": 34,
+        "V11_AFT_POD_FRONT": 17
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": -45,
+      "elevation_deg": 0,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 2,
+      "failures": [
+        {
+          "target": [
+            492.0315789473684,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            494.60526315789474,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 66,
+        "CATWALK_FLOOR_+1_1": 41,
+        "CATWALK_COAMING_+1_1": 42,
+        "V11_FORE_POD_END": 39,
+        "V11_FORE_POD_FRONT": 231,
+        "V11_FORE_FRONT_RETURN": 21,
+        "V11_LOWER_EXTERNAL_APRON": 57,
+        "V11_PLATFORM_BOTTOM": 17,
+        "V11_PLATFORM_FORE_FASCIA": 31,
+        "V11_PLATFORM_TOP": 55,
+        "V11_SCENE_AFT": 62,
+        "V11_SCENE_CEILING_3": 6,
+        "V11_SCENE_CEILING_2": 17,
+        "V11_OUTER_HEADER": 49,
+        "R1_STBD_INNER_BEVEL_FRAME": 12,
+        "R1_STBD_TUNNEL_AFT": 20,
+        "V11_PLATFORM_OUTER_FASCIA": 39,
+        "R1_STBD_OUTER_BEVEL_FRAME": 10,
+        "V11_TUNNEL_AFT": 60,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 1,
+        "V11_AFT_SIDE_BAFFLE": 20,
+        "R1_STBD_GUIDE_CAP_2": 2,
+        "V11_FLOOR_AFT_EDGE_FINISH": 1,
+        "V11_AFT_FRONT_RETURN": 38,
+        "V11_AFT_POD_FRONT": 38
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": -45,
+      "elevation_deg": 20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 17,
+      "failures": [
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            52.5
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            54.45
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            62.25000000000001
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            64.2
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_LOAD_POST_TOP_2",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            497.17894736842106,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 42,
+        "CATWALK_FLOOR_+1_1": 42,
+        "CATWALK_COAMING_+1_1": 42,
+        "FLIGHT_DECK_WHOLE": 130,
+        "ISLAND_FRONT": 44,
+        "V11_FORE_POD_END": 33,
+        "V11_FORE_POD_FRONT": 150,
+        "V11_FORE_FRONT_RETURN": 30,
+        "V11_PLATFORM_FORE_FASCIA": 3,
+        "V11_PLATFORM_TOP": 121,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 16,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 28,
+        "R1_STBD_OUTER_BEVEL_FRAME": 29,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 9,
+        "HANGAR_CASSETTE_FLOOR": 3,
+        "V11_SCENE_CEILING_2": 18,
+        "V11_OUTER_HEADER": 65,
+        "V11_SCENE_AFT": 9,
+        "R1_STBD_INNER_BEVEL_FRAME": 12,
+        "R1_STBD_TUNNEL_AFT": 11,
+        "V11_TUNNEL_AFT": 65,
+        "V11_AFT_SIDE_BAFFLE": 4,
+        "R1_STBD_LOAD_POST_2": 15,
+        "R1_STBD_LOAD_POST_TOP_2": 1,
+        "R1_STBD_GUIDE_CAP_2": 1,
+        "V11_AFT_FRONT_RETURN": 34,
+        "V11_AFT_POD_FRONT": 18
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": -45,
+      "elevation_deg": 20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 1,
+      "failures": [
+        {
+          "target": [
+            494.60526315789474,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_2",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1": 41,
+        "CATWALK_FLOOR_+1_1": 42,
+        "CATWALK_COAMING_+1_1": 42,
+        "FLIGHT_DECK_WHOLE": 140,
+        "ISLAND_FRONT": 55,
+        "V11_FORE_POD_END": 29,
+        "V11_FORE_POD_FRONT": 154,
+        "V11_FORE_FRONT_RETURN": 14,
+        "V11_OUTER_HEADER": 60,
+        "V11_PLATFORM_FORE_FASCIA": 6,
+        "V11_PLATFORM_TOP": 118,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 16,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 28,
+        "R1_STBD_OUTER_BEVEL_FRAME": 29,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 9,
+        "HANGAR_CASSETTE_FLOOR": 3,
+        "V11_SCENE_CEILING_2": 17,
+        "V11_SCENE_AFT": 12,
+        "R1_STBD_INNER_BEVEL_FRAME": 9,
+        "R1_STBD_TUNNEL_AFT": 11,
+        "V11_TUNNEL_AFT": 54,
+        "V11_AFT_SIDE_BAFFLE": 18,
+        "V11_FLOOR_AFT_EDGE_FINISH": 1,
+        "R1_STBD_GUIDE_CAP_2": 1,
+        "V11_AFT_FRONT_RETURN": 33,
+        "V11_AFT_POD_FRONT": 33
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 0,
+      "elevation_deg": -20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 18,
+        "V11_FORE_POD_FLOOR": 8,
+        "V11_FORE_POD_FRONT": 176,
+        "V11_FORE_FRONT_RETURN": 37,
+        "V11_LOWER_EXTERNAL_APRON": 118,
+        "V11_PLATFORM_BOTTOM": 120,
+        "V11_PLATFORM_OUTER_FASCIA": 84,
+        "V11_PLATFORM_TOP": 42,
+        "V11_TUNNEL_FORE": 2,
+        "V11_SCENE_CEILING_2": 57,
+        "V11_OUTER_HEADER": 38,
+        "R1_STBD_TUNNEL_ROOF": 34,
+        "V11_TUNNEL_AFT": 2,
+        "V11_AFT_FRONT_RETURN": 37,
+        "V11_AFT_POD_LOWER_FRONT": 18,
+        "V11_AFT_POD_FLOOR": 8,
+        "V11_AFT_POD_FRONT": 176
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 0,
+      "elevation_deg": -20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 18,
+        "V11_FORE_POD_FLOOR": 9,
+        "V11_FORE_POD_FRONT": 198,
+        "V11_LOWER_EXTERNAL_APRON": 120,
+        "V11_FORE_FRONT_RETURN": 22,
+        "V11_PLATFORM_BOTTOM": 114,
+        "V11_PLATFORM_OUTER_FASCIA": 76,
+        "V11_PLATFORM_TOP": 19,
+        "V11_TUNNEL_FORE": 3,
+        "V11_SCENE_CEILING_2": 57,
+        "V11_OUTER_HEADER": 38,
+        "V11_SCENE_CEILING_1": 9,
+        "R1_STBD_TUNNEL_ROOF": 34,
+        "HANGAR_REMOVABLE_ROOF": 2,
+        "V11_SCENE_CEILING_3": 6,
+        "V11_TUNNEL_AFT": 3,
+        "V11_AFT_FRONT_RETURN": 22,
+        "V11_AFT_POD_LOWER_FRONT": 18,
+        "V11_AFT_POD_FLOOR": 9,
+        "V11_AFT_POD_FRONT": 198
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 0,
+      "elevation_deg": 0,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 179,
+        "CATWALK_FLOOR_+1_1": 14,
+        "CATWALK_COAMING_+1_1": 7,
+        "V11_FORE_FRONT_RETURN": 44,
+        "V11_PLATFORM_OUTER_FASCIA": 84,
+        "V11_PLATFORM_TOP": 42,
+        "V11_LOWER_EXTERNAL_APRON": 57,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 19,
+        "V11_TUNNEL_FORE": 10,
+        "V11_SCENE_CEILING_2": 19,
+        "V11_OUTER_HEADER": 76,
+        "V11_SCENE_FORE": 17,
+        "V11_SCENE_CEILING_1": 9,
+        "HANGAR_CASSETTE_FLOOR": 10,
+        "R1_HANGAR_REMOVABLE_BACK_LINING": 91,
+        "V11_SCENE_BACK_1": 7,
+        "V11_SCENE_AIRCRAFT_VISUAL": 5,
+        "HANGAR_PORT_WALL": 2,
+        "V11_SCENE_BACK_2": 5,
+        "V11_SCENE_CEILING_3": 7,
+        "V11_SCENE_AFT": 17,
+        "V11_TUNNEL_AFT": 10,
+        "V11_AFT_FRONT_RETURN": 44,
+        "V11_AFT_POD_FRONT": 179,
+        "CATWALK_FLOOR_+1_0": 14,
+        "CATWALK_COAMING_+1_0": 7
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 0,
+      "elevation_deg": 0,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 193,
+        "CATWALK_FLOOR_+1_1": 16,
+        "CATWALK_COAMING_+1_1": 16,
+        "V11_FORE_FRONT_RETURN": 25,
+        "V11_LOWER_EXTERNAL_APRON": 76,
+        "V11_PLATFORM_OUTER_FASCIA": 76,
+        "V11_PLATFORM_TOP": 38,
+        "V11_TUNNEL_FORE": 10,
+        "V11_SCENE_CEILING_2": 19,
+        "V11_OUTER_HEADER": 76,
+        "V11_SCENE_FORE": 9,
+        "V11_SCENE_CEILING_1": 9,
+        "R1_HANGAR_REMOVABLE_BACK_LINING": 115,
+        "V11_SCENE_BACK_1": 8,
+        "V11_SCENE_AIRCRAFT_VISUAL": 5,
+        "HANGAR_PORT_WALL": 2,
+        "V11_SCENE_BACK_2": 6,
+        "V11_SCENE_CEILING_3": 7,
+        "V11_SCENE_AFT": 9,
+        "V11_TUNNEL_AFT": 10,
+        "V11_AFT_FRONT_RETURN": 25,
+        "V11_AFT_POD_FRONT": 193,
+        "CATWALK_FLOOR_+1_0": 16,
+        "CATWALK_COAMING_+1_0": 16
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 0,
+      "elevation_deg": 20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 140,
+        "CATWALK_FLOOR_+1_1": 14,
+        "CATWALK_COAMING_+1_1": 14,
+        "FLIGHT_DECK_WHOLE": 103,
+        "ISLAND_FRONT": 6,
+        "V11_FORE_FRONT_RETURN": 40,
+        "V11_PLATFORM_TOP": 141,
+        "R1_STBD_OUTER_BEVEL_FRAME": 19,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 38,
+        "V11_TUNNEL_FORE": 9,
+        "V11_SCENE_CEILING_2": 19,
+        "V11_OUTER_HEADER": 76,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 17,
+        "R1_STBD_INNER_BEVEL_FRAME": 17,
+        "HANGAR_CASSETTE_FLOOR": 90,
+        "V11_SCENE_FORE": 3,
+        "V11_SCENE_AIRCRAFT_VISUAL": 6,
+        "V11_SCENE_AFT": 3,
+        "V11_TUNNEL_AFT": 9,
+        "V11_AFT_FRONT_RETURN": 40,
+        "V11_AFT_POD_FRONT": 140,
+        "CATWALK_FLOOR_+1_0": 14,
+        "CATWALK_COAMING_+1_0": 14,
+        "ISLAND_AFT": 3
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 0,
+      "elevation_deg": 20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 0,
+      "failures": [],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 148,
+        "CATWALK_FLOOR_+1_1": 16,
+        "CATWALK_COAMING_+1_1": 16,
+        "FLIGHT_DECK_WHOLE": 117,
+        "ISLAND_FRONT": 10,
+        "V11_FORE_FRONT_RETURN": 22,
+        "R1_STBD_OUTER_BEVEL_FRAME": 19,
+        "V11_PLATFORM_TOP": 133,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 19,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 19,
+        "V11_TUNNEL_FORE": 9,
+        "V11_OUTER_HEADER": 95,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 17,
+        "R1_STBD_INNER_BEVEL_FRAME": 17,
+        "HANGAR_CASSETTE_FLOOR": 96,
+        "V11_SCENE_AIRCRAFT_VISUAL": 6,
+        "V11_TUNNEL_AFT": 9,
+        "V11_AFT_FRONT_RETURN": 22,
+        "V11_AFT_POD_FRONT": 148,
+        "CATWALK_FLOOR_+1_0": 16,
+        "CATWALK_COAMING_+1_0": 16,
+        "ISLAND_AFT": 5
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 45,
+      "elevation_deg": -20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 8,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            36.900000000000006
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_CARRIAGE_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_ARM_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_ARM_1",
+          "group": "liftcarriages"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            72.0
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            73.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 6,
+        "V11_FORE_POD_FLOOR": 7,
+        "V11_FORE_POD_FRONT": 8,
+        "V11_PLATFORM_BOTTOM": 152,
+        "V11_PLATFORM_OUTER_FASCIA": 44,
+        "V11_PLATFORM_TOP": 43,
+        "V11_FORE_FRONT_RETURN": 17,
+        "R1_STBD_GUIDE_FOOT_1": 1,
+        "R1_STBD_CARRIAGE_1": 2,
+        "R1_STBD_ARM_1": 2,
+        "R1_STBD_GUIDE_1": 3,
+        "V11_LOWER_EXTERNAL_APRON": 133,
+        "V11_TUNNEL_FORE": 2,
+        "V11_SCENE_CEILING_2": 53,
+        "V11_FORE_SIDE_BAFFLE": 1,
+        "V11_OUTER_HEADER": 17,
+        "V11_PLATFORM_AFT_FASCIA": 40,
+        "R1_STBD_TUNNEL_ROOF": 19,
+        "HANGAR_REMOVABLE_ROOF": 2,
+        "V11_SCENE_CEILING_1": 3,
+        "R1_STBD_OUTER_BEVEL_FRAME": 1,
+        "R1_HANGAR_CEILING_BEAM_X442": 1,
+        "V11_AFT_FRONT_RETURN": 43,
+        "V11_AFT_POD_LOWER_FRONT": 30,
+        "V11_AFT_POD_FLOOR": 13,
+        "V11_AFT_POD_FRONT": 210,
+        "V11_AFT_POD_LOWER_END": 5,
+        "V11_AFT_POD_END": 51,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 66
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 45,
+      "elevation_deg": -20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 1,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            34.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_LOWER_FRONT": 11,
+        "V11_FORE_POD_FRONT": 20,
+        "V11_PLATFORM_BOTTOM": 151,
+        "V11_PLATFORM_OUTER_FASCIA": 36,
+        "V11_PLATFORM_TOP": 41,
+        "V11_FORE_POD_FLOOR": 7,
+        "V11_FORE_FRONT_RETURN": 18,
+        "R1_STBD_GUIDE_FOOT_1": 1,
+        "V11_FORE_SIDE_BAFFLE": 10,
+        "V11_LOWER_EXTERNAL_APRON": 123,
+        "V11_TUNNEL_FORE": 4,
+        "V11_SCENE_CEILING_2": 55,
+        "V11_OUTER_HEADER": 16,
+        "V11_PLATFORM_AFT_FASCIA": 34,
+        "R1_STBD_TUNNEL_ROOF": 19,
+        "HANGAR_REMOVABLE_ROOF": 3,
+        "V11_SCENE_CEILING_1": 3,
+        "R1_STBD_OUTER_BEVEL_FRAME": 1,
+        "R1_HANGAR_CEILING_BEAM_X442": 1,
+        "V11_AFT_FRONT_RETURN": 21,
+        "V11_AFT_POD_LOWER_FRONT": 43,
+        "V11_AFT_POD_FRONT": 231,
+        "V11_AFT_POD_FLOOR": 4,
+        "V11_AFT_POD_LOWER_END": 5,
+        "V11_AFT_POD_END": 40,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 77
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 45,
+      "elevation_deg": 0,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 18,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            29.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_FOOT_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            52.5
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            54.45
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            62.25000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            64.2
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            72.0
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            73.95
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            417.39473684210526,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 17,
+        "V11_PLATFORM_BOTTOM": 18,
+        "V11_PLATFORM_OUTER_FASCIA": 48,
+        "V11_PLATFORM_TOP": 58,
+        "V11_FORE_FRONT_RETURN": 34,
+        "R1_STBD_GUIDE_FOOT_1": 1,
+        "R1_STBD_GUIDE_1": 14,
+        "R1_STBD_GUIDE_CAP_1": 3,
+        "V11_LOWER_EXTERNAL_APRON": 34,
+        "V11_TUNNEL_FORE": 74,
+        "V11_SCENE_CEILING_2": 18,
+        "V11_FORE_SIDE_BAFFLE": 3,
+        "V11_OUTER_HEADER": 56,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 14,
+        "R1_STBD_OUTER_BEVEL_FRAME": 10,
+        "V11_PLATFORM_AFT_FASCIA": 36,
+        "R1_STBD_TUNNEL_FORE": 20,
+        "R1_STBD_INNER_BEVEL_FRAME": 12,
+        "HANGAR_PORT_WALL": 8,
+        "V11_SCENE_FORE": 54,
+        "V11_SCENE_CEILING_1": 6,
+        "CATWALK_FLOOR_+1_0": 42,
+        "CATWALK_COAMING_+1_0": 21,
+        "V11_AFT_FRONT_RETURN": 44,
+        "V11_AFT_POD_FRONT": 220,
+        "V11_AFT_POD_END": 47,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 63
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 45,
+      "elevation_deg": 0,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 2,
+      "failures": [
+        {
+          "target": [
+            417.39473684210526,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        },
+        {
+          "target": [
+            419.9684210526316,
+            53.0,
+            75.9
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_FORE_POD_FRONT": 38,
+        "V11_PLATFORM_BOTTOM": 17,
+        "V11_PLATFORM_OUTER_FASCIA": 39,
+        "V11_PLATFORM_TOP": 55,
+        "V11_FORE_FRONT_RETURN": 38,
+        "V11_FORE_SIDE_BAFFLE": 20,
+        "V11_FLOOR_FORE_EDGE_FINISH": 1,
+        "R1_STBD_GUIDE_CAP_1": 2,
+        "V11_LOWER_EXTERNAL_APRON": 57,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 1,
+        "V11_TUNNEL_FORE": 60,
+        "V11_SCENE_CEILING_2": 17,
+        "V11_OUTER_HEADER": 49,
+        "R1_STBD_OUTER_BEVEL_FRAME": 10,
+        "R1_STBD_TUNNEL_FORE": 20,
+        "V11_PLATFORM_AFT_FASCIA": 31,
+        "R1_STBD_INNER_BEVEL_FRAME": 12,
+        "V11_SCENE_FORE": 62,
+        "V11_SCENE_CEILING_1": 6,
+        "CATWALK_FLOOR_+1_0": 41,
+        "CATWALK_COAMING_+1_0": 42,
+        "V11_AFT_FRONT_RETURN": 21,
+        "V11_AFT_POD_FRONT": 231,
+        "V11_AFT_POD_END": 41,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 64
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 45,
+      "elevation_deg": 20,
+      "distance_mm": 250,
+      "rays": 975,
+      "failed_rays": 17,
+      "failures": [
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            38.85
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            40.800000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            42.75
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            44.7
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            46.650000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            48.6
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            50.550000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            52.5
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            54.45
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            56.400000000000006
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            58.35000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            60.300000000000004
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            62.25000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            64.2
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            66.15
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            68.1
+          ],
+          "first_hit": "R1_STBD_GUIDE_1",
+          "group": "liftguides"
+        },
+        {
+          "target": [
+            414.821052631579,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_PLATFORM_TOP": 121,
+        "V11_FORE_POD_FRONT": 18,
+        "FLIGHT_DECK_WHOLE": 138,
+        "V11_FORE_FRONT_RETURN": 34,
+        "R1_STBD_GUIDE_1": 16,
+        "R1_STBD_GUIDE_CAP_1": 1,
+        "V11_TUNNEL_FORE": 65,
+        "V11_SCENE_CEILING_2": 18,
+        "V11_FORE_SIDE_BAFFLE": 4,
+        "V11_OUTER_HEADER": 65,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 16,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 28,
+        "R1_STBD_OUTER_BEVEL_FRAME": 29,
+        "R1_STBD_TUNNEL_FORE": 11,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 9,
+        "R1_STBD_INNER_BEVEL_FRAME": 12,
+        "HANGAR_CASSETTE_FLOOR": 3,
+        "V11_SCENE_FORE": 9,
+        "CATWALK_FLOOR_+1_0": 42,
+        "CATWALK_COAMING_+1_0": 42,
+        "V11_PLATFORM_AFT_FASCIA": 3,
+        "V11_AFT_FRONT_RETURN": 30,
+        "V11_AFT_POD_FRONT": 150,
+        "ISLAND_AFT": 36,
+        "V11_AFT_POD_END": 35,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 40
+      }
+    },
+    {
+      "position_percent": 100,
+      "azimuth_deg": 45,
+      "elevation_deg": 20,
+      "distance_mm": 500,
+      "rays": 975,
+      "failed_rays": 1,
+      "failures": [
+        {
+          "target": [
+            417.39473684210526,
+            53.0,
+            70.05000000000001
+          ],
+          "first_hit": "R1_STBD_GUIDE_CAP_1",
+          "group": "liftstructure"
+        }
+      ],
+      "first_hit_counts": {
+        "V11_PLATFORM_TOP": 118,
+        "V11_FORE_POD_FRONT": 33,
+        "FLIGHT_DECK_WHOLE": 145,
+        "ISLAND_FRONT": 1,
+        "V11_FORE_FRONT_RETURN": 33,
+        "V11_FLOOR_FORE_EDGE_FINISH": 1,
+        "V11_FORE_SIDE_BAFFLE": 18,
+        "R1_STBD_GUIDE_CAP_1": 1,
+        "V11_TUNNEL_FORE": 54,
+        "V11_SCENE_CEILING_2": 17,
+        "V11_TRANSFER_FLOOR_FRONT_FINISH": 16,
+        "V11_OUTER_HEADER": 60,
+        "V11_TRANSFER_FLOOR_TOP_FINISH": 28,
+        "R1_STBD_OUTER_BEVEL_FRAME": 29,
+        "R1_STBD_TUNNEL_FORE": 11,
+        "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3": 9,
+        "R1_STBD_INNER_BEVEL_FRAME": 9,
+        "V11_SCENE_FORE": 12,
+        "HANGAR_CASSETTE_FLOOR": 3,
+        "CATWALK_FLOOR_+1_0": 42,
+        "CATWALK_COAMING_+1_0": 42,
+        "V11_PLATFORM_AFT_FASCIA": 6,
+        "V11_AFT_FRONT_RETURN": 14,
+        "V11_AFT_POD_FRONT": 154,
+        "ISLAND_AFT": 49,
+        "V11_AFT_POD_END": 31,
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2": 39
+      }
+    }
+  ]
+}
