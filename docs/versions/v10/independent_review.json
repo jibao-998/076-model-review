@@ -1,0 +1,64 @@
+{
+  "status": "REVIEW_ONLY_NO_OPEN_REVIEW_BLOCKER",
+  "native_sha256": "0352b90959281bf8d2a00da80d84266ee01646c5af7086e7d2d4f017acf0c301",
+  "native_readback": {
+    "objects": 420,
+    "all_valid": true,
+    "mesh_count": 0,
+    "units": "UnitSystem.Millimeters",
+    "x_bounds_mm": [
+      0.0,
+      800.0
+    ]
+  },
+  "anchor_endpoint_check": [
+    {
+      "side": "STBD",
+      "native_curve_endpoint_mm": [
+        51.29023937034887,
+        39.92829500074459,
+        51.50294560676317
+      ],
+      "native_blank_start_plane_distance_mm": 1.7763568394002505e-15,
+      "endpoint_within_blank_profile": true,
+      "native_vs_scene_endpoint_error_mm": 0.0,
+      "status": "CLOSED_GEOMETRIC_CONNECTION_ONLY",
+      "real_eye_or_shackle": "UNSELECTED_NOT_VERIFIED"
+    },
+    {
+      "side": "PORT",
+      "native_curve_endpoint_mm": [
+        51.29023937034887,
+        -39.92829500074459,
+        51.50294560676317
+      ],
+      "native_blank_start_plane_distance_mm": 1.2490009027033011e-15,
+      "endpoint_within_blank_profile": true,
+      "native_vs_scene_endpoint_error_mm": 0.0,
+      "status": "CLOSED_GEOMETRIC_CONNECTION_ONLY",
+      "real_eye_or_shackle": "UNSELECTED_NOT_VERIFIED"
+    }
+  ],
+  "independent_additional_checks": {
+    "guide_caps_with_covers_present_90mm_sweeps": "PASS_BOTH_SIDES",
+    "covers_with_guide_caps_present_90mm_sweeps": "PASS_BOTH_SIDES",
+    "fore_tray_native_surface_vertex_side_margin_min_mm": 13.024775497527635,
+    "fore_motor_reserved_native_surface_vertex_side_margin_min_mm": 27.323554136846425,
+    "anchor_blank_outside_native_skin_vertex_margin_mm": [
+      3.4309961164200757,
+      5.427965918635373
+    ]
+  },
+  "not_verified": [
+    "Closed skin containment",
+    "Native Rhino desktop",
+    "Selected drive fit",
+    "Rope winding and bends",
+    "Hardware joints and strength",
+    "Physical mechanism control",
+    "Energy and runtime",
+    "Manual skinning and final water sealing"
+  ],
+  "closure": "Both native saved rope endpoints now reach the native blank start plane inside its profile. No real eye/shackle connection claimed.",
+  "stage_report_review": "Read r1_report.md; drive fit, central clear height, eye joint and physical validation limits accurately retained."
+}

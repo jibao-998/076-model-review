@@ -17,7 +17,9 @@
   for(const key of ['view','scope'])if(s[key]!==undefined){if(!safeKey(s[key]))return null;result[key]=s[key]}
   if(s.flags){if(Object.keys(s.flags).length>40)return null;result.flags={};for(const[k,v]of Object.entries(s.flags)){if(!safeKey(k)||typeof v!=='boolean')return null;result.flags[k]=v}}
   if(s.assemblies){if(typeof s.assemblies!=='object'||Array.isArray(s.assemblies)||Object.keys(s.assemblies).length>30)return null;result.assemblies={};for(const[k,v]of Object.entries(s.assemblies)){if(!safeKey(k)||!vec(v,3000))return null;result.assemblies[k]=[...v]}}
-  if(version==='v9'&&result.assemblies){for(const [k,v]of Object.entries(result.assemblies)){if(k.startsWith('ELEVATOR_')&&(!['ELEVATOR_STBD','ELEVATOR_PORT'].includes(k)||v[0]!==0||v[1]!==0||v[2]<-32||v[2]>0))return null;if(['SERVICE_HATCH','HANGAR_HATCH','HANGAR_ROOF','HANGAR_CASSETTE'].includes(k)&&(v[0]!==0||v[1]!==0||v[2]<0||v[2]>400))return null}}
+  if(['v9','v10'].includes(version)&&result.assemblies){for(const [k,v]of Object.entries(result.assemblies)){if(k.startsWith('ELEVATOR_')&&(!['ELEVATOR_STBD','ELEVATOR_PORT'].includes(k)||v[0]!==0||v[1]!==0||v[2]<-32||v[2]>0))return null;if(['SERVICE_HATCH','HANGAR_HATCH','HANGAR_ROOF','HANGAR_CASSETTE'].includes(k)&&(v[0]!==0||v[1]!==0||v[2]<0||v[2]>400))return null}}
+  if(version==='v10'&&result.assemblies)for(const[k,v]of Object.entries(result.assemblies))if(['ANCHOR_STBD','ANCHOR_PORT'].includes(k)&&(v[0]!==0||v[1]!==0||v[2]<-70||v[2]>0))return null;
+  if(version==='v10'&&result.assemblies)for(const k of ['ANCHOR_WINCH_STBD','ANCHOR_WINCH_PORT','R1_BATTERY_TRAY','R1_ELECTRONICS_TRAY']){const v=result.assemblies[k];if(v&&(v[0]!==0||v[1]!==0||v[2]<0||v[2]>100||(v[2]>0&&(s.serviceStep<4||(result.assemblies.SERVICE_HATCH?.[2]||0)<190||(result.assemblies.HANGAR_ROOF?.[2]||0)<100||(result.assemblies.HANGAR_CASSETTE?.[2]||0)<100))))return null;}
   return result;
  }
  function encode(s){const text=JSON.stringify(s);if(text.length>60000)throw Error('评审状态过大，请减少逐件位移后分享');return btoa(Array.from(new TextEncoder().encode(text),b=>String.fromCharCode(b)).join('')).replaceAll('+','-').replaceAll('/','_').replace(/=+$/,'')}

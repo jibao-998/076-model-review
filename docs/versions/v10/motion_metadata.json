@@ -1,0 +1,579 @@
+{
+  "deck": {
+    "name": "FLIGHT_DECK_WHOLE",
+    "assembly": "SERVICE_HATCH",
+    "x_mm": [
+      0,
+      800
+    ],
+    "z_mm": [
+      76,
+      79
+    ],
+    "thickness_mm": 3,
+    "connected_pieces": 1,
+    "interior_holes": 0,
+    "edge_notches": [
+      {
+        "x": [
+          429.5,
+          482.5
+        ],
+        "y": [
+          63.5,
+          110
+        ]
+      },
+      {
+        "x": [
+          679.5,
+          732.5
+        ],
+        "y": [
+          -110,
+          -63.5
+        ]
+      }
+    ],
+    "removal_axis": [
+      0,
+      0,
+      1
+    ],
+    "suggested_lift_mm": 190,
+    "islands_move_with_deck": true,
+    "platform_edge_clearance_mm": 0.5
+  },
+  "roof": {
+    "part": "HANGAR_REMOVABLE_ROOF",
+    "assembly": "HANGAR_ROOF",
+    "independent": true,
+    "suggested_lift_mm": 80
+  },
+  "lifts": {
+    "STBD": {
+      "assembly": "ELEVATOR_STBD",
+      "platform": "ELEVATOR_PLATFORM_STBD",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "stroke_mm": 32,
+      "offset_range_z_mm": [
+        -32,
+        0
+      ],
+      "upper_platform_z_mm": [
+        76,
+        79
+      ],
+      "lower_platform_z_mm": [
+        44,
+        47
+      ],
+      "footprint_mm": [
+        52,
+        29
+      ],
+      "platform_inner_abs_y_mm": 64,
+      "rails": [
+        {
+          "center_xy_mm": [
+            421,
+            57
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "rod_radius_mm": 1,
+          "rod_z_mm": [
+            32,
+            73
+          ],
+          "carriage_bore_radius_mm": 1.25,
+          "radial_clearance_mm": 0.25,
+          "carriage_upper_z_mm": [
+            64,
+            70
+          ],
+          "carriage_lower_z_mm": [
+            32,
+            38
+          ],
+          "lower_stop_z_mm": [
+            29,
+            32
+          ],
+          "upper_stop_z_mm": [
+            73,
+            76
+          ]
+        },
+        {
+          "center_xy_mm": [
+            491,
+            57
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "rod_radius_mm": 1,
+          "rod_z_mm": [
+            32,
+            73
+          ],
+          "carriage_bore_radius_mm": 1.25,
+          "radial_clearance_mm": 0.25,
+          "carriage_upper_z_mm": [
+            64,
+            70
+          ],
+          "carriage_lower_z_mm": [
+            32,
+            38
+          ],
+          "lower_stop_z_mm": [
+            29,
+            32
+          ],
+          "upper_stop_z_mm": [
+            73,
+            76
+          ]
+        }
+      ],
+      "actuator": "UNSELECTED / ENVELOPE_ONLY / NOT_VERIFIED",
+      "design_status": "D REVIEW_CANDIDATE_NOT_FROZEN",
+      "comparison_baseline": {
+        "version": "V9",
+        "platform_mm": [
+          52,
+          43
+        ],
+        "stroke_mm": 32
+      },
+      "frame_outer_abs_y_mm": [
+        50,
+        53
+      ],
+      "header_to_platform_inner_gap_mm": 11,
+      "position_basis": "C gross appearance placement / D exact geometry; no real 076 mechanism claimed"
+    },
+    "PORT": {
+      "assembly": "ELEVATOR_PORT",
+      "platform": "ELEVATOR_PLATFORM_PORT_AFT",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "stroke_mm": 32,
+      "offset_range_z_mm": [
+        -32,
+        0
+      ],
+      "upper_platform_z_mm": [
+        76,
+        79
+      ],
+      "lower_platform_z_mm": [
+        44,
+        47
+      ],
+      "footprint_mm": [
+        52,
+        29
+      ],
+      "platform_inner_abs_y_mm": 64,
+      "rails": [
+        {
+          "center_xy_mm": [
+            674,
+            -57
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "rod_radius_mm": 1,
+          "rod_z_mm": [
+            32,
+            73
+          ],
+          "carriage_bore_radius_mm": 1.25,
+          "radial_clearance_mm": 0.25,
+          "carriage_upper_z_mm": [
+            64,
+            70
+          ],
+          "carriage_lower_z_mm": [
+            32,
+            38
+          ],
+          "lower_stop_z_mm": [
+            29,
+            32
+          ],
+          "upper_stop_z_mm": [
+            73,
+            76
+          ]
+        },
+        {
+          "center_xy_mm": [
+            738,
+            -57
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "rod_radius_mm": 1,
+          "rod_z_mm": [
+            32,
+            73
+          ],
+          "carriage_bore_radius_mm": 1.25,
+          "radial_clearance_mm": 0.25,
+          "carriage_upper_z_mm": [
+            64,
+            70
+          ],
+          "carriage_lower_z_mm": [
+            32,
+            38
+          ],
+          "lower_stop_z_mm": [
+            29,
+            32
+          ],
+          "upper_stop_z_mm": [
+            73,
+            76
+          ]
+        }
+      ],
+      "actuator": "UNSELECTED / ENVELOPE_ONLY / NOT_VERIFIED",
+      "design_status": "D REVIEW_CANDIDATE_NOT_FROZEN",
+      "comparison_baseline": {
+        "version": "V9",
+        "platform_mm": [
+          52,
+          43
+        ],
+        "stroke_mm": 32
+      },
+      "frame_outer_abs_y_mm": [
+        50,
+        53
+      ],
+      "header_to_platform_inner_gap_mm": 11,
+      "position_basis": "C gross appearance placement / D exact geometry; no real 076 mechanism claimed"
+    }
+  },
+  "corridors": {
+    "STBD": {
+      "x": [
+        433,
+        479
+      ],
+      "y": [
+        41,
+        64
+      ],
+      "z": [
+        47,
+        68
+      ]
+    },
+    "PORT": {
+      "x": [
+        683,
+        729
+      ],
+      "y": [
+        -64,
+        -29
+      ],
+      "z": [
+        47,
+        68
+      ]
+    }
+  },
+  "skin_cutouts": [
+    {
+      "source": "SKIN_AFT_2_3_STBD_V9_RETAINED_1",
+      "side": "STBD",
+      "x_mm": [
+        413.0,
+        427.99999999999994
+      ],
+      "removed_uv": [
+        0.5295737236976963,
+        0.5478984266775915,
+        0.7637755369634761,
+        1.0
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1",
+          "uv": [
+            0.45294918373494125,
+            0.5295737236976963,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 2.852145447665507e-13
+        },
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_2",
+          "uv": [
+            0.5295737236976963,
+            0.5478984266775915,
+            0.6,
+            0.7637755369634761
+          ],
+          "max_sample_deviation_from_source_mm": 3.4120851079089124e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_2_3_STBD_V9_RETAINED_2",
+      "side": "STBD",
+      "x_mm": [
+        427.9999999999999,
+        484.0
+      ],
+      "removed_uv": [
+        0.5478984266775915,
+        0.615680304355126,
+        0.7628975054610491,
+        0.85192071294413
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_2_R1_RETAINED_1",
+          "uv": [
+            0.5478984266775915,
+            0.615680304355126,
+            0.6,
+            0.7628975054610491
+          ],
+          "max_sample_deviation_from_source_mm": 2.278173318171838e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_2_3_STBD_V9_RETAINED_3",
+      "side": "STBD",
+      "x_mm": [
+        483.99999999999994,
+        499.0
+      ],
+      "removed_uv": [
+        0.615680304355126,
+        0.633641563223063,
+        0.7624784077667275,
+        1.0
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_1",
+          "uv": [
+            0.615680304355126,
+            0.633641563223063,
+            0.6,
+            0.7624784077667275
+          ],
+          "max_sample_deviation_from_source_mm": 2.8662716220438193e-13
+        },
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2",
+          "uv": [
+            0.633641563223063,
+            0.6948838208908007,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 3.4143038694577295e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_3_3_PORT_V9_RETAINED_1",
+      "side": "PORT",
+      "x_mm": [
+        663.0,
+        677.9999999999999
+      ],
+      "removed_uv": [
+        0.8370271753245825,
+        0.8569060389197426,
+        0.7439836271639335,
+        1.0
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_3_3_PORT_V9_RETAINED_1_R1_RETAINED_1",
+          "uv": [
+            0.6948838208908007,
+            0.8370271753245825,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 3.42316453453745e-13
+        },
+        {
+          "name": "SKIN_AFT_3_3_PORT_V9_RETAINED_1_R1_RETAINED_2",
+          "uv": [
+            0.8370271753245825,
+            0.8569060389197426,
+            0.6,
+            0.7439836271639335
+          ],
+          "max_sample_deviation_from_source_mm": 4.552605394652031e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_3_3_PORT_V9_RETAINED_2",
+      "side": "PORT",
+      "x_mm": [
+        678.0,
+        700.0000000000002
+      ],
+      "removed_uv": [
+        0.8569060389197426,
+        0.8871972240699832,
+        0.737413566503964,
+        0.8386597246366576
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_3_3_PORT_V9_RETAINED_2_R1_RETAINED_1",
+          "uv": [
+            0.8569060389197426,
+            0.8871972240699832,
+            0.6,
+            0.737413566503964
+          ],
+          "max_sample_deviation_from_source_mm": 4.552466771099645e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_4_3_PORT_V9_RETAINED_1",
+      "side": "PORT",
+      "x_mm": [
+        700.0000000000002,
+        733.9999999999983
+      ],
+      "removed_uv": [
+        0.8871972240699832,
+        0.9368152458324764,
+        0.7200787403882407,
+        0.8299989233380539
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_4_3_PORT_V9_RETAINED_1_R1_RETAINED_1",
+          "uv": [
+            0.8871972240699832,
+            0.9368152458324764,
+            0.6,
+            0.7200787403882407
+          ],
+          "max_sample_deviation_from_source_mm": 3.4143038694577295e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_4_3_PORT_V9_RETAINED_2",
+      "side": "PORT",
+      "x_mm": [
+        733.9999999999983,
+        749.0
+      ],
+      "removed_uv": [
+        0.9368152458324764,
+        0.9577738414704903,
+        0.7084978506706722,
+        1.0
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_4_3_PORT_V9_RETAINED_2_R1_RETAINED_1",
+          "uv": [
+            0.9368152458324764,
+            0.9577738414704903,
+            0.6,
+            0.7084978506706722
+          ],
+          "max_sample_deviation_from_source_mm": 6.824632592432862e-13
+        },
+        {
+          "name": "SKIN_AFT_4_3_PORT_V9_RETAINED_2_R1_RETAINED_2",
+          "uv": [
+            0.9577738414704903,
+            1.0,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 3.4179986047336377e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    }
+  ],
+  "well_preserved": {
+    "x": [
+      610,
+      776
+    ],
+    "y": [
+      -22,
+      22
+    ],
+    "z": [
+      25,
+      44
+    ],
+    "sidewalls_and_bottom": "UNCHANGED_NATIVE_GEOMETRY"
+  },
+  "limitations": [
+    "REVIEW_ONLY",
+    "RHINO_DESKTOP_UI_NOT_CHECKED",
+    "PHYSICAL_FORCE_FRICTION_ANTIDROP_NOT_CHECKED",
+    "ACTUATOR_UNSELECTED",
+    "MODEL_D_GEOMETRY_NOT_REAL_076",
+    "NO_MANUFACTURING_RELEASE"
+  ],
+  "version": "V10_R1",
+  "diorama": {
+    "STBD": "HANGAR_CASSETTE and HANGAR_ROOF",
+    "PORT": "PORT_DIORAMA and PORT_DIORAMA_ROOF",
+    "aircraft_requirement": "15 mm / 3 g aircraft only; moving assembly mass and friction unmeasured"
+  },
+  "service_sequence": [
+    "Remove whole deck with both islands",
+    "Unplug and remove main roof and port local ceiling",
+    "Remove guide caps, then lift slotted pocket lining strips vertically",
+    "Lift moving guide carriage after chosen drive is disconnected",
+    "Unplug and lift main cassette / separate port scenery",
+    "Access electronics/battery trays"
+  ]
+}

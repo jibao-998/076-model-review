@@ -1,0 +1,243 @@
+{
+  "status": "PASS",
+  "native_sha256": "0352b90959281bf8d2a00da80d84266ee01646c5af7086e7d2d4f017acf0c301",
+  "support_contacts": [
+    {
+      "a": "R1_ANCHOR_FORE_BEARER",
+      "b": "FRAME_03_X110",
+      "actual_coplanar_contact_mm2": 12.428328802630894
+    },
+    {
+      "a": "R1_ANCHOR_AFT_BEARER",
+      "b": "FRAME_04_X160",
+      "actual_coplanar_contact_mm2": 16.83679154308679
+    },
+    {
+      "a": "R1_STBD_WINCH_SEAT_12",
+      "b": "R1_ANCHOR_FORE_BEARER",
+      "actual_coplanar_contact_mm2": 9.0
+    },
+    {
+      "a": "R1_STBD_WINCH_SEAT_12",
+      "b": "R1_ANCHOR_AFT_BEARER",
+      "actual_coplanar_contact_mm2": 9.0
+    },
+    {
+      "a": "R1_STBD_WINCH_SEAT_12",
+      "b": "R1_STBD_WINCH_REMOVABLE_TRAY",
+      "actual_coplanar_contact_mm2": 123.0
+    },
+    {
+      "a": "R1_STBD_WINCH_SEAT_36",
+      "b": "R1_ANCHOR_FORE_BEARER",
+      "actual_coplanar_contact_mm2": 9.0
+    },
+    {
+      "a": "R1_STBD_WINCH_SEAT_36",
+      "b": "R1_ANCHOR_AFT_BEARER",
+      "actual_coplanar_contact_mm2": 9.0
+    },
+    {
+      "a": "R1_STBD_WINCH_SEAT_36",
+      "b": "R1_STBD_WINCH_REMOVABLE_TRAY",
+      "actual_coplanar_contact_mm2": 123.0
+    },
+    {
+      "a": "R1_PORT_WINCH_SEAT_12",
+      "b": "R1_ANCHOR_FORE_BEARER",
+      "actual_coplanar_contact_mm2": 9.0
+    },
+    {
+      "a": "R1_PORT_WINCH_SEAT_12",
+      "b": "R1_ANCHOR_AFT_BEARER",
+      "actual_coplanar_contact_mm2": 9.0
+    },
+    {
+      "a": "R1_PORT_WINCH_SEAT_12",
+      "b": "R1_PORT_WINCH_REMOVABLE_TRAY",
+      "actual_coplanar_contact_mm2": 123.0
+    },
+    {
+      "a": "R1_PORT_WINCH_SEAT_36",
+      "b": "R1_ANCHOR_FORE_BEARER",
+      "actual_coplanar_contact_mm2": 9.0
+    },
+    {
+      "a": "R1_PORT_WINCH_SEAT_36",
+      "b": "R1_ANCHOR_AFT_BEARER",
+      "actual_coplanar_contact_mm2": 9.0
+    },
+    {
+      "a": "R1_PORT_WINCH_SEAT_36",
+      "b": "R1_PORT_WINCH_REMOVABLE_TRAY",
+      "actual_coplanar_contact_mm2": 123.0
+    },
+    {
+      "a": "R1_BATTERY_SEAT_PORT_200",
+      "b": "LONGITUDINAL_-1",
+      "actual_coplanar_contact_mm2": 30.0
+    },
+    {
+      "a": "R1_BATTERY_SEAT_PORT_200",
+      "b": "R1_BATTERY_REMOVABLE_FLOOR",
+      "actual_coplanar_contact_mm2": 20.0
+    },
+    {
+      "a": "R1_BATTERY_SEAT_STBD_200",
+      "b": "LONGITUDINAL_+1",
+      "actual_coplanar_contact_mm2": 30.0
+    },
+    {
+      "a": "R1_BATTERY_SEAT_STBD_200",
+      "b": "R1_BATTERY_REMOVABLE_FLOOR",
+      "actual_coplanar_contact_mm2": 20.0
+    },
+    {
+      "a": "R1_BATTERY_SEAT_PORT_280",
+      "b": "LONGITUDINAL_-1",
+      "actual_coplanar_contact_mm2": 30.0
+    },
+    {
+      "a": "R1_BATTERY_SEAT_PORT_280",
+      "b": "R1_BATTERY_REMOVABLE_FLOOR",
+      "actual_coplanar_contact_mm2": 20.0
+    },
+    {
+      "a": "R1_BATTERY_SEAT_STBD_280",
+      "b": "LONGITUDINAL_+1",
+      "actual_coplanar_contact_mm2": 30.0
+    },
+    {
+      "a": "R1_BATTERY_SEAT_STBD_280",
+      "b": "R1_BATTERY_REMOVABLE_FLOOR",
+      "actual_coplanar_contact_mm2": 20.0
+    },
+    {
+      "a": "R1_ELECTRONICS_SEAT_PORT_320",
+      "b": "LONGITUDINAL_-1",
+      "actual_coplanar_contact_mm2": 30.0
+    },
+    {
+      "a": "R1_ELECTRONICS_SEAT_PORT_320",
+      "b": "R1_ELECTRONICS_REMOVABLE_FLOOR",
+      "actual_coplanar_contact_mm2": 20.0
+    },
+    {
+      "a": "R1_ELECTRONICS_SEAT_STBD_320",
+      "b": "LONGITUDINAL_+1",
+      "actual_coplanar_contact_mm2": 30.0
+    },
+    {
+      "a": "R1_ELECTRONICS_SEAT_STBD_320",
+      "b": "R1_ELECTRONICS_REMOVABLE_FLOOR",
+      "actual_coplanar_contact_mm2": 20.0
+    },
+    {
+      "a": "R1_ELECTRONICS_SEAT_PORT_400",
+      "b": "LONGITUDINAL_-1",
+      "actual_coplanar_contact_mm2": 30.0
+    },
+    {
+      "a": "R1_ELECTRONICS_SEAT_PORT_400",
+      "b": "R1_ELECTRONICS_REMOVABLE_FLOOR",
+      "actual_coplanar_contact_mm2": 20.0
+    },
+    {
+      "a": "R1_ELECTRONICS_SEAT_STBD_400",
+      "b": "LONGITUDINAL_+1",
+      "actual_coplanar_contact_mm2": 30.0
+    },
+    {
+      "a": "R1_ELECTRONICS_SEAT_STBD_400",
+      "b": "R1_ELECTRONICS_REMOVABLE_FLOOR",
+      "actual_coplanar_contact_mm2": 20.0
+    }
+  ],
+  "service_sweeps": [
+    {
+      "assembly": "ANCHOR_WINCH_STBD",
+      "range_z_mm": [
+        0,
+        100
+      ],
+      "method": "CONSERVATIVE_CONTINUOUS_CONVEX_SWEEP",
+      "remove_first": [
+        "HANGAR_CASSETTE",
+        "HANGAR_ROOF",
+        "SERVICE_HATCH"
+      ],
+      "hits": [],
+      "condition": "Disconnect selected drive and all lines, remove retaining hardware; hardware UNSELECTED"
+    },
+    {
+      "assembly": "ANCHOR_WINCH_PORT",
+      "range_z_mm": [
+        0,
+        100
+      ],
+      "method": "CONSERVATIVE_CONTINUOUS_CONVEX_SWEEP",
+      "remove_first": [
+        "HANGAR_CASSETTE",
+        "HANGAR_ROOF",
+        "SERVICE_HATCH"
+      ],
+      "hits": [],
+      "condition": "Disconnect selected drive and all lines, remove retaining hardware; hardware UNSELECTED"
+    },
+    {
+      "assembly": "R1_BATTERY_TRAY",
+      "range_z_mm": [
+        0,
+        100
+      ],
+      "method": "CONSERVATIVE_CONTINUOUS_CONVEX_SWEEP",
+      "remove_first": [
+        "HANGAR_CASSETTE",
+        "HANGAR_ROOF",
+        "SERVICE_HATCH"
+      ],
+      "hits": [],
+      "condition": "Disconnect selected drive and all lines, remove retaining hardware; hardware UNSELECTED"
+    },
+    {
+      "assembly": "R1_ELECTRONICS_TRAY",
+      "range_z_mm": [
+        0,
+        100
+      ],
+      "method": "CONSERVATIVE_CONTINUOUS_CONVEX_SWEEP",
+      "remove_first": [
+        "HANGAR_CASSETTE",
+        "HANGAR_ROOF",
+        "SERVICE_HATCH"
+      ],
+      "hits": [],
+      "condition": "Disconnect selected drive and all lines, remove retaining hardware; hardware UNSELECTED"
+    }
+  ],
+  "anchors": [
+    {
+      "side": "STBD",
+      "drop_working_mm": 70,
+      "base_clearance_mm": 34.426224460285546,
+      "reference_base_only": true,
+      "continuous_extrusion_sweep_hits": []
+    },
+    {
+      "side": "PORT",
+      "drop_working_mm": 70,
+      "base_clearance_mm": 34.426224460285546,
+      "reference_base_only": true,
+      "continuous_extrusion_sweep_hits": []
+    }
+  ],
+  "rope_tube_solid_interferences": [],
+  "limits": [
+    "Open hull skin not solid boolean-tested",
+    "Curved hawse guide is historical visual geometry",
+    "Rope path uses straight centerline pieces: bend radius and winding NOT_CHECKED",
+    "Motor and battery unselected; no physical force, retention, endurance or load test",
+    "Contact area does not verify adhesive/fasteners or structural strength",
+    "Rhino desktop NOT_CHECKED"
+  ]
+}

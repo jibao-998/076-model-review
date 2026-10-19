@@ -1,0 +1,673 @@
+{
+  "version": "V10_R1",
+  "source": "frozen inputs/v9",
+  "modified_or_removed": [
+    {
+      "name": "ELEVATOR_PLATFORM_PORT_AFT",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "ELEVATOR_PLATFORM_STBD",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_CARRIAGE_1_ARM",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_CARRIAGE_1_SLEEVE",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_CARRIAGE_2_ARM",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_CARRIAGE_2_SLEEVE",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_GUIDE_1",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_GUIDE_2",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_STOP_1_LOWER",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_STOP_1_UPPER",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_STOP_2_LOWER",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_STOP_2_UPPER",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_SUPPORT_1",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_PORT_SUPPORT_2",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_CARRIAGE_1_ARM",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_CARRIAGE_1_SLEEVE",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_CARRIAGE_2_ARM",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_CARRIAGE_2_SLEEVE",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_GUIDE_1",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_GUIDE_2",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_STOP_1_LOWER",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_STOP_1_UPPER",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_STOP_2_LOWER",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_STOP_2_UPPER",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_SUPPORT_1",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "LIFT_STBD_SUPPORT_2",
+      "action": "REMOVED",
+      "reason": "Replace external V9 guides with hidden maintainable side-pocket mechanism"
+    },
+    {
+      "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_1",
+      "action": "LOCAL_SKIN_CUTOUT",
+      "reason": "Authorized hidden side-pocket bay",
+      "replacement_parts": [
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1",
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_2"
+      ]
+    },
+    {
+      "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_2",
+      "action": "LOCAL_SKIN_CUTOUT",
+      "reason": "Authorized hidden side-pocket bay",
+      "replacement_parts": [
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_2_R1_RETAINED_1"
+      ]
+    },
+    {
+      "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_3",
+      "action": "LOCAL_SKIN_CUTOUT",
+      "reason": "Authorized hidden side-pocket bay",
+      "replacement_parts": [
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_1",
+        "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2"
+      ]
+    },
+    {
+      "name": "SKIN_AFT_3_3_PORT_V9_RETAINED_1",
+      "action": "LOCAL_SKIN_CUTOUT",
+      "reason": "Authorized hidden side-pocket bay",
+      "replacement_parts": [
+        "SKIN_AFT_3_3_PORT_V9_RETAINED_1_R1_RETAINED_1",
+        "SKIN_AFT_3_3_PORT_V9_RETAINED_1_R1_RETAINED_2"
+      ]
+    },
+    {
+      "name": "SKIN_AFT_3_3_PORT_V9_RETAINED_2",
+      "action": "LOCAL_SKIN_CUTOUT",
+      "reason": "Authorized hidden side-pocket bay",
+      "replacement_parts": [
+        "SKIN_AFT_3_3_PORT_V9_RETAINED_2_R1_RETAINED_1"
+      ]
+    },
+    {
+      "name": "SKIN_AFT_4_3_PORT_V9_RETAINED_1",
+      "action": "LOCAL_SKIN_CUTOUT",
+      "reason": "Authorized hidden side-pocket bay",
+      "replacement_parts": [
+        "SKIN_AFT_4_3_PORT_V9_RETAINED_1_R1_RETAINED_1"
+      ]
+    },
+    {
+      "name": "SKIN_AFT_4_3_PORT_V9_RETAINED_2",
+      "action": "LOCAL_SKIN_CUTOUT",
+      "reason": "Authorized hidden side-pocket bay",
+      "replacement_parts": [
+        "SKIN_AFT_4_3_PORT_V9_RETAINED_2_R1_RETAINED_1",
+        "SKIN_AFT_4_3_PORT_V9_RETAINED_2_R1_RETAINED_2"
+      ]
+    },
+    {
+      "name": "CATWALK_BRACKET_+1_X420",
+      "action": "REMOVED",
+      "reason": "Local hidden-pocket sweep; new independent local frame provides replacement support concept"
+    },
+    {
+      "name": "CATWALK_BRACKET_+1_X490",
+      "action": "REMOVED",
+      "reason": "Local hidden-pocket sweep; new independent local frame provides replacement support concept"
+    },
+    {
+      "name": "CATWALK_BRACKET_-1_X670",
+      "action": "REMOVED",
+      "reason": "Local hidden-pocket sweep; new independent local frame provides replacement support concept"
+    },
+    {
+      "name": "CATWALK_BRACKET_-1_X745",
+      "action": "REMOVED",
+      "reason": "Local hidden-pocket sweep; new independent local frame provides replacement support concept"
+    },
+    {
+      "name": "FLIGHT_DECK_WHOLE",
+      "action": "REPLACED",
+      "reason": "Upper deck edge follows revised platform with 0.5mm clearance"
+    },
+    {
+      "name": "UPPER_CROSSPLATE_SERVICE_RUNNER",
+      "action": "REPLACED",
+      "reason": "Local threshold seat / port diorama clearance"
+    },
+    {
+      "name": "FRAME_12_X710",
+      "action": "REPLACED",
+      "reason": "Local threshold seat / port diorama clearance"
+    },
+    {
+      "name": "WELL_LIFT_OUT_BEAM_X710",
+      "action": "REPLACED",
+      "reason": "Local threshold seat / port diorama clearance"
+    },
+    {
+      "name": "HAWSE_BACK_PORT_0",
+      "action": "REMOVED",
+      "reason": "R1 both-side working rope route: open historical recess back cap"
+    },
+    {
+      "name": "HAWSE_BACK_PORT_1",
+      "action": "REMOVED",
+      "reason": "R1 both-side working rope route: open historical recess back cap"
+    },
+    {
+      "name": "HAWSE_BACK_PORT_2",
+      "action": "REMOVED",
+      "reason": "R1 both-side working rope route: open historical recess back cap"
+    },
+    {
+      "name": "HAWSE_BACK_PORT_3",
+      "action": "REMOVED",
+      "reason": "R1 both-side working rope route: open historical recess back cap"
+    },
+    {
+      "name": "HAWSE_BACK_STBD_0",
+      "action": "REMOVED",
+      "reason": "R1 both-side working rope route: open historical recess back cap"
+    },
+    {
+      "name": "HAWSE_BACK_STBD_1",
+      "action": "REMOVED",
+      "reason": "R1 both-side working rope route: open historical recess back cap"
+    },
+    {
+      "name": "HAWSE_BACK_STBD_2",
+      "action": "REMOVED",
+      "reason": "R1 both-side working rope route: open historical recess back cap"
+    },
+    {
+      "name": "HAWSE_BACK_STBD_3",
+      "action": "REMOVED",
+      "reason": "R1 both-side working rope route: open historical recess back cap"
+    },
+    {
+      "name": "RESERVED_BATTERY",
+      "action": "REMOVED",
+      "reason": "Replace generic floating reservation by supported removable tray and explicit usable envelope"
+    },
+    {
+      "name": "RESERVED_ELECTRONICS",
+      "action": "REMOVED",
+      "reason": "Replace generic floating reservation by supported removable tray and explicit usable envelope"
+    }
+  ],
+  "new_names": [
+    "R1_ANCHOR_AFT_BEARER",
+    "R1_ANCHOR_FORE_BEARER",
+    "R1_BATTERY_DEVICE_RESERVED",
+    "R1_BATTERY_PLUG_ACCESS_RESERVED",
+    "R1_BATTERY_REMOVABLE_FLOOR",
+    "R1_BATTERY_REMOVABLE_RIM_PORT",
+    "R1_BATTERY_REMOVABLE_RIM_STBD",
+    "R1_BATTERY_REMOVABLE_RIM_X200",
+    "R1_BATTERY_REMOVABLE_RIM_X287",
+    "R1_BATTERY_SEAT_PORT_200",
+    "R1_BATTERY_SEAT_PORT_280",
+    "R1_BATTERY_SEAT_STBD_200",
+    "R1_BATTERY_SEAT_STBD_280",
+    "R1_DISPLAY_BASE_REFERENCE",
+    "R1_ELECTRONICS_DEVICE_RESERVED",
+    "R1_ELECTRONICS_PLUG_ACCESS_RESERVED",
+    "R1_ELECTRONICS_REMOVABLE_FLOOR",
+    "R1_ELECTRONICS_REMOVABLE_RIM_PORT",
+    "R1_ELECTRONICS_REMOVABLE_RIM_STBD",
+    "R1_ELECTRONICS_REMOVABLE_RIM_X320",
+    "R1_ELECTRONICS_REMOVABLE_RIM_X407",
+    "R1_ELECTRONICS_SEAT_PORT_320",
+    "R1_ELECTRONICS_SEAT_PORT_400",
+    "R1_ELECTRONICS_SEAT_STBD_320",
+    "R1_ELECTRONICS_SEAT_STBD_400",
+    "R1_HANGAR_CEILING_BEAM_X442",
+    "R1_HANGAR_CEILING_BEAM_X474",
+    "R1_HANGAR_LIGHT_X442",
+    "R1_HANGAR_LIGHT_X474",
+    "R1_HANGAR_REMOVABLE_BACK_LINING",
+    "R1_PORT_ACTUATOR_RESERVED_1",
+    "R1_PORT_ACTUATOR_RESERVED_2",
+    "R1_PORT_AIRCRAFT_15MM_3G_RESERVED",
+    "R1_PORT_ANCHOR_BLANK",
+    "R1_PORT_ANCHOR_ROPE_CENTERLINE",
+    "R1_PORT_ARM_1",
+    "R1_PORT_ARM_2",
+    "R1_PORT_CARRIAGE_1",
+    "R1_PORT_CARRIAGE_2",
+    "R1_PORT_CEILING_SEAT_680_-12",
+    "R1_PORT_CEILING_SEAT_680_-26",
+    "R1_PORT_CEILING_SEAT_729_-12",
+    "R1_PORT_CEILING_SEAT_729_-26",
+    "R1_PORT_DIORAMA_BACK_LINING",
+    "R1_PORT_DIORAMA_REMOVABLE_CEILING",
+    "R1_PORT_DIORAMA_SIDE_680",
+    "R1_PORT_DIORAMA_SIDE_729",
+    "R1_PORT_DRUM_CORE",
+    "R1_PORT_DRUM_FLANGE_X120",
+    "R1_PORT_DRUM_FLANGE_X127",
+    "R1_PORT_GUIDE_1",
+    "R1_PORT_GUIDE_2",
+    "R1_PORT_GUIDE_CAP_1",
+    "R1_PORT_GUIDE_CAP_2",
+    "R1_PORT_GUIDE_FOOT_1",
+    "R1_PORT_GUIDE_FOOT_2",
+    "R1_PORT_HAWSE_GUIDE_LINER",
+    "R1_PORT_INNER_BEVEL_FRAME",
+    "R1_PORT_LIGHT_686",
+    "R1_PORT_LIGHT_722",
+    "R1_PORT_LOAD_LONGITUDINAL_LOWER",
+    "R1_PORT_LOAD_LONGITUDINAL_UPPER",
+    "R1_PORT_LOAD_POST_1",
+    "R1_PORT_LOAD_POST_2",
+    "R1_PORT_LOAD_POST_TOP_1",
+    "R1_PORT_LOAD_POST_TOP_2",
+    "R1_PORT_OUTER_BEVEL_FRAME",
+    "R1_PORT_PLATFORM_TAB_1",
+    "R1_PORT_PLATFORM_TAB_2",
+    "R1_PORT_POCKET_COVER_1_A",
+    "R1_PORT_POCKET_COVER_1_B",
+    "R1_PORT_POCKET_COVER_2_A",
+    "R1_PORT_POCKET_COVER_2_B",
+    "R1_PORT_TOOL_APPROACH_1",
+    "R1_PORT_TOOL_APPROACH_2",
+    "R1_PORT_TRANSFER_FLOOR_1",
+    "R1_PORT_TUNNEL_AFT",
+    "R1_PORT_TUNNEL_FORE",
+    "R1_PORT_TUNNEL_ROOF",
+    "R1_PORT_WINCH_CHEEK_X117",
+    "R1_PORT_WINCH_CHEEK_X129",
+    "R1_PORT_WINCH_FRONT_INTERFACE_RESERVED",
+    "R1_PORT_WINCH_MOTOR_BODY_RESERVED",
+    "R1_PORT_WINCH_REMOVABLE_TRAY",
+    "R1_PORT_WINCH_SEAT_12",
+    "R1_PORT_WINCH_SEAT_36",
+    "R1_PORT_WINCH_SHAFT",
+    "R1_PORT_WINCH_TERMINAL_TOOL_RESERVED",
+    "R1_STBD_ACTUATOR_RESERVED_1",
+    "R1_STBD_ACTUATOR_RESERVED_2",
+    "R1_STBD_AIRCRAFT_15MM_3G_RESERVED",
+    "R1_STBD_ANCHOR_BLANK",
+    "R1_STBD_ANCHOR_ROPE_CENTERLINE",
+    "R1_STBD_ARM_1",
+    "R1_STBD_ARM_2",
+    "R1_STBD_CARRIAGE_1",
+    "R1_STBD_CARRIAGE_2",
+    "R1_STBD_DRUM_CORE",
+    "R1_STBD_DRUM_FLANGE_X120",
+    "R1_STBD_DRUM_FLANGE_X127",
+    "R1_STBD_GUIDE_1",
+    "R1_STBD_GUIDE_2",
+    "R1_STBD_GUIDE_CAP_1",
+    "R1_STBD_GUIDE_CAP_2",
+    "R1_STBD_GUIDE_FOOT_1",
+    "R1_STBD_GUIDE_FOOT_2",
+    "R1_STBD_HAWSE_GUIDE_LINER",
+    "R1_STBD_INNER_BEVEL_FRAME",
+    "R1_STBD_LOAD_LONGITUDINAL_LOWER",
+    "R1_STBD_LOAD_LONGITUDINAL_UPPER",
+    "R1_STBD_LOAD_POST_1",
+    "R1_STBD_LOAD_POST_2",
+    "R1_STBD_LOAD_POST_TOP_1",
+    "R1_STBD_LOAD_POST_TOP_2",
+    "R1_STBD_OUTER_BEVEL_FRAME",
+    "R1_STBD_PLATFORM_TAB_1",
+    "R1_STBD_PLATFORM_TAB_2",
+    "R1_STBD_POCKET_COVER_1_A",
+    "R1_STBD_POCKET_COVER_1_B",
+    "R1_STBD_POCKET_COVER_2_A",
+    "R1_STBD_POCKET_COVER_2_B",
+    "R1_STBD_TOOL_APPROACH_1",
+    "R1_STBD_TOOL_APPROACH_2",
+    "R1_STBD_TRANSFER_FLOOR_1",
+    "R1_STBD_TUNNEL_AFT",
+    "R1_STBD_TUNNEL_FORE",
+    "R1_STBD_TUNNEL_ROOF",
+    "R1_STBD_WINCH_CHEEK_X117",
+    "R1_STBD_WINCH_CHEEK_X129",
+    "R1_STBD_WINCH_FRONT_INTERFACE_RESERVED",
+    "R1_STBD_WINCH_MOTOR_BODY_RESERVED",
+    "R1_STBD_WINCH_REMOVABLE_TRAY",
+    "R1_STBD_WINCH_SEAT_12",
+    "R1_STBD_WINCH_SEAT_36",
+    "R1_STBD_WINCH_SHAFT",
+    "R1_STBD_WINCH_TERMINAL_TOOL_RESERVED",
+    "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1",
+    "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_2",
+    "SKIN_AFT_2_3_STBD_V9_RETAINED_2_R1_RETAINED_1",
+    "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_1",
+    "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2",
+    "SKIN_AFT_3_3_PORT_V9_RETAINED_1_R1_RETAINED_1",
+    "SKIN_AFT_3_3_PORT_V9_RETAINED_1_R1_RETAINED_2",
+    "SKIN_AFT_3_3_PORT_V9_RETAINED_2_R1_RETAINED_1",
+    "SKIN_AFT_4_3_PORT_V9_RETAINED_1_R1_RETAINED_1",
+    "SKIN_AFT_4_3_PORT_V9_RETAINED_2_R1_RETAINED_1",
+    "SKIN_AFT_4_3_PORT_V9_RETAINED_2_R1_RETAINED_2",
+    "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_1",
+    "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_2",
+    "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_3",
+    "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_4",
+    "UPPER_CROSSPLATE_SERVICE_RUNNER_R1_5"
+  ],
+  "skin_cutouts": [
+    {
+      "source": "SKIN_AFT_2_3_STBD_V9_RETAINED_1",
+      "side": "STBD",
+      "x_mm": [
+        413.0,
+        427.99999999999994
+      ],
+      "removed_uv": [
+        0.5295737236976963,
+        0.5478984266775915,
+        0.7637755369634761,
+        1.0
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_1",
+          "uv": [
+            0.45294918373494125,
+            0.5295737236976963,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 2.852145447665507e-13
+        },
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_1_R1_RETAINED_2",
+          "uv": [
+            0.5295737236976963,
+            0.5478984266775915,
+            0.6,
+            0.7637755369634761
+          ],
+          "max_sample_deviation_from_source_mm": 3.4120851079089124e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_2_3_STBD_V9_RETAINED_2",
+      "side": "STBD",
+      "x_mm": [
+        427.9999999999999,
+        484.0
+      ],
+      "removed_uv": [
+        0.5478984266775915,
+        0.615680304355126,
+        0.7628975054610491,
+        0.85192071294413
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_2_R1_RETAINED_1",
+          "uv": [
+            0.5478984266775915,
+            0.615680304355126,
+            0.6,
+            0.7628975054610491
+          ],
+          "max_sample_deviation_from_source_mm": 2.278173318171838e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_2_3_STBD_V9_RETAINED_3",
+      "side": "STBD",
+      "x_mm": [
+        483.99999999999994,
+        499.0
+      ],
+      "removed_uv": [
+        0.615680304355126,
+        0.633641563223063,
+        0.7624784077667275,
+        1.0
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_1",
+          "uv": [
+            0.615680304355126,
+            0.633641563223063,
+            0.6,
+            0.7624784077667275
+          ],
+          "max_sample_deviation_from_source_mm": 2.8662716220438193e-13
+        },
+        {
+          "name": "SKIN_AFT_2_3_STBD_V9_RETAINED_3_R1_RETAINED_2",
+          "uv": [
+            0.633641563223063,
+            0.6948838208908007,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 3.4143038694577295e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_3_3_PORT_V9_RETAINED_1",
+      "side": "PORT",
+      "x_mm": [
+        663.0,
+        677.9999999999999
+      ],
+      "removed_uv": [
+        0.8370271753245825,
+        0.8569060389197426,
+        0.7439836271639335,
+        1.0
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_3_3_PORT_V9_RETAINED_1_R1_RETAINED_1",
+          "uv": [
+            0.6948838208908007,
+            0.8370271753245825,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 3.42316453453745e-13
+        },
+        {
+          "name": "SKIN_AFT_3_3_PORT_V9_RETAINED_1_R1_RETAINED_2",
+          "uv": [
+            0.8370271753245825,
+            0.8569060389197426,
+            0.6,
+            0.7439836271639335
+          ],
+          "max_sample_deviation_from_source_mm": 4.552605394652031e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_3_3_PORT_V9_RETAINED_2",
+      "side": "PORT",
+      "x_mm": [
+        678.0,
+        700.0000000000002
+      ],
+      "removed_uv": [
+        0.8569060389197426,
+        0.8871972240699832,
+        0.737413566503964,
+        0.8386597246366576
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_3_3_PORT_V9_RETAINED_2_R1_RETAINED_1",
+          "uv": [
+            0.8569060389197426,
+            0.8871972240699832,
+            0.6,
+            0.737413566503964
+          ],
+          "max_sample_deviation_from_source_mm": 4.552466771099645e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_4_3_PORT_V9_RETAINED_1",
+      "side": "PORT",
+      "x_mm": [
+        700.0000000000002,
+        733.9999999999983
+      ],
+      "removed_uv": [
+        0.8871972240699832,
+        0.9368152458324764,
+        0.7200787403882407,
+        0.8299989233380539
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_4_3_PORT_V9_RETAINED_1_R1_RETAINED_1",
+          "uv": [
+            0.8871972240699832,
+            0.9368152458324764,
+            0.6,
+            0.7200787403882407
+          ],
+          "max_sample_deviation_from_source_mm": 3.4143038694577295e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    },
+    {
+      "source": "SKIN_AFT_4_3_PORT_V9_RETAINED_2",
+      "side": "PORT",
+      "x_mm": [
+        733.9999999999983,
+        749.0
+      ],
+      "removed_uv": [
+        0.9368152458324764,
+        0.9577738414704903,
+        0.7084978506706722,
+        1.0
+      ],
+      "retained": [
+        {
+          "name": "SKIN_AFT_4_3_PORT_V9_RETAINED_2_R1_RETAINED_1",
+          "uv": [
+            0.9368152458324764,
+            0.9577738414704903,
+            0.6,
+            0.7084978506706722
+          ],
+          "max_sample_deviation_from_source_mm": 6.824632592432862e-13
+        },
+        {
+          "name": "SKIN_AFT_4_3_PORT_V9_RETAINED_2_R1_RETAINED_2",
+          "uv": [
+            0.9577738414704903,
+            1.0,
+            0.6,
+            1.0
+          ],
+          "max_sample_deviation_from_source_mm": 3.4179986047336377e-13
+        }
+      ],
+      "bottom_edge_type": "EXACT_ISOPARAMETRIC_NOT_HORIZONTAL"
+    }
+  ],
+  "evidence": "C appearance / D model design",
+  "manufacturing_release": "REVIEW_ONLY"
+}

@@ -1,0 +1,18 @@
+/* Keep the light workbench and use the same on-demand controls for R1. */
+#anchor-controls { border-top: 1px solid var(--ui-line,#d6e1e2); margin-top: 14px; padding-top: 10px; }
+#anchor-controls h3 { margin: 0 0 6px; font-size: 14px; color: #33595c; }
+#anchor-controls p { font-size: 11px; line-height: 1.6; color: #687e83; }
+#anchor-controls label { display: grid; grid-template-columns: 1fr auto; gap: 3px 8px; margin-top: 8px; font-size: 12px; }
+#anchor-controls output { color: #146e70; font-variant-numeric: tabular-nums; }
+#anchor-controls input { grid-column: 1/-1; width: 100%; min-height: 44px; accent-color: #146e70; touch-action: pan-x; }
+#anchor-controls input:disabled { opacity: .45; }
+#tray-controls .row { gap:8px; }
+#tray-controls .row button { flex:1 1 140px; min-height:44px; }
+@media(orientation:landscape) and (max-height:500px){
+ body:not(.r1-mode) .r1-strip { display:none; }
+ #main-toolbar button { padding-left:7px; padding-right:7px; }
+ #lift-popover { max-height:calc(100dvh - 86px); }
+ #anchor-controls > p { display:none; }
+ #anchor-controls > label { display:inline-grid; width:calc(50% - 6px); min-width:0; margin:3px 0 0; vertical-align:top; }
+ #anchor-controls > label:first-of-type { margin-right:8px; }
+}

@@ -1,0 +1,7 @@
+﻿id,source,use,limit
+R1_USER_PLAN,inputs/r1/scheme_source.md,用户本轮选定方案,模型需求，不是实舰证据
+BOTH_ANCHORS,本轮用户明确回复：左右两侧都布置,用户确认,替代R1单侧优先建议
+V9_NATIVE,inputs/v9/076_assembled_v9.3dm,历史模型基线,继承源，非实舰内部结构
+ACTUATOR_AUDIT,inputs/r1/actuator_candidates.md,厂商候选尺寸审查,型号未选；资料核查不等于安装或性能验收
+REAL_SHIP_REFERENCE,https://www.navalnews.com/naval-news/2024/12/type-076-amphibious-carrier-launched-by-hudong-in-shanghai/,公开外观与大致布局资料,本轮没有用新图片量测精确坐标
+R1_GEOMETRY,change_record.json,D模型设计,门框、短通道、局部内景、侧袋、锚机内部、电控托盘均为模型设计

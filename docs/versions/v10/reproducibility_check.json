@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "independent_directory": "PROJECT/work/v10_repro_check",
+  "native_geometry_equal": true,
+  "objects": 420,
+  "parameters_equal": true,
+  "input_hashes_unchanged": 28,
+  "v9_original_sha256": "91ccbbf2ed096be40bcf0853755e0bc534109f5659251c5d861b18e2a53b6616",
+  "reproduced_main_check": "PASS",
+  "reproduced_systems_check": "PASS",
+  "dependencies": "Explicit requirements; reused installed Python312 work/lib dependencies; no fresh network installation test",
+  "source_record_sha256": "f1fd06fe5d276e76266f3932b3dcf537894aa5d8d7c9881be97639bb710b87e5"
+}

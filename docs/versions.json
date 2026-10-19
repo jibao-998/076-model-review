@@ -1,5 +1,30 @@
 [
   {
+    "id": "v10",
+    "label": "V10 · R1",
+    "title": "隐藏升降与双舷收锚评审",
+    "description": "原生R1结构、两侧独立场景与双舷收锚；D候选参数，驱动与实物未验",
+    "viewer": "versions/v10/viewer.html",
+    "report": "versions/v10/report.html",
+    "model": "versions/v10/model.3dm",
+    "parameters": "versions/v10/parameters.json",
+    "review": "versions/v10/review.json",
+    "model_sha256": "0352b90959281bf8d2a00da80d84266ee01646c5af7086e7d2d4f017acf0c301",
+    "viewer_revision": "8a8a3679e5b0c2dc",
+    "historical": false,
+    "download_bytes": 1771794,
+    "payload_gzip_bytes": 8892364,
+    "review_notes": [
+      "候选尺寸未冻结 / 驱动UNSELECTED / 仅评审"
+    ],
+    "changes": [
+      "隐藏导轨与固定荷载框；升降平台由V9 52×43 mm改为52×29 mm候选，32 mm行程暂定。",
+      "两层倒角入口、可拆袋衬/导轨盖和独立左舷局部场景。",
+      "双舷收锚采用独立原生组件与演示绳路；70 mm为D模型演示参数。",
+      "保留浅色工作台、R1方案入口及全部历史版本；不可直接制造。"
+    ]
+  },
+  {
     "id": "v9",
     "label": "V9",
     "title": "整甲板与观察升降口",
@@ -11,7 +36,7 @@
     "review": "versions/v9/review.json",
     "model_sha256": "91ccbbf2ed096be40bcf0853755e0bc534109f5659251c5d861b18e2a53b6616",
     "viewer_revision": "7b290c18d2705ebb",
-    "historical": false,
+    "historical": true,
     "download_bytes": 1632480,
     "payload_gzip_bytes": 8773399,
     "review_notes": [

@@ -1,0 +1,42 @@
+{
+  "assembled": {
+    "objects": 420,
+    "valid": true,
+    "mesh_count": 0,
+    "units": "UnitSystem.Millimeters",
+    "named_views": 5,
+    "sha256": "0352b90959281bf8d2a00da80d84266ee01646c5af7086e7d2d4f017acf0c301",
+    "backend": "rhino3dm actual saved native readback",
+    "native_desktop_UI": "NOT_CHECKED"
+  },
+  "skeleton": {
+    "objects": 239,
+    "valid": true,
+    "mesh_count": 0,
+    "units": "UnitSystem.Millimeters",
+    "named_views": 5,
+    "sha256": "020d57d58969b9f4721eff6bfa271b2262bce576f5dcf1fa1be1580f62f590d1",
+    "backend": "rhino3dm actual saved native readback",
+    "native_desktop_UI": "NOT_CHECKED"
+  },
+  "exploded": {
+    "objects": 420,
+    "valid": true,
+    "mesh_count": 0,
+    "units": "UnitSystem.Millimeters",
+    "named_views": 5,
+    "sha256": "d1e86bcdb54bffedc2e63185e00fac913fff2a4971eb90aedb1103f44f76aafa",
+    "backend": "rhino3dm actual saved native readback",
+    "native_desktop_UI": "NOT_CHECKED"
+  },
+  "service_segment_stbd": {
+    "objects": 57,
+    "valid": true,
+    "mesh_count": 0,
+    "units": "UnitSystem.Millimeters",
+    "named_views": 5,
+    "sha256": "2a913975db1a90237748dfa749f76745f06029ea54ddf21d78c01dc2b06e2e2e",
+    "backend": "rhino3dm actual saved native readback",
+    "native_desktop_UI": "NOT_CHECKED"
+  }
+}

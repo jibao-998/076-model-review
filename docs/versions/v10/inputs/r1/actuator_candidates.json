@@ -1,0 +1,96 @@
+{
+  "schema": "076.r1-actuator-audit.v1",
+  "retrieved_date": "2026-10-19",
+  "status": "RESEARCH_CANDIDATES_NOT_SELECTED",
+  "units": {"length": "mm", "mass": "g"},
+  "scope": "Primary manufacturer dimensional screening for hidden elevators and anchor mechanism; no purchasing, hardware selection, model modification or website modification.",
+  "scheme_sources": ["outputs/076_R1_V10/inputs/r1/scheme_source.md", "outputs/076_R1_V10/inputs/r1/scheme_data.json"],
+  "source_filename_note": "The delegated data.json name does not exist; the matching R1 structured source is scheme_data.json.",
+  "model_comparison": {
+    "grade": "D_MODEL_DESIGN_NOT_REAL_SHIP_MEASUREMENT",
+    "ship_length_limit_mm": 800,
+    "comparison_ship_width_mm": 155,
+    "deck_z_mm": [76, 79],
+    "lower_floor_z_mm": 47,
+    "floor_to_deck_underside_mm": 29,
+    "floor_to_deck_top_mm": 32,
+    "v9_platform_comparison_mm": [52, 43],
+    "v9_travel_comparison_mm": 32,
+    "platform_and_travel_frozen": false,
+    "aircraft_only_mass_g": 3,
+    "aircraft_approx_length_mm": 15,
+    "complete_moving_mass_g": null,
+    "force_required_N": null,
+    "critical_note": "The 29mm floor/deck interval is a named comparison region, not the entire available hull height. Vertical-fit rejection below applies only when the complete actuator is confined to that region. Width155 does not mean155mm free installation width."
+  },
+  "sources": [
+    {"id":"ACX_INDEX","url":"https://www.actuonix.com/datasheets","type":"MANUFACTURER_DOCUMENT_INDEX","checked":"BROWSED_CURRENT_INDEX"},
+    {"id":"PQ12_PDF","url":"https://www.actuonix.com/assets/images/datasheets/ActuonixPQ12Datasheet.pdf","type":"MANUFACTURER_DATASHEET_AND_DRAWING","revision":"D January2019","locator":"PDF1 specifications; PDF2 controls; PDF3 dimension drawing","checked":"BROWSED_TEXT_AND_SEARCH_INDEXED_DRAWING_CALLOUTS; screenshot returned no viewable image"},
+    {"id":"PQ12_PAGE","url":"https://www.actuonix.com/pq12-30-12-p","type":"MANUFACTURER_PRODUCT_PAGE","checked":"BROWSED"},
+    {"id":"L12_PDF","url":"https://www.actuonix.com/assets/images/datasheets/ActuonixL12Datasheet.pdf","type":"MANUFACTURER_DATASHEET_AND_DRAWING","revision":"F November2019","locator":"PDF1 specifications; PDF2-3 controls; PDF4 dimensions","checked":"BROWSED_TEXT_AND_SEARCH_INDEXED_DRAWING_CALLOUTS; screenshot returned no viewable image"},
+    {"id":"HKP15_PAGE","url":"https://www.haydonkerkpittman.com/products/linear-actuators/can-stack-stepper/15mm-15000","type":"MANUFACTURER_PRODUCT_PAGE","checked":"BROWSED"},
+    {"id":"HKP15_PDF","url":"https://www.haydonkerkpittman.com/-/media/ametekhaydonkerk/downloads/data-sheets/can-stack-stepper/haydon-cs-15000-data.pdf?la=en&revision=9df22f23-ea7c-4704-ad26-964f65806357","type":"MANUFACTURER_DATASHEET_AND_DRAWING","locator":"PDF1 specifications; PDF2 external linear, captive and MICRO drawings; PDF3 performance","checked":"BROWSED_PDF_TEXT; dimension attribution limited to explicit callouts"},
+    {"id":"POLOLU999_PAGE","url":"https://www.pololu.com/product/999/specs","type":"MANUFACTURER_PRODUCT_PAGE","checked":"BROWSED"},
+    {"id":"POLOLU999_DRAWING","url":"https://www.pololu.com/file/0J949/micro-metal-gearmotors-dimensions.pdf","type":"MANUFACTURER_DIMENSION_DRAWING","revision":"03April2024","locator":"PDF4 precious-metal brushes LP/MP/HP NOencoder; all ratios except1000:1","checked":"BROWSED_PDF_TEXT; screenshot returned no viewable image"},
+    {"id":"POLOLU1996_PAGE","url":"https://www.pololu.com/product/1996/specs","type":"MANUFACTURER_PRODUCT_PAGE","checked":"BROWSED"},
+    {"id":"POLOLU1996_DRAWING","url":"https://www.pololu.com/file/0J661/1996-3mm-m3-hub-dimensions.pdf","type":"MANUFACTURER_DIMENSION_DRAWING","revision":"5August2013","checked":"BROWSED_SEARCH_INDEXED_DRAWING_TEXT"}
+  ],
+  "linear_candidates": [
+    {
+      "id":"pq12_20",
+      "manufacturer":"Actuonix",
+      "family":"PQ12",
+      "example_variant":"PQ12-30-12-P, research example only",
+      "source_ids":["PQ12_PDF","PQ12_PAGE"],
+      "manufacturer_dimensions": {"stroke_mm":20,"closed_hole_to_hole_mm":42,"drawing_mount_hole_diameter_mm":3,"drawing_body_length_callout_mm":36.5,"drawing_flex_pcb_length_mm":125},
+      "derived_dimensions":{"fully_extended_hole_to_hole_mm":62},
+      "drawing_callouts_not_promoted_to_verified_full_aabb_mm":[21.5,16,15,13,8.5],
+      "mass": {"datasheet_PS_g":19,"datasheet_R_g":21,"example_product_page_P_g":21,"status":"SOURCE_CONFLICT_RETAINED; installed total unknown"},
+      "electrical_family_options":{"nominal_voltage_V":[6,12],"R_option_V":6,"duty_cycle_max_percent":20},
+      "mount_and_connection":"Two supplied mounting brackets and M3 hardware. P version needs external motor driver and feedback control; S has end switches; R has integrated RC control. Reserve FPC mating connector, cable bends and service access in addition to actuator geometry.",
+      "motion_and_fit": {"vertical_confined_z47_to76":"REJECTED:42mm closed hole spacing already exceeds29mm, before brackets","direct_32mm_comparison_travel":"REJECTED:20mm stroke","lateral_linkage":"UNVERIFIED;20mm can only produce32mm with an additional transmission, which changes force, clearance and guidance requirements","full_native_collision":"NOT_RUN"},
+      "unknown":["drawing full spatial AABB and datums not verified by visible screenshot/CAD","mount and pivot envelope","FPC/adapter minimum bend and connector envelope","bracket extraction path","complete moving mass and friction","required dynamic force, speed and holding capacity","actual system runtime"]
+    },
+    {
+      "id":"l12_30_50",
+      "manufacturer":"Actuonix",
+      "family":"L12",
+      "source_ids":["L12_PDF"],
+      "manufacturer_dimensions": {"closed_hole_spacing_formula_mm":"52 + stroke","mount_hole_diameter_mm":4.25,"standard_cable_length_approx_mm":300,"connector_pitch_mm":2.54},
+      "variants":[
+        {"stroke_mm":30,"closed_hole_to_hole_mm":82,"derived_extended_hole_to_hole_mm":112,"datasheet_mass_g":34,"direct_32mm_comparison_travel":"REJECTED:30<32; final travel is not frozen"},
+        {"stroke_mm":50,"closed_hole_to_hole_mm":102,"derived_extended_hole_to_hole_mm":152,"datasheet_mass_g":40,"direct_32mm_comparison_travel":"NOMINAL_STROKE_SUFFICIENT_ONLY; final endpoints, controls and fit unresolved"}
+      ],
+      "drawing_callouts_not_promoted_to_verified_full_aabb_mm":[14.9,15,18,12,9,8,6,37,32,24,13.3,11.8],
+      "electrical_family_options":{"nominal_voltage_V":[6,12],"R_option_V":6,"duty_cycle_max_percent":20},
+      "mount_and_connection":"Use manufacturer end brackets and/or positionable clamp with independent guides. Drawing mounting holes accept M4 or #8. Threaded end M6x1 is an alternative to clevis, not an extra stroke. P needs external control; S limits are fixed at full stroke and do not establish custom32mm stops. 300mm leads and female headers need routing, fastening and unplugging space.",
+      "motion_and_fit": {"vertical_confined_z47_to76":"REJECTED:82/102mm closed hole spacing exceeds29mm","horizontal_50mm_variant_across_155mm_width":"NOT_ACCEPTED:152mm extended hole spacing leaves only3mm nominal width budget before end hardware, structure, wall and service clearance; deck width is not free internal width","horizontal_fore_aft_or_linkage":"RESEARCH_ONLY; transform actual stroke to vertical displacement and check both endpoint and intermediate sweeps","full_native_collision":"NOT_RUN"},
+      "unknown":["full actuator and bracket AABB from manufacturer CAD/visible drawing","complete fastener depth and tool clearance","installed cable/connector envelope","bracket and inner-wall conflicts","full linkage sweep and mechanical advantage","load, friction, duty profile, holding and force requirement","installed mass including guides and bracket","system power and runtime"]
+    },
+    {
+      "id":"haydon_15_external",
+      "manufacturer":"Haydon Kerk Pittman / AMETEK",
+      "family":"15000 external linear LE1574 series",
+      "example_variant":"LE1574W-05 plus application-specific stroke/lead suffix; no exact configuration selected",
+      "source_ids":["HKP15_PAGE","HKP15_PDF"],
+      "manufacturer_dimensions": {"motor_diameter_mm":15,"motor_axial_body_max_mm":11.2,"mounting_pilot_diameter_mm":11.48,"mounting_pilot_diameter_tolerance_mm":0.03,"external_mount_thread":"M8 x1-6g to within1.9mm of shoulder","standard_screw_length_up_to_mm":59.9,"external_linear_travel_up_to_mm":45.4,"external_family_mass_g":11,"flying_lead_option_length_mm":304.8},
+      "captive_variant_comparison":{"family":"LC1574","stroke_mm":12.7,"mass_g":14,"status":"REJECTED_FOR_DIRECT_32MM_BASELINE"},
+      "electrical_family_options":{"bipolar_phases":2,"winding_voltage_V":[4,5,12],"current_per_phase_A":[0.2,0.16,0.07]},
+      "mount_and_connection":"Bare lead-screw drive needs supported nut/carriage, antirotation guides, load attachment, home/end sensors, motor mounting and a bipolar stepper driver. Standard connector options are JST PHR-4 or Molex51021-0400; flying leads are an alternative. A micro nut style drawing is not proof that all variants share its stroke or envelope.",
+      "motion_and_fit":{"body_only":"15x11.2mm is motor body information, never the complete mechanism","vertical_confined_z47_to76":"NO_FIT_ACCEPTANCE: screw, travel, nut and supports exceed body envelope;32mm comparison travel alone exceeds29mm named region","horizontal_or_below_floor_mount":"UNVERIFIED; can be studied with application-specific screw/nut but no final envelope exists","full_native_collision":"NOT_RUN"},
+      "unknown":["selected screw length, travel and nut option","complete nut dimensions and end bearing/support arrangement","full axial datum stack","connector engagement and bend allowance","mechanical holding under power loss","load-specific force-speed curve and driver voltage/current","installed mass and full-system power/runtime"]
+    }
+  ],
+  "anchor_candidate": {
+    "id":"pololu999_plus_hub1996_custom_drum",
+    "status":"DIMENSIONAL_RESEARCH_ONLY_NOT_SELECTED",
+    "source_ids":["POLOLU999_PAGE","POLOLU999_DRAWING","POLOLU1996_PAGE","POLOLU1996_DRAWING"],
+    "motor":{"manufacturer":"Pololu","part_number":999,"variant":"10:1 HP6V precious-metal brushes, no encoder, no extended rear shaft","manufacturer_dimensions":{"cross_section_mm":[10,12],"drawing_body_OL_max_mm":25.6,"drawing_output_shaft_length_mm":9,"shaft_diameter_mm":3,"shaft_flat_dimension_mm":2.5,"front_mount_threads":"2xM1.6","front_mount_hole_spacing_mm":9,"page_size_body_length_mm":25,"page_footnote_body_length_mm":26,"page_footnote_front_addition_mm":10,"mass_g":9.5},"source_conflict":"Product table says25mm; footnote says26mm; drawing saysOLmax25.6mm. Keep each and use26mm body plus10mm front zone for research reserve only.","nominal_voltage_V":6,"no_load_speed_rpm":3100,"no_load_speed_tolerance_percent":20},
+    "shaft_to_drum_interface":{"manufacturer":"Pololu","part_number":1996,"type":"universal shaft mounting hub, not a drum and not a shaft-to-shaft coupling","diameter_mm":17.5,"thickness_mm":5,"bore_mm":3,"mount_threads":"4xM3","set_screw":"M3","drawing_hole_offset_mm":6.35,"mass_per_hub_without_setscrew_g":2.8},
+    "drum":{"type":"PARAMETERIZED_MODEL_RESERVE_ONLY","diameter_mm":null,"width_mm":null,"flange_diameter_mm":null,"mass_g":null,"line_diameter_mm":null,"line_storage_length_mm":null},
+    "analysis":{"system_fit":"UNVERIFIED","holding":"Not an assumed brake; backdrive/creep and manual release unresolved","speed":"3100rpm no-load at6V is not a demonstrated slow winch operating point; gearing/control must be reviewed","formulae":"line_speed = pi * effective_drum_diameter * rpm /60; drum_torque = line_tension * effective_drum_radius; effective radius changes during winding","force_power_endurance_claim":"NONE"},
+    "required_reserves":["motor bracket and terminals","driver and power wiring","shaft hub and set-screw tool access","drum and independent spool supports if required","chain/line fairlead and guide sweep","line storage and anti-tangle access","home/upper and maximum payout limits","jam detection and manual release","removable service cover"],
+    "unknown":["anchor and line mass","line/chain material and diameter","maximum payout set by display stand","required tension and speed","drum geometry and layering","suitable gear ratio or further reduction","brake/holding and sensor strategy","full installation dimensions","operating current and thermal behavior","battery and one-hour runtime"]
+  },
+  "verification_limits": ["Current manufacturer pages/PDF text were browsed; older local hardware review was only a discovery pointer.","PDF screenshot calls returned no viewable image; main-body full AABBs not assigned from ambiguous dimension lists.","An optional temporary PDF download attempt failed at DNS lookup; no downloaded drawings retained in deliverable.","No native CAD collision, physical dimension measurement, force test, repeated-motion test or power/endurance test was performed.","UNKNOWN/null is not zero. None of these candidates establishes a selected or buildable mechanism."]
+}

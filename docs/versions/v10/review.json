@@ -1,0 +1,2658 @@
+{
+  "schema": "076.review.v1",
+  "version": "v10",
+  "model_sha256": "0352b90959281bf8d2a00da80d84266ee01646c5af7086e7d2d4f017acf0c301",
+  "evidence_grades": {
+    "A": "官方确认",
+    "B": "独立可信来源交叉确认",
+    "C": "测量/研究估算",
+    "D": "模型假设",
+    "Unknown": "资料不足"
+  },
+  "validation_levels": [
+    "GEOMETRY_CHECKED",
+    "NOT_CHECKED",
+    "NOT_VERIFIED"
+  ],
+  "manufacturing": "REVIEW_ONLY_NOT_FOR_CUTTING",
+  "issues": [
+    {
+      "id": "lift-stbd",
+      "title": "右舷隐藏升降 / 承载与驱动待选",
+      "short": "右舷隐藏升降",
+      "status": "D候选 / 32 mm暂定",
+      "finding": "52×29 mm候选平台；导轨内移，固定荷载框、可拆袋衬及双层倒角入口。现有5×5×36 mm执行器预留不能容纳已核查候选，驱动安装仍未解决。3 g仅为飞机质量要求，不含平台和摩擦。",
+      "close": "冻结尺寸、称量完整移动组件、选择驱动，验证防坠与实物间隙。",
+      "parts": [
+        "ELEVATOR_PLATFORM_STBD"
+      ],
+      "view": "hangarClose",
+      "evidence": "versions/v10/report.html"
+    },
+    {
+      "id": "lift-port",
+      "title": "左舷隐藏升降 / 独立局部场景",
+      "short": "左舷独立场景",
+      "status": "D模型设计 / 非实舰内部",
+      "finding": "左舷入口接独立可拆场景及顶板；坞舱底和侧壁保留。入口与通道几何不证明实物承压或可靠性。",
+      "close": "检查侧衬拆装、照明接头、场景提出与复装；执行器未选型。",
+      "parts": [
+        "ELEVATOR_PLATFORM_PORT_AFT"
+      ],
+      "view": "wellClose",
+      "evidence": "versions/v10/report.html"
+    },
+    {
+      "id": "whole-deck",
+      "title": "整甲板与场景维修 / 先解除固定及接线",
+      "short": "甲板与场景拆取",
+      "status": "条件动作 / 制造未放行",
+      "finding": "甲板连双岛移走；再取两处独立顶板、导轨盖与袋衬，断开驱动和照明后拆取场景。网页位移用于步骤评审。",
+      "close": "验证真实固定、连接器、线束、手指与工具空间；几何扫掠与实物试验分别验收。",
+      "parts": [
+        "FLIGHT_DECK_WHOLE"
+      ],
+      "view": "iso",
+      "evidence": "versions/v10/report.html"
+    },
+    {
+      "id": "anchors",
+      "title": "双舷收锚 / 70 mm仅为演示参数",
+      "short": "双舷收锚演示",
+      "status": "D候选 / 驱动未选定",
+      "finding": "两侧锚体随各自组件下移；内部绳路固定，网页仅补画锚孔末端至下降锚体的外部绳段。原生锚组件已包含。",
+      "close": "核对锚孔、绳路、卷筒、检修与防松；摩擦、负载、制动及反复收放未验证。",
+      "parts": [
+        "R1_STBD_ANCHOR_BLANK",
+        "R1_PORT_ANCHOR_BLANK"
+      ],
+      "view": "bowClose",
+      "evidence": "versions/v10/report.html"
+    },
+    {
+      "id": "drive-interface",
+      "title": "继承限制 / 推进、操舵与试水另验",
+      "short": "动力与实物未闭合",
+      "status": "UNSELECTED / NOT_VERIFIED",
+      "finding": "推进与升降驱动均未形成实物验收；当前为离水展示评审。水密、浮态与航行性能不由网页动画证明。",
+      "close": "完成选型、安装、承压与接线试件；如需下水另验重量、重心、排水与最低进水口。",
+      "parts": [
+        "PROPELLER_HUB_PORT",
+        "SHAFT_PORT",
+        "RUDDER_PORT"
+      ],
+      "view": "gearClose",
+      "evidence": "evidence/hardware_candidates.md"
+    }
+  ],
+  "parts": {
+    "FRAME_01_X35": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_02_X70": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_03_X110": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_04_X160": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_05_X225": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_06_X300": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_07_X380": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_08_X460": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_09_X540": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_10_X610": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_11_X665": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_12_X710": {
+      "material": "3 mm木板概念；批次实测待确认",
+      "purpose": "横向骨架 / 支承2×5 mm椴木条",
+      "check": "NORMAL_ALLOWANCE_CLIPPED；详见保存几何证据",
+      "allowance": "法向目标2.2 mm；数值计算与实物铺条分开验收",
+      "issues": [
+        "材料压贴强度待试制"
+      ],
+      "evidence": "evidence/v8_report.html"
+    },
+    "FRAME_13_X750": {
+      "part_number": "V8-AFT-01",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-01",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。 本接头最小剩余木宽7.763 mm。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.199920 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FRAME_14_X772": {
+      "part_number": "V8-AFT-02",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-02",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。 本接头最小剩余木宽3.197 mm。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.199922 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "LOWER_CROSSPLATE_5_FRAMES_1": {
+      "part_number": "V8-AFT-03",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-03",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.211553 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "LOWER_CROSSPLATE_5_FRAMES_2": {
+      "part_number": "V8-AFT-04",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-04",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.210219 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "WELL_INNER_FLOOR_1": {
+      "part_number": "V8-AFT-05",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-05",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小3.021572 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "WELL_INNER_FLOOR_2": {
+      "part_number": "V8-AFT-06",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-06",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小7.541325 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FRAME_CHEEK_PORT_X750": {
+      "part_number": "V8-AFT-07",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-07",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.503507 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FRAME_CHEEK_STBD_X750": {
+      "part_number": "V8-AFT-08",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-08",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.503483 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FRAME_CHEEK_PORT_X772": {
+      "part_number": "V8-AFT-09",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-09",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.551114 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FRAME_CHEEK_STBD_X772": {
+      "part_number": "V8-AFT-10",
+      "material": "木板 / 3 mm名义厚度；结构板木种、等级与批次实测未定",
+      "purpose": "艉部联合接头 / V8-AFT-10",
+      "check": "保存原生轮廓与板件记录一致；改动件离散蒙皮检查通过（0.01 mm数值容差），实物承压未验证。",
+      "allowance": "法向目标2.2 mm；本件采样最小2.552925 mm。离散检查不等于连续全局证明。",
+      "assembly": "先落入分段下横板与整体舌部，再固定坞舱侧壁；完整插入扫掠、木纹和胶接工艺待验证。",
+      "issues": [
+        "艉部接头与蒙皮"
+      ],
+      "evidence": "versions/v8/report.html"
+    },
+    "FLIGHT_DECK_WHOLE": {
+      "material": "一整块3 mm木板；木种、批次实测和裁切能力待确认",
+      "purpose": "整块飞行甲板，连同双岛取下，便于观察与维护",
+      "check": "原生连通性、无内孔与190 mm连续上提路径通过；翘曲和双手拿取待试件",
+      "allowance": "Z76～79；两侧平台边缘名义避让0.5 mm",
+      "assembly": "双手托住两端沿+Z上提，不以舰岛作把手；定位/固定件未选型",
+      "issues": [
+        "整板承托、拿取与复装待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "甲板本体；升降机两侧开口不蒙皮"
+    },
+    "HANGAR_REMOVABLE_ROOF": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "HANGAR_ROOF",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "ELEVATOR_PLATFORM_STBD": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "ELEVATOR_PLATFORM_PORT_AFT": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "ISLAND_FRONT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "BRIDGE_FRONT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_0": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_1": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_2": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_3": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_4": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_5": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_6": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_7": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_FRONT_8": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "FUNNEL_FRONT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "MAST_FRONT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "RADAR_FRONT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "ISLAND_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "BRIDGE_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_AFT_0": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_AFT_1": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_AFT_2": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_AFT_3": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "WINDOW_AFT_4": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "FUNNEL_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "MAST_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "RADAR_AFT": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_1_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_2_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_3_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_4_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_5_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LANDING_MARK_6_ESTIMATED": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "EMALS_SINGLE_PORT_REFERENCE": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "EMALS_EDGE_-40": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "EMALS_EDGE_-38": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "SERVICE_HATCH",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_STBD_CARRIAGE_1_ARM": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_STBD",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_STBD_CARRIAGE_1_SLEEVE": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_STBD",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_STBD_CARRIAGE_2_ARM": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_STBD",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_STBD_CARRIAGE_2_SLEEVE": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_STBD",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_PORT_CARRIAGE_1_ARM": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_PORT",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_PORT_CARRIAGE_1_SLEEVE": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_PORT",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_PORT_CARRIAGE_2_ARM": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_PORT",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "LIFT_PORT_CARRIAGE_2_SLEEVE": {
+      "material": "3 mm板件 / 导轨与滑套材料待选，具体见参数",
+      "purpose": "ELEVATOR_PORT",
+      "check": "本版原生回读与离散/实体通道检查；未作实物承压、驱动或摩擦试验",
+      "allowance": "导轨半径1 mm；滑套孔半径1.25 mm；名义径向间隙0.25 mm",
+      "assembly": "平台沿Z轴单自由度；整甲板连同双岛上提，独立机库顶板另取",
+      "issues": [
+        "甲板拿取、滑动与固定方式待实测"
+      ],
+      "evidence": "versions/v9/report.html",
+      "skin": "观察出口明确不蒙皮；其余椴木条2×约5 mm"
+    },
+    "R1_STBD_LOAD_LONGITUDINAL_UPPER": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_LOAD_LONGITUDINAL_LOWER": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_LOAD_POST_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_LOAD_POST_TOP_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_GUIDE_FOOT_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_GUIDE_CAP_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_STBD_GUIDE_CAPS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_GUIDE_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftguides",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_CARRIAGE_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_ARM_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_PLATFORM_TAB_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_POCKET_COVER_1_A": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_STBD_POCKET_COVERS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_POCKET_COVER_1_B": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_STBD_POCKET_COVERS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_ACTUATOR_RESERVED_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_TOOL_APPROACH_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_LOAD_POST_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_LOAD_POST_TOP_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_GUIDE_FOOT_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_GUIDE_CAP_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_STBD_GUIDE_CAPS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_GUIDE_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftguides",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_CARRIAGE_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_ARM_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_PLATFORM_TAB_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_POCKET_COVER_2_A": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_STBD_POCKET_COVERS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_POCKET_COVER_2_B": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_STBD_POCKET_COVERS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_ACTUATOR_RESERVED_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_TOOL_APPROACH_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_OUTER_BEVEL_FRAME": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "entrances",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_INNER_BEVEL_FRAME": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "entrances",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_TUNNEL_ROOF": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "entrances",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_TUNNEL_FORE": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "entrances",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_TUNNEL_AFT": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "entrances",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_TRANSFER_FLOOR_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_LOAD_LONGITUDINAL_UPPER": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_LOAD_LONGITUDINAL_LOWER": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_LOAD_POST_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_LOAD_POST_TOP_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_GUIDE_FOOT_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_GUIDE_CAP_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_PORT_GUIDE_CAPS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_GUIDE_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftguides",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_CARRIAGE_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_ARM_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_PLATFORM_TAB_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_POCKET_COVER_1_A": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_PORT_POCKET_COVERS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_POCKET_COVER_1_B": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_PORT_POCKET_COVERS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_ACTUATOR_RESERVED_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_TOOL_APPROACH_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_LOAD_POST_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_LOAD_POST_TOP_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_GUIDE_FOOT_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_GUIDE_CAP_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_PORT_GUIDE_CAPS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_GUIDE_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftguides",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_CARRIAGE_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_ARM_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_PLATFORM_TAB_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ELEVATOR_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_POCKET_COVER_2_A": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_PORT_POCKET_COVERS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_POCKET_COVER_2_B": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "LIFT_PORT_POCKET_COVERS",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_ACTUATOR_RESERVED_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_TOOL_APPROACH_2": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_OUTER_BEVEL_FRAME": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "entrances",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_INNER_BEVEL_FRAME": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "entrances",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_TUNNEL_ROOF": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "entrances",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_TUNNEL_FORE": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "entrances",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_TUNNEL_AFT": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "entrances",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_TRANSFER_FLOOR_1": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "liftstructure",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_HANGAR_CEILING_BEAM_X442": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "HANGAR_ROOF",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_HANGAR_LIGHT_X442": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "HANGAR_ROOF",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_HANGAR_CEILING_BEAM_X474": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "HANGAR_ROOF",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_HANGAR_LIGHT_X474": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "HANGAR_ROOF",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_HANGAR_REMOVABLE_BACK_LINING": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "HANGAR_CASSETTE",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_DIORAMA_BACK_LINING": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_DIORAMA_SIDE_680": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_CEILING_SEAT_680_-26": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_CEILING_SEAT_680_-12": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_DIORAMA_SIDE_729": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_CEILING_SEAT_729_-26": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_CEILING_SEAT_729_-12": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_DIORAMA_REMOVABLE_CEILING": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA_ROOF",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_LIGHT_686": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA_ROOF",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_LIGHT_722": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA_ROOF",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_AIRCRAFT_15MM_3G_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "HANGAR_CASSETTE",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_AIRCRAFT_15MM_3G_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "PORT_DIORAMA",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ANCHOR_FORE_BEARER": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ANCHOR_AFT_BEARER": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_WINCH_SEAT_12": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_WINCH_SEAT_36": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_WINCH_REMOVABLE_TRAY": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_WINCH_CHEEK_X117": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_WINCH_CHEEK_X129": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_WINCH_SHAFT": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_DRUM_CORE": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_DRUM_FLANGE_X120": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_DRUM_FLANGE_X127": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_WINCH_MOTOR_BODY_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_WINCH_TERMINAL_TOOL_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_WINCH_FRONT_INTERFACE_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_HAWSE_GUIDE_LINER": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "anchorgear",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_ANCHOR_ROPE_CENTERLINE": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_LINE_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_STBD_ANCHOR_BLANK": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_STBD",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_WINCH_SEAT_12": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_WINCH_SEAT_36": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_WINCH_REMOVABLE_TRAY": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_WINCH_CHEEK_X117": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_WINCH_CHEEK_X129": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_WINCH_SHAFT": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_DRUM_CORE": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_DRUM_FLANGE_X120": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_DRUM_FLANGE_X127": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_WINCH_MOTOR_BODY_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_WINCH_TERMINAL_TOOL_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_WINCH_FRONT_INTERFACE_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_WINCH_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_HAWSE_GUIDE_LINER": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "anchorgear",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_ANCHOR_ROPE_CENTERLINE": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_LINE_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_PORT_ANCHOR_BLANK": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "ANCHOR_PORT",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_SEAT_PORT_200": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_SEAT_STBD_200": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_SEAT_PORT_280": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_SEAT_STBD_280": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_REMOVABLE_FLOOR": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_BATTERY_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_REMOVABLE_RIM_PORT": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_BATTERY_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_REMOVABLE_RIM_STBD": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_BATTERY_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_REMOVABLE_RIM_X200": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_BATTERY_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_REMOVABLE_RIM_X287": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_BATTERY_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_DEVICE_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_BATTERY_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_BATTERY_PLUG_ACCESS_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_SEAT_PORT_320": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_SEAT_STBD_320": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_SEAT_PORT_400": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_SEAT_STBD_400": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "systemsupport",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_REMOVABLE_FLOOR": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_ELECTRONICS_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_REMOVABLE_RIM_PORT": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_ELECTRONICS_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_REMOVABLE_RIM_STBD": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_ELECTRONICS_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_REMOVABLE_RIM_X320": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_ELECTRONICS_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_REMOVABLE_RIM_X407": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_ELECTRONICS_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_DEVICE_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "R1_ELECTRONICS_TRAY",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_ELECTRONICS_PLUG_ACCESS_RESERVED": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    },
+    "R1_DISPLAY_BASE_REFERENCE": {
+      "material": "见本版参数；驱动、线材和连接件未选定",
+      "purpose": "FIXED",
+      "check": "原生几何与运动记录见本版检查；不代表实物通过",
+      "allowance": "D模型候选尺寸；木材、涂层、摩擦和制造误差待试件",
+      "assembly": "按条件步骤操作；固定与接线未完成实物验收",
+      "issues": [
+        "制造与实物功能未放行"
+      ],
+      "evidence": "versions/v10/report.html",
+      "skin": "局部出口与袋衬见原生模型；不宣称水密"
+    }
+  },
+  "changes": [
+    "隐藏导轨与固定荷载框；升降平台由V9 52×43 mm改为52×29 mm候选，32 mm行程暂定。",
+    "两层倒角入口、可拆袋衬/导轨盖和独立左舷局部场景。",
+    "双舷收锚采用独立原生组件与演示绳路；70 mm为D模型演示参数。",
+    "保留浅色工作台、R1方案入口及全部历史版本；不可直接制造。"
+  ],
+  "parameters": [
+    "总长：800 mm（项目约束）。甲板宽：155 mm（模型工作参数），不等于含舷台/升降机的最大宽度。",
+    "本版骨架设计板厚：3.0 mm。实测板厚/批次、木纹、切缝及试槽：待实物确认。",
+    "当前蒙皮目标：2.0 mm；V6以后采用椴木条约5 mm宽、胶层0.2 mm、法向目标2.2 mm。历史文件中的3 mm蒙皮文字不作为当前方案。",
+    "历史 FRAME_INSET=1.25 mm 是旧基线口径，不能当作每片修正后的实际法向余量。逐件结果见证据卡；未测项不填零。",
+    "名义成品槽宽：3.12 mm；材料厚度+配合间隙。未补偿激光中心线槽宽还需减切缝；实际以试槽板结果为准。",
+    "Z32仅为参考高度。展示蒙皮曲面不是可切割展开板或已验证铺条方案。硬件占位盒不是已安装设备。",
+    "两组独立离散采样均通过目标容差；底板独立更密采样最小2.809572 mm。任一采样网格均不作为全表面连续证明。",
+    "V10 R1候选平台52×29 mm；V9历史基线52×43 mm。尺寸未冻结。",
+    "升降32 mm、收锚70 mm均为D模型暂定演示参数；驱动UNSELECTED。",
+    "3 g指飞机本身，不代表总移动质量、额定载荷或驱动力。",
+    "固定荷载框、内移导轨、双层倒角入口和独立左舷场景为模型设计；真实076内部未知。",
+    "原生Rhino界面NOT_CHECKED；实物强度、摩擦、防坠、水密、浮态及航行NOT_VERIFIED。"
+  ],
+  "hardware": [
+    "7项厂商资料候选，均未选型。",
+    "400电机候选：当前包络拒绝；Pololu #999：仅本体候选，完整轴系/负载未验证。",
+    "Hitec HS-65MG尺寸23.6×11.6×24 mm；厂商质量11.9/12.5 g有冲突。",
+    "Gens ace 850 mAh 2S电池约58×32×20 mm、55 g；安装、供电接口及质量预算未闭合。",
+    "R1隐藏升降：现有5×5×36 mm执行器预留不能容纳已核查成品候选；PQ12/L12不能完整竖置于Z47～76的29 mm夹层。驱动安装仍未解决，不能把裸电机本体尺寸当作全套机构。",
+    "双舷锚机：26 mm本体加10 mm前轴区仅为尺寸研究；型号、减速比、耦合、牵引力、制动、绳眼和真实收放均未验证。详细来源见本版执行器/锚机候选审查。"
+  ],
+  "service_supported": true,
+  "service_steps": [
+    "完整装配；升降和收锚状态独立保留",
+    "解除固定后，甲板连双岛上提190 mm",
+    "断开照明，主顶板和左舷场景顶板上移100 mm",
+    "拆导轨盖与袋衬，上移90 mm；驱动断开为前置条件",
+    "断开驱动及照明，主机库与左舷局部场景上移100 mm",
+    "观察设备托盘；真实插拔、固定和复装待验证"
+  ],
+  "evidence_links": [
+    {
+      "label": "V6独立走线/动力接口审查",
+      "href": "evidence/v6_wire_review.md"
+    },
+    {
+      "label": "独立原生与蒙皮审查",
+      "href": "evidence/v8_independent_review.md"
+    },
+    {
+      "label": "独立审查数值记录",
+      "href": "evidence/v8_independent_review.json"
+    },
+    {
+      "label": "艉部接头与采样数据",
+      "href": "evidence/v8_aft_validation.json"
+    },
+    {
+      "label": "静态与检修路径检查",
+      "href": "evidence/v8_service_validation.json"
+    },
+    {
+      "label": "原生保存回读",
+      "href": "evidence/v8_native_validation.json"
+    },
+    {
+      "label": "10件材料与零件号",
+      "href": "evidence/v8_part_material_records.json"
+    },
+    {
+      "label": "分段零件名称映射",
+      "href": "evidence/v8_part_name_mapping.json"
+    },
+    {
+      "label": "原生文件哈希",
+      "href": "evidence/v8_native_hashes.json"
+    },
+    {
+      "label": "升降机方位与图片证据",
+      "href": "evidence/v9/076_V9_升降机位置与图片证据审查.md"
+    },
+    {
+      "label": "逐项来源等级",
+      "href": "evidence/v9/claims.json"
+    },
+    {
+      "label": "13张图片与重复项",
+      "href": "evidence/v9/image_register.csv"
+    },
+    {
+      "label": "独立原生审查",
+      "href": "evidence/v9/v9_native_review.md"
+    },
+    {
+      "label": "V9连续扫掠与通道检查",
+      "href": "versions/v9/observation_validation.json"
+    },
+    {
+      "label": "V9运动参数",
+      "href": "versions/v9/motion_metadata.json"
+    },
+    {
+      "label": "V10 R1原生几何检查",
+      "href": "versions/v10/r1_validation.json"
+    },
+    {
+      "label": "V10 R1运动元数据",
+      "href": "versions/v10/motion_metadata.json"
+    },
+    {
+      "label": "R1总体方案与边界",
+      "href": "scheme.html"
+    },
+    {
+      "label": "锚系、支承与托盘几何检查",
+      "href": "versions/v10/systems_validation.json"
+    },
+    {
+      "label": "原生结构完整报告",
+      "href": "versions/v10/r1_report.html"
+    },
+    {
+      "label": "原生结构报告源文",
+      "href": "versions/v10/r1_report.md"
+    },
+    {
+      "label": "当前参数与历史口径",
+      "href": "versions/v10/parameter_ledger.csv"
+    },
+    {
+      "label": "未解决项与关闭条件",
+      "href": "versions/v10/unknowns.csv"
+    },
+    {
+      "label": "来源登记",
+      "href": "versions/v10/source_register.csv"
+    },
+    {
+      "label": "原生输入哈希记录",
+      "href": "versions/v10/all_input_hashes.json"
+    },
+    {
+      "label": "候选执行器与锚机尺寸审查",
+      "href": "versions/v10/inputs/r1/actuator_candidates.md"
+    },
+    {
+      "label": "候选硬件结构化证据",
+      "href": "versions/v10/inputs/r1/actuator_candidates.json"
+    },
+    {
+      "label": "本版独立原生审查",
+      "href": "versions/v10/independent_review.md"
+    },
+    {
+      "label": "独立目录重建核对",
+      "href": "versions/v10/reproducibility_check.json"
+    }
+  ],
+  "elevators_supported": true
+}
